@@ -1,0 +1,26 @@
+{
+  "name": "lifelong-html",
+  "version": "0.0.1",
+  "description": "Lifelong html with gruntjs",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "js_minify_standalone": "uglifyjs --compress typeofs=false --mangle --comments \"/^!/\" --output public/js/bootstrap.min.js public/js/bootstrap.js",
+    "js-minify-bundle": "uglifyjs --compress typeofs=false --mangle --comments \"/^!/\"  --output public/js/bootstrap.bundle.min.js public/js/bootstrap.bundle.js"
+  },
+  "author": "Pham Minh",
+  "license": "For my customer only only",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smpleader/lifelong_gruntjs"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-uglify": "^3.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0",
+    "load-grunt-tasks": "^3.5.2"
+  }
+}
