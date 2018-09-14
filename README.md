@@ -9,7 +9,7 @@ D:\project\cd git_cloned_folder
 D:\project\git_cloned_folder\ npm install
 
 ```
-## Result
+## Browser Result
 Start the job
 
 ```
