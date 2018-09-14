@@ -1,3 +1,21 @@
 body{
     font-family: $font-site;
 }
+.btn{
+    border-radius: 5px;
+    height: 45px;;
+    line-height: 45px;
+    color:#fff;
+    font-family: "OpenSans Bold";
+    display: block;
+    &:hover{
+        text-decoration: none;
+        color:#fff;
+    }
+}
+.btn.green{
+    background: #97bf65;
+}
+.btn.brown{
+    background: #56330e;
+}

@@ -31,7 +31,7 @@
                 font-size:17px;
             }
         }
-        @media (max-width: $screen-md){
+        @media (max-width: $screen-lg){
             display: none;
         }
     }
@@ -73,6 +73,88 @@
         display: block;
         float: right;
         img{
+        }
+    }
+}
+#top-readmores{
+    background:#34aba7;    
+    img{
+        border-radius: 50px;
+        margin-bottom:15px;
+    }
+    .gray{
+        transition: visibility 0s, opacity 0.5s linear;
+        text-align: center;
+        display: none;
+        background:#f6f5f3;
+        height: 267px;
+        padding:25px 0 0;
+        .desc{
+            color:#56330e;
+            font-size: 17px;
+            line-height: 1.4em;
+            margin-bottom:15px;
+        }
+        .btn-readmore{
+            color:#34aba7;
+            font-size: 17px;
+            font-family: "OpenSans Bold";
+            display: inline-block;
+            border: 2px solid #34aba7;
+            border-radius: 5px;
+            height: 45px;
+            line-height: 45px;
+            padding: 0 55px;
+            cursor: pointer;
+        }
+    }
+    .green{
+        padding:25px 0 0;
+        text-align: center;
+        height: 267px;
+        h3{
+            color:#fff;
+            font-size:45px;
+            font-family: "BebasNeue";
+        }
+        .desc{
+            color:#fff;
+            font-size:20px;
+            font-family: "Oswald Light";
+        }
+    }
+}
+#foot-free-app{
+    font-size:17px;
+    color: #fff;
+    background:#34aba7;
+    height: 75px;
+    padding:25px 0 0;
+    strong{
+        font-family: "OpenSans Bold";
+    }
+    br{
+        @media (min-width: $screen-md){
+            display: none;
+        }
+    }
+    .btn{
+        float: right;
+        padding:0 35px;
+        span{
+            display: none;
+        }
+        @media (max-width: $screen-md){
+            font-family: "OpenSans BoldItalic";
+            text-decoration: underline;
+            background: none;
+            color: #fff;
+            span{
+                display: inline;
+            }
+        }
+        @media (max-width: $screen-sm){
+            display: none;
         }
     }
 }

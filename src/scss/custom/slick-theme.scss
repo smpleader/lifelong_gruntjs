@@ -7,9 +7,9 @@
 // "\2192" outputs ascii character "→"
 // "\2022" outputs ascii character "•"
 
-$slick-font-path: "./fonts/" !default;
+$slick-font-path: "../fonts/" !default;
 $slick-font-family: "slick" !default;
-$slick-loader-path: "./" !default;
+$slick-loader-path: "../" !default;
 $slick-arrow-color: white !default;
 $slick-dot-color: black !default;
 $slick-dot-color-active: $slick-dot-color !default;
@@ -26,7 +26,7 @@ $slick-opacity-not-active: 0.25 !default;
         @return image-url($url);
     }
     @else {
-        @return url($slick-loader-path + $url);
+        @return url($slick-loader-path + "images/" + $url);
     }
 }
 
