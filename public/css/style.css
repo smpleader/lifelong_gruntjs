@@ -6375,5 +6375,60 @@ a.text-dark:hover, a.text-dark:focus {
   font-family: 'Oswald';
   src: url("../fonts/Oswald-Regular.ttf") format("truetype"); }
 
+/* fonts */
+/* screen */
+body {
+  font-family: "OpenSans"; }
+
+/* Navigation */
+#navigation h1 {
+  display: inline-block;
+  /*padding: 15px 0 0;*/
+  margin: 15px 0 0 25px; }
+
+#navigation ul.top-links {
+  float: right;
+  display: block; }
+  #navigation ul.top-links li {
+    display: inline; }
+    #navigation ul.top-links li a {
+      color: #56330e;
+      font-size: 17px; }
+  @media (max-width: 1024px) {
+    #navigation ul.top-links {
+      display: none; } }
+
+#navigation .top-phone {
+  display: block;
+  float: right;
+  font-size: 34px;
+  font-family: 'BebasNeue';
+  color: #34aba7; }
+  @media (max-width: 1024px) {
+    #navigation .top-phone {
+      display: none; } }
+
+#navigation a.btn-free-app {
+  display: block;
+  float: right;
+  background: #97bf65;
+  color: #fff;
+  border-radius: 5px;
+  font-family: 'OpenSans Bold';
+  font-size: 17px;
+  border: 0;
+  height: 42px;
+  padding: 0 25px;
+  margin: 0 20px 0 0;
+  line-height: 42px; }
+  #navigation a.btn-free-app:hover {
+    text-decoration: none; }
+  @media (max-width: 1024px) {
+    #navigation a.btn-free-app {
+      display: none; } }
+
+#navigation .btn-bbb img {
+  float: right; }
+
 .test {
   font-family: BebasNeue; }

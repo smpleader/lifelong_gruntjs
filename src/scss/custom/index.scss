@@ -2,9 +2,11 @@
  * Custom project base styles that expand past altering the bootstrap core variables
  */
 @import "fonts";
+@import "variables";
 @import "common";
 @import "structure";
 @import "module";
+@import "parts";
 
 .test{
     font-family: BebasNeue;

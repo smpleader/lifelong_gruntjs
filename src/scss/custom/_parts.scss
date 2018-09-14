@@ -1,0 +1,57 @@
+/* Navigation */
+#navigation{
+    h1{ 
+        display: inline-block;
+        /*padding: 15px 0 0;*/
+        margin: 15px 0 0 25px;
+    }
+    ul.top-links{
+        float: right;
+        display:block;
+        li{
+            display: inline;
+            a{
+                color:#56330e;
+                font-size:17px;
+            }
+        }
+        @media (max-width: $screen-md){
+            display: none;
+        }
+    }
+    .top-phone{
+        display: block;
+        float: right;
+        font-size: 34px;
+        font-family: 'BebasNeue';
+        color:#34aba7;
+        @media (max-width: $screen-md){
+            display: none;
+        }
+    }
+    a.btn-free-app{
+        display: block;
+        float: right;
+        background: #97bf65;
+        color: #fff;
+        border-radius: 5px;
+        font-family: 'OpenSans Bold';
+        font-size: 17px;
+        border: 0;
+        height: 42px;
+        padding:0 25px;
+        margin:0 20px 0 0;
+        line-height: 42px;
+        &:hover{
+            text-decoration: none;
+        }
+        @media (max-width: $screen-md){
+            display: none;
+        }
+    }
+    .btn-bbb{
+        img{
+            float: right;
+        }
+    }
+}
