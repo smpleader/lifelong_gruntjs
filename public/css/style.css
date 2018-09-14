@@ -6315,5 +6315,65 @@ a.text-dark:hover, a.text-dark:focus {
 /*!
  * Custom project base styles that expand past altering the bootstrap core variables
  */
-.xx {
-  color: red; }
+@font-face {
+  font-family: 'BebasNeue';
+  src: url("../fonts/BebasNeue.otf") format("opentype"); }
+
+@font-face {
+  font-family: 'Nickainley';
+  src: url("../fonts/Nickainley-Normal.otf") format("opentype"); }
+
+@font-face {
+  font-family: 'OpenSans Bold';
+  src: url("../fonts/OpenSans-Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'OpenSans BoldItalic';
+  src: url("../fonts/OpenSans-BoldItalic.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'OpenSans ExtraBold';
+  src: url("../fonts/OpenSans-ExtraBold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'OpenSans ExtraBoldItalic';
+  src: url("../fonts/OpenSans-ExtraBoldItalic.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'OpenSans Italic';
+  src: url("../fonts/OpenSans-Italic.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'OpenSans Light';
+  src: url("../fonts/OpenSans-Light.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'OpenSans LightItalic';
+  src: url("../fonts/OpenSans-LightItalic.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url("../fonts/OpenSans-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'OpenSans Semibold';
+  src: url("../fonts/OpenSans-Semibold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'OpenSans SemiboldItalic';
+  src: url("../fonts/OpenSans-SemiboldItalic.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Oswald Bold';
+  src: url("../fonts/Oswald-Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Oswald Light';
+  src: url("../fonts/Oswald-Light.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Oswald';
+  src: url("../fonts/Oswald-Regular.ttf") format("truetype"); }
+
+.test {
+  font-family: BebasNeue; }
