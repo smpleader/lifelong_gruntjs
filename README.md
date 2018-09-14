@@ -1,7 +1,7 @@
 # lifelong HTML
 Create HTML with gruntjs, based bootstrap4
 
-##Installtion
+## Installtion
 After git clone repository, install the dependencies
 
 ```
@@ -9,7 +9,7 @@ D:\project\cd git_cloned_folder
 D:\project\git_cloned_folder\ npm install
 
 ```
-##Result
+## Result
 Start the job
 
 ```
