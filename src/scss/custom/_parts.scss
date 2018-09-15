@@ -124,13 +124,93 @@
         }
     }
 }
+#recent-adopts{
+    background: url("../images/bg-heart.png") top center no-repeat;
+    padding:50px 0 ;
+    text-align: center;
+    .topic-title{
+        margin-bottom:10px;
+    }
+    .sub-title{
+        margin-bottom:40px;
+    }
+    .baby-name{
+        color: #97bf65;
+        font-size: 22px;
+        font-family: 'Oswald';
+        margin-bottom: 10px;
+    }
+    .baby-img{
+        padding: 5px;
+        background: #f6f5f3;
+        margin-bottom: 15px;
+    }
+    .congrat{
+        color:#56330e;
+        font-family: 'OpenSans Italic'; 
+    }
+}
+#lifelong-union{
+    background: #97bf65;
+    color: #fff;
+    font-family: "Oswald";
+    font-size:26px;
+    padding:20px 0;
+    text-align: center;
+    .btn-link{
+        color:#fff;
+        &:hover{
+            color:#fff;
+        }
+    }
+    br{
+        @media (min-width: $screen-lg){
+           display: none;
+        }
+
+    }
+}
 #adoption-stories{
     background: #f6f5f3;
-    h2.module-title{
-        font-size: 36px;
-        text-align: center;
-        font-family: 'Nickainley'; 
+    text-align: center;
+    padding: 60px 0 70px;
+    h2.topic-title{
         margin-bottom: 25px;
+    }
+    .sub-title{
+        margin-bottom: 40px;
+    }
+    .slick-stories{
+        margin: 0 -7px;
+        .item{
+            background: #fff;
+            padding: 5px 5px 20px 5px ;
+            margin: 0 7px;
+            min-height: 360px;
+            img{ 
+                margin: 0 auto 20px;
+                width:100%;
+            }
+            h3{
+                font-size: 28px;
+                font-family: 'Oswald';
+                margin-bottom: 20px;
+            }
+            .desc{ }
+            .btn-ribbon{
+                background: url("../images/ribbon.png") no-repeat center center;
+                display: block;
+                margin: 0 auto;
+                height: 37px ;
+                line-height: 37px ;
+                width: 210px;
+                color:#fff;
+                &:hover{
+                    color:#fff;
+                    text-decoration: none;
+                }
+            }
+        }
     }
 }
 #free-app{
@@ -145,8 +225,6 @@
         padding:70px 0 70px;
     }
     h2.module-title{
-        font-size: 60px;
-        font-family: 'BebasNeue';
         margin-bottom: 45px;
     }
     .desc{
@@ -197,10 +275,7 @@
     @media (max-width: $screen-sm){
         padding:40px 0 40px;
     }
-    h2.module-title{
-        font-size: 36px;
-        text-align: center;
-        font-family: 'Nickainley'; 
+    h2.topic-title{
         margin-bottom: 25px;
     }
     .member-logos{
