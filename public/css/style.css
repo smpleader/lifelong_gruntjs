@@ -6584,7 +6584,8 @@ a.text-dark:hover, a.text-dark:focus {
       opacity: 0.75; }
 
 body {
-  font-family: "OpenSans"; }
+  font-family: "OpenSans";
+  font-size: 17px; }
 
 .btn {
   border-radius: 5px;
@@ -6602,6 +6603,15 @@ body {
 
 .btn.brown {
   background: #56330e; }
+
+.btn-link {
+  font-size: 17px;
+  font-family: 'OpenSans BoldItalic';
+  color: #97bf65;
+  text-decoration: underline; }
+  .btn-link:hover {
+    text-decoration: none;
+    color: #97bf65; }
 
 /* Navigation */
 #navigation {
@@ -6707,6 +6717,80 @@ body {
       color: #fff;
       font-size: 20px;
       font-family: "Oswald Light"; }
+
+#adoption-stories {
+  background: #f6f5f3; }
+  #adoption-stories h2.module-title {
+    font-size: 36px;
+    text-align: center;
+    font-family: 'Nickainley';
+    margin-bottom: 25px; }
+
+#free-app {
+  background: #34aba7 url("../images/bg-free-app.png") repeat-x bottom center;
+  color: #fff;
+  padding: 65px 0 80px;
+  text-align: center; }
+  @media (max-width: 1366px) {
+    #free-app {
+      padding: 60px 0 60px; } }
+  @media (max-width: 640px) {
+    #free-app {
+      padding: 70px 0 70px; } }
+  #free-app h2.module-title {
+    font-size: 60px;
+    font-family: 'BebasNeue';
+    margin-bottom: 45px; }
+  #free-app .desc {
+    margin-bottom: 30px; }
+  #free-app .btn.brown {
+    padding: 0 80px; }
+
+#lifelong-staff {
+  padding: 50px 0 10px;
+  background: url("../images/bg-heart2.png") right bottom no-repeat; }
+  #lifelong-staff h2 {
+    font-family: 'Oswald';
+    font-size: 28px; }
+  #lifelong-staff .thank-you {
+    font-family: 'OpenSans Bold'; }
+  #lifelong-staff .content #desktop-img-position,
+  #lifelong-staff .content #tablet-img-position {
+    display: inline-block;
+    float: right; }
+  #lifelong-staff .content img {
+    margin-top: 20px; }
+    @media (max-width: 640px) {
+      #lifelong-staff .content img {
+        max-width: 200px; } }
+  #lifelong-staff .readmore {
+    color: #97bf65;
+    cursor: pointer;
+    text-decoration: underline; }
+    @media (min-width: 640px) {
+      #lifelong-staff .readmore {
+        display: none; } }
+
+#members {
+  background: #f6f5f3;
+  padding: 60px 0 50px; }
+  @media (max-width: 1366px) {
+    #members {
+      padding: 40px 0 50px; } }
+  @media (max-width: 640px) {
+    #members {
+      padding: 40px 0 40px; } }
+  #members h2.module-title {
+    font-size: 36px;
+    text-align: center;
+    font-family: 'Nickainley';
+    margin-bottom: 25px; }
+  #members .member-logos {
+    padding: 0 0;
+    margin-bottom: 25px;
+    list-style-type: none; }
+    #members .member-logos li {
+      text-align: center; }
 
 #connections {
   background: #97bf65;

@@ -1,5 +1,6 @@
 body{
     font-family: $font-site;
+    font-size: $font-size-site;
 }
 .btn{
     border-radius: 5px;
@@ -18,4 +19,14 @@ body{
 }
 .btn.brown{
     background: #56330e;
+}
+.btn-link{
+    font-size: 17px;
+    font-family: 'OpenSans BoldItalic'; 
+    color: #97bf65;
+    text-decoration: underline;
+    &:hover{
+        text-decoration: none;
+        color: #97bf65;
+    }
 }

@@ -16,4 +16,25 @@ $(document).ready(function(){
             }
         ]
     });
+    $('.member-logos').slick({
+        autoplay:false,
+         
+        slidesToShow:5,
+        slide:"li",
+        responsive: [
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesPerRow:2,
+                    slidesToShow:2,
+                }
+            },
+            {
+                breakpoint: 1326,
+                settings: {
+                    slidesToShow:4
+                }
+            }
+        ]
+    });
 });

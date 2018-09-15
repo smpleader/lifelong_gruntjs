@@ -124,6 +124,94 @@
         }
     }
 }
+#adoption-stories{
+    background: #f6f5f3;
+    h2.module-title{
+        font-size: 36px;
+        text-align: center;
+        font-family: 'Nickainley'; 
+        margin-bottom: 25px;
+    }
+}
+#free-app{
+    background: #34aba7 url("../images/bg-free-app.png") repeat-x bottom center;
+    color:#fff;
+    padding:65px 0 80px;
+    text-align: center;
+    @media (max-width: $screen-lg){
+        padding:60px 0 60px;
+    }
+    @media (max-width: $screen-sm){
+        padding:70px 0 70px;
+    }
+    h2.module-title{
+        font-size: 60px;
+        font-family: 'BebasNeue';
+        margin-bottom: 45px;
+    }
+    .desc{
+        margin-bottom: 30px;
+    }
+    .btn.brown{
+        padding: 0 80px;
+    }
+}
+#lifelong-staff{
+    padding:50px 0 10px;
+    background:url("../images/bg-heart2.png") right bottom no-repeat;
+    h2{
+        font-family: 'Oswald'; 
+        font-size: 28px;
+    }
+    .thank-you{
+        font-family: 'OpenSans Bold';
+    }
+    .content{
+        #desktop-img-position,
+        #tablet-img-position{
+            display: inline-block;
+            float:right;
+        }
+        img{
+            margin-top:20px;
+            @media (max-width: $screen-sm){
+                max-width: 200px;
+            }
+        }
+    }
+    .readmore{
+        color: #97bf65;
+        cursor: pointer;
+        text-decoration: underline;
+        @media (min-width: $screen-sm){
+            display: none;
+        }
+    }
+}
+#members{
+    background: #f6f5f3;
+    padding:60px 0 50px;
+    @media (max-width: $screen-lg){
+        padding:40px 0 50px;
+    }
+    @media (max-width: $screen-sm){
+        padding:40px 0 40px;
+    }
+    h2.module-title{
+        font-size: 36px;
+        text-align: center;
+        font-family: 'Nickainley'; 
+        margin-bottom: 25px;
+    }
+    .member-logos{
+        padding: 0 0;
+        margin-bottom: 25px;
+        list-style-type:none; 
+        li{
+            text-align: center;
+        }
+    }
+}
 #connections{
     background: #97bf65;
     color: #fff;
