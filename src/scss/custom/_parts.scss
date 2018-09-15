@@ -426,9 +426,14 @@
     padding:0 0;
     strong{
         font-family: "OpenSans Bold";
+        &.part1{
+            @media (max-width: $screen-lg){
+                display: none;
+            }
+        }
     }
     br{
-        @media (min-width: $screen-md){
+        @media (min-width: $screen-sm){
             display: none;
         }
     }
@@ -449,7 +454,16 @@
             }
         }
         @media (max-width: $screen-sm){
-            display: none;
+            margin:0;
+            padding:0;
+            height: auto;
+            line-height: 1em;
+            border:none;
+            float: none;
         }
+    }
+    @media (max-width: $screen-sm){
+        line-height: 1.5em;    
+        padding:15px 0;   
     }
 }

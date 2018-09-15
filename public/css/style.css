@@ -6977,7 +6977,10 @@ body {
   padding: 0 0; }
   #foot-free-app strong {
     font-family: "OpenSans Bold"; }
-  @media (min-width: 1024px) {
+    @media (max-width: 1366px) {
+      #foot-free-app strong.part1 {
+        display: none; } }
+  @media (min-width: 640px) {
     #foot-free-app br {
       display: none; } }
   #foot-free-app .btn {
@@ -6996,7 +6999,16 @@ body {
           display: inline; } }
     @media (max-width: 640px) {
       #foot-free-app .btn {
-        display: none; } }
+        margin: 0;
+        padding: 0;
+        height: auto;
+        line-height: 1em;
+        border: none;
+        float: none; } }
+  @media (max-width: 640px) {
+    #foot-free-app {
+      line-height: 1.5em;
+      padding: 15px 0; } }
 
 .test {
   font-family: BebasNeue; }
