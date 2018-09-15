@@ -6722,8 +6722,8 @@ body {
       display: inline-block;
       border: 2px solid #34aba7;
       border-radius: 5px;
-      height: 20px;
-      line-height: 20px;
+      height: 45px;
+      line-height: 45px;
       padding: 0 55px;
       cursor: pointer; }
       @media (max-width: 1366px) {
@@ -6731,7 +6731,9 @@ body {
           border: none;
           padding: 0 15px;
           font-family: 'OpenSans BoldItalic';
-          text-decoration: underline; } }
+          text-decoration: underline;
+          height: 20px;
+          line-height: 20px; } }
       @media (min-width: 1366px) {
         #top-readmores .gray .btn-readmore span {
           display: none; } }

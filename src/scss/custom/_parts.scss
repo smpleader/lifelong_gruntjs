@@ -110,8 +110,8 @@
             display: inline-block;
             border: 2px solid #34aba7;
             border-radius: 5px;
-            height: 20px;
-            line-height: 20px;
+            height: 45px;
+            line-height: 45px;
             padding: 0 55px;
             cursor: pointer;
             @media (max-width: $screen-lg){
@@ -119,6 +119,8 @@
                 padding: 0 15px;
                 font-family: 'OpenSans BoldItalic'; 
                 text-decoration: underline;
+                height: 20px;
+                line-height: 20px;
             }
             span{
                 @media (min-width: $screen-lg){
