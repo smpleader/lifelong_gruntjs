@@ -1,6 +1,8 @@
-/* Navigation */
 #navigation{
-    padding: 20px 0 0;
+    padding: 5px 0 0;
+    @include media-breakpoint-up("md"){
+        padding: 15px 0 0;
+    }
     .col-xs-12{
         vertical-align: top;
     }
@@ -15,58 +17,56 @@
     }
     h1{ 
         display: inline-block;
-        margin: 0 0 0 25px;
+        margin: 0 0 0 60px;
+        @include media-breakpoint-up("md"){
+            margin: 0 0 0 25px;
+        }
     }
     ul.top-links{
-        float: right;
-        display:block;
-        margin:5px 0 0;
-        li{
-            display: inline;
-            height: 50px;
-            line-height: 50px;
-            margin-right: 40px;
-            a{
-                color:#56330e;
-                font-size:17px;
+        display: none;
+        @include media-breakpoint-up("xl"){
+            display:block;
+            float: right;
+            margin:5px 0 0;
+            li{
+                display: inline;
+                height: 50px;
+                line-height: 50px;
+                margin-right: 40px;
+                a{
+                    color:$site-brown;
+                    font-size:17px;
+                }
             }
-        }
-        @media (max-width: $screen-lg){
-            display: none;
         }
     }
     .top-phone{
-        display: block;
-        float: right;
-        height: 50px;
-        line-height: 50px;
-        font-size: 34px;
-        font-family: 'BebasNeue';
-        color:#34aba7;
-        margin:5px 20px 0; 
-        @media (max-width: $screen-md){
-            display: none;
+        display: none;
+        @include media-breakpoint-up("lg"){
+            display: block;
+            float: right;
+            min-height: 50px;
+            padding: 0;
+            font-size: 2rem;
+            @include module-title();
+            margin:5px 30px 0 0; 
         }
     }
     a.btn-free-app{
-
-        display: block;
-        float: right;
-        background: #97bf65;
-        color: #fff;
-        border-radius: 5px;
-        font-family: 'OpenSans Bold';
-        font-size: 17px;
-        border: 0;
-        height: 42px;
-        padding:0 25px;
-        margin:5px 15px 0 0;
-        line-height: 42px;
-        &:hover{
-            text-decoration: none;
-        }
-        @media (max-width: $screen-sm){
-            display: none;
+        display: none;
+        @include media-breakpoint-up("md"){
+            display: block;
+            float: right;
+            @include bg-green();
+            @include btn-bold();
+            border: 0;
+            min-height: 42px;
+            padding:0 25px;
+            margin:5px 15px 0 0;
+            line-height: 42px;
+            &:hover{
+                text-decoration: none;
+            }
         }
     }
     .btn-bbb{
@@ -76,12 +76,126 @@
         }
     }
 }
+#header-slider{
+    .slick-header{
+        .slick-nav{
+            display: none;         
+            @include media-breakpoint-up("md"){
+                position: absolute;
+                display: block;
+                width: 25px;
+                height: 35px;
+                top:210px;
+                cursor: pointer;
+            }      
+            @include media-breakpoint-up("xl"){
+                top:270px;
+            }
+        }
+        .prev{
+            left: 25px;
+            background: url(../images/arrPrev.png) no-repeat center center;
+        }
+        .next{
+            right: 25px;
+            background: url(../images/arrNext.png) no-repeat center center;
+        }
+        .item{
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            color: $white;
+            text-align: center;
+            .content{
+                min-height: 350px;            
+                @include media-breakpoint-up("md"){
+                    min-height: 460px;
+                }
+                @include media-breakpoint-up("xl"){
+                    min-height: 575px;
+                }
+            }
+            .little-title{
+                display: none;
+            }
+            .first-title{
+                @include topic-title-green();
+                font-size: 1.9rem;
+                padding-top:50px;
+                @include media-breakpoint-up("md"){
+                    padding-top:70px;
+                    font-size: 2.3rem;
+                }
+                @include media-breakpoint-up("xl"){
+                    padding-top:85px;
+                    font-size: 3.8rem;
+                }
+            }
+            .second-title{
+                font-size: 4rem;
+                @include module-title();
+                color: $white;
+                @include media-breakpoint-up("md"){ 
+                    font-size: 6.35rem;
+                }
+                @include media-breakpoint-up("xl"){ 
+                    font-size: 10.6rem;
+                }
+            }
+            p{
+                display: none;
+                @include media-breakpoint-up("md"){
+                    display: block;
+                }
+            }
+            .btn.green,
+            .btn.brown{
+                width: 200px;
+                margin:0 auto;
+                display: none;
+                @include media-breakpoint-up("md"){
+                    @include btn-default(); 
+                    display: block;
+                }
+            }
+            .btn-bottom{
+                @include media-breakpoint-up("md"){
+                    display: none;
+                }
+            }
+            &.slick-active {
+                .btn-bottom{
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    width: 100%;
+                    @include bg-green();
+                    padding: 20px 0;
+                    @include media-breakpoint-up("md"){
+                        display: none;
+                    }
+                }                    
+            }
+        } 
+    }
+}
 #top-readmores{
-    background:#34aba7;    
+    @include bg-cyan();
+    .col-md-4{
+        border-bottom:1px solid #49B3AF;
+        @include media-breakpoint-up("md"){
+            border-right:1px solid #49B3AF;
+            border-bottom:none;
+        }
+    }
+    .col-md-4:last-child{
+        border-right:none;
+        border-bottom:none;
+    }
     img{
         border-radius: 50px;
         margin-bottom:15px;
-        @media (max-width: $screen-lg){
+        @include media-breakpoint-up("md"){
             width: 85px;
             border-radius:42.5px;
         }
@@ -94,27 +208,24 @@
         height: 267px;
         padding:25px 0 0;
         .desc{
-            color:#56330e;
+            color:$site-brown;
             font-size: 17px;
             line-height: 1.4em;
             margin-bottom:15px;
-            @media (max-width: $screen-lg){
+            @include media-breakpoint-up("lg"){
                 padding: 0 20px;
                 margin-bottom:10px;
             }
         }
         .btn-readmore{
-            color:#34aba7;
-            font-size: 17px;
-            font-family: "OpenSans Bold";
+            @include btn-bold();
+            @include color-cyan();
             display: inline-block;
             border: 2px solid #34aba7;
-            border-radius: 5px;
-            height: 45px;
-            line-height: 45px;
+            min-height: 45px;
             padding: 0 55px;
             cursor: pointer;
-            @media (max-width: $screen-lg){
+            @include media-breakpoint-up("md"){
                 border: none;
                 padding: 0 15px;
                 font-family: 'OpenSans BoldItalic'; 
@@ -123,7 +234,7 @@
                 line-height: 20px;
             }
             span{
-                @media (min-width: $screen-lg){
+                @include media-breakpoint-down("lg"){
                     display: none;
                 }
             }
@@ -137,7 +248,7 @@
             color:#fff;
             font-size:45px;
             font-family: "BebasNeue";
-            @media (max-width: $screen-lg){
+            @include media-breakpoint-up("lg"){
                 font-size:38px;
             }
         }
@@ -145,12 +256,13 @@
             color:#fff;
             font-size:20px;
             font-family: "Oswald Light";
-            @media (max-width: $screen-lg){
+            @include media-breakpoint-up("lg"){
                 font-size:18px;
             }
         }
     }
 }
+/*
 #recent-adopts{
     background: url("../images/bg-heart.png") top center no-repeat;
     padding:50px 0 ;
@@ -162,7 +274,7 @@
         margin-bottom:40px;
     }
     .baby-name{
-        color: #97bf65;
+        color: $site-green;
         font-size: 22px;
         font-family: 'Oswald';
         margin-bottom: 10px;
@@ -173,12 +285,12 @@
         margin-bottom: 15px;
     }
     .congrat{
-        color:#56330e;
+        color:$site-brown;
         font-family: 'OpenSans Italic'; 
     }
 }
 #lifelong-union{
-    background: #97bf65;
+    background: $site-green;
     color: #fff;
     font-family: "Oswald";
     font-size:26px;
@@ -191,7 +303,7 @@
         }
     }
     br{
-        @media (min-width: $screen-lg){
+        @include media-breakpoint-down("lg"){
            display: none;
         }
 
@@ -243,13 +355,13 @@
 #free-app{
     background: #34aba7 url("../images/bg-free-app.png") repeat-x bottom center;
     color:#fff;
-    padding:65px 0 80px;
+    padding:70px 0 70px;
     text-align: center;
-    @media (max-width: $screen-lg){
+    @include media-breakpoint-down("md"){
         padding:60px 0 60px;
     }
-    @media (max-width: $screen-sm){
-        padding:70px 0 70px;
+    @include media-breakpoint-down("lg"){
+        padding:65px 0 80px;
     }
     h2.module-title{
         margin-bottom: 45px;
@@ -279,28 +391,30 @@
         }
         img{
             margin-top:20px;
-            @media (max-width: $screen-sm){
+           
+            @include  media-breakpoint-up("sm"){
                 max-width: 200px;
             }
         }
     }
     .readmore{
-        color: #97bf65;
+        color: $site-green;
         cursor: pointer;
         text-decoration: underline;
-        @media (min-width: $screen-sm){
-            display: none;
+        display: none;
+        @include  media-breakpoint-up("sm"){
+            display: inline;
         }
     }
 }
 #members{
     background: #f6f5f3;
-    padding:60px 0 50px;
-    @media (max-width: $screen-lg){
+    padding:40px 0 40px;
+    @include  media-breakpoint-down("lg"){
         padding:40px 0 50px;
     }
-    @media (max-width: $screen-sm){
-        padding:40px 0 40px;
+    @include  media-breakpoint-down("md"){
+        padding:60px 0 50px;
     }
     h2.topic-title{
         margin-bottom: 25px;
@@ -315,19 +429,19 @@
     }
 }
 #connections{
-    background: #97bf65;
+    background: $site-green;
     color: #fff;
-    padding: 45px 0;
-    @media (max-width: $screen-lg){
+    padding: 35px 0;
+    @include  media-breakpoint-down("md"){
         padding: 30px 0;
     }
-    @media (max-width: $screen-sm){
-        padding: 35px 0;
+    @include  media-breakpoint-down("lg"){
+        padding: 45px 0;
     }
     .about-us{
         font-family: 'OpenSans Italic';
         font-size:15px;
-        @media (max-width: $screen-lg){
+        @include  media-breakpoint-down("lg"){
             text-align: center;
         }
     }
@@ -344,14 +458,15 @@
     }
     h3{
         &.foot-logo{
-            @media (max-width: $screen-lg){
+            padding: 30px 0;
+            @include  media-breakpoint-down("lg"){
                 text-align: center;
-            }            
+            }
         }
         &.module-title{
             font-family: 'Oswald';
             font-size: 18px;
-            @media (max-width: $screen-md){
+            @include  media-breakpoint-down("md"){
                 display: none;
             }
         }
@@ -367,34 +482,34 @@
     }
     .social-icons{
         display: table;
-        width: 340px;
-        margin:15px 0 0px;
+        margin:35px auto 45px;
+        width: 320px;
         li{
             display: table-cell;
             text-align: center;             
         }
-        @media (max-width: $screen-lg){
+        @include  media-breakpoint-down("md"){
             margin:15px auto 55px;
         }
-        @media (max-width: $screen-sm){
-            margin:35px auto 45px;
-            width: 320px;
-        }
+        @include  media-breakpoint-down("lg"){
+            width: 340px;
+            margin:15px 0 0px;            
+        }        
     }
 }
 #privacy-terms{
     color:#b0a69d;
     background:#f7f5f2;
-    padding: 25px 0 60px;
     font-size:12px;
+    padding: 35px 0 60px;
     .detail{
         margin:25px auto 0;
-        max-width: 1068px;
-        @media (max-width: $screen-lg){
+        max-width: 320px;
+        @include  media-breakpoint-up("md"){
             max-width: 740px;
         }
-        @media (max-width: $screen-sm){
-            max-width: 320px;
+        @include  media-breakpoint-up("lg"){
+            max-width: 1068px;
         }
         a{
             color:#b0a69d;
@@ -407,14 +522,14 @@
             margin: 0;
         }
     }
-    @media (max-width: $screen-lg){
+    @include  media-breakpoint-down("md"){
         padding: 35px 0 40px;
     }
-    @media (max-width: $screen-sm){
-        padding: 35px 0 60px;
+    @include  media-breakpoint-down("lg"){
+        padding: 25px 0 60px;
     }
     br{
-        @media (min-width: $screen-md){
+        @include  media-breakpoint-up("md"){
             display: none;
         }
     }
@@ -429,13 +544,13 @@
     strong{
         font-family: "OpenSans Bold";
         &.part1{
-            @media (max-width: $screen-lg){
+            @include  media-breakpoint-down("lg"){
                 display: none;
             }
         }
     }
     br{
-        @media (min-width: $screen-sm){
+        @include  media-breakpoint-down("sm"){
             display: none;
         }
     }
@@ -443,10 +558,16 @@
         float: right;
         margin: 15px 0 0;
         padding:0 35px;
+        margin:0;
+        padding:0;
+        height: auto;
+        line-height: 1em;
+        border:none;
+        float: none;
         span{
             display: none;
         }
-        @media (max-width: $screen-lg){
+        @include  media-breakpoint-down("lg"){
             font-family: "OpenSans BoldItalic";
             text-decoration: underline;
             background: #34aba7;
@@ -455,17 +576,10 @@
                 display: inline;
             }
         }
-        @media (max-width: $screen-sm){
-            margin:0;
-            padding:0;
-            height: auto;
-            line-height: 1em;
-            border:none;
-            float: none;
-        }
     }
-    @media (max-width: $screen-sm){
+    @include  media-breakpoint-up("md"){
         line-height: 1.5em;    
-        padding:15px 0;   
+        padding:15px 0;
     }
 }
+*/

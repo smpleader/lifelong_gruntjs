@@ -1,0 +1,65 @@
+@mixin color-brown {
+    color: $site-brown;
+}
+@mixin color-green {
+    color: $site-green;
+}
+@mixin color-cyan {
+    color: $site-cyan;
+}
+@mixin bg-brown {
+    color: $white;
+    background-color: $site-brown;
+}
+@mixin bg-green {
+    color: $white;
+    background-color: $site-green;
+}
+@mixin bg-cyan {
+    color: $white;
+    background-color: $site-cyan;
+}
+@mixin module-title{
+    text-align: center;
+    font-family: 'BebasNeue';
+}
+@mixin module-title-green{
+    @include module-title();
+    color: $site-green;
+}
+@mixin module-title-brown{
+    @include module-title();
+    color: $site-brown;
+}
+@mixin topic-title{
+    text-align: center;
+    font-family: 'Nickainley'; 
+}
+@mixin topic-title-green{
+    @include topic-title();
+    color: $site-green;
+}
+@mixin topic-title-brown{
+    @include topic-title();
+    color: $site-brown;
+}
+@mixin sub-title{
+    color: $site-brown;
+    text-align: center;
+}
+@mixin btn-default{
+    border-radius: 5px;
+    font-family: "OpenSans Bold";
+    &:hover{
+        text-decoration: none;
+        color:$white;
+    }
+}
+@mixin btn-bold{
+    @include btn-default();
+    font-family: "OpenSans Bold";
+}
+@mixin btn-bitalic{
+    @include btn-default();
+    font-family: "OpenSans BoldItalic";
+}

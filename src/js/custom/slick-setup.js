@@ -7,8 +7,10 @@ var equal_slick_stories_items = function(){
     $(".slick-stories .item").css("height",max+"px");
 }
 $(document).ready(function(){
-    $(".slick-sliders").slick({
-        autoplay:true
+    $(".slick-header").slick({
+        autoplay:true,
+        prevArrow:"<a class=\"slick-nav prev\"></a>",
+        nextArrow: "<a class=\"slick-nav next\"></a>"
     });
     $(".slick-stories").slick({
         autoplay:false,
