@@ -48,9 +48,11 @@ $(document).ready(function(){
         centerPadding: "15px",
         slidesToShow:3,
         slide:".item",
+        prevArrow:"<a class=\"slick-nav prev\"></a>",
+        nextArrow: "<a class=\"slick-nav next\"></a>",
         responsive: [
             {
-                breakpoint: 480,
+                breakpoint: 780,
                 settings: {
                     slidesToShow:1
                 }

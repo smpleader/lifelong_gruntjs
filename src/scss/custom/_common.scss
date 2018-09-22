@@ -1,29 +1,29 @@
-/*.btn{
+.btn-green{
     @include btn-bold();
-    min-height: 45px;    
-}
-.btn.italic{
-    @include btn-bitalic();
-    min-height: 45px;    
-}*/
-.btn.green{
     @include bg-green();
 }
-.btn.brown{
+.btn-brown{
+    @include btn-bold();
     @include bg-brown();
 }
 .btn-bitalic-green{
     @include btn-bitalic();
     @include color-green();
 }
-.sub-title-brown{
-}
-/*.btn-link{
-    font-family: 'OpenSans BoldItalic'; 
-    color: $site-green;
+.link-green{
+    @include link-bitalic();
+    @include color-green();
     text-decoration: underline;
     &:hover{
-        text-decoration: none;
-        color: $site-green;
+        @include color-green();
     }
-}*/
+}
+.link-white{
+    @include link-bitalic();
+    color: #fff;
+    text-decoration: underline;
+    &:hover{
+        color: #fff;
+        text-decoration: none;
+    }
+}

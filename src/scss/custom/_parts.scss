@@ -149,11 +149,12 @@
                     display: block;
                 }
             }
-            .btn.green,
-            .btn.brown{
+            .btn-green,
+            .btn-brown{
                 width: 200px;
                 margin:0 auto;
                 display: none;
+                padding:15px 0;
                 @include media-breakpoint-up("md"){
                     @include btn-bold(); 
                     display: block;
@@ -266,9 +267,9 @@
     text-align: center;
     @include color-brown();
     .topic-title{
+        margin-bottom:10px;
         @include nickainley-title-brown();
         font-size:2.88rem;
-        margin-bottom:10px;
         @include media-breakpoint-up("md"){
             font-size:3rem;
         }
@@ -296,39 +297,67 @@
         color:$site-brown;
         font-family: 'OpenSans Italic'; 
     }
-}/*
+}
 #lifelong-union{
     background: $site-green;
     color: #fff;
     font-family: "Oswald";
-    font-size:26px;
     padding:20px 0;
     text-align: center;
-    .btn-link{
-        color:#fff;
-        &:hover{
-            color:#fff;
+    span{
+        font-size:1.25rem;
+        @include media-breakpoint-up("md"){
+            font-size:1.5rem;
+        }
+        @include media-breakpoint-up("lg"){
+            font-size:1.65rem;
         }
     }
-    br{
-        @include media-breakpoint-down("lg"){
-           display: none;
-        }
-
+    .link-white{
+        font-size: 1em;
     }
 }
 #adoption-stories{
     background: #f6f5f3;
     text-align: center;
     padding: 60px 0 70px;
-    h2.nickainley-title{
+    @include color-brown();
+    h2.topic-title{
         margin-bottom: 25px;
+        @include nickainley-title-brown();
+        font-size:2.88rem;
+        @include media-breakpoint-up("md"){
+            font-size:3rem;
+        }
+        @include media-breakpoint-up("lg"){
+            font-size:3.2rem;
+        }
     }
     .sub-title{
         margin-bottom: 40px;
     }
     .slick-stories{
-        margin: 0 -7px;
+        margin: 0 10px;
+        .slick-nav{    
+            position: absolute;
+            display: block;
+            width: 21px;
+            height: 29px;
+            top:115px;
+            cursor: pointer;  
+            @include media-breakpoint-up("md"){
+            }      
+            @include media-breakpoint-up("xl"){                
+            }
+        }
+        .prev{
+            left: 15px;
+            background: url(../images/arrPrevStory.png) no-repeat center center;
+        }
+        .next{
+            right: 15px;
+            background: url(../images/arrNextStory.png) no-repeat center center;
+        }
         .item{
             background: #fff;
             padding: 5px 5px 20px 5px ;
@@ -371,22 +400,38 @@
     @include media-breakpoint-down("lg"){
         padding:65px 0 80px;
     }
-    h2.bebasneue-title{
+    h2.module-title{
+        @include bebasneue-title();
+        @include bg-cyan();
         margin-bottom: 45px;
+        font-size: 2.88rem;
+        @include media-breakpoint-up("md"){
+            font-size: 3.25rem;
+        }
+        @include media-breakpoint-up("lg"){
+            font-size: 3.75rem;
+        }
     }
     .desc{
         margin-bottom: 30px;
     }
-    .btn.brown{
-        padding: 0 80px;
+    .btn-brown{
+        padding: 15px 80px;
     }
 }
 #lifelong-staff{
     padding:50px 0 10px;
     background:url("../images/bg-heart2.png") right bottom no-repeat;
     h2{
-        font-family: 'Oswald'; 
-        font-size: 28px;
+        @include oswald-title();
+        @include color-green();
+        font-size: 1.43rem;
+        @include media-breakpoint-up("md"){
+            font-size: 1.62rem;
+        }
+        @include media-breakpoint-up("lg"){
+            font-size: 1.75rem;
+        }
     }
     .thank-you{
         font-family: 'OpenSans Bold';
@@ -398,8 +443,7 @@
             float:right;
         }
         img{
-            margin-top:20px;
-           
+            margin-top:20px;           
             @include  media-breakpoint-up("sm"){
                 max-width: 200px;
             }
@@ -415,6 +459,7 @@
         }
     }
 }
+/*
 #members{
     background: #f6f5f3;
     padding:40px 0 40px;

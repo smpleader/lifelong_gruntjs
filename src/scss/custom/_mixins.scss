@@ -35,6 +35,10 @@
     @include bebasneue-title();
     color: $site-cyan;
 }
+@mixin oswald-title{
+    text-align: center;
+    font-family: 'Oswald'; 
+}
 @mixin nickainley-title{
     text-align: center;
     font-family: 'Nickainley'; 
@@ -52,6 +56,7 @@
     color: $site-cyan;
 }
 @mixin btn-default{
+    cursor: pointer;
     border-radius: 5px;
     &:hover{
         text-decoration: none;
@@ -65,4 +70,10 @@
 @mixin btn-bitalic{
     @include btn-default();
     font-family: "OpenSans BoldItalic";
+}
+@mixin link-bitalic{
+    font-family: "OpenSans BoldItalic";
+    &:hover{
+        text-decoration: none;
+    }
 }
