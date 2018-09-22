@@ -60,13 +60,19 @@ $(document).ready(function(){
         ]
     });
     $(".member-logos").slick({
-        autoplay:false,
-         
+        autoplay:false,         
         slidesToShow:5,
         slide:"li",
         responsive: [
             {
                 breakpoint: 480,
+                settings: {
+                    slidesPerRow:1,
+                    slidesToShow:1,
+                }
+            },
+            {
+                breakpoint: 768,
                 settings: {
                     slidesPerRow:2,
                     slidesToShow:2,

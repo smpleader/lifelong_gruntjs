@@ -6719,8 +6719,7 @@ a.text-dark:hover, a.text-dark:focus {
           line-height: 50px;
           margin-right: 40px; }
           #navigation ul.top-links li a {
-            color: #56330e;
-            font-size: 17px; } }
+            color: #56330e; } }
   #navigation .top-phone {
     display: none; }
     @media (min-width: 992px) {
@@ -6885,7 +6884,6 @@ a.text-dark:hover, a.text-dark:focus {
     padding: 25px 0 0; }
     #top-readmores .gray .desc {
       color: #56330e;
-      font-size: 17px;
       line-height: 1.4em;
       margin-bottom: 15px; }
       @media (min-width: 992px) {
@@ -6968,7 +6966,7 @@ a.text-dark:hover, a.text-dark:focus {
     margin-bottom: 40px; }
   #recent-adopts .baby-name {
     color: #97bf65;
-    font-size: 22px;
+    font-size: 1.375rem;
     font-family: 'Oswald';
     margin-bottom: 10px; }
   #recent-adopts .baby-img {
@@ -6980,8 +6978,8 @@ a.text-dark:hover, a.text-dark:focus {
     font-family: 'OpenSans Italic'; }
 
 #lifelong-union {
-  background: #97bf65;
   color: #fff;
+  background-color: #97bf65;
   font-family: "Oswald";
   padding: 20px 0;
   text-align: center; }
@@ -7039,7 +7037,7 @@ a.text-dark:hover, a.text-dark:focus {
         margin: 0 auto 20px;
         width: 100%; }
       #adoption-stories .slick-stories .item h3 {
-        font-size: 28px;
+        font-size: 1.75rem;
         font-family: 'Oswald';
         margin-bottom: 20px; }
       #adoption-stories .slick-stories .item .btn-ribbon {
@@ -7087,7 +7085,7 @@ a.text-dark:hover, a.text-dark:focus {
   padding: 50px 0 10px;
   background: url("../images/bg-heart2.png") right bottom no-repeat; }
   #lifelong-staff h2 {
-    text-align: center;
+    text-align: "left";
     font-family: 'Oswald';
     color: #97bf65;
     font-size: 1.43rem; }
@@ -7104,195 +7102,169 @@ a.text-dark:hover, a.text-dark:focus {
     display: inline-block;
     float: right; }
   #lifelong-staff .content img {
-    margin-top: 20px; }
-    @media (min-width: 380px) {
+    max-width: 200px;
+    margin: 20px auto 0; }
+    @media (min-width: 768px) {
       #lifelong-staff .content img {
-        max-width: 200px; } }
+        max-width: 290px; } }
+    @media (min-width: 992px) {
+      #lifelong-staff .content img {
+        max-width: 450px; } }
   #lifelong-staff .readmore {
     color: #97bf65;
     cursor: pointer;
-    text-decoration: underline;
-    display: none; }
-    @media (min-width: 380px) {
+    text-decoration: underline; }
+    @media (min-width: 768px) {
       #lifelong-staff .readmore {
-        display: inline; } }
+        display: none; } }
 
-/*
-#members{
-    background: #f6f5f3;
-    padding:40px 0 40px;
-    @include  media-breakpoint-down("lg"){
-        padding:40px 0 50px;
-    }
-    @include  media-breakpoint-down("md"){
-        padding:60px 0 50px;
-    }
-    h2.nickainley-title{
-        margin-bottom: 25px;
-    }
-    .member-logos{
-        padding: 0 0;
-        margin-bottom: 25px;
-        list-style-type:none; 
-        li{
-            text-align: center;
-        }
-    }
-}
-#connections{
-    background: $site-green;
-    color: #fff;
-    padding: 35px 0;
-    @include  media-breakpoint-down("md"){
-        padding: 30px 0;
-    }
-    @include  media-breakpoint-down("lg"){
-        padding: 45px 0;
-    }
-    .about-us{
-        font-family: 'OpenSans Italic';
-        font-size:15px;
-        @include  media-breakpoint-down("lg"){
-            text-align: center;
-        }
-    }
-    ul{
-        margin: 0 0;
-        padding: 0 0;
-        list-style-type:none;
-        li{
-            a{
-                color:#fff;
-                font-size: 15px;
-            }
-        }
-    }
-    h3{
-        &.foot-logo{
-            padding: 30px 0;
-            @include  media-breakpoint-down("lg"){
-                text-align: center;
-            }
-        }
-        &.bebasneue-title{
-            font-family: 'Oswald';
-            font-size: 18px;
-            @include  media-breakpoint-down("md"){
-                display: none;
-            }
-        }
-    }
-    .addresss{
-        dt{
-            width: 80px;
-            float: left;
-        }
-        dd{
-            margin-left:80px;
-        }
-    }
-    .social-icons{
-        display: table;
-        margin:35px auto 45px;
-        width: 320px;
-        li{
-            display: table-cell;
-            text-align: center;             
-        }
-        @include  media-breakpoint-down("md"){
-            margin:15px auto 55px;
-        }
-        @include  media-breakpoint-down("lg"){
-            width: 340px;
-            margin:15px 0 0px;            
-        }        
-    }
-}
-#privacy-terms{
-    color:#b0a69d;
-    background:#f7f5f2;
-    font-size:12px;
-    padding: 35px 0 60px;
-    .detail{
-        margin:25px auto 0;
-        max-width: 320px;
-        @include  media-breakpoint-up("md"){
-            max-width: 740px;
-        }
-        @include  media-breakpoint-up("lg"){
-            max-width: 1068px;
-        }
-        a{
-            color:#b0a69d;
-            text-decoration: underline;
-            &:hover{
-                color:#b0a69d;
-            }
-        }
-        p:last-child{
-            margin: 0;
-        }
-    }
-    @include  media-breakpoint-down("md"){
-        padding: 35px 0 40px;
-    }
-    @include  media-breakpoint-down("lg"){
-        padding: 25px 0 60px;
-    }
-    br{
-        @include  media-breakpoint-up("md"){
-            display: none;
-        }
-    }
-}
-#foot-free-app{
-    font-size:17px;
-    color: #fff;
-    background:#34aba7;
-    height: 75px;
-    line-height: 75px;
-    padding:0 0;
-    strong{
-        font-family: "OpenSans Bold";
-        &.part1{
-            @include  media-breakpoint-down("lg"){
-                display: none;
-            }
-        }
-    }
-    br{
-        @include  media-breakpoint-down("sm"){
-            display: none;
-        }
-    }
-    .btn{
-        float: right;
-        margin: 15px 0 0;
-        padding:0 35px;
-        margin:0;
-        padding:0;
-        height: auto;
-        line-height: 1em;
-        border:none;
-        float: none;
-        span{
-            display: none;
-        }
-        @include  media-breakpoint-down("lg"){
-            font-family: "OpenSans BoldItalic";
-            text-decoration: underline;
-            background: #34aba7;
-            color: #fff;
-            span{
-                display: inline;
-            }
-        }
-    }
-    @include  media-breakpoint-up("md"){
-        line-height: 1.5em;    
-        padding:15px 0;
-    }
-}
-*/
+#members {
+  background: #f6f5f3;
+  padding: 40px 0 40px; }
+  @media (max-width: 1365.98px) {
+    #members {
+      padding: 40px 0 50px; } }
+  @media (max-width: 991.98px) {
+    #members {
+      padding: 60px 0 50px; } }
+  #members h2.topic-title {
+    text-align: center;
+    font-family: 'Nickainley';
+    color: #56330e;
+    margin-bottom: 25px;
+    font-size: 2.88rem; }
+    @media (min-width: 768px) {
+      #members h2.topic-title {
+        font-size: 3rem; } }
+    @media (min-width: 992px) {
+      #members h2.topic-title {
+        font-size: 3.2rem; } }
+  #members .member-logos {
+    padding: 0 0;
+    margin-bottom: 25px;
+    list-style-type: none; }
+    #members .member-logos li {
+      text-align: center; }
+      #members .member-logos li .img-res {
+        width: 90%;
+        margin: 0 auto; }
+        @media (min-width: 768px) {
+          #members .member-logos li .img-res {
+            max-width: 100%;
+            width: auto; } }
+        @media (min-width: 992px) {
+          #members .member-logos li .img-res {
+            max-width: 100%;
+            width: auto; } }
+
+#connections {
+  color: #fff;
+  background-color: #97bf65;
+  padding: 35px 0 65px; }
+  @media (min-width: 768px) {
+    #connections {
+      padding: 30px 0 40px; } }
+  @media (min-width: 992px) {
+    #connections {
+      padding: 45px 0; } }
+  #connections h3.foot-logo {
+    text-align: center;
+    margin-bottom: 20px; }
+    @media (min-width: 992px) {
+      #connections h3.foot-logo {
+        text-align: left; } }
+  #connections h3.module-title {
+    display: none; }
+    @media (min-width: 768px) {
+      #connections h3.module-title {
+        text-align: "left";
+        font-family: 'BebasNeue';
+        font-size: 1.125rem;
+        display: block; } }
+  #connections .about-us {
+    font-family: 'OpenSans Italic';
+    font-size: 0.93rem;
+    text-align: center;
+    margin-bottom: 30px; }
+    @media (min-width: 992px) {
+      #connections .about-us {
+        text-align: left; } }
+  #connections .social-icons {
+    display: table;
+    margin: 0 auto 45px;
+    width: 320px; }
+    #connections .social-icons li {
+      display: table-cell;
+      text-align: center; }
+    @media (min-width: 768px) {
+      #connections .social-icons {
+        margin: 0 auto 55px; } }
+    @media (min-width: 992px) {
+      #connections .social-icons {
+        width: 340px;
+        margin: 20px 0 0px; } }
+  #connections ul {
+    margin: 0 0;
+    padding: 0 0;
+    list-style-type: none; }
+    #connections ul li a {
+      color: #fff;
+      font-size: 0.94rem; }
+  #connections .addresss {
+    margin: 0; }
+    #connections .addresss dt {
+      width: 80px;
+      float: left; }
+    #connections .addresss dd {
+      margin-left: 80px; }
+
+#privacy-terms {
+  color: #b0a69d;
+  background: #f7f5f2;
+  font-size: 0.75rem;
+  padding: 35px 0 60px; }
+  #privacy-terms .detail {
+    margin: 25px auto 0;
+    max-width: 320px; }
+    @media (min-width: 768px) {
+      #privacy-terms .detail {
+        max-width: 740px; } }
+    @media (min-width: 992px) {
+      #privacy-terms .detail {
+        max-width: 1068px; } }
+    #privacy-terms .detail a {
+      color: #b0a69d;
+      text-decoration: underline; }
+      #privacy-terms .detail a:hover {
+        color: #b0a69d; }
+    #privacy-terms .detail p:last-child {
+      margin: 0; }
+  @media (min-width: 768px) {
+    #privacy-terms {
+      padding: 35px 0 40px; } }
+  @media (min-width: 992px) {
+    #privacy-terms {
+      padding: 25px 0 60px; } }
+  @media (min-width: 768px) {
+    #privacy-terms br {
+      display: none; } }
+
+#foot-free-app {
+  color: #fff;
+  background-color: #34aba7;
+  padding: 15px 0; }
+  #foot-free-app .strong {
+    font-family: "OpenSans Bold"; }
+  #foot-free-app .btn-brown {
+    display: none; }
+    @media (min-width: 992px) {
+      #foot-free-app .btn-brown {
+        margin-left: 25px;
+        display: inline-block;
+        padding: 10px 20px; } }
+  @media (min-width: 992px) {
+    #foot-free-app .link-white {
+      display: none; } }
+
 .test {
   font-family: BebasNeue; }

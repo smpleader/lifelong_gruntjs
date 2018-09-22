@@ -19,40 +19,40 @@
     color: $white;
     background-color: $site-cyan;
 }
-@mixin bebasneue-title{
-    text-align: center;
+@mixin bebasneue-title($align:$default_align){
+    text-align: $align;
     font-family: 'BebasNeue';
 }
-@mixin bebasneue-title-green{
-    @include bebasneue-title();
+@mixin bebasneue-title-green($align:$default_align){
+    @include bebasneue-title($align);
     color: $site-green;
 }
-@mixin bebasneue-title-brown{
-    @include bebasneue-title();
+@mixin bebasneue-title-brown($align:$default_align){
+    @include bebasneue-title($align);
     color: $site-brown;
 }
-@mixin bebasneue-title-cyan{
-    @include bebasneue-title();
+@mixin bebasneue-title-cyan($align:$default_align){
+    @include bebasneue-title($align);
     color: $site-cyan;
 }
-@mixin oswald-title{
-    text-align: center;
+@mixin oswald-title($align:$default_align){
+    text-align: $align;
     font-family: 'Oswald'; 
 }
-@mixin nickainley-title{
-    text-align: center;
+@mixin nickainley-title($align:$default_align){
+    text-align: $align;
     font-family: 'Nickainley'; 
 }
-@mixin nickainley-title-green{
-    @include nickainley-title();
+@mixin nickainley-title-green($align:$default_align){
+    @include nickainley-title($align);
     color: $site-green;
 }
-@mixin nickainley-title-brown{
-    @include nickainley-title();
+@mixin nickainley-title-brown($align:$default_align){
+    @include nickainley-title($align);
     color: $site-brown;
 }
-@mixin nickainley-title-cyan{
-    @include nickainley-title();
+@mixin nickainley-title-cyan($align:$default_align){
+    @include nickainley-title($align);
     color: $site-cyan;
 }
 @mixin btn-default{

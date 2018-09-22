@@ -35,7 +35,6 @@
                 margin-right: 40px;
                 a{
                     color:$site-brown;
-                    font-size:17px;
                 }
             }
         }
@@ -204,7 +203,6 @@
         padding:25px 0 0;
         .desc{
             color:$site-brown;
-            font-size: 17px;
             line-height: 1.4em;
             margin-bottom:15px;
             @include media-breakpoint-up("lg"){
@@ -284,7 +282,7 @@
     }
     .baby-name{
         color: $site-green;
-        font-size: 22px;
+        font-size: 1.375rem;
         font-family: 'Oswald';
         margin-bottom: 10px;
     }
@@ -299,8 +297,7 @@
     }
 }
 #lifelong-union{
-    background: $site-green;
-    color: #fff;
+    @include bg-green();
     font-family: "Oswald";
     padding:20px 0;
     text-align: center;
@@ -368,7 +365,7 @@
                 width:100%;
             }
             h3{
-                font-size: 28px;
+                font-size: 1.75rem;
                 font-family: 'Oswald';
                 margin-bottom: 20px;
             }
@@ -423,7 +420,7 @@
     padding:50px 0 10px;
     background:url("../images/bg-heart2.png") right bottom no-repeat;
     h2{
-        @include oswald-title();
+        @include oswald-title('left');
         @include color-green();
         font-size: 1.43rem;
         @include media-breakpoint-up("md"){
@@ -443,9 +440,13 @@
             float:right;
         }
         img{
-            margin-top:20px;           
-            @include  media-breakpoint-up("sm"){
-                max-width: 200px;
+            max-width: 200px;
+            margin:20px auto 0;           
+            @include  media-breakpoint-up("md"){
+                max-width: 290px;
+            }           
+            @include  media-breakpoint-up("lg"){
+                max-width: 450px;
             }
         }
     }
@@ -453,13 +454,11 @@
         color: $site-green;
         cursor: pointer;
         text-decoration: underline;
-        display: none;
-        @include  media-breakpoint-up("sm"){
-            display: inline;
+        @include  media-breakpoint-up("md"){
+            display: none;
         }
     }
 }
-/*
 #members{
     background: #f6f5f3;
     padding:40px 0 40px;
@@ -469,8 +468,16 @@
     @include  media-breakpoint-down("md"){
         padding:60px 0 50px;
     }
-    h2.nickainley-title{
+    h2.topic-title{
+        @include nickainley-title-brown();
         margin-bottom: 25px;
+        font-size:2.88rem;
+        @include media-breakpoint-up("md"){
+            font-size:3rem;
+        }
+        @include media-breakpoint-up("lg"){
+            font-size:3.2rem;
+        }
     }
     .member-logos{
         padding: 0 0;
@@ -478,25 +485,71 @@
         list-style-type:none; 
         li{
             text-align: center;
+            .img-res{
+                width: 90%;
+                margin:0 auto;
+                @include media-breakpoint-up("md"){
+                    max-width: 100%;
+                    width: auto;
+                }
+                @include media-breakpoint-up("lg"){
+                    max-width: 100%;
+                    width: auto;
+                }
+            }
         }
     }
 }
 #connections{
-    background: $site-green;
-    color: #fff;
-    padding: 35px 0;
-    @include  media-breakpoint-down("md"){
-        padding: 30px 0;
+    @include bg-green();
+    padding: 35px 0 65px;
+    @include  media-breakpoint-up("md"){
+        padding: 30px 0 40px;
     }
-    @include  media-breakpoint-down("lg"){
+    @include  media-breakpoint-up("lg"){
         padding: 45px 0;
+    }
+    h3{
+        &.foot-logo{
+            text-align: center;
+            margin-bottom: 20px;
+            @include  media-breakpoint-up("lg"){
+                text-align: left;
+            }
+        }
+        &.module-title{
+            display: none;
+            @include  media-breakpoint-up("md"){
+                @include bebasneue-title('left');
+                font-size: 1.125rem;
+                display: block;
+            }
+        }
     }
     .about-us{
         font-family: 'OpenSans Italic';
-        font-size:15px;
-        @include  media-breakpoint-down("lg"){
-            text-align: center;
+        font-size:0.93rem;
+        text-align: center;
+        margin-bottom: 30px;
+        @include  media-breakpoint-up("lg"){
+            text-align: left;
         }
+    }
+    .social-icons{
+        display: table;
+        margin:0 auto 45px;
+        width: 320px;
+        li{
+            display: table-cell;
+            text-align: center;             
+        }
+        @include  media-breakpoint-up("md"){
+            margin:0 auto 55px;
+        }
+        @include  media-breakpoint-up("lg"){
+            width: 340px;
+            margin:20px 0 0px;            
+        }        
     }
     ul{
         margin: 0 0;
@@ -505,26 +558,12 @@
         li{
             a{
                 color:#fff;
-                font-size: 15px;
-            }
-        }
-    }
-    h3{
-        &.foot-logo{
-            padding: 30px 0;
-            @include  media-breakpoint-down("lg"){
-                text-align: center;
-            }
-        }
-        &.bebasneue-title{
-            font-family: 'Oswald';
-            font-size: 18px;
-            @include  media-breakpoint-down("md"){
-                display: none;
+                font-size: 0.94rem;
             }
         }
     }
     .addresss{
+        margin: 0;
         dt{
             width: 80px;
             float: left;
@@ -533,27 +572,11 @@
             margin-left:80px;
         }
     }
-    .social-icons{
-        display: table;
-        margin:35px auto 45px;
-        width: 320px;
-        li{
-            display: table-cell;
-            text-align: center;             
-        }
-        @include  media-breakpoint-down("md"){
-            margin:15px auto 55px;
-        }
-        @include  media-breakpoint-down("lg"){
-            width: 340px;
-            margin:15px 0 0px;            
-        }        
-    }
 }
 #privacy-terms{
     color:#b0a69d;
     background:#f7f5f2;
-    font-size:12px;
+    font-size:0.75rem;
     padding: 35px 0 60px;
     .detail{
         margin:25px auto 0;
@@ -575,10 +598,10 @@
             margin: 0;
         }
     }
-    @include  media-breakpoint-down("md"){
+    @include  media-breakpoint-up("md"){
         padding: 35px 0 40px;
     }
-    @include  media-breakpoint-down("lg"){
+    @include  media-breakpoint-up("lg"){
         padding: 25px 0 60px;
     }
     br{
@@ -588,51 +611,22 @@
     }
 }
 #foot-free-app{
-    font-size:17px;
-    color: #fff;
-    background:#34aba7;
-    height: 75px;
-    line-height: 75px;
-    padding:0 0;
-    strong{
+    @include bg-cyan();
+    padding: 15px 0;
+    .strong{
         font-family: "OpenSans Bold";
-        &.part1{
-            @include  media-breakpoint-down("lg"){
-                display: none;
-            }
+    }
+    .btn-brown{
+        display: none;
+        @include  media-breakpoint-up("lg"){
+            margin-left:25px;
+            display: inline-block;
+            padding:10px 20px;
         }
     }
-    br{
-        @include  media-breakpoint-down("sm"){
+    .link-white{
+        @include  media-breakpoint-up("lg"){
             display: none;
         }
-    }
-    .btn{
-        float: right;
-        margin: 15px 0 0;
-        padding:0 35px;
-        margin:0;
-        padding:0;
-        height: auto;
-        line-height: 1em;
-        border:none;
-        float: none;
-        span{
-            display: none;
-        }
-        @include  media-breakpoint-down("lg"){
-            font-family: "OpenSans BoldItalic";
-            text-decoration: underline;
-            background: #34aba7;
-            color: #fff;
-            span{
-                display: inline;
-            }
-        }
-    }
-    @include  media-breakpoint-up("md"){
-        line-height: 1.5em;    
-        padding:15px 0;
     }
 }
-*/
