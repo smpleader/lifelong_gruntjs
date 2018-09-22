@@ -2,6 +2,12 @@
 //
 // Generate semantic grid columns with these mixins.
 
+@mixin make-container-fluid() {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 @mixin make-container() {
   width: 100%;
   margin-right: auto;

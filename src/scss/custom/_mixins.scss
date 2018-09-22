@@ -19,37 +19,40 @@
     color: $white;
     background-color: $site-cyan;
 }
-@mixin module-title{
+@mixin bebasneue-title{
     text-align: center;
     font-family: 'BebasNeue';
 }
-@mixin module-title-green{
-    @include module-title();
+@mixin bebasneue-title-green{
+    @include bebasneue-title();
     color: $site-green;
 }
-@mixin module-title-brown{
-    @include module-title();
+@mixin bebasneue-title-brown{
+    @include bebasneue-title();
     color: $site-brown;
 }
-@mixin topic-title{
+@mixin bebasneue-title-cyan{
+    @include bebasneue-title();
+    color: $site-cyan;
+}
+@mixin nickainley-title{
     text-align: center;
     font-family: 'Nickainley'; 
 }
-@mixin topic-title-green{
-    @include topic-title();
+@mixin nickainley-title-green{
+    @include nickainley-title();
     color: $site-green;
 }
-@mixin topic-title-brown{
-    @include topic-title();
+@mixin nickainley-title-brown{
+    @include nickainley-title();
     color: $site-brown;
 }
-@mixin sub-title{
-    color: $site-brown;
-    text-align: center;
+@mixin nickainley-title-cyan{
+    @include nickainley-title();
+    color: $site-cyan;
 }
 @mixin btn-default{
     border-radius: 5px;
-    font-family: "OpenSans Bold";
     &:hover{
         text-decoration: none;
         color:$white;

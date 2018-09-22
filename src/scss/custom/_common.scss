@@ -1,18 +1,24 @@
-.btn{
+/*.btn{
     @include btn-bold();
     min-height: 45px;    
 }
 .btn.italic{
     @include btn-bitalic();
     min-height: 45px;    
-}
+}*/
 .btn.green{
     @include bg-green();
 }
 .btn.brown{
     @include bg-brown();
 }
-.btn-link{
+.btn-bitalic-green{
+    @include btn-bitalic();
+    @include color-green();
+}
+.sub-title-brown{
+}
+/*.btn-link{
     font-family: 'OpenSans BoldItalic'; 
     color: $site-green;
     text-decoration: underline;
@@ -20,4 +26,4 @@
         text-decoration: none;
         color: $site-green;
     }
-}
+}*/
