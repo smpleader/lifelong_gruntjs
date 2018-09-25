@@ -34,8 +34,11 @@ $(document).ready(function(){
         slide:"li",
         responsive: [
             {
-                breakpoint: 480,
+                breakpoint: 360,
                 settings: {
+                    prevArrow:'',
+                    nextArrow:'',
+                    autoplay:true,
                     slidesPerRow:1,
                     slidesToShow:1,
                 }

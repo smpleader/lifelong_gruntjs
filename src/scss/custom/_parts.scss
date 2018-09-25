@@ -1,5 +1,6 @@
-#navigation{
+#sitetop{
     padding: 5px 0 0;
+    background:#fff;
     @include media-breakpoint-up("md"){
         padding: 15px 0 0;
     }
@@ -17,7 +18,7 @@
     }
     h1{ 
         display: inline-block;
-        margin: 0 0 0 60px;
+        margin: 0 0 0 20px;
         @include media-breakpoint-up("md"){
             margin: 0 0 0 25px;
         }
@@ -293,7 +294,12 @@
     }
     .congrat{
         color:$site-brown;
-        font-family: 'OpenSans Italic'; 
+        font-family: 'OpenSans Italic';
+        br{
+            @include media-breakpoint-up("lg"){
+                display: none;
+            }
+        }
     }
 }
 #lifelong-union{
@@ -312,6 +318,9 @@
     }
     .link-white{
         font-size: 1em;
+        span{
+            font-size: 1em;
+        }
     }
 }
 #adoption-stories{
@@ -439,15 +448,15 @@
             display: inline-block;
             float:right;
         }
-        img{
-            max-width: 200px;
-            margin:20px auto 0;           
-            @include  media-breakpoint-up("md"){
-                max-width: 290px;
-            }           
-            @include  media-breakpoint-up("lg"){
-                max-width: 450px;
-            }
+    }
+    img#img-content{
+        max-width: 300px;
+        margin:20px auto 0;
+        @include  media-breakpoint-up("md"){
+            max-width: 290px;
+        }           
+        @include  media-breakpoint-up("lg"){
+            max-width: 450px;
         }
     }
     .readmore{
@@ -482,7 +491,8 @@
     .member-logos{
         padding: 0 0;
         margin-bottom: 25px;
-        list-style-type:none; 
+        list-style-type:none;
+        overflow: hidden;
         li{
             text-align: center;
             .img-res{
@@ -539,10 +549,16 @@
     .social-icons{
         display: table;
         margin:0 auto 45px;
-        width: 320px;
+        width: 300px;
         li{
             display: table-cell;
-            text-align: center;             
+            text-align: center;
+            img{
+                width:50px;
+                @include  media-breakpoint-up("md"){
+                    width: auto;
+                }
+            }       
         }
         @include  media-breakpoint-up("md"){
             margin:0 auto 55px;
