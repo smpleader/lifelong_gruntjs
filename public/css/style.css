@@ -7264,7 +7264,10 @@ a.text-dark:hover, a.text-dark:focus {
 #foot-free-app {
   color: #fff;
   background-color: #34aba7;
-  padding: 15px 0; }
+  padding: 15px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%; }
   #foot-free-app .strong {
     font-family: "OpenSans Bold"; }
   #foot-free-app .btn-brown {
