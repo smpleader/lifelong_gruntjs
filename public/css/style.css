@@ -7047,16 +7047,22 @@ a.text-dark:hover, a.text-dark:focus {
     #navigation .mp-menu ul li .contact .firstline span {
       color: #34aba7; }
   #navigation .mp-menu ul li .contact .btn-contact {
+    font-family: 'OpenSans Semibold';
+    font-size: 1rem;
     color: #56330e;
     border-color: #56330e;
     border-radius: 10px;
     border-width: 1px;
     border-style: solid;
     display: inline-block;
-    padding: 10px 17px;
+    padding: 10px 10px;
     text-transform: capitalize; }
     #navigation .mp-menu ul li .contact .btn-contact:last-child {
-      margin-left: 20px; }
+      margin-left: 10px; }
+      @media (min-width: 768px) {
+        #navigation .mp-menu ul li .contact .btn-contact:last-child {
+          margin-left: 20px;
+          padding: 10px 17px; } }
 
 #sitetop {
   padding: 5px 0 0;

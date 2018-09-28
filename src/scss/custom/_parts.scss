@@ -101,17 +101,22 @@
                     }
                 }
                 .btn-contact{
+                    font-family: 'OpenSans Semibold';
+                    font-size:1rem;
                     @include color-brown;
                     border-color:$site-brown;
                     border-radius: 10px;
                     border-width: 1px;
                     border-style: solid;
                     display: inline-block;
-                    padding: 10px 17px;
+                    padding: 10px 10px;
                     text-transform: capitalize;
-
                     &:last-child{
-                        margin-left: 20px;
+                        margin-left: 10px;
+                        @include media-breakpoint-up("md"){
+                            margin-left: 20px;
+                            padding: 10px 17px;
+                        }
                     }
                 }
             }
