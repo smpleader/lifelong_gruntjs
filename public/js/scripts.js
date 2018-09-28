@@ -291,21 +291,11 @@ if ( typeof define === 'function' && define.amd ) {
 						this._setTransform( 'translate3d(-100%,0,0) translate3d(' + -1*levelFactor + 'px,0,0)', levelEl );
 					}
 				}
-				// smpLeader calculate the height
-
-				//console.log(this.el.offsetHeight , this.el.scrollHeight );
-				//console.log( subLevel.offsetHeight , subLevel.scrollHeight  );
-				//if( this.el.scrollHeight > subLevel.scrollHeight){
-				////	subLevel.style.height = this.el.scrollHeight + "px";
-				//}
 			}
 			// add class mp-pushed to main wrapper if opening the first time
 			if( this.level === 1 ) {
 				classie.add( this.wrapper, 'mp-pushed' );
 				this.open = true;
-				// smpLeader reset the height, after go to subLevel
-				//console.log(this.el);
-				//this.el.style.height = "100%";
 			}
 			// add class mp-level-open to the opening level element
 			classie.add( subLevel || this.levels[0], 'mp-level-open' );
@@ -677,8 +667,7 @@ $(document).ready(function(){
     var max_h = 0;
     $(".mp-menu .mp-level").each(function(){
         if($(this).prop('scrollHeight') > max_h) max_h = $(this).prop('scrollHeight');
-        console.log($(this).prop('scrollHeight'));
-    });console.log(max_h);
+    });
     $(".mp-menu .mp-level").each(function(){
         $(this).css('height', max_h);
     });
