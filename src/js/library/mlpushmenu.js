@@ -8,6 +8,8 @@
  * 
  * Copyright 2013, Codrops
  * http://www.codrops.com
+ * 
+ * smpLeader added more lines
  */
 ;( function( window ) {
 	
@@ -58,9 +60,10 @@
 		return e.parentNode && closest( e.parentNode, classname );
 	}
 
-	function mlPushMenu( el, trigger, options ) {	
+	function mlPushMenu( el, trigger, container, options ) {	
 		this.el = el;
 		this.trigger = trigger;
+		this.container = container;
 		this.options = extend( this.defaults, options );
 		// support 3d transforms
 		this.support = Modernizr.csstransforms3d;
@@ -84,7 +87,7 @@
 			this.open = false;
 			// level depth
 			this.level = 0;
-			// the moving wrapper
+			// the moving wrapper // smpLeader: we should pick this into a structure
 			this.wrapper = document.getElementById( 'mp-pusher' );
 			// the mp-level elements
 			this.levels = Array.prototype.slice.call( this.el.querySelectorAll( 'div.mp-level' ) );
@@ -116,9 +119,11 @@
 				ev.stopPropagation();
 				ev.preventDefault();
 				if( self.open ) {
+					//classie.remove( this.wrapper, 'mp-pushed' );
 					self._resetMenu();
 				}
 				else {
+					//classie.add( this.wrapper, 'mp-pushed' );
 					self._openMenu();
 					// the menu should close if clicking somewhere on the body (excluding clicks on the menu)
 					document.addEventListener( self.eventtype, function( ev ) {
@@ -173,6 +178,8 @@
 			} );	
 		},
 		_openMenu : function( subLevel ) {
+			
+			this.container.style.width = "100%";
 			// increment level depth
 			++this.level;
 
@@ -192,22 +199,34 @@
 						this._setTransform( 'translate3d(-100%,0,0) translate3d(' + -1*levelFactor + 'px,0,0)', levelEl );
 					}
 				}
+				// smpLeader calculate the height
+
+				console.log(this.el.offsetHeight , this.el.scrollHeight );
+				console.log( subLevel.offsetHeight , subLevel.scrollHeight  );
+				if( this.el.scrollHeight > subLevel.scrollHeight){
+					subLevel.style.height = this.el.scrollHeight + "px";
+				}
 			}
 			// add class mp-pushed to main wrapper if opening the first time
 			if( this.level === 1 ) {
 				classie.add( this.wrapper, 'mp-pushed' );
 				this.open = true;
+				// smpLeader reset the height, after go to subLevel
+				console.log(this.el);
+				//this.el.style.height = "100%";
 			}
 			// add class mp-level-open to the opening level element
 			classie.add( subLevel || this.levels[0], 'mp-level-open' );
 		},
 		// close the menu
+		//smpLeader add a line to hide a popup
 		_resetMenu : function() {
 			this._setTransform('translate3d(0,0,0)');
 			this.level = 0;
 			// remove class mp-pushed from main wrapper
 			classie.remove( this.wrapper, 'mp-pushed' );
 			this._toggleLevels();
+			this.container.style.width = "0%";
 			this.open = false;
 		},
 		// close sub menus

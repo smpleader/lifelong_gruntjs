@@ -35,6 +35,7 @@ module.exports = function (grunt) {
         src: [
           'src/js/jquery/*.js',
           'src/js/bootstrap/bootstrap.min.js',
+          'src/js/library/*.js',
           'src/js/custom/*.js'
         ],
         dest: 'public/js/scripts.js',

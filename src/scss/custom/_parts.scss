@@ -1,3 +1,123 @@
+#navigation{
+    .mp-menu{        
+        h2{
+            border-bottom: 1px solid #ece7e2;
+        }
+        ul li{
+            .green-banner{
+               @include bg-green();               
+            }
+            .cyan-banner{
+               @include bg-cyan();
+            }
+            .green-banner,
+            .cyan-banner{
+                padding: 1.25rem 0;
+                border-bottom: 1px solid #ece7e2;
+                &:after{
+                    clear: both;
+                    content: "";
+                    display: table;
+                }
+                @include media-breakpoint-up("md"){
+                    padding: 1.5rem 1rem;
+                }
+                img{
+                    width: 70px;
+                    margin-right:20px;
+                    float: left;
+                    @include media-breakpoint-up("md"){
+                        width: 83px;
+                    }
+                }
+                h3{
+                    @include oswald-title(left);
+                    font-size: 1.375rem;
+                    @include media-breakpoint-up("md"){
+                        font-size: 1.5rem;
+                    }
+                }
+                .desc{
+                    font-family: 'Oswald Light';
+                    font-size: 1rem; 
+                    @include media-breakpoint-up("md"){
+                        font-size: 1.06rem;
+                    }
+                }
+            }
+            &.has-child{
+                border-bottom: 1px solid #ece7e2;
+                background: url(../images/menu-arr-item.png) no-repeat center right;
+                & > a{
+                    @include bebasneue-title-brown(left);
+                    font-size:1.6875rem;
+                    padding: 0.5rem 1rem;
+                    @include media-breakpoint-up("md"){
+                        font-size: 1.875rem;
+                    }
+                }
+            }
+            a{
+                @include color-cyan();
+                font-size:1.0625rem;
+                padding:0.5rem  1rem;
+                font-family: 'OpenSans Bold'; 
+            }
+            .mp-back{
+                @include bebasneue-title(left);
+                @include bg-cyan();
+                font-size:1.6875rem;
+                padding: 0.5rem 1rem 0.5rem 2.8rem;
+                line-height: 2.63rem;
+                background-image :url(../images/menu-back.png);
+                background-repeat: no-repeat;
+                background-position:  1rem center;
+                margin-bottom:15px;
+                @include media-breakpoint-up("md"){
+                    font-size: 1.875rem;
+                }
+
+            }
+            .contact{
+                background: #eae5e2;
+                padding:1rem ;
+                h3{
+                    font-family: 'Oswald Bold';
+                    font-size: 1.25rem;
+                    @include color-brown();
+                    @include media-breakpoint-up("md"){
+                        font-size: 1.31rem;
+                    }
+                }
+                .firstline{
+                    font-family: Oswald;
+                    font-size: 1rem;
+                    @include color-brown();
+                    @include media-breakpoint-up("md"){
+                        font-size: 1.1rem;
+                    }
+                    span{
+                        @include color-cyan();
+                    }
+                }
+                .btn-contact{
+                    @include color-brown;
+                    border-color:$site-brown;
+                    border-radius: 10px;
+                    border-width: 1px;
+                    border-style: solid;
+                    display: inline-block;
+                    padding: 10px 17px;
+                    text-transform: capitalize;
+
+                    &:last-child{
+                        margin-left: 20px;
+                    }
+                }
+            }
+        }
+    } 
+}
 #sitetop{
     padding: 5px 0 0;
     background:#fff;
@@ -8,6 +128,7 @@
         vertical-align: top;
     }
     .btn-menu{ 
+        cursor: pointer;
         display: inline-block;
         height: 50px;
         line-height: 50px;
