@@ -702,6 +702,28 @@ $(document).ready(function(){
             }
         ]
     });
+    $(".slick-waiting-families").slick({
+        autoplay:false,
+        centerPadding: "15px",
+        slidesToShow:4,
+        slide:".item",
+        prevArrow:"<a class=\"slick-nav prev\"></a>",
+        nextArrow: "<a class=\"slick-nav next\"></a>",
+        responsive: [
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow:1
+                }
+            },
+            {
+                breakpoint: 780,
+                settings: {
+                    slidesToShow:3
+                }
+            }
+        ]
+    });
     $(".member-logos").slick({
         autoplay:false,         
         slidesToShow:5,
@@ -741,6 +763,8 @@ $(document).ready(function(){
       topSpacing:0,
       zIndex:1
     });
+    // push footer up to stop hide content
+    $("footer").css("margin-bottom","45px");
   });;
 $(document).ready(function(){
     $(document).on("mouseenter tap click","#top-readmores .green",function(){

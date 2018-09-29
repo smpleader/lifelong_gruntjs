@@ -1,238 +1,7 @@
-#navigation{
-    .mp-menu{        
-        h2{
-            border-bottom: 1px solid #ece7e2;
-        }
-        ul li{
-            .green-banner{
-               @include bg-green();               
-            }
-            .cyan-banner{
-               @include bg-cyan();
-            }
-            .green-banner,
-            .cyan-banner{
-                padding: 1.25rem 0;
-                border-bottom: 1px solid #ece7e2;
-                &:after{
-                    clear: both;
-                    content: "";
-                    display: table;
-                }
-                @include media-breakpoint-up("md"){
-                    padding: 1.5rem 1rem;
-                }
-                img{
-                    width: 70px;
-                    margin-right:20px;
-                    float: left;
-                    @include media-breakpoint-up("md"){
-                        width: 83px;
-                    }
-                }
-                h3{
-                    @include oswald-title(left);
-                    font-size: 1.375rem;
-                    @include media-breakpoint-up("md"){
-                        font-size: 1.5rem;
-                    }
-                }
-                .desc{
-                    font-family: 'Oswald Light';
-                    font-size: 1rem; 
-                    @include media-breakpoint-up("md"){
-                        font-size: 1.06rem;
-                    }
-                }
-            }
-            &.has-child{
-                border-bottom: 1px solid #ece7e2;
-                background: url(../images/menu-arr-item.png) no-repeat center right;
-                & > a{
-                    @include bebasneue-title-brown(left);
-                    font-size:1.6875rem;
-                    padding: 0.5rem 1rem;
-                    @include media-breakpoint-up("md"){
-                        font-size: 1.875rem;
-                    }
-                }
-            }
-            a{
-                @include color-cyan();
-                font-size:1.0625rem;
-                padding:0.5rem  1rem;
-                font-family: 'OpenSans Bold'; 
-            }
-            .mp-back{
-                @include bebasneue-title(left);
-                @include bg-cyan();
-                font-size:1.6875rem;
-                padding: 0.5rem 1rem 0.5rem 2.8rem;
-                line-height: 2.63rem;
-                background-image :url(../images/menu-back.png);
-                background-repeat: no-repeat;
-                background-position:  1rem center;
-                margin-bottom:15px;
-                @include media-breakpoint-up("md"){
-                    font-size: 1.875rem;
-                }
-
-            }
-            .contact{
-                background: #eae5e2;
-                padding:1rem ;
-                h3{
-                    font-family: 'Oswald Bold';
-                    font-size: 1.25rem;
-                    @include color-brown();
-                    @include media-breakpoint-up("md"){
-                        font-size: 1.31rem;
-                    }
-                }
-                .firstline{
-                    font-family: Oswald;
-                    font-size: 1rem;
-                    @include color-brown();
-                    @include media-breakpoint-up("md"){
-                        font-size: 1.1rem;
-                    }
-                    span{
-                        @include color-cyan();
-                    }
-                }
-                .btn-contact{
-                    font-family: 'OpenSans Semibold';
-                    font-size:1rem;
-                    @include color-brown;
-                    border-color:$site-brown;
-                    border-radius: 10px;
-                    border-width: 1px;
-                    border-style: solid;
-                    display: inline-block;
-                    padding: 10px 10px;
-                    text-transform: capitalize;
-                    &:last-child{
-                        margin-left: 10px;
-                        @include media-breakpoint-up("md"){
-                            margin-left: 20px;
-                            padding: 10px 17px;
-                        }
-                    }
-                }
-            }
-        }
-    } 
-}
-#sitetop{
-    padding: 5px 0 0;
-    background:#fff;
-    @include media-breakpoint-up("md"){
-        padding: 15px 0 0;
-    }
-    .col-xs-12{
-        vertical-align: top;
-    }
-    .btn-menu{ 
-        cursor: pointer;
-        display: inline-block;
-        height: 50px;
-        line-height: 50px;
-        img{
-            vertical-align: top;
-            margin: 5px 0 0;
-        }
-    }
-    h1{ 
-        display: inline-block;
-        margin: 0 0 0 20px;
-        @include media-breakpoint-up("md"){
-            margin: 0 0 0 25px;
-        }
-    }
-    ul.top-links{
-        display: none;
-        @include media-breakpoint-up("xl"){
-            display:block;
-            float: right;
-            margin:5px 0 0;
-            li{
-                display: inline;
-                height: 50px;
-                line-height: 50px;
-                margin-right: 40px;
-                a{
-                    color:$site-brown;
-                }
-            }
-        }
-    }
-    .top-phone{
-        display: none;
-        @include media-breakpoint-up("lg"){
-            display: block;
-            float: right;
-            min-height: 50px;
-            padding: 0;
-            font-size: 2rem;
-            @include bebasneue-title-cyan();
-            margin:5px 30px 0 0; 
-        }
-    }
-    a.btn-free-app{
-        display: none;
-        @include media-breakpoint-up("md"){
-            display: block;
-            float: right;
-            @include bg-green();
-            @include btn-bold();
-            border: 0;
-            min-height: 42px;
-            padding:0 25px;
-            margin:5px 15px 0 0;
-            line-height: 42px;
-            &:hover{
-                text-decoration: none;
-            }
-        }
-    }
-    .btn-bbb{
-        display: block;
-        float: right;
-        img{
-        }
-    }
-}
+/* homepage */
 #header-slider{
     .slick-header{
-        .slick-nav{
-            display: none;         
-            @include media-breakpoint-up("md"){
-                position: absolute;
-                display: block;
-                width: 25px;
-                height: 35px;
-                top:210px;
-                cursor: pointer;
-            }      
-            @include media-breakpoint-up("xl"){
-                top:270px;
-            }
-        }
-        .prev{
-            left: 25px;
-            background: url(../images/arrPrev.png) no-repeat center center;
-        }
-        .next{
-            right: 25px;
-            background: url(../images/arrNext.png) no-repeat center center;
-        }
         .item{
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center center;
-            color: $white;
-            text-align: center;
-            position: relative;
             .content{
                 min-height: 350px;            
                 @include media-breakpoint-up("md"){
@@ -297,7 +66,7 @@
                     display: none;
                 }
             }
-        } 
+        }
     }
 }
 #top-readmores{
@@ -636,142 +405,149 @@
         }
     }
 }
-#connections{
-    @include bg-green();
-    padding: 35px 0 65px;
-    font-size: 0.94rem;
-    @include  media-breakpoint-up("md"){
-        padding: 30px 0 40px;
-    }
-    @include  media-breakpoint-up("lg"){
-        padding: 45px 0;
-    }
-    h3{
-        &.foot-logo{
-            text-align: center;
-            margin-bottom: 20px;
-            @include  media-breakpoint-up("lg"){
-                text-align: left;
-            }
-        }
-        &.module-title{
-            display: none;
-            @include  media-breakpoint-up("md"){
-                @include bebasneue-title('left');
-                font-size: 1.125rem;
-                display: block;
-            }
-        }
-    }
-    .about-us{
-        font-family: 'OpenSans Italic';
-        font-size:0.93rem;
-        text-align: center;
-        margin-bottom: 30px;
-        @include  media-breakpoint-up("lg"){
-            text-align: left;
-        }
-    }
-    .social-icons{
-        display: table;
-        margin:0 auto 45px;
-        width: 300px;
-        li{
-            display: table-cell;
-            text-align: center;
-            img{
-                width:50px;
-                @include  media-breakpoint-up("md"){
-                    width: auto;
+/* page pergnament */
+#header-slider{
+    .slick-header{
+        .item{
+            .cyan-title{
+                @include bebasneue-title-cyan();
+                font-size: 5.25rem;
+                padding-top:15px;
+                @include media-breakpoint-up("md"){
+                    padding-top:70px;
+                    font-size: 6.75rem;
                 }
-            }       
-        }
-        @include  media-breakpoint-up("md"){
-            margin:0 auto 55px;
-        }
-        @include  media-breakpoint-up("lg"){
-            width: 340px;
-            margin:20px 0 0px;            
-        }        
-    }
-    ul{
-        margin: 0 0;
-        padding: 0 0;
-        list-style-type:none;
-        li{
-            a{
-                color:#fff;
+                @include media-breakpoint-up("xl"){
+                    padding-top:93px;
+                    font-size: 9rem;
+                }
+            }
+            .brown-title{
+                font-size: 1.875rem;
+                @include nickainley-title-brown();
+                @include media-breakpoint-up("md"){ 
+                    font-size: 2.4375rem;
+                }
+                @include media-breakpoint-up("xl"){ 
+                    font-size: 3.4375rem;
+                }
             }
         }
     }
-    .addresss{
-        margin: 0;
-        dt{
-            width: 80px;
-            float: left;
+}
+#waiting-families{
+    padding:40px 0;
+    background: #f6f5f3;
+    .topic-title{
+        margin-bottom:25px;
+        @include nickainley-title-brown();
+        font-size:2.88rem;
+        @include media-breakpoint-up("md"){
+            font-size:3rem;
         }
-        dd{
-            margin-left:80px;
+        @include media-breakpoint-up("lg"){
+            font-size:3.2rem;
+        }
+    }
+    .item{
+        background: #fff;
+        padding: 5px 5px 20px 5px ;
+        margin: 0 7px;
+        min-height: 360px;
+        text-align: center;
+        @include color-brown;
+        img{ 
+            margin: 0 auto 20px;
+            width:100%;
+        }
+        h3{
+            font-size: 1.75rem;
+            font-family: 'Oswald';
+            margin-bottom: 20px;
+        }
+        .desc{ }
+    }
+    .btn-green{
+        padding: 10px 30px;
+        margin:28px auto 0;
+        display: inline-block;
+        color:#fff;
+        &:hover{
+            color:#fff;
+            text-decoration: none;
         }
     }
 }
-#privacy-terms{
-    color:#b0a69d;
-    background:#f7f5f2;
-    font-size:0.75rem;
-    padding: 35px 0 60px;
-    .detail{
-        margin:25px auto 0;
-        max-width: 320px;
-        @include  media-breakpoint-up("md"){
-            max-width: 740px;
+#first-talk{
+    padding:25px 0 45px;
+    .heart-item{
+        padding: 0px 0 0px 75px;
+        min-height: 65px;
+        margin:15px 0 35px;
+        background: url(../images/list-item-heart.png) no-repeat top left;
+        @include media-breakpoint-up("md"){
+            padding-top:10px;
+            background-position: center left;
         }
-        @include  media-breakpoint-up("lg"){
-            max-width: 1068px;
+    }
+}
+#birthparent-form{
+    padding:40px 0 50px;
+    @include media-breakpoint-up("md"){
+        padding:45px 0 55px;
+    }
+    @include media-breakpoint-up("lg"){
+        padding:75px 0 60px;
+    } 
+    .topic-title{
+        margin:10px 0 10px;
+        @include bebasneue-title-cyan;
+        font-size:2.4375rem;
+        @include media-breakpoint-up("md"){
+            font-size:2.875rem;
+            margin:40px 0 15px;
         }
-        a{
-            color:#b0a69d;
-            text-decoration: underline;
-            &:hover{
-                color:#b0a69d;
+        @include media-breakpoint-up("lg"){
+            font-size:3rem;
+            margin:45px 0 15px;
+        }
+    }
+    .bold{
+        padding-bottom:30px;
+        margin-bottom: 0;
+    }
+    .box-brown-head-right,
+    .box-brown-content-right,
+    .box-brown-foot-right{
+        max-width: 100%;
+        margin: 0 auto;
+        @include media-breakpoint-up("md"){
+            max-width: 768px;
+        }
+        @include media-breakpoint-up("lg"){
+            max-width: 1024px;
+        }
+    }
+    .box-brown-content{
+        padding-top:25px;
+        padding-bottom:25px;
+    }
+    .wrapper{
+        @include media-breakpoint-up("md"){
+            padding:0 30px;
+        }
+        @include media-breakpoint-up("lg"){
+            padding:0 85px;
+        }
+        label{
+            @include color-brown;
+            &.custom-control-label{
+                color:$gray-900;
             }
         }
-        p:last-child{
-            margin: 0;
-        }
-    }
-    @include  media-breakpoint-up("md"){
-        padding: 35px 0 40px;
-    }
-    @include  media-breakpoint-up("lg"){
-        padding: 25px 0 60px;
-    }
-    br{
-        @include  media-breakpoint-up("md"){
-            display: none;
-        }
-    }
-}
-#foot-free-app{
-    @include bg-cyan();
-    padding: 15px 0;
-    position: fixed;
-    bottom:0;
-    width: 100%;
-    .strong{
-        font-family: "OpenSans Bold";
-    }
-    .btn-brown{
-        display: none;
-        @include  media-breakpoint-up("lg"){
-            margin-left:25px;
-            display: inline-block;
-            padding:10px 20px;
-        }
-    }
-    .link-white{
-        @include  media-breakpoint-up("lg"){
-            display: none;
+        .btn-green{
+            margin:0 auto 25px;
+            padding:15px 35px;
         }
     }
 }

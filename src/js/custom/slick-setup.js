@@ -28,6 +28,28 @@ $(document).ready(function(){
             }
         ]
     });
+    $(".slick-waiting-families").slick({
+        autoplay:false,
+        centerPadding: "15px",
+        slidesToShow:4,
+        slide:".item",
+        prevArrow:"<a class=\"slick-nav prev\"></a>",
+        nextArrow: "<a class=\"slick-nav next\"></a>",
+        responsive: [
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow:1
+                }
+            },
+            {
+                breakpoint: 780,
+                settings: {
+                    slidesToShow:3
+                }
+            }
+        ]
+    });
     $(".member-logos").slick({
         autoplay:false,         
         slidesToShow:5,
