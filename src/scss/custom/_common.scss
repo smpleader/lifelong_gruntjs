@@ -39,10 +39,13 @@ button{
 .bold-italic{
     font-family: 'OpenSans BoldItalic'; 
 }
-span.cyan{
+.cyan{
     @include color-cyan;
 }
-/* box brown */
+.green{
+    @include color-green;
+}
+/* -- box brown -- */
 /* height limit of box head: 410px */
 .box-brown-head{
     background: url(../images/brown-t-m.png) repeat top center;
@@ -91,4 +94,64 @@ span.cyan{
     background: url(../images/brown-f-r.png) no-repeat bottom right;
     padding-right:30px;
 }
-/* box gray */
+/* -- box cyan -- */
+/* height limit of box head: 410px */
+.box-cyan-head{
+    background: url(../images/cyan-t-m.png) repeat top center;
+    padding: 20px 10px 0;
+    @include media-breakpoint-up("md"){
+        padding:20px 20px 0;
+    }
+}
+.box-cyan-head-left{
+    background: url(../images/cyan-t-l.png) no-repeat top left;
+    padding-left:30px;
+}
+.box-cyan-head-right{
+    background: url(../images/cyan-t-r.png) no-repeat top right;
+    padding-right:30px;
+}
+.box-cyan-content{
+    background: #9bd5d3;
+    padding: 0px 10px 0;
+    @include media-breakpoint-up("md"){
+        padding:0px 20px 0;
+    }
+}
+.box-cyan-content-left{
+    background: url(../images/cyan-m-l.png) repeat-y top left;
+    padding-left:30px;
+}
+.box-cyan-content-right{
+    background: url(../images/cyan-m-r.png) repeat-y top right;
+    padding-right:30px;
+
+}
+/* height limit of box foot: 410px */
+.box-cyan-foot{
+    background: url(../images/cyan-f-m.png) repeat bottom center;
+    padding: 0px 10px 20px;
+    @include media-breakpoint-up("md"){
+        padding:0px 20px 20px;
+    }
+}
+.box-cyan-foot-left{
+    background: url(../images/cyan-f-l.png) no-repeat bottom left;
+    padding-left:30px;
+}
+.box-cyan-foot-right{
+    background: url(../images/cyan-f-r.png) no-repeat bottom right;
+    padding-right:30px;
+}
+/* breadcrumbs */
+.breadcrumbs{
+    font-size: .875rem;
+    word-spacing:5px;
+    a{
+       color:#fff;
+    }
+    span.current{
+        font-family: 'OpenSans Bold';
+        word-spacing:1px;
+    }
+}

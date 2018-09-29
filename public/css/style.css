@@ -6953,10 +6953,13 @@ button {
 .bold-italic {
   font-family: 'OpenSans BoldItalic'; }
 
-span.cyan {
+.cyan {
   color: #34aba7; }
 
-/* box brown */
+.green {
+  color: #97bf65; }
+
+/* -- box brown -- */
 /* height limit of box head: 410px */
 .box-brown-head {
   background: url(../images/brown-t-m.png) repeat top center;
@@ -7004,7 +7007,64 @@ span.cyan {
   background: url(../images/brown-f-r.png) no-repeat bottom right;
   padding-right: 30px; }
 
-/* box gray */
+/* -- box cyan -- */
+/* height limit of box head: 410px */
+.box-cyan-head {
+  background: url(../images/cyan-t-m.png) repeat top center;
+  padding: 20px 10px 0; }
+  @media (min-width: 768px) {
+    .box-cyan-head {
+      padding: 20px 20px 0; } }
+
+.box-cyan-head-left {
+  background: url(../images/cyan-t-l.png) no-repeat top left;
+  padding-left: 30px; }
+
+.box-cyan-head-right {
+  background: url(../images/cyan-t-r.png) no-repeat top right;
+  padding-right: 30px; }
+
+.box-cyan-content {
+  background: #9bd5d3;
+  padding: 0px 10px 0; }
+  @media (min-width: 768px) {
+    .box-cyan-content {
+      padding: 0px 20px 0; } }
+
+.box-cyan-content-left {
+  background: url(../images/cyan-m-l.png) repeat-y top left;
+  padding-left: 30px; }
+
+.box-cyan-content-right {
+  background: url(../images/cyan-m-r.png) repeat-y top right;
+  padding-right: 30px; }
+
+/* height limit of box foot: 410px */
+.box-cyan-foot {
+  background: url(../images/cyan-f-m.png) repeat bottom center;
+  padding: 0px 10px 20px; }
+  @media (min-width: 768px) {
+    .box-cyan-foot {
+      padding: 0px 20px 20px; } }
+
+.box-cyan-foot-left {
+  background: url(../images/cyan-f-l.png) no-repeat bottom left;
+  padding-left: 30px; }
+
+.box-cyan-foot-right {
+  background: url(../images/cyan-f-r.png) no-repeat bottom right;
+  padding-right: 30px; }
+
+/* breadcrumbs */
+.breadcrumbs {
+  font-size: .875rem;
+  word-spacing: 5px; }
+  .breadcrumbs a {
+    color: #fff; }
+  .breadcrumbs span.current {
+    font-family: 'OpenSans Bold';
+    word-spacing: 1px; }
+
 /* menu: for all pages */
 #navigation .mp-menu h2 {
   border-bottom: 1px solid #ece7e2; }
@@ -7920,6 +7980,53 @@ span.cyan {
   #birthparent-form .wrapper .btn-green {
     margin: 0 auto 25px;
     padding: 15px 35px; }
+
+/* page pergnant why to adoption */
+#breadcrumbs {
+  color: #fff;
+  background-color: #34aba7;
+  padding: 25px 0; }
+  #breadcrumbs .top-title {
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: 'BebasNeue'; }
+    @media (min-width: 768px) {
+      #breadcrumbs .top-title {
+        text-align: left;
+        font-size: 3.25rem; } }
+    @media (min-width: 992px) {
+      #breadcrumbs .top-title {
+        text-align: left;
+        font-size: 4rem; } }
+
+#top-banner .wrapper {
+  padding: 45px 0 105px; }
+  #top-banner .wrapper .bold {
+    padding: 0px 0 80px; }
+  #top-banner .wrapper .call {
+    text-align: center; }
+    #top-banner .wrapper .call .quote {
+      text-align: center;
+      font-family: 'Nickainley';
+      font-size: 1.875rem;
+      color: #fff;
+      margin-bottom: 15px; }
+      @media (min-width: 992px) {
+        #top-banner .wrapper .call .quote {
+          font-size: 2rem; } }
+    #top-banner .wrapper .call .sayer {
+      font-size: .9375rem;
+      color: #fff;
+      text-transform: uppercase;
+      margin-bottom: 40px; }
+    #top-banner .wrapper .call .btn-brown {
+      padding: 15px 30px;
+      color: #fff;
+      display: inline-block;
+      margin-bottom: 30px; }
+
+#content .green {
+  text-decoration: underline; }
 
 .test {
   font-family: BebasNeue; }

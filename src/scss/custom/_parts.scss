@@ -551,3 +551,59 @@
         }
     }
 }
+/* page pergnant why to adoption */
+#breadcrumbs{
+    @include bg-cyan;
+    padding: 25px 0;
+    .top-title{
+        font-size: 2.5rem;
+        @include bebasneue-title();
+        @include media-breakpoint-up("md"){
+            text-align: left;
+            font-size: 3.25rem;
+        }
+        @include media-breakpoint-up("lg"){
+            text-align: left;
+            font-size: 4rem;
+        }
+    }
+}
+#top-banner{
+    .wrapper{
+        padding:45px 0 105px;
+        .bold{
+            padding:0px 0 80px;
+        }
+        .call{
+            text-align: center;
+            .quote{
+                @include nickainley-title;
+                font-size: 1.875rem;
+                color:#fff;
+                margin-bottom:15px;
+                @include media-breakpoint-up("md"){
+                }
+                @include media-breakpoint-up("lg"){
+                    font-size: 2rem
+                }
+            }
+            .sayer{
+                font-size:.9375rem;
+                color:#fff;
+                text-transform: uppercase;
+                margin-bottom:40px;
+            }
+            .btn-brown{
+                padding: 15px 30px;
+                color:#fff;
+                display: inline-block;
+                margin-bottom:30px;
+            }
+        }
+    }
+}
+#content{
+    .green{
+        text-decoration: underline;
+    }
+}
