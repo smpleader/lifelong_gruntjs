@@ -7065,6 +7065,31 @@ button {
     font-family: 'OpenSans Bold';
     word-spacing: 1px; }
 
+/* text with svg for shade effective */
+.shader {
+  position: relative;
+  font-family: 'BebasNeue';
+  line-height: 5.0625rem;
+  font-size: 5.0625rem;
+  color: #34aba7;
+  text-align: left;
+  width: 60px;
+  height: 120px;
+  margin: 0 auto; }
+  @media (min-width: 768px) {
+    .shader {
+      font-size: 7.25rem;
+      line-height: 7.25rem;
+      float: left; } }
+  .shader .shade {
+    position: absolute;
+    opacity: .65;
+    top: 22px;
+    left: 0px; }
+    @media (min-width: 768px) {
+      .shader .shade {
+        top: 0px; } }
+
 /* menu: for all pages */
 #navigation .mp-menu h2 {
   border-bottom: 1px solid #ece7e2; }
@@ -8025,8 +8050,23 @@ button {
       display: inline-block;
       margin-bottom: 30px; }
 
-#content .green {
-  text-decoration: underline; }
+#content {
+  padding: 25px 0; }
+  #content .green {
+    text-decoration: underline; }
+  #content .box {
+    margin-bottom: 25px; }
+    @media (min-width: 768px) {
+      #content .box:nth-child(even) {
+        margin-left: 30px; } }
+    #content .box h3 {
+      text-align: left;
+      font-family: 'Oswald';
+      color: #34aba7;
+      font-size: 1.4375rem; }
+    #content .box p {
+      margin: 0;
+      padding-bottom: 20px; }
 
 .test {
   font-family: BebasNeue; }

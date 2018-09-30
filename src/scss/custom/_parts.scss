@@ -603,7 +603,24 @@
     }
 }
 #content{
+    padding:25px 0 ;
     .green{
         text-decoration: underline;
+    }
+    .box{
+        margin-bottom:25px;
+        @include media-breakpoint-up("md"){
+            &:nth-child(even){
+                margin-left:30px;
+            }
+        }
+        h3{
+            @include oswald-title-cyan(left);
+            font-size: 1.4375rem;
+        }
+        p{
+            margin: 0;
+            padding-bottom: 20px;
+        }
     }
 }

@@ -39,6 +39,10 @@
     text-align: $align;
     font-family: 'Oswald'; 
 }
+@mixin oswald-title-cyan($align:$default_align){
+    @include oswald-title($align);
+    color: $site-cyan;
+}
 @mixin nickainley-title($align:$default_align){
     text-align: $align;
     font-family: 'Nickainley'; 

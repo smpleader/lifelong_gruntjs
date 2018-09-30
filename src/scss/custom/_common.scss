@@ -155,3 +155,34 @@ button{
         word-spacing:1px;
     }
 }
+/* text with svg for shade effective */
+.shader{
+    position: relative;
+    font-family: 'BebasNeue'; 
+    line-height: 5.0625rem; 
+    font-size:5.0625rem; 
+    @include color-cyan;
+    text-align: left;
+    width: 60px;
+    height: 120px;
+    margin:0 auto;
+    @include media-breakpoint-up("md"){
+        font-size:7.25rem;
+        line-height: 7.25rem;
+        float: left;
+    }
+    .shade{
+        position: absolute;
+        opacity: .65;
+        top:22px;
+        left:0px;
+        @include media-breakpoint-up("md"){
+            top:0px;
+        }
+    }
+    svg{
+        text{
+        }
+    }
+
+}
