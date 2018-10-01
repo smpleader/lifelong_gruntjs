@@ -6962,18 +6962,18 @@ button {
 /* -- box brown -- */
 /* height limit of box head: 410px */
 .box-brown-head {
-  background: url(../images/brown-t-m.png) repeat top center;
+  background: url(../images/brown-t-m.png) repeat top center !important;
   padding: 20px 10px 0; }
   @media (min-width: 768px) {
     .box-brown-head {
       padding: 20px 20px 0; } }
 
 .box-brown-head-left {
-  background: url(../images/brown-t-l.png) no-repeat top left;
+  background: url(../images/brown-t-l.png) no-repeat top left !important;
   padding-left: 30px; }
 
 .box-brown-head-right {
-  background: url(../images/brown-t-r.png) no-repeat top right;
+  background: url(../images/brown-t-r.png) no-repeat top right !important;
   padding-right: 30px; }
 
 .box-brown-content {
@@ -6984,44 +6984,44 @@ button {
       padding: 0px 20px 0; } }
 
 .box-brown-content-left {
-  background: url(../images/brown-m-l.png) repeat-y top left;
+  background: url(../images/brown-m-l.png) repeat-y top left !important;
   padding-left: 30px; }
 
 .box-brown-content-right {
-  background: url(../images/brown-m-r.png) repeat-y top right;
+  background: url(../images/brown-m-r.png) repeat-y top right !important;
   padding-right: 30px; }
 
 /* height limit of box foot: 410px */
 .box-brown-foot {
-  background: url(../images/brown-f-m.png) repeat bottom center;
+  background: url(../images/brown-f-m.png) repeat bottom center !important;
   padding: 0px 10px 20px; }
   @media (min-width: 768px) {
     .box-brown-foot {
       padding: 0px 20px 20px; } }
 
 .box-brown-foot-left {
-  background: url(../images/brown-f-l.png) no-repeat bottom left;
+  background: url(../images/brown-f-l.png) no-repeat bottom left !important;
   padding-left: 30px; }
 
 .box-brown-foot-right {
-  background: url(../images/brown-f-r.png) no-repeat bottom right;
+  background: url(../images/brown-f-r.png) no-repeat bottom right !important;
   padding-right: 30px; }
 
 /* -- box cyan -- */
 /* height limit of box head: 410px */
 .box-cyan-head {
-  background: url(../images/cyan-t-m.png) repeat top center;
+  background: url(../images/cyan-t-m.png) repeat top center !important;
   padding: 20px 10px 0; }
   @media (min-width: 768px) {
     .box-cyan-head {
       padding: 20px 20px 0; } }
 
 .box-cyan-head-left {
-  background: url(../images/cyan-t-l.png) no-repeat top left;
+  background: url(../images/cyan-t-l.png) no-repeat top left !important;
   padding-left: 30px; }
 
 .box-cyan-head-right {
-  background: url(../images/cyan-t-r.png) no-repeat top right;
+  background: url(../images/cyan-t-r.png) no-repeat top right !important;
   padding-right: 30px; }
 
 .box-cyan-content {
@@ -7032,27 +7032,27 @@ button {
       padding: 0px 20px 0; } }
 
 .box-cyan-content-left {
-  background: url(../images/cyan-m-l.png) repeat-y top left;
+  background: url(../images/cyan-m-l.png) repeat-y top left !important;
   padding-left: 30px; }
 
 .box-cyan-content-right {
-  background: url(../images/cyan-m-r.png) repeat-y top right;
+  background: url(../images/cyan-m-r.png) repeat-y top right !important;
   padding-right: 30px; }
 
 /* height limit of box foot: 410px */
 .box-cyan-foot {
-  background: url(../images/cyan-f-m.png) repeat bottom center;
+  background: url(../images/cyan-f-m.png) repeat bottom center !important;
   padding: 0px 10px 20px; }
   @media (min-width: 768px) {
     .box-cyan-foot {
       padding: 0px 20px 20px; } }
 
 .box-cyan-foot-left {
-  background: url(../images/cyan-f-l.png) no-repeat bottom left;
+  background: url(../images/cyan-f-l.png) no-repeat bottom left !important;
   padding-left: 30px; }
 
 .box-cyan-foot-right {
-  background: url(../images/cyan-f-r.png) no-repeat bottom right;
+  background: url(../images/cyan-f-r.png) no-repeat bottom right !important;
   padding-right: 30px; }
 
 /* breadcrumbs */
@@ -8025,11 +8025,22 @@ button {
         font-size: 4rem; } }
 
 #top-banner .wrapper {
-  padding: 45px 0 105px; }
+  padding: 45px 0 25px;
+  background-repeat: repeat-x;
+  background-position: -200px top; }
+  @media (min-width: 768px) {
+    #top-banner .wrapper {
+      background-position: top center;
+      padding: 45px 0 105px;
+      background-repeat: no-repeat; } }
   #top-banner .wrapper .bold {
     padding: 0px 0 80px; }
   #top-banner .wrapper .call {
-    text-align: center; }
+    text-align: center;
+    padding-top: 435px; }
+    @media (min-width: 768px) {
+      #top-banner .wrapper .call {
+        padding-top: 0px; } }
     #top-banner .wrapper .call .quote {
       text-align: center;
       font-family: 'Nickainley';
@@ -8060,10 +8071,15 @@ button {
       #content .box:nth-child(even) {
         margin-left: 30px; } }
     #content .box h3 {
-      text-align: left;
+      text-align: center;
       font-family: 'Oswald';
       color: #34aba7;
-      font-size: 1.4375rem; }
+      font-size: 1.4375rem;
+      text-align: center;
+      text-transform: uppercase; }
+      @media (min-width: 768px) {
+        #content .box h3 {
+          text-align: left; } }
     #content .box p {
       margin: 0;
       padding-bottom: 20px; }

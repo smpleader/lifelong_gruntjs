@@ -48,18 +48,18 @@ button{
 /* -- box brown -- */
 /* height limit of box head: 410px */
 .box-brown-head{
-    background: url(../images/brown-t-m.png) repeat top center;
+    background: url(../images/brown-t-m.png) repeat top center !important;
     padding: 20px 10px 0;
     @include media-breakpoint-up("md"){
         padding:20px 20px 0;
     }
 }
 .box-brown-head-left{
-    background: url(../images/brown-t-l.png) no-repeat top left;
+    background: url(../images/brown-t-l.png) no-repeat top left !important;
     padding-left:30px;
 }
 .box-brown-head-right{
-    background: url(../images/brown-t-r.png) no-repeat top right;
+    background: url(../images/brown-t-r.png) no-repeat top right !important;
     padding-right:30px;
 }
 .box-brown-content{
@@ -70,45 +70,45 @@ button{
     }
 }
 .box-brown-content-left{
-    background: url(../images/brown-m-l.png) repeat-y top left;
+    background: url(../images/brown-m-l.png) repeat-y top left !important;
     padding-left:30px;
 }
 .box-brown-content-right{
-    background: url(../images/brown-m-r.png) repeat-y top right;
+    background: url(../images/brown-m-r.png) repeat-y top right !important;
     padding-right:30px;
 
 }
 /* height limit of box foot: 410px */
 .box-brown-foot{
-    background: url(../images/brown-f-m.png) repeat bottom center;
+    background: url(../images/brown-f-m.png) repeat bottom center !important;
     padding: 0px 10px 20px;
     @include media-breakpoint-up("md"){
         padding:0px 20px 20px;
     }
 }
 .box-brown-foot-left{
-    background: url(../images/brown-f-l.png) no-repeat bottom left;
+    background: url(../images/brown-f-l.png) no-repeat bottom left !important;
     padding-left:30px;
 }
 .box-brown-foot-right{
-    background: url(../images/brown-f-r.png) no-repeat bottom right;
+    background: url(../images/brown-f-r.png) no-repeat bottom right !important;
     padding-right:30px;
 }
 /* -- box cyan -- */
 /* height limit of box head: 410px */
 .box-cyan-head{
-    background: url(../images/cyan-t-m.png) repeat top center;
+    background: url(../images/cyan-t-m.png) repeat top center !important;
     padding: 20px 10px 0;
     @include media-breakpoint-up("md"){
         padding:20px 20px 0;
     }
 }
 .box-cyan-head-left{
-    background: url(../images/cyan-t-l.png) no-repeat top left;
+    background: url(../images/cyan-t-l.png) no-repeat top left !important;
     padding-left:30px;
 }
 .box-cyan-head-right{
-    background: url(../images/cyan-t-r.png) no-repeat top right;
+    background: url(../images/cyan-t-r.png) no-repeat top right !important;
     padding-right:30px;
 }
 .box-cyan-content{
@@ -119,28 +119,28 @@ button{
     }
 }
 .box-cyan-content-left{
-    background: url(../images/cyan-m-l.png) repeat-y top left;
+    background: url(../images/cyan-m-l.png) repeat-y top left !important;
     padding-left:30px;
 }
 .box-cyan-content-right{
-    background: url(../images/cyan-m-r.png) repeat-y top right;
+    background: url(../images/cyan-m-r.png) repeat-y top right !important;
     padding-right:30px;
 
 }
 /* height limit of box foot: 410px */
 .box-cyan-foot{
-    background: url(../images/cyan-f-m.png) repeat bottom center;
+    background: url(../images/cyan-f-m.png) repeat bottom center !important;
     padding: 0px 10px 20px;
     @include media-breakpoint-up("md"){
         padding:0px 20px 20px;
     }
 }
 .box-cyan-foot-left{
-    background: url(../images/cyan-f-l.png) no-repeat bottom left;
+    background: url(../images/cyan-f-l.png) no-repeat bottom left !important;
     padding-left:30px;
 }
 .box-cyan-foot-right{
-    background: url(../images/cyan-f-r.png) no-repeat bottom right;
+    background: url(../images/cyan-f-r.png) no-repeat bottom right !important;
     padding-right:30px;
 }
 /* breadcrumbs */
