@@ -651,7 +651,7 @@
         line-height: 1.8;
         @include  media-breakpoint-up("md"){
             min-height: 255px;
-        }           
+        }
         @include  media-breakpoint-up("lg"){
             min-height: 185px;
         }
@@ -676,6 +676,25 @@
         }
         .btn-brown{
             padding: 15px 30px;
+        }
+    }
+}
+/* Financial assistance page */
+.financial-assistance{
+    #under-breadcrumbs{
+        @include bg-gray;
+        padding: 30px 0 60px;
+    }
+    #content{
+        .desc{
+            padding: 40px 0 70px;
+            h3{
+                @include nickainley-title-cyan(left);
+                font-size:1.75rem;
+                @include  media-breakpoint-up("md"){
+                    font-size:1.875rem;
+                }
+            }
         }
     }
 }
