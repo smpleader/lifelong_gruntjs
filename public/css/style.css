@@ -6898,7 +6898,7 @@ button {
 
 .btn-green {
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 10px;
   font-family: "OpenSans Bold";
   color: #fff;
   background-color: #97bf65; }
@@ -6908,7 +6908,7 @@ button {
 
 .btn-brown {
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 10px;
   font-family: "OpenSans Bold";
   color: #fff;
   background-color: #56330e; }
@@ -6918,7 +6918,7 @@ button {
 
 .btn-bitalic-green {
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 10px;
   font-family: "OpenSans BoldItalic";
   color: #97bf65; }
   .btn-bitalic-green:hover {
@@ -6955,9 +6955,13 @@ button {
 
 .cyan {
   color: #34aba7; }
+  .cyan:hover {
+    color: #34aba7; }
 
 .green {
   color: #97bf65; }
+  .green:hover {
+    color: #97bf65; }
 
 /* -- box brown -- */
 /* height limit of box head: 410px */
@@ -7217,6 +7221,7 @@ button {
           margin-left: 20px;
           padding: 10px 17px; } }
 
+/* top slider */
 #header-slider .slick-header .slick-nav {
   display: none; }
   @media (min-width: 768px) {
@@ -7315,7 +7320,7 @@ button {
         color: #fff;
         background-color: #97bf65;
         cursor: pointer;
-        border-radius: 5px;
+        border-radius: 10px;
         font-family: "OpenSans Bold";
         border: 0;
         min-height: 42px;
@@ -7330,6 +7335,11 @@ button {
   #sitetop .btn-bbb {
     display: block;
     float: right; }
+    #sitetop .btn-bbb img {
+      margin-top: 7px; }
+      @media (min-width: 768px) {
+        #sitetop .btn-bbb img {
+          margin-top: 0px; } }
 
 /* foot home page */
 #foot-free-app {
@@ -7544,7 +7554,7 @@ button {
     #header-slider .slick-header .item .btn-green,
     #header-slider .slick-header .item .btn-brown {
       cursor: pointer;
-      border-radius: 5px;
+      border-radius: 10px;
       font-family: "OpenSans Bold";
       display: block; }
       #header-slider .slick-header .item .btn-green:hover,
@@ -7587,7 +7597,7 @@ button {
     transition: visibility 0s, opacity 0.5s linear;
     text-align: center;
     display: none;
-    background: #f6f5f3;
+    background-color: #f6f5f3;
     min-height: 267px;
     padding: 25px 0 0; }
     #top-readmores .gray .desc {
@@ -7602,7 +7612,7 @@ button {
       border: none;
       padding: 0 15px;
       cursor: pointer;
-      border-radius: 5px;
+      border-radius: 10px;
       font-family: "OpenSans BoldItalic";
       color: #34aba7;
       text-decoration: underline;
@@ -7616,7 +7626,7 @@ button {
         #top-readmores .gray .btn-readmore {
           border: 2px solid #34aba7;
           cursor: pointer;
-          border-radius: 5px;
+          border-radius: 10px;
           font-family: "OpenSans Bold";
           min-height: 45px;
           padding: 9px 55px 0;
@@ -7679,7 +7689,7 @@ button {
     margin-bottom: 10px; }
   #recent-adopts .baby-img {
     padding: 5px;
-    background: #f6f5f3;
+    background-color: #f6f5f3;
     margin-bottom: 15px; }
   #recent-adopts .congrat {
     color: #56330e;
@@ -7708,7 +7718,7 @@ button {
       font-size: 1em; }
 
 #adoption-stories {
-  background: #f6f5f3;
+  background-color: #f6f5f3;
   text-align: center;
   padding: 60px 0 70px;
   color: #56330e; }
@@ -7781,7 +7791,6 @@ button {
     font-family: 'BebasNeue';
     color: #fff;
     background-color: #34aba7;
-    margin-bottom: 45px;
     font-size: 2.88rem; }
     @media (min-width: 768px) {
       #free-app h2.module-title {
@@ -7791,6 +7800,10 @@ button {
         font-size: 3.75rem; } }
   #free-app .desc {
     margin-bottom: 30px; }
+  #free-app .btn-brown {
+    padding: 15px 30px; }
+  #free-app h2.module-title {
+    margin-bottom: 45px; }
   #free-app .btn-brown {
     padding: 15px 80px; }
 
@@ -7832,7 +7845,7 @@ button {
         display: none; } }
 
 #members {
-  background: #f6f5f3;
+  background-color: #f6f5f3;
   padding: 40px 0 40px; }
   @media (max-width: 1365.98px) {
     #members {
@@ -7901,7 +7914,7 @@ button {
 
 #waiting-families {
   padding: 40px 0;
-  background: #f6f5f3; }
+  background-color: #f6f5f3; }
   #waiting-families .topic-title {
     margin-bottom: 25px;
     text-align: center;
@@ -8061,16 +8074,16 @@ button {
       display: inline-block;
       margin-bottom: 30px; }
 
-#content {
+.why-consider-adoption #content {
   padding: 25px 0; }
-  #content .green {
+  .why-consider-adoption #content .green {
     text-decoration: underline; }
-  #content .box {
+  .why-consider-adoption #content .box {
     margin-bottom: 25px; }
     @media (min-width: 768px) {
-      #content .box:nth-child(even) {
+      .why-consider-adoption #content .box:nth-child(even) {
         margin-left: 30px; } }
-    #content .box h3 {
+    .why-consider-adoption #content .box h3 {
       text-align: center;
       font-family: 'Oswald';
       color: #34aba7;
@@ -8078,11 +8091,87 @@ button {
       text-align: center;
       text-transform: uppercase; }
       @media (min-width: 768px) {
-        #content .box h3 {
+        .why-consider-adoption #content .box h3 {
           text-align: left; } }
-    #content .box p {
+    .why-consider-adoption #content .box p {
       margin: 0;
       padding-bottom: 20px; }
+
+/* page pergnant types of adoption */
+.types-of-adoption #breadcrumbs {
+  padding: 25px 0 35px; }
+
+.types-of-adoption #content {
+  background: url(../images/bg-gray.png) repeat-x center 0px;
+  padding: 25px 0 80px; }
+  @media (min-width: 768px) {
+    .types-of-adoption #content {
+      background: url(../images/bg-gray.png) repeat-x center -290px; } }
+  @media (min-width: 992px) {
+    .types-of-adoption #content {
+      background: url(../images/bg-gray.png) repeat-x center -380px; } }
+  .types-of-adoption #content img#img-content {
+    max-width: 210px;
+    display: block;
+    margin: -55px auto 20px; }
+    @media (min-width: 768px) {
+      .types-of-adoption #content img#img-content {
+        max-width: 290px;
+        float: right;
+        display: inline;
+        margin: -40px 0 20px 20px; } }
+    @media (min-width: 992px) {
+      .types-of-adoption #content img#img-content {
+        max-width: 350px;
+        margin: -65px 0  0px 50px; } }
+  .types-of-adoption #content .bold {
+    min-height: 405px;
+    line-height: 1.8; }
+    @media (min-width: 768px) {
+      .types-of-adoption #content .bold {
+        min-height: 255px; } }
+    @media (min-width: 992px) {
+      .types-of-adoption #content .bold {
+        min-height: 185px; } }
+  .types-of-adoption #content .desc h3 {
+    text-align: left;
+    font-family: 'Oswald';
+    color: #97bf65;
+    font-size: 1.375rem;
+    margin-top: 45px; }
+
+/* You are not alone block */
+#you-arenot-alone {
+  background: #34aba7 url("../images/bg-free-app.png") repeat-x bottom center;
+  color: #fff;
+  padding: 70px 0 70px;
+  text-align: center; }
+  @media (max-width: 991.98px) {
+    #you-arenot-alone {
+      padding: 60px 0 60px; } }
+  @media (max-width: 1365.98px) {
+    #you-arenot-alone {
+      padding: 65px 0 80px; } }
+  #you-arenot-alone h2.module-title {
+    text-align: center;
+    font-family: 'BebasNeue';
+    color: #fff;
+    background-color: #34aba7;
+    font-size: 2.88rem; }
+    @media (min-width: 768px) {
+      #you-arenot-alone h2.module-title {
+        font-size: 3.25rem; } }
+    @media (min-width: 992px) {
+      #you-arenot-alone h2.module-title {
+        font-size: 3.75rem; } }
+  #you-arenot-alone .desc {
+    margin-bottom: 30px; }
+  #you-arenot-alone .btn-brown {
+    padding: 15px 30px; }
+  #you-arenot-alone h2.module-title {
+    margin-bottom: 10px; }
+  #you-arenot-alone .btn-brown {
+    padding: 15px 30px; }
 
 .test {
   font-family: BebasNeue; }

@@ -94,7 +94,7 @@
         transition: visibility 0s, opacity 0.5s linear;
         text-align: center;
         display: none;
-        background:#f6f5f3;
+        @include bg-gray;
         min-height: 267px;
         padding:25px 0 0;
         .desc{
@@ -184,7 +184,7 @@
     }
     .baby-img{
         padding: 5px;
-        background: #f6f5f3;
+        @include bg-gray;
         margin-bottom: 15px;
     }
     .congrat{
@@ -219,7 +219,7 @@
     }
 }
 #adoption-stories{
-    background: #f6f5f3;
+    @include bg-gray;
     text-align: center;
     padding: 60px 0 70px;
     @include color-brown();
@@ -291,33 +291,13 @@
     }
 }
 #free-app{
-    background: #34aba7 url("../images/bg-free-app.png") repeat-x bottom center;
-    color:#fff;
-    padding:70px 0 70px;
-    text-align: center;
-    @include media-breakpoint-down("md"){
-        padding:60px 0 60px;
-    }
-    @include media-breakpoint-down("lg"){
-        padding:65px 0 80px;
-    }
-    h2.module-title{
-        @include bebasneue-title();
-        @include bg-cyan();
-        margin-bottom: 45px;
-        font-size: 2.88rem;
-        @include media-breakpoint-up("md"){
-            font-size: 3.25rem;
+    @include block-cyan-title-button{        
+        h2.module-title{
+            margin-bottom: 45px;
         }
-        @include media-breakpoint-up("lg"){
-            font-size: 3.75rem;
+        .btn-brown{
+            padding: 15px 80px;
         }
-    }
-    .desc{
-        margin-bottom: 30px;
-    }
-    .btn-brown{
-        padding: 15px 80px;
     }
 }
 #lifelong-staff{
@@ -364,7 +344,7 @@
     }
 }
 #members{
-    background: #f6f5f3;
+    @include bg-gray;
     padding:40px 0 40px;
     @include  media-breakpoint-down("lg"){
         padding:40px 0 50px;
@@ -437,7 +417,7 @@
 }
 #waiting-families{
     padding:40px 0;
-    background: #f6f5f3;
+    @include bg-gray;
     .topic-title{
         margin-bottom:25px;
         @include nickainley-title-brown();
@@ -611,7 +591,7 @@
         }
     }
 }
-#content{
+.why-consider-adoption #content{
     padding:25px 0 ;
     .green{
         text-decoration: underline;
@@ -635,6 +615,67 @@
         p{
             margin: 0;
             padding-bottom: 20px;
+        }
+    }
+}
+/* page pergnant types of adoption */
+.types-of-adoption #breadcrumbs{    
+    padding: 25px 0 35px;
+}
+.types-of-adoption #content{
+    background:url(../images/bg-gray.png) repeat-x center 0px ;
+    padding:25px 0 80px;
+    @include  media-breakpoint-up("md"){
+        background:url(../images/bg-gray.png) repeat-x center -290px ;
+    }           
+    @include  media-breakpoint-up("lg"){
+        background:url(../images/bg-gray.png) repeat-x center -380px  ;
+    }
+    img#img-content{
+        max-width: 210px;
+        display: block;
+        margin: -55px auto 20px;
+        @include  media-breakpoint-up("md"){
+            max-width: 290px;
+            float: right;
+            display: inline;
+            margin: -40px 0 20px 20px;
+        }           
+        @include  media-breakpoint-up("lg"){
+            max-width: 350px;
+            margin:-65px 0  0px 50px;
+        }
+    }
+    .bold{
+        min-height: 405px;
+        line-height: 1.8;
+        @include  media-breakpoint-up("md"){
+            min-height: 255px;
+        }           
+        @include  media-breakpoint-up("lg"){
+            min-height: 185px;
+        }
+    }
+    .desc{
+        h3{
+            @include oswald-title-green(left);
+            font-size: 1.375rem;
+            margin-top:45px;
+        }
+        p{
+
+        }
+    }
+
+}
+/* You are not alone block */
+#you-arenot-alone{
+    @include block-cyan-title-button{
+        h2.module-title{
+            margin-bottom: 10px;
+        }
+        .btn-brown{
+            padding: 15px 30px;
         }
     }
 }

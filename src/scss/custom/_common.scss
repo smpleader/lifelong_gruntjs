@@ -41,9 +41,15 @@ button{
 }
 .cyan{
     @include color-cyan;
+    &:hover{
+        @include color-cyan;
+    }
 }
 .green{
     @include color-green;
+    &:hover{
+        @include color-green;
+    }
 }
 /* -- box brown -- */
 /* height limit of box head: 410px */

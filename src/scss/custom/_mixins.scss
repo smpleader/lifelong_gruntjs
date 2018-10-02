@@ -19,6 +19,9 @@
     color: $white;
     background-color: $site-cyan;
 }
+@mixin bg-gray { 
+    background-color: $site-gray;
+}
 @mixin bebasneue-title($align:$default_align){
     text-align: $align;
     font-family: 'BebasNeue';
@@ -43,6 +46,10 @@
     @include oswald-title($align);
     color: $site-cyan;
 }
+@mixin oswald-title-green($align:$default_align){
+    @include oswald-title($align);
+    color: $site-green;
+}
 @mixin nickainley-title($align:$default_align){
     text-align: $align;
     font-family: 'Nickainley'; 
@@ -61,7 +68,7 @@
 }
 @mixin btn-default{
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 10px;
     &:hover{
         text-decoration: none;
         color:$white;
@@ -80,4 +87,34 @@
     &:hover{
         text-decoration: none;
     }
+}
+@mixin block-cyan-title-button{    
+    background: #34aba7 url("../images/bg-free-app.png") repeat-x bottom center;
+    color:#fff;
+    padding:70px 0 70px;
+    text-align: center;
+    @include media-breakpoint-down("md"){
+        padding:60px 0 60px;
+    }
+    @include media-breakpoint-down("lg"){
+        padding:65px 0 80px;
+    }
+    h2.module-title{
+        @include bebasneue-title();
+        @include bg-cyan();
+        font-size: 2.88rem;
+        @include media-breakpoint-up("md"){
+            font-size: 3.25rem;
+        }
+        @include media-breakpoint-up("lg"){
+            font-size: 3.75rem;
+        }
+    }
+    .desc{
+        margin-bottom: 30px;
+    }
+    .btn-brown{
+        padding: 15px 30px;
+    }
+    @content
 }

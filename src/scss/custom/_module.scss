@@ -127,6 +127,7 @@
         }
     } 
 }
+/* top slider */
 #header-slider{
     .slick-header{
         .slick-nav{
@@ -248,6 +249,10 @@
         display: block;
         float: right;
         img{
+            margin-top:7px;
+            @include media-breakpoint-up("md"){
+                margin-top:0px;
+            }
         }
     }
 }

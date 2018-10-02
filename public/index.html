@@ -381,11 +381,11 @@
                         <span id="tablet-img-position"></span> 
                         birthparents with loving, adoptive parents, and has had the wonderful opportunity of watching miracles happen. 
                         Many of us at LifeLong Adoptions are adoptive parents ourselves, and know first hand the sensitivity and ultimate joy of the adoption experience.</p>
-                        <p>Thank you for considering LifeLong Adoptions, we look forward to making your dream of adoption a reality! 
+                        <p>Thank you for considering LifeLong Adoptions, we look forward to making your dream of adoption a reality! </p>
                         
                     </div>
                     <span id="mobile-img-position"></span>
-                    <img id="img-content" src="content/lifelong-staff.png" alt="" /></p>
+                    <img id="img-content" src="content/lifelong-staff.png" alt="" />
                 </div>
             </div>
         </div>
@@ -493,6 +493,28 @@
             </div>
         </div>
     </section><!--/Footer free app-->
-    <script src="js/scripts.js"></script>
+<script src="js/scripts.js"></script>
+<script>
+    var place_img_for_lifelong_staff = function(){
+        var wd = $( window ).width();
+        if( wd > 1326 ){
+            $("#lifelong-staff .content").show();
+            $("#lifelong-staff #img-content").appendTo( $("#desktop-img-position"));
+        }else if( wd > 480){
+            $("#lifelong-staff .content").show();
+            $("#lifelong-staff #img-content").appendTo( $("#tablet-img-position"));
+        }else{
+            $("#lifelong-staff #img-content").appendTo( $("#mobile-img-position"));
+            $("#lifelong-staff .content").hide();
+        }
+    }
+    $(document).ready( function(){
+        place_img_for_lifelong_staff();
+        $("#lifelong-staff a.readmore").click(function(){
+            $("#lifelong-staff .content").toggle();
+        });    
+    });
+    $( window ).resize(function(){ place_img_for_lifelong_staff() });
+</script> 
 </body>
 </html>
