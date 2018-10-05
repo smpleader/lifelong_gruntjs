@@ -7094,6 +7094,75 @@ button {
       .shader .shade {
         top: 0px; } }
 
+/* call box */
+.callbox {
+  border: 1px solid #e0edd6;
+  position: relative; }
+  .callbox .bg {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    content: "";
+    display: table; }
+  .callbox .heart {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    content: "";
+    display: table; }
+  .callbox .content {
+    color: #fff; }
+  .callbox.green .bg {
+    background: #97bf65; }
+  .callbox.green .heart {
+    background: url(../images/bg-heart-green.png) no-repeat center center; }
+  .callbox.cyan .bg {
+    background: #34aba7; }
+  .callbox.cyan .heart {
+    background: url(../images/bg-heart-cyan.png) no-repeat center center; }
+  .callbox.brown .bg {
+    background: #56330e; }
+  .callbox.brown .heart {
+    background: url(../images/bg-heart-brown.png) no-repeat center center; }
+  .callbox.topleft {
+    margin: 15px 15px 30px 0;
+    padding: 8px 15px 30px 30px; }
+    .callbox.topleft .bg {
+      top: -8px;
+      left: 15px; }
+    .callbox.topleft .heart {
+      left: -11px;
+      /* -(22/2) */ }
+  .callbox.topright {
+    margin: 15px 8px 30px 8px;
+    padding: 8px 15px 30px 8px; }
+    .callbox.topright .bg {
+      top: -8px;
+      left: -8px; }
+    .callbox.topright .heart {
+      right: -11px;
+      /* -(22/2) */ }
+  .callbox.bottomleft {
+    margin: 15px 8px 30px 8px;
+    padding: 30px 15px 15px 15px; }
+    .callbox.bottomleft .bg {
+      bottom: -8px;
+      left: -8px; }
+    .callbox.bottomleft .heart {
+      bottom: 10px;
+      right: -11px;
+      /* -(22/2) */ }
+  .callbox.bottomright {
+    margin: 15px 15px 30px 0;
+    padding: 30px 15px 15px 30px; }
+    .callbox.bottomright .bg {
+      bottom: -8px;
+      left: 15px; }
+    .callbox.bottomright .heart {
+      bottom: 10px;
+      left: -11px;
+      /* -(22/2) */ }
+
 /* menu: for all pages */
 #navigation .mp-menu h2 {
   border-bottom: 1px solid #ece7e2; }
@@ -8188,6 +8257,3 @@ button {
     @media (min-width: 768px) {
       .financial-assistance #content .desc h3 {
         font-size: 1.875rem; } }
-
-.test {
-  font-family: BebasNeue; }
