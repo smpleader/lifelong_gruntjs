@@ -6642,8 +6642,7 @@ a.text-dark:hover, a.text-dark:focus {
 .container  = .mlnavigation
 */
 .mlnavigation {
-  /* display: none; */
-  z-index: 3;
+  z-index: 6;
   height: 100%;
   width: 0%;
   position: fixed;
@@ -7096,8 +7095,9 @@ button {
 
 /* call box */
 .callbox {
-  border: 1px solid #e0edd6;
-  position: relative; }
+  outline: 1px solid #e0edd6;
+  position: relative;
+  z-index: 1; }
   .callbox .bg {
     position: absolute;
     z-index: -1;
@@ -7324,7 +7324,8 @@ button {
 /* site top: for all pages */
 #sitetop {
   padding: 5px 0 0;
-  background: #fff; }
+  background: #fff;
+  z-index: 2; }
   @media (min-width: 768px) {
     #sitetop {
       padding: 15px 0 0; } }
@@ -7437,7 +7438,8 @@ button {
   background-color: #34aba7;
   position: fixed;
   bottom: 0;
-  width: 100%; }
+  width: 100%;
+  z-index: 2; }
   #foot-contact .col-sm-6 {
     padding: 25px 0;
     text-align: center;
@@ -8107,37 +8109,44 @@ button {
         font-size: 4rem; } }
 
 #top-banner .wrapper {
-  padding: 45px 0 25px;
-  background-repeat: repeat-x;
-  background-position: -200px top; }
+  padding: 10px 0 0px;
+  background-repeat: no-repeat;
+  background-position: 0px 350px; }
   @media (min-width: 768px) {
     #top-banner .wrapper {
       background-position: top center;
-      padding: 45px 0 105px;
+      padding: 0px 0 105px;
       background-repeat: no-repeat; } }
+  #top-banner .wrapper img {
+    max-width: 100%; }
   #top-banner .wrapper .bold {
     padding: 0px 0 80px; }
-  #top-banner .wrapper .call {
+  #top-banner .wrapper .callbox {
     text-align: center;
-    padding-top: 435px; }
+    margin-top: 0px;
+    margin-bottom: 0px; }
     @media (min-width: 768px) {
-      #top-banner .wrapper .call {
-        padding-top: 0px; } }
-    #top-banner .wrapper .call .quote {
+      #top-banner .wrapper .callbox {
+        margin-top: 25px; } }
+    @media (min-width: 992px) {
+      #top-banner .wrapper .callbox {
+        margin-top: 60px; } }
+    #top-banner .wrapper .callbox .quote {
       text-align: center;
       font-family: 'Nickainley';
       font-size: 1.875rem;
       color: #fff;
       margin-bottom: 15px; }
       @media (min-width: 992px) {
-        #top-banner .wrapper .call .quote {
-          font-size: 2rem; } }
-    #top-banner .wrapper .call .sayer {
+        #top-banner .wrapper .callbox .quote {
+          font-size: 2rem;
+          padding: 20px 40px 0; } }
+    #top-banner .wrapper .callbox .sayer {
       font-size: .9375rem;
       color: #fff;
       text-transform: uppercase;
       margin-bottom: 40px; }
-    #top-banner .wrapper .call .btn-brown {
+    #top-banner .wrapper .callbox .btn-brown {
       padding: 15px 30px;
       color: #fff;
       display: inline-block;

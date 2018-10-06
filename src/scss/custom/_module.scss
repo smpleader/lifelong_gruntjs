@@ -166,6 +166,7 @@
 #sitetop{
     padding: 5px 0 0;
     background:#fff;
+    z-index: 2;
     @include media-breakpoint-up("md"){
         padding: 15px 0 0;
     }
@@ -286,6 +287,7 @@
     position: fixed;
     bottom:0;
     width: 100%;
+    z-index:2;
     .col-sm-6{
         padding: 25px 0;
         text-align: center;

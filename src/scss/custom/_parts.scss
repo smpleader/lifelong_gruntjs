@@ -550,22 +550,29 @@
 }
 #top-banner{
     .wrapper{
-        padding:45px 0 25px;
-        background-repeat: repeat-x;
-        background-position: -200px top;
+        padding:10px 0 0px;
+        background-repeat: no-repeat;
+        background-position: 0px 350px;
         @include media-breakpoint-up("md"){
             background-position: top center;
-            padding:45px 0 105px;
+            padding:0px 0 105px;
             background-repeat: no-repeat;
+        }
+        img{
+            max-width: 100%;
         }
         .bold{
             padding:0px 0 80px;
         }
-        .call{
+        .callbox{
             text-align: center;
-            padding-top: 435px;
+            margin-top: 0px;
+            margin-bottom: 0px;
             @include media-breakpoint-up("md"){
-                padding-top: 0px;
+                margin-top: 25px;
+            }
+            @include media-breakpoint-up("lg"){
+                margin-top: 60px;
             }
             .quote{
                 @include nickainley-title;
@@ -573,7 +580,8 @@
                 color:#fff;
                 margin-bottom:15px;
                 @include media-breakpoint-up("lg"){
-                    font-size: 2rem
+                    font-size: 2rem;
+                    padding:20px 40px 0;
                 }
             }
             .sayer{

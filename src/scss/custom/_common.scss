@@ -193,8 +193,9 @@ button{
 }
 /* call box */
 .callbox{
-    border: 1px solid #e0edd6;
+    outline:1px solid #e0edd6;
     position: relative;
+    z-index: 1;
     .bg{
         position: absolute;
         z-index: -1;
