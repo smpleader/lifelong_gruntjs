@@ -36,8 +36,16 @@ button{
 .italic{
     font-family: 'OpenSans Italic';
 }
+.italic-u{
+    font-family: 'OpenSans Italic';
+    text-decoration: underline;
+}
 .bold-italic{
     font-family: 'OpenSans BoldItalic'; 
+}
+.bold-italic-u{
+    font-family: 'OpenSans BoldItalic';
+    text-decoration: underline;
 }
 .cyan{
     @include color-cyan;
@@ -211,7 +219,10 @@ button{
         display: table;
     }
     .content{
-        color:$white ;
+        /*color:$white ;*/
+        p:last-child{
+            margin-bottom:0
+        }
     }
     &.green{
         .bg{
@@ -219,6 +230,9 @@ button{
         }
         .heart{
             background:url(../images/bg-heart-green.png) no-repeat center center;
+        }
+        .content{
+            color:$white ;
         }
     }
     &.cyan{
@@ -231,7 +245,7 @@ button{
     }
     &.brown{
         .bg{
-            background: $site-brown;
+            background: #F6F5F3;
         }
         .heart{
             background:url(../images/bg-heart-brown.png) no-repeat center center;

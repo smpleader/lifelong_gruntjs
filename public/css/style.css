@@ -6949,8 +6949,16 @@ button {
 .italic {
   font-family: 'OpenSans Italic'; }
 
+.italic-u {
+  font-family: 'OpenSans Italic';
+  text-decoration: underline; }
+
 .bold-italic {
   font-family: 'OpenSans BoldItalic'; }
+
+.bold-italic-u {
+  font-family: 'OpenSans BoldItalic';
+  text-decoration: underline; }
 
 .cyan {
   color: #34aba7; }
@@ -7111,17 +7119,21 @@ button {
     content: "";
     display: table; }
   .callbox .content {
-    color: #fff; }
+    /*color:$white ;*/ }
+    .callbox .content p:last-child {
+      margin-bottom: 0; }
   .callbox.green .bg {
     background: #97bf65; }
   .callbox.green .heart {
     background: url(../images/bg-heart-green.png) no-repeat center center; }
+  .callbox.green .content {
+    color: #fff; }
   .callbox.cyan .bg {
     background: #34aba7; }
   .callbox.cyan .heart {
     background: url(../images/bg-heart-cyan.png) no-repeat center center; }
   .callbox.brown .bg {
-    background: #56330e; }
+    background: #F6F5F3; }
   .callbox.brown .heart {
     background: url(../images/bg-heart-brown.png) no-repeat center center; }
   .callbox.topleft {
@@ -8294,3 +8306,23 @@ button {
     .steps-of-adoption #content h2 {
       font-size: 2.625rem;
       margin-bottom: 35px; } }
+
+/* faq page */
+.page-faq #content .top-desc {
+  padding: 45px 0 30px; }
+
+.page-faq #content ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+  .page-faq #content ul li {
+    margin-bottom: 50px; }
+    .page-faq #content ul li:nth-child(even) {
+      padding-left: 20px; }
+    .page-faq #content ul li .content {
+      padding-bottom: 15px; }
+      .page-faq #content ul li .content h3 {
+        text-align: left;
+        font-family: 'Oswald';
+        color: #97bf65;
+        font-size: 1.375rem; }
