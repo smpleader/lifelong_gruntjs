@@ -706,3 +706,31 @@
         }
     }
 }
+/* Steps of adoption page */
+.steps-of-adoption{
+    #content{
+        img{
+            display: block;
+            margin:0 auto 15px;
+        }
+        .container{
+            padding:50px 0 70px;
+        }
+        #step1,#step3,#step5{
+            background:#E7F5F5 url(../images/bg-wave-cyan.png) repeat-x bottom center;
+        }
+        h3{
+            @include nickainley-title-brown;
+            font-size: 1.625rem;
+        }
+        h2{
+            @include bebasneue-title-cyan;
+            font-size: 2.125rem;
+            margin-bottom:30px;
+            @include  media-breakpoint-up("md"){
+                font-size: 2.625rem;
+                margin-bottom:35px;
+            }
+        }
+    }
+}

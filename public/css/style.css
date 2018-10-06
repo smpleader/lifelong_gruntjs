@@ -8266,3 +8266,31 @@ button {
     @media (min-width: 768px) {
       .financial-assistance #content .desc h3 {
         font-size: 1.875rem; } }
+
+/* Steps of adoption page */
+.steps-of-adoption #content img {
+  display: block;
+  margin: 0 auto 15px; }
+
+.steps-of-adoption #content .container {
+  padding: 50px 0 70px; }
+
+.steps-of-adoption #content #step1, .steps-of-adoption #content #step3, .steps-of-adoption #content #step5 {
+  background: #E7F5F5 url(../images/bg-wave-cyan.png) repeat-x bottom center; }
+
+.steps-of-adoption #content h3 {
+  text-align: center;
+  font-family: 'Nickainley';
+  color: #56330e;
+  font-size: 1.625rem; }
+
+.steps-of-adoption #content h2 {
+  text-align: center;
+  font-family: 'BebasNeue';
+  color: #34aba7;
+  font-size: 2.125rem;
+  margin-bottom: 30px; }
+  @media (min-width: 768px) {
+    .steps-of-adoption #content h2 {
+      font-size: 2.625rem;
+      margin-bottom: 35px; } }
