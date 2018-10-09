@@ -8459,3 +8459,93 @@ button {
       font-size: 1.75rem;
       font-family: 'Oswald';
       margin-bottom: 20px; }
+
+.page-birthmother-story .brown {
+  background: #f6f5f3;
+  padding: 40px 0 25px; }
+  .page-birthmother-story .brown .callbox .content:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .page-birthmother-story .brown .callbox .content .right {
+    display: block;
+    float: none;
+    text-align: center; }
+    @media (min-width: 768px) {
+      .page-birthmother-story .brown .callbox .content .right {
+        float: right;
+        width: 50%;
+        text-align: left; } }
+    .page-birthmother-story .brown .callbox .content .right img {
+      width: 90%; }
+  .page-birthmother-story .brown .callbox .content h2 {
+    text-align: center;
+    font-family: 'BebasNeue';
+    color: #97bf65;
+    font-size: 4.0625rem; }
+    @media (min-width: 768px) {
+      .page-birthmother-story .brown .callbox .content h2 {
+        font-size: 5.3125rem; } }
+    @media (min-width: 992px) {
+      .page-birthmother-story .brown .callbox .content h2 {
+        font-size: 6.1875rem; } }
+  .page-birthmother-story .brown .callbox .content h3 {
+    text-align: center;
+    font-family: 'Nickainley';
+    color: #56330e;
+    font-size: 1.875rem; }
+    @media (min-width: 768px) {
+      .page-birthmother-story .brown .callbox .content h3 {
+        font-size: 2.5rem; } }
+    @media (min-width: 992px) {
+      .page-birthmother-story .brown .callbox .content h3 {
+        font-size: 3.125rem; } }
+
+.page-birthmother-story .green {
+  background: #97bf65; }
+  .page-birthmother-story .green .quote {
+    text-align: center;
+    font-family: 'Oswald';
+    font-size: 1.5625rem; }
+  .page-birthmother-story .green .sayer {
+    text-align: center;
+    font-family: 'Nickainley';
+    font-size: 2.125rem; }
+
+.page-birthmother-story .story h3 {
+  text-align: left;
+  font-family: 'Oswald';
+  color: #97bf65;
+  margin-top: 45px; }
+
+.page-birthmother-story .pagination {
+  background: #f6f5f3;
+  padding: 40px 0; }
+  .page-birthmother-story .pagination a {
+    text-align: center;
+    font-family: 'BebasNeue';
+    color: #34aba7;
+    font-size: 2.125rem; }
+  .page-birthmother-story .pagination a,
+  .page-birthmother-story .pagination span {
+    display: block; }
+    @media (min-width: 768px) {
+      .page-birthmother-story .pagination a,
+      .page-birthmother-story .pagination span {
+        display: inline; } }
+  .page-birthmother-story .pagination .next {
+    text-align: center;
+    margin-top: 40px; }
+    @media (min-width: 768px) {
+      .page-birthmother-story .pagination .next {
+        text-align: right;
+        margin-top: 0px; }
+        .page-birthmother-story .pagination .next span {
+          margin-right: 20px; } }
+  .page-birthmother-story .pagination .previous {
+    text-align: center; }
+    @media (min-width: 768px) {
+      .page-birthmother-story .pagination .previous {
+        text-align: left; } }
+    .page-birthmother-story .pagination .previous span {
+      margin-left: 20px; }

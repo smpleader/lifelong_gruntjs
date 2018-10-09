@@ -862,3 +862,106 @@
         }
     }
 }
+.page-birthmother-story{
+    .brown{
+        background: $site-brown-bg;
+        padding: 40px 0 25px;
+        .callbox{
+            .content{
+                &:after{
+                    content: "";
+                    display: table;
+                    clear: both;
+                }
+                .right{
+                    display: block;
+                    float: none;
+                    text-align: center ;  
+                    @include  media-breakpoint-up("md"){
+                        float: right;
+                        width:50%;    
+                        text-align: left ;        
+                    }
+                    img{
+                        width:90%;   
+                        @include  media-breakpoint-up("md"){
+                                    
+                        }
+                    }
+                }
+                h2{
+                    @include bebasneue-title-green;
+                    font-size: 4.0625rem;
+                    @include  media-breakpoint-up("md"){
+                        font-size: 5.3125rem;                                
+                    }
+                    @include  media-breakpoint-up("lg"){
+                        font-size: 6.1875rem;                                
+                    }
+                }
+                h3{
+                    @include nickainley-title-brown;
+                    font-size: 1.875rem;
+                    @include  media-breakpoint-up("md"){
+                        font-size: 2.5rem;                                
+                    }
+                    @include  media-breakpoint-up("lg"){
+                        font-size: 3.125rem;                                
+                    }
+                }
+            }
+        }
+    }
+    .green{
+        background: $site-green-bg;
+        .quote{
+            @include oswald-title;
+            font-size: 1.5625rem;
+        }
+        .sayer{
+            @include nickainley-title;
+            font-size: 2.125rem;
+        }
+    }
+    .story{
+        h3{
+            @include oswald-title-green(left);
+            margin-top:45px;
+        }
+    }
+    .pagination{
+        background: $site-brown-bg;
+        padding: 40px 0;
+        a{
+            @include bebasneue-title-cyan;
+            font-size: 2.125rem;
+        }
+        a,
+        span{
+            display: block;
+            @include  media-breakpoint-up("md"){
+             display: inline;
+            }
+        }
+        .next{
+            text-align: center;
+            margin-top:40px;
+            @include  media-breakpoint-up("md"){
+                text-align: right;
+                margin-top:0px;
+                span {
+                    margin-right:20px;
+                }               
+            }
+        }
+        .previous{
+            text-align: center;
+            @include  media-breakpoint-up("md"){
+               text-align: left;                       
+            }
+            span{
+               margin-left:20px
+             }
+        }
+    }
+}
