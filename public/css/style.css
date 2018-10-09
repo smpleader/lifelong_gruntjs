@@ -8419,3 +8419,43 @@ button {
       .page-choosing-family #content img#img-content {
         max-width: 350px;
         margin: -65px 0  0px 50px; } }
+
+.page-birthmother-stories #breadcrumbs .top-title {
+  text-align: center; }
+
+.page-birthmother-stories #content {
+  padding: 0 0 40px; }
+  @media (min-width: 768px) {
+    .page-birthmother-stories #content {
+      padding: 0 0 50px; } }
+  @media (min-width: 992px) {
+    .page-birthmother-stories #content {
+      padding: 0 0 60px; } }
+  .page-birthmother-stories #content .top-desc {
+    padding: 35px 0 30px; }
+  .page-birthmother-stories #content .stories::after {
+    clear: both;
+    display: table;
+    content: ""; }
+  .page-birthmother-stories #content .stories .item {
+    background-color: #f6f5f3;
+    padding: 5px 5px 20px 5px;
+    margin: 0 auto;
+    min-height: 360px;
+    text-align: center;
+    color: #56330e;
+    width: 100%;
+    float: left; }
+    @media (min-width: 768px) {
+      .page-birthmother-stories #content .stories .item {
+        width: 32.66%;
+        margin: 1% 1% 1% 0; }
+        .page-birthmother-stories #content .stories .item:nth-child(3n) {
+          margin-right: 0; } }
+    .page-birthmother-stories #content .stories .item img {
+      margin: 0 auto 20px;
+      width: 100%; }
+    .page-birthmother-stories #content .stories .item h3 {
+      font-size: 1.75rem;
+      font-family: 'Oswald';
+      margin-bottom: 20px; }
