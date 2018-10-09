@@ -30,7 +30,7 @@
   --light: #f8f9fa;
   --dark: #343a40;
   --breakpoint-xs: 0;
-  --breakpoint-sm: 320px;
+  --breakpoint-sm: 360px;
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1366px;
@@ -452,7 +452,7 @@ pre {
   width: 100%;
   margin-right: auto;
   margin-left: auto; }
-  @media (min-width: 320px) {
+  @media (min-width: 360px) {
     .container {
       padding-right: 10px;
       padding-left: 10px; } }
@@ -464,7 +464,7 @@ pre {
     .container {
       padding-right: 18px;
       padding-left: 18px; } }
-  @media (min-width: 320px) {
+  @media (min-width: 360px) {
     .container {
       max-width: 320px; } }
   @media (min-width: 768px) {
@@ -481,7 +481,7 @@ pre {
   width: 100%;
   margin-right: auto;
   margin-left: auto; }
-  @media (min-width: 320px) {
+  @media (min-width: 360px) {
     .container-fluid {
       padding-right: 10px;
       padding-left: 10px; } }
@@ -497,7 +497,7 @@ pre {
 .row {
   display: flex;
   flex-wrap: wrap; }
-  @media (min-width: 320px) {
+  @media (min-width: 360px) {
     .row {
       margin-right: -10px;
       margin-left: -10px; } }
@@ -527,7 +527,7 @@ pre {
   position: relative;
   width: 100%;
   min-height: 1px; }
-  @media (min-width: 320px) {
+  @media (min-width: 360px) {
     .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col,
     .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm,
     .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md,
@@ -691,7 +691,7 @@ pre {
 .offset-11 {
   margin-left: 91.6666666667%; }
 
-@media (min-width: 320px) {
+@media (min-width: 360px) {
   .col-sm {
     flex-basis: 0;
     flex-grow: 1;
@@ -1256,7 +1256,7 @@ pre {
   .table-dark.table-hover tbody tr:hover {
     background-color: rgba(255, 255, 255, 0.075); }
 
-@media (max-width: 319.98px) {
+@media (max-width: 359.98px) {
   .table-responsive-sm {
     display: block;
     width: 100%;
@@ -1613,7 +1613,7 @@ textarea.form-control {
   align-items: center; }
   .form-inline .form-check {
     width: 100%; }
-  @media (min-width: 320px) {
+  @media (min-width: 360px) {
     .form-inline label {
       display: flex;
       align-items: center;
@@ -2922,13 +2922,13 @@ input[type="button"].btn-block {
   background: no-repeat center center;
   background-size: 100% 100%; }
 
-@media (max-width: 319.98px) {
+@media (max-width: 359.98px) {
   .navbar-expand-sm > .container,
   .navbar-expand-sm > .container-fluid {
     padding-right: 0;
     padding-left: 0; } }
 
-@media (min-width: 320px) {
+@media (min-width: 360px) {
   .navbar-expand-sm {
     flex-flow: row nowrap;
     justify-content: flex-start; }
@@ -3207,7 +3207,7 @@ input[type="button"].btn-block {
   flex-direction: column; }
   .card-deck .card {
     margin-bottom: 10px; }
-  @media (min-width: 320px) {
+  @media (min-width: 360px) {
     .card-deck {
       flex-flow: row wrap;
       margin-right: -10px;
@@ -3225,7 +3225,7 @@ input[type="button"].btn-block {
   flex-direction: column; }
   .card-group > .card {
     margin-bottom: 10px; }
-  @media (min-width: 320px) {
+  @media (min-width: 360px) {
     .card-group {
       flex-flow: row wrap; }
       .card-group > .card {
@@ -3273,7 +3273,7 @@ input[type="button"].btn-block {
 .card-columns .card {
   margin-bottom: 0.75rem; }
 
-@media (min-width: 320px) {
+@media (min-width: 360px) {
   .card-columns {
     column-count: 3;
     column-gap: 1.25rem;
@@ -3492,7 +3492,7 @@ input[type="button"].btn-block {
   margin-bottom: 2rem;
   background-color: #e9ecef;
   border-radius: 0.3rem; }
-  @media (min-width: 320px) {
+  @media (min-width: 360px) {
     .jumbotron {
       padding: 4rem 2rem; } }
 
@@ -3904,7 +3904,7 @@ button.close {
   height: 50px;
   overflow: scroll; }
 
-@media (min-width: 320px) {
+@media (min-width: 360px) {
   .modal-dialog {
     max-width: 500px;
     margin: 1.75rem auto; }
@@ -4519,7 +4519,7 @@ button.bg-dark:focus {
 .d-inline-flex {
   display: inline-flex !important; }
 
-@media (min-width: 320px) {
+@media (min-width: 360px) {
   .d-sm-none {
     display: none !important; }
   .d-sm-inline {
@@ -4755,7 +4755,7 @@ button.bg-dark:focus {
 .align-self-stretch {
   align-self: stretch !important; }
 
-@media (min-width: 320px) {
+@media (min-width: 360px) {
   .flex-sm-row {
     flex-direction: row !important; }
   .flex-sm-column {
@@ -5044,7 +5044,7 @@ button.bg-dark:focus {
 .float-none {
   float: none !important; }
 
-@media (min-width: 320px) {
+@media (min-width: 360px) {
   .float-sm-left {
     float: left !important; }
   .float-sm-right {
@@ -5424,7 +5424,7 @@ button.bg-dark:focus {
 .mx-auto {
   margin-left: auto !important; }
 
-@media (min-width: 320px) {
+@media (min-width: 360px) {
   .m-sm-0 {
     margin: 0 !important; }
   .mt-sm-0,
@@ -6183,7 +6183,7 @@ button.bg-dark:focus {
 .text-center {
   text-align: center !important; }
 
-@media (min-width: 320px) {
+@media (min-width: 360px) {
   .text-sm-left {
     text-align: left !important; }
   .text-sm-right {
@@ -7129,7 +7129,7 @@ button {
   .callbox.green .content {
     color: #fff; }
   .callbox.cyan .bg {
-    background: #34aba7; }
+    background: #9AD5D3; }
   .callbox.cyan .heart {
     background: url(../images/bg-heart-cyan.png) no-repeat center center; }
   .callbox.brown .bg {
@@ -7581,6 +7581,64 @@ button {
     #privacy-terms br {
       display: none; } }
 
+#breadcrumbs {
+  color: #fff;
+  background-color: #34aba7;
+  padding: 25px 0; }
+  #breadcrumbs .top-title {
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: 'BebasNeue'; }
+    @media (min-width: 768px) {
+      #breadcrumbs .top-title {
+        text-align: left;
+        font-size: 3.25rem; } }
+    @media (min-width: 992px) {
+      #breadcrumbs .top-title {
+        text-align: left;
+        font-size: 4rem; } }
+
+#waiting-families {
+  padding: 40px 0; }
+  #waiting-families.brown {
+    background-color: #f6f5f3; }
+    #waiting-families.brown .item {
+      background: #fff; }
+  #waiting-families .topic-title {
+    margin-bottom: 25px;
+    text-align: center;
+    font-family: 'Nickainley';
+    color: #56330e;
+    font-size: 2.88rem; }
+    @media (min-width: 768px) {
+      #waiting-families .topic-title {
+        font-size: 3rem; } }
+    @media (min-width: 992px) {
+      #waiting-families .topic-title {
+        font-size: 3.2rem; } }
+  #waiting-families .item {
+    background-color: #f6f5f3;
+    padding: 5px 5px 20px 5px;
+    margin: 0 7px;
+    min-height: 360px;
+    text-align: center;
+    color: #56330e; }
+    #waiting-families .item img {
+      margin: 0 auto 20px;
+      width: 100%; }
+    #waiting-families .item h3 {
+      font-size: 1.75rem;
+      font-family: 'Oswald';
+      margin-bottom: 20px; }
+  #waiting-families .btn-green {
+    padding: 10px 30px;
+    margin: 28px auto 0;
+    display: inline-block;
+    color: #fff; }
+    #waiting-families .btn-green:hover {
+      color: #fff;
+      text-decoration: none; }
+
 /* homepage */
 #header-slider .slick-header .item .content {
   min-height: 350px; }
@@ -7995,44 +8053,6 @@ button {
     #header-slider .slick-header .item .brown-title {
       font-size: 3.4375rem; } }
 
-#waiting-families {
-  padding: 40px 0;
-  background-color: #f6f5f3; }
-  #waiting-families .topic-title {
-    margin-bottom: 25px;
-    text-align: center;
-    font-family: 'Nickainley';
-    color: #56330e;
-    font-size: 2.88rem; }
-    @media (min-width: 768px) {
-      #waiting-families .topic-title {
-        font-size: 3rem; } }
-    @media (min-width: 992px) {
-      #waiting-families .topic-title {
-        font-size: 3.2rem; } }
-  #waiting-families .item {
-    background: #fff;
-    padding: 5px 5px 20px 5px;
-    margin: 0 7px;
-    min-height: 360px;
-    text-align: center;
-    color: #56330e; }
-    #waiting-families .item img {
-      margin: 0 auto 20px;
-      width: 100%; }
-    #waiting-families .item h3 {
-      font-size: 1.75rem;
-      font-family: 'Oswald';
-      margin-bottom: 20px; }
-  #waiting-families .btn-green {
-    padding: 10px 30px;
-    margin: 28px auto 0;
-    display: inline-block;
-    color: #fff; }
-    #waiting-families .btn-green:hover {
-      color: #fff;
-      text-decoration: none; }
-
 #first-talk {
   padding: 25px 0 45px; }
   #first-talk .heart-item {
@@ -8103,62 +8123,51 @@ button {
     padding: 15px 35px; }
 
 /* page pergnant why to adoption */
-#breadcrumbs {
-  color: #fff;
-  background-color: #34aba7;
-  padding: 25px 0; }
-  #breadcrumbs .top-title {
-    font-size: 2.5rem;
-    text-align: center;
-    font-family: 'BebasNeue'; }
-    @media (min-width: 768px) {
-      #breadcrumbs .top-title {
-        text-align: left;
-        font-size: 3.25rem; } }
-    @media (min-width: 992px) {
-      #breadcrumbs .top-title {
-        text-align: left;
-        font-size: 4rem; } }
-
-#top-banner .wrapper {
+.why-consider-adoption #top-banner .wrapper {
   padding: 10px 0 0px;
   background-repeat: no-repeat;
   background-position: 0px 350px; }
   @media (min-width: 768px) {
-    #top-banner .wrapper {
+    .why-consider-adoption #top-banner .wrapper {
       background-position: top center;
       padding: 0px 0 105px;
       background-repeat: no-repeat; } }
-  #top-banner .wrapper img {
+  .why-consider-adoption #top-banner .wrapper img {
     max-width: 100%; }
-  #top-banner .wrapper .bold {
+  .why-consider-adoption #top-banner .wrapper .top-desc {
     padding: 0px 0 80px; }
-  #top-banner .wrapper .callbox {
+    @media (min-width: 768px) {
+      .why-consider-adoption #top-banner .wrapper .top-desc {
+        padding: 45px 0 30px; } }
+    @media (min-width: 992px) {
+      .why-consider-adoption #top-banner .wrapper .top-desc {
+        padding: 45px 0 30px; } }
+  .why-consider-adoption #top-banner .wrapper .callbox {
     text-align: center;
     margin-top: 0px;
     margin-bottom: 0px; }
     @media (min-width: 768px) {
-      #top-banner .wrapper .callbox {
+      .why-consider-adoption #top-banner .wrapper .callbox {
         margin-top: 25px; } }
     @media (min-width: 992px) {
-      #top-banner .wrapper .callbox {
+      .why-consider-adoption #top-banner .wrapper .callbox {
         margin-top: 60px; } }
-    #top-banner .wrapper .callbox .quote {
+    .why-consider-adoption #top-banner .wrapper .callbox .quote {
       text-align: center;
       font-family: 'Nickainley';
       font-size: 1.875rem;
       color: #fff;
       margin-bottom: 15px; }
       @media (min-width: 992px) {
-        #top-banner .wrapper .callbox .quote {
+        .why-consider-adoption #top-banner .wrapper .callbox .quote {
           font-size: 2rem;
           padding: 20px 40px 0; } }
-    #top-banner .wrapper .callbox .sayer {
+    .why-consider-adoption #top-banner .wrapper .callbox .sayer {
       font-size: .9375rem;
       color: #fff;
       text-transform: uppercase;
       margin-bottom: 40px; }
-    #top-banner .wrapper .callbox .btn-brown {
+    .why-consider-adoption #top-banner .wrapper .callbox .btn-brown {
       padding: 15px 30px;
       color: #fff;
       display: inline-block;
@@ -8268,6 +8277,56 @@ button {
   background-color: #f6f5f3;
   padding: 30px 0 60px; }
 
+.financial-assistance #top-banner .wrapper {
+  padding: 10px 0 0px;
+  background-repeat: no-repeat;
+  background-position: 0px 350px; }
+  @media (min-width: 768px) {
+    .financial-assistance #top-banner .wrapper {
+      background-position: top center;
+      padding: 0px 0 105px;
+      background-repeat: no-repeat; } }
+  .financial-assistance #top-banner .wrapper img {
+    max-width: 100%; }
+  .financial-assistance #top-banner .wrapper .top-desc {
+    padding: 0px 0 80px; }
+    @media (min-width: 768px) {
+      .financial-assistance #top-banner .wrapper .top-desc {
+        padding: 45px 0 30px; } }
+    @media (min-width: 992px) {
+      .financial-assistance #top-banner .wrapper .top-desc {
+        padding: 45px 0 30px; } }
+  .financial-assistance #top-banner .wrapper .callbox {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px; }
+    @media (min-width: 768px) {
+      .financial-assistance #top-banner .wrapper .callbox {
+        margin-top: 25px; } }
+    @media (min-width: 992px) {
+      .financial-assistance #top-banner .wrapper .callbox {
+        margin-top: 60px; } }
+    .financial-assistance #top-banner .wrapper .callbox .quote {
+      text-align: center;
+      font-family: 'Nickainley';
+      font-size: 1.875rem;
+      color: #fff;
+      margin-bottom: 15px; }
+      @media (min-width: 992px) {
+        .financial-assistance #top-banner .wrapper .callbox .quote {
+          font-size: 2rem;
+          padding: 20px 40px 0; } }
+    .financial-assistance #top-banner .wrapper .callbox .sayer {
+      font-size: .9375rem;
+      color: #fff;
+      text-transform: uppercase;
+      margin-bottom: 40px; }
+    .financial-assistance #top-banner .wrapper .callbox .btn-brown {
+      padding: 15px 30px;
+      color: #fff;
+      display: inline-block;
+      margin-bottom: 30px; }
+
 .financial-assistance #content .desc {
   padding: 40px 0 70px; }
   .financial-assistance #content .desc h3 {
@@ -8326,3 +8385,37 @@ button {
         font-family: 'Oswald';
         color: #97bf65;
         font-size: 1.375rem; }
+
+.page-choosing-family #content {
+  background: url(../images/bg-gray.png) repeat-x center 0px;
+  padding: 25px 0 40px; }
+  @media (min-width: 768px) {
+    .page-choosing-family #content {
+      background: url(../images/bg-gray.png) repeat-x center -290px; } }
+  @media (min-width: 992px) {
+    .page-choosing-family #content {
+      background: url(../images/bg-gray.png) repeat-x center -280px; } }
+  .page-choosing-family #content .top-desc {
+    min-height: 745px; }
+    .page-choosing-family #content .top-desc .bold {
+      margin-bottom: 20px; }
+    @media (min-width: 768px) {
+      .page-choosing-family #content .top-desc {
+        min-height: 395px; } }
+    @media (min-width: 992px) {
+      .page-choosing-family #content .top-desc {
+        min-height: 315px; } }
+  .page-choosing-family #content img#img-content {
+    max-width: 210px;
+    display: block;
+    margin: -55px auto 20px; }
+    @media (min-width: 768px) {
+      .page-choosing-family #content img#img-content {
+        max-width: 290px;
+        float: right;
+        display: inline;
+        margin: -40px 0 20px 20px; } }
+    @media (min-width: 992px) {
+      .page-choosing-family #content img#img-content {
+        max-width: 350px;
+        margin: -65px 0  0px 50px; } }

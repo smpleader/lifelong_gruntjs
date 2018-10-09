@@ -415,49 +415,6 @@
         }
     }
 }
-#waiting-families{
-    padding:40px 0;
-    @include bg-gray;
-    .topic-title{
-        margin-bottom:25px;
-        @include nickainley-title-brown();
-        font-size:2.88rem;
-        @include media-breakpoint-up("md"){
-            font-size:3rem;
-        }
-        @include media-breakpoint-up("lg"){
-            font-size:3.2rem;
-        }
-    }
-    .item{
-        background: #fff;
-        padding: 5px 5px 20px 5px ;
-        margin: 0 7px;
-        min-height: 360px;
-        text-align: center;
-        @include color-brown;
-        img{ 
-            margin: 0 auto 20px;
-            width:100%;
-        }
-        h3{
-            font-size: 1.75rem;
-            font-family: 'Oswald';
-            margin-bottom: 20px;
-        }
-        .desc{ }
-    }
-    .btn-green{
-        padding: 10px 30px;
-        margin:28px auto 0;
-        display: inline-block;
-        color:#fff;
-        &:hover{
-            color:#fff;
-            text-decoration: none;
-        }
-    }
-}
 #first-talk{
     padding:25px 0 45px;
     .heart-item{
@@ -532,149 +489,143 @@
     }
 }
 /* page pergnant why to adoption */
-#breadcrumbs{
-    @include bg-cyan;
-    padding: 25px 0;
-    .top-title{
-        font-size: 2.5rem;
-        @include bebasneue-title();
-        @include media-breakpoint-up("md"){
-            text-align: left;
-            font-size: 3.25rem;
-        }
-        @include media-breakpoint-up("lg"){
-            text-align: left;
-            font-size: 4rem;
-        }
-    }
-}
-#top-banner{
-    .wrapper{
-        padding:10px 0 0px;
-        background-repeat: no-repeat;
-        background-position: 0px 350px;
-        @include media-breakpoint-up("md"){
-            background-position: top center;
-            padding:0px 0 105px;
+.why-consider-adoption{
+    #top-banner{
+        .wrapper{
+            padding:10px 0 0px;
             background-repeat: no-repeat;
-        }
-        img{
-            max-width: 100%;
-        }
-        .bold{
-            padding:0px 0 80px;
-        }
-        .callbox{
-            text-align: center;
-            margin-top: 0px;
-            margin-bottom: 0px;
+            background-position: 0px 350px;
             @include media-breakpoint-up("md"){
-                margin-top: 25px;
+                background-position: top center;
+                padding:0px 0 105px;
+                background-repeat: no-repeat;
             }
-            @include media-breakpoint-up("lg"){
-                margin-top: 60px;
+            img{
+                max-width: 100%;
             }
-            .quote{
-                @include nickainley-title;
-                font-size: 1.875rem;
-                color:#fff;
-                margin-bottom:15px;
+            .top-desc{
+                padding:0px 0 80px;
+                @include media-breakpoint-up("md"){
+                    padding:45px 0 30px;
+                }
                 @include media-breakpoint-up("lg"){
-                    font-size: 2rem;
-                    padding:20px 40px 0;
+                    padding:45px 0 30px;
                 }
             }
-            .sayer{
-                font-size:.9375rem;
-                color:#fff;
-                text-transform: uppercase;
-                margin-bottom:40px;
-            }
-            .btn-brown{
-                padding: 15px 30px;
-                color:#fff;
-                display: inline-block;
-                margin-bottom:30px;
+            .callbox{
+                text-align: center;
+                margin-top: 0px;
+                margin-bottom: 0px;
+                @include media-breakpoint-up("md"){
+                    margin-top: 25px;
+                }
+                @include media-breakpoint-up("lg"){
+                    margin-top: 60px;
+                }
+                .quote{
+                    @include nickainley-title;
+                    font-size: 1.875rem;
+                    color:#fff;
+                    margin-bottom:15px;
+                    @include media-breakpoint-up("lg"){
+                        font-size: 2rem;
+                        padding:20px 40px 0;
+                    }
+                }
+                .sayer{
+                    font-size:.9375rem;
+                    color:#fff;
+                    text-transform: uppercase;
+                    margin-bottom:40px;
+                }
+                .btn-brown{
+                    padding: 15px 30px;
+                    color:#fff;
+                    display: inline-block;
+                    margin-bottom:30px;
+                }
             }
         }
     }
-}
-.why-consider-adoption #content{
-    padding:25px 0 ;
-    .green{
-        text-decoration: underline;
-    }
-    .box{
-        margin-bottom:25px;
-        @include media-breakpoint-up("md"){
-            &:nth-child(even){
-                margin-left:30px;
-            }
+    #content{
+        padding:25px 0 ;
+        .green{
+            text-decoration: underline;
         }
-        h3{
-            @include oswald-title-cyan();
-            font-size: 1.4375rem;
-            text-align: center;
-            text-transform: uppercase;
+        .box{
+            margin-bottom:25px;
             @include media-breakpoint-up("md"){
-                text-align: left;
+                &:nth-child(even){
+                    margin-left:30px;
+                }
             }
-        }
-        p{
-            margin: 0;
-            padding-bottom: 20px;
+            h3{
+                @include oswald-title-cyan();
+                font-size: 1.4375rem;
+                text-align: center;
+                text-transform: uppercase;
+                @include media-breakpoint-up("md"){
+                    text-align: left;
+                }
+            }
+            p{
+                margin: 0;
+                padding-bottom: 20px;
+            }
         }
     }
 }
 /* page pergnant types of adoption */
-.types-of-adoption #breadcrumbs{    
-    padding: 25px 0 35px;
-}
-.types-of-adoption #content{
-    background:url(../images/bg-gray.png) repeat-x center 0px ;
-    padding:25px 0 80px;
-    @include  media-breakpoint-up("md"){
-        background:url(../images/bg-gray.png) repeat-x center -290px ;
-    }           
-    @include  media-breakpoint-up("lg"){
-        background:url(../images/bg-gray.png) repeat-x center -380px  ;
+.types-of-adoption{
+    #breadcrumbs{    
+        padding: 25px 0 35px;
     }
-    img#img-content{
-        max-width: 210px;
-        display: block;
-        margin: -55px auto 20px;
+    #content{
+        background:url(../images/bg-gray.png) repeat-x center 0px ;
+        padding:25px 0 80px;
         @include  media-breakpoint-up("md"){
-            max-width: 290px;
-            float: right;
-            display: inline;
-            margin: -40px 0 20px 20px;
+            background:url(../images/bg-gray.png) repeat-x center -290px ;
         }           
         @include  media-breakpoint-up("lg"){
-            max-width: 350px;
-            margin:-65px 0  0px 50px;
+            background:url(../images/bg-gray.png) repeat-x center -380px  ;
         }
+        img#img-content{
+            max-width: 210px;
+            display: block;
+            margin: -55px auto 20px;
+            @include  media-breakpoint-up("md"){
+                max-width: 290px;
+                float: right;
+                display: inline;
+                margin: -40px 0 20px 20px;
+            }           
+            @include  media-breakpoint-up("lg"){
+                max-width: 350px;
+                margin:-65px 0  0px 50px;
+            }
+        }
+        .bold{
+            min-height: 405px;
+            line-height: 1.8;
+            @include  media-breakpoint-up("md"){
+                min-height: 255px;
+            }
+            @include  media-breakpoint-up("lg"){
+                min-height: 185px;
+            }
+        }
+        .desc{
+            h3{
+                @include oswald-title-green(left);
+                font-size: 1.375rem;
+                margin-top:45px;
+            }
+            p{
+    
+            }
+        }
+    
     }
-    .bold{
-        min-height: 405px;
-        line-height: 1.8;
-        @include  media-breakpoint-up("md"){
-            min-height: 255px;
-        }
-        @include  media-breakpoint-up("lg"){
-            min-height: 185px;
-        }
-    }
-    .desc{
-        h3{
-            @include oswald-title-green(left);
-            font-size: 1.375rem;
-            margin-top:45px;
-        }
-        p{
-
-        }
-    }
-
 }
 /* You are not alone block */
 #you-arenot-alone{
@@ -692,6 +643,63 @@
     #under-breadcrumbs{
         @include bg-gray;
         padding: 30px 0 60px;
+    }
+    #top-banner{
+        .wrapper{
+            padding:10px 0 0px;
+            background-repeat: no-repeat;
+            background-position: 0px 350px;
+            @include media-breakpoint-up("md"){
+                background-position: top center;
+                padding:0px 0 105px;
+                background-repeat: no-repeat;
+            }
+            img{
+                max-width: 100%;
+            }
+            .top-desc{
+                padding:0px 0 80px;
+                @include media-breakpoint-up("md"){
+                    padding:45px 0 30px;
+                }
+                @include media-breakpoint-up("lg"){
+                    padding:45px 0 30px;
+                }
+            }
+            .callbox{
+                text-align: center;
+                margin-top: 0px;
+                margin-bottom: 0px;
+                @include media-breakpoint-up("md"){
+                    margin-top: 25px;
+                }
+                @include media-breakpoint-up("lg"){
+                    margin-top: 60px;
+                }
+                .quote{
+                    @include nickainley-title;
+                    font-size: 1.875rem;
+                    color:#fff;
+                    margin-bottom:15px;
+                    @include media-breakpoint-up("lg"){
+                        font-size: 2rem;
+                        padding:20px 40px 0;
+                    }
+                }
+                .sayer{
+                    font-size:.9375rem;
+                    color:#fff;
+                    text-transform: uppercase;
+                    margin-bottom:40px;
+                }
+                .btn-brown{
+                    padding: 15px 30px;
+                    color:#fff;
+                    display: inline-block;
+                    margin-bottom:30px;
+                }
+            }
+        }
     }
     #content{
         .desc{
@@ -759,4 +767,44 @@
             }
         }
     }
+}
+.page-choosing-family{
+    #content{
+        background:url(../images/bg-gray.png) repeat-x center 0px ;
+        padding:25px 0 40px;
+        @include  media-breakpoint-up("md"){
+            background:url(../images/bg-gray.png) repeat-x center -290px ;
+        }           
+        @include  media-breakpoint-up("lg"){
+            background:url(../images/bg-gray.png) repeat-x center -280px  ;
+        }
+        .top-desc{
+            min-height: 745px;
+            .bold{
+                margin-bottom:20px;
+            }
+            @include  media-breakpoint-up("md"){
+                min-height: 395px;
+            }           
+            @include  media-breakpoint-up("lg"){
+                min-height: 315px;
+            }
+        }
+           
+        img#img-content{
+            max-width: 210px;
+            display: block;
+            margin: -55px auto 20px;
+            @include  media-breakpoint-up("md"){
+                max-width: 290px;
+                float: right;
+                display: inline;
+                margin: -40px 0 20px 20px;
+            }           
+            @include  media-breakpoint-up("lg"){
+                max-width: 350px;
+                margin:-65px 0  0px 50px;
+            }
+        }
+    } 
 }

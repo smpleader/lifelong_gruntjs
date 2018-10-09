@@ -441,3 +441,67 @@
         }
     }
 }
+#breadcrumbs{
+    @include bg-cyan;
+    padding: 25px 0;
+    .top-title{
+        font-size: 2.5rem;
+        @include bebasneue-title();
+        @include media-breakpoint-up("md"){
+            text-align: left;
+            font-size: 3.25rem;
+        }
+        @include media-breakpoint-up("lg"){
+            text-align: left;
+            font-size: 4rem;
+        }
+    }
+}
+#waiting-families{
+    padding:40px 0;
+    &.brown{
+        @include bg-gray;
+        .item{
+            background: #fff;
+        }
+    }
+    .topic-title{
+        margin-bottom:25px;
+        @include nickainley-title-brown();
+        font-size:2.88rem;
+        @include media-breakpoint-up("md"){
+            font-size:3rem;
+        }
+        @include media-breakpoint-up("lg"){
+            font-size:3.2rem;
+        }
+    }
+    .item{
+        @include bg-gray;
+        padding: 5px 5px 20px 5px ;
+        margin: 0 7px;
+        min-height: 360px;
+        text-align: center;
+        @include color-brown;
+        img{ 
+            margin: 0 auto 20px;
+            width:100%;
+        }
+        h3{
+            font-size: 1.75rem;
+            font-family: 'Oswald';
+            margin-bottom: 20px;
+        }
+        .desc{ }
+    }
+    .btn-green{
+        padding: 10px 30px;
+        margin:28px auto 0;
+        display: inline-block;
+        color:#fff;
+        &:hover{
+            color:#fff;
+            text-decoration: none;
+        }
+    }
+}
