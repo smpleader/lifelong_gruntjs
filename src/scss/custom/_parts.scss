@@ -912,8 +912,15 @@
             }
         }
     }
-    .green{
+    .bg-green{
         background: $site-green-bg;
+        margin-top: 45px;
+        .callbox{
+            margin-top:-15px;
+        }
+        .content{
+            padding-top:25px;
+        }
         .quote{
             @include oswald-title;
             font-size: 1.5625rem;
@@ -962,6 +969,100 @@
             span{
                margin-left:20px
              }
+        }
+    }
+}
+.page-the-lgbt-adopting-process{
+    #content{
+        background:url(../images/bg-gray.png) repeat-x center 0px ;
+        @include  media-breakpoint-up("md"){
+            background:url(../images/bg-gray.png) repeat-x center -30px ;
+        }           
+        @include  media-breakpoint-up("lg"){
+            background:url(../images/bg-gray.png) repeat-x center -160px  ;
+        }
+        #desktop-img-position,
+        #tablet-img-position{
+            display: inline-block;
+            float:right;
+        }
+        .top-desc{
+            padding:0px 0 40px;
+            margin-bottom: 60px;
+            background:$site-brown-bg ;
+            @include  media-breakpoint-up("md"){
+                background:transparent ;
+                padding:40px 0;
+            }
+        }
+    }
+    img#img-content{
+        max-width: 210px;
+        display: block;
+        margin: -25px auto 20px;
+        @include  media-breakpoint-up("md"){
+            max-width: 290px;
+            float: right;
+            display: inline;
+            margin: -40px 0 20px 20px;
+        }           
+        @include  media-breakpoint-up("lg"){
+            max-width: 350px;
+            margin:-65px 0  0px 50px;
+        }
+    }
+    .bg-green{
+        background: $site-green;
+        margin-top:45px;
+        .callbox{
+            margin-top:-15px;
+        }
+        .content{
+            padding: 50px 0 0;
+            @include  media-breakpoint-up("md"){
+                padding:50px 40px 0; 
+            } 
+            @include  media-breakpoint-up("lg"){
+                padding:50px 140px 0; 
+            }
+        }
+        .quote{
+            @include oswald-title;
+            font-size: 1.25rem;
+            @include  media-breakpoint-up("md"){
+                font-size: 1.3725rem;
+            } 
+            @include  media-breakpoint-up("lg"){
+                font-size: 1.5625rem;
+            }
+            
+        }
+        .sayer{
+            @include nickainley-title;
+            font-size: 1.625rem;
+            @include  media-breakpoint-up("md"){
+                font-size: 1.75rem;
+            } 
+            @include  media-breakpoint-up("lg"){
+                font-size: 2.125rem;
+            }
+        }
+    }
+    .desc{
+        h2{
+            @include bebasneue-title-brown;
+            font-size:2.3125rem;   
+            @include  media-breakpoint-up("md"){
+                font-size:3.125rem;   
+            } 
+            @include  media-breakpoint-up("lg"){
+                font-size:3.375rem;   
+            }
+        }
+        h3{
+            @include oswald-title-green(left);
+            margin-top:40px;
+            font-size:1.375rem;
         }
     }
 }

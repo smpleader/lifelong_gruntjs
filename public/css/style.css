@@ -8501,13 +8501,18 @@ button {
       .page-birthmother-story .brown .callbox .content h3 {
         font-size: 3.125rem; } }
 
-.page-birthmother-story .green {
-  background: #97bf65; }
-  .page-birthmother-story .green .quote {
+.page-birthmother-story .bg-green {
+  background: #97bf65;
+  margin-top: 45px; }
+  .page-birthmother-story .bg-green .callbox {
+    margin-top: -15px; }
+  .page-birthmother-story .bg-green .content {
+    padding-top: 25px; }
+  .page-birthmother-story .bg-green .quote {
     text-align: center;
     font-family: 'Oswald';
     font-size: 1.5625rem; }
-  .page-birthmother-story .green .sayer {
+  .page-birthmother-story .bg-green .sayer {
     text-align: center;
     font-family: 'Nickainley';
     font-size: 2.125rem; }
@@ -8549,3 +8554,92 @@ button {
         text-align: left; } }
     .page-birthmother-story .pagination .previous span {
       margin-left: 20px; }
+
+.page-the-lgbt-adopting-process #content {
+  background: url(../images/bg-gray.png) repeat-x center 0px; }
+  @media (min-width: 768px) {
+    .page-the-lgbt-adopting-process #content {
+      background: url(../images/bg-gray.png) repeat-x center -30px; } }
+  @media (min-width: 992px) {
+    .page-the-lgbt-adopting-process #content {
+      background: url(../images/bg-gray.png) repeat-x center -160px; } }
+  .page-the-lgbt-adopting-process #content #desktop-img-position,
+  .page-the-lgbt-adopting-process #content #tablet-img-position {
+    display: inline-block;
+    float: right; }
+  .page-the-lgbt-adopting-process #content .top-desc {
+    padding: 0px 0 40px;
+    margin-bottom: 60px;
+    background: #f6f5f3; }
+    @media (min-width: 768px) {
+      .page-the-lgbt-adopting-process #content .top-desc {
+        background: transparent;
+        padding: 40px 0; } }
+
+.page-the-lgbt-adopting-process img#img-content {
+  max-width: 210px;
+  display: block;
+  margin: -25px auto 20px; }
+  @media (min-width: 768px) {
+    .page-the-lgbt-adopting-process img#img-content {
+      max-width: 290px;
+      float: right;
+      display: inline;
+      margin: -40px 0 20px 20px; } }
+  @media (min-width: 992px) {
+    .page-the-lgbt-adopting-process img#img-content {
+      max-width: 350px;
+      margin: -65px 0  0px 50px; } }
+
+.page-the-lgbt-adopting-process .bg-green {
+  background: #97bf65;
+  margin-top: 45px; }
+  .page-the-lgbt-adopting-process .bg-green .callbox {
+    margin-top: -15px; }
+  .page-the-lgbt-adopting-process .bg-green .content {
+    padding: 50px 0 0; }
+    @media (min-width: 768px) {
+      .page-the-lgbt-adopting-process .bg-green .content {
+        padding: 50px 40px 0; } }
+    @media (min-width: 992px) {
+      .page-the-lgbt-adopting-process .bg-green .content {
+        padding: 50px 140px 0; } }
+  .page-the-lgbt-adopting-process .bg-green .quote {
+    text-align: center;
+    font-family: 'Oswald';
+    font-size: 1.25rem; }
+    @media (min-width: 768px) {
+      .page-the-lgbt-adopting-process .bg-green .quote {
+        font-size: 1.3725rem; } }
+    @media (min-width: 992px) {
+      .page-the-lgbt-adopting-process .bg-green .quote {
+        font-size: 1.5625rem; } }
+  .page-the-lgbt-adopting-process .bg-green .sayer {
+    text-align: center;
+    font-family: 'Nickainley';
+    font-size: 1.625rem; }
+    @media (min-width: 768px) {
+      .page-the-lgbt-adopting-process .bg-green .sayer {
+        font-size: 1.75rem; } }
+    @media (min-width: 992px) {
+      .page-the-lgbt-adopting-process .bg-green .sayer {
+        font-size: 2.125rem; } }
+
+.page-the-lgbt-adopting-process .desc h2 {
+  text-align: center;
+  font-family: 'BebasNeue';
+  color: #56330e;
+  font-size: 2.3125rem; }
+  @media (min-width: 768px) {
+    .page-the-lgbt-adopting-process .desc h2 {
+      font-size: 3.125rem; } }
+  @media (min-width: 992px) {
+    .page-the-lgbt-adopting-process .desc h2 {
+      font-size: 3.375rem; } }
+
+.page-the-lgbt-adopting-process .desc h3 {
+  text-align: left;
+  font-family: 'Oswald';
+  color: #97bf65;
+  margin-top: 40px;
+  font-size: 1.375rem; }
