@@ -59,6 +59,18 @@ button{
         @include color-green;
     }
 }
+.bg-cyan{
+    @include bg-cyan;
+    a, &:hover{
+        color: $white;
+    }
+}
+.bg-brown{
+    background: $site-brown-bg;
+}
+.bg-green{
+    @include bg-green;
+}
 /* -- box brown -- */
 /* height limit of box head: 410px */
 .box-brown-head{
@@ -296,5 +308,15 @@ button{
             bottom:10px;
             left:-11px; /* -(22/2) */
         }
+    }
+}
+.heart-item{
+    padding: 0px 0 0px 75px;
+    min-height: 65px;
+    margin:15px 0 35px;
+    background: url(../images/list-item-heart.png) no-repeat top left;
+    @include media-breakpoint-up("md"){
+        padding-top:10px;
+        background-position: center left;
     }
 }
