@@ -9,6 +9,10 @@ button{
     @include btn-bold();
     @include bg-brown();
 }
+.btn-cyan{
+    @include btn-bold();
+    @include bg-cyan();
+}
 .btn-bitalic-green{
     @include btn-bitalic();
     @include color-green();
@@ -248,8 +252,9 @@ button{
         }
     }
     &.cyan{
+        outline:2px solid #c6cfd5;
         .bg{
-            background: #9AD5D3;
+            background: #D2EFED; /* #9AD5D3; */
         }
         .heart{
             background:url(../images/bg-heart-cyan.png) no-repeat center center;
