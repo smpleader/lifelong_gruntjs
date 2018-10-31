@@ -9146,8 +9146,7 @@ button {
 
 /* page hoping to adopt single parent adoption */
 .page-single-parent-adoption #breadcrumbs h2.top-title {
-  margin-left: -10px;
-  margin-right: -10px; }
+  font-size: 2.375rem; }
   @media (min-width: 768px) {
     .page-single-parent-adoption #breadcrumbs h2.top-title {
       margin-left: 0;
@@ -9198,13 +9197,6 @@ button {
       font-size: 1.75rem;
       margin-top: 25px; }
 
-.page-single-parent-adoption #you-arenot-alone h2.module-title {
-  margin-left: -10px;
-  margin-right: -10px; }
-
-.page-single-parent-adoption #you-arenot-alone .desc {
-  padding: 0 20px; }
-
 /* page same sex adoption */
 .page-same-sex-adoption #under-breadcrumbs {
   padding: 45px 0;
@@ -9226,18 +9218,14 @@ button {
     background-position: right; } }
 
 .page-same-sex-adoption #top-banner .wrapper .call {
-  margin-left: -30px;
-  margin-right: -30px;
   color: #fff;
   background-color: #97bf65;
   padding-top: 2px;
   position: relative; }
   @media (min-width: 768px) {
     .page-same-sex-adoption #top-banner .wrapper .call {
-      margin-left: initial;
-      margin-right: initial;
-      background: initial;
-      padding-top: initial; } }
+      background: inherit;
+      padding-top: inherit; } }
   .page-same-sex-adoption #top-banner .wrapper .call .callbox.topleft {
     margin: 15px 0px 17px 11px;
     padding: 25px 25px 30px 12px;
@@ -9245,21 +9233,12 @@ button {
     @media (min-width: 992px) {
       .page-same-sex-adoption #top-banner .wrapper .call .callbox.topleft {
         margin: 15px -9px 17px 11px;
-        min-height: initial; } }
+        min-height: inherit; } }
     .page-same-sex-adoption #top-banner .wrapper .call .callbox.topleft .bg {
       left: 0; }
-      @media (min-width: 768px) {
-        .page-same-sex-adoption #top-banner .wrapper .call .callbox.topleft .bg {
-          left: -16px;
-          top: 10px;
-          min-width: 348px;
-          min-height: 420px; } }
-      @media (min-width: 992px) {
-        .page-same-sex-adoption #top-banner .wrapper .call .callbox.topleft .bg {
-          min-width: 520px;
-          min-height: 330px; } }
     .page-same-sex-adoption #top-banner .wrapper .call .callbox.topleft .content {
-      text-align: center; }
+      text-align: center;
+      padding-bottom: 20px; }
       .page-same-sex-adoption #top-banner .wrapper .call .callbox.topleft .content .quote {
         padding-top: 15px;
         text-align: center;
@@ -9291,15 +9270,8 @@ button {
   line-height: 1.8;
   padding: 30px 0 20px; }
 
-.page-same-sex-adoption #you-arenot-alone h2.module-title {
-  margin-left: -15px;
-  margin-right: -15px; }
-
-.page-same-sex-adoption #you-arenot-alone .desc {
-  padding: 0 20px; }
-
 .page-same-sex-adoption #foot-free-app {
-  z-index: 999999; }
+  z-index: 2; }
 
 /* page open vs closed adoption */
 .page-open-vs-closed-adoption #under-breadcrumbs .top-content {
@@ -9465,18 +9437,7 @@ button {
     max-width: 100%; }
 
 .page-all-about-home-studies #top-banner .wrapper .call {
-  margin-left: -30px;
-  margin-right: -30px;
-  color: #fff;
-  background-color: #97bf65;
-  padding-top: 2px;
   position: relative; }
-  @media (min-width: 768px) {
-    .page-all-about-home-studies #top-banner .wrapper .call {
-      margin-left: initial;
-      margin-right: initial;
-      background: initial;
-      padding-top: initial; } }
   .page-all-about-home-studies #top-banner .wrapper .call .callbox.topleft {
     margin: 15px 15px 0 11px; }
     @media (min-width: 992px) {
@@ -9540,22 +9501,18 @@ button {
     padding-left: 20px; }
     .page-all-about-home-studies #content ul li {
       padding: 10px 0; }
-  .page-all-about-home-studies #content .call {
-    margin: 0 -30px 40px -30px;
-    padding: 1px 0;
-    background: #9bd5d3; }
-    .page-all-about-home-studies #content .call .callbox.topleft {
-      margin: 15px 15px 30px 15px; }
-      .page-all-about-home-studies #content .call .callbox.topleft .content {
-        text-align: center;
-        font-family: 'Oswald';
-        color: #fff;
-        font-size: 1.25rem;
-        padding: 30px 0 10px; }
-      .page-all-about-home-studies #content .call .callbox.topleft .bg {
-        background: #9bd5d3; }
-    .page-all-about-home-studies #content .call .callbox.cyan {
-      outline: 2px solid #c2edec; }
+  .page-all-about-home-studies #content .call .callbox.topleft {
+    margin: 15px 15px 30px 15px; }
+    .page-all-about-home-studies #content .call .callbox.topleft .content {
+      text-align: center;
+      font-family: 'Oswald';
+      color: #fff;
+      font-size: 1.25rem;
+      padding: 30px 0 10px; }
+    .page-all-about-home-studies #content .call .callbox.topleft .bg {
+      background: #9bd5d3; }
+  .page-all-about-home-studies #content .call .callbox.cyan {
+    outline: 2px solid #c2edec; }
   .page-all-about-home-studies #content .desc {
     margin-bottom: 40px; }
     .page-all-about-home-studies #content .desc h2 {
@@ -9574,7 +9531,7 @@ button {
       margin-top: 35px; }
 
 .page-all-about-home-studies #foot-free-app {
-  z-index: 999999; }
+  z-index: 2; }
 
 /* page cost of adoption */
 .page-cost-of-adoption {
@@ -9687,6 +9644,8 @@ button {
         @media (min-width: 992px) {
           .page-cost-of-adoption #financial-resources .container .wrapper {
             padding: 50px 0 0; } }
+        .page-cost-of-adoption #financial-resources .container .wrapper div:first-child {
+          z-index: 1; }
         .page-cost-of-adoption #financial-resources .container .wrapper .module-title {
           text-align: center;
           font-family: 'Nickainley';
@@ -9776,43 +9735,380 @@ button {
         .page-cost-of-adoption #financial-resources .container .wrapper .desc {
           font-family: 'OpenSans Italic';
           font-size: 0.8125rem; }
-  .page-cost-of-adoption #lightbox-top {
-    padding: 40px 0 30px;
-    margin-bottom: 40px; }
-    .page-cost-of-adoption #lightbox-top h1 {
+    .page-cost-of-adoption #financial-resources .link-modal {
+      cursor: pointer; }
+  .page-cost-of-adoption #fsModal .modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden; }
+  .page-cost-of-adoption #fsModal .modal-dialog {
+    position: fixed;
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    padding: 0; }
+    .page-cost-of-adoption #fsModal .modal-dialog .modal-content {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      border-radius: 0;
+      box-shadow: none;
+      border: none; }
+      .page-cost-of-adoption #fsModal .modal-dialog .modal-content .modal-header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 40px 0 30px;
+        margin-bottom: 40px;
+        border: none;
+        background: #f6f5f3; }
+        .page-cost-of-adoption #fsModal .modal-dialog .modal-content .modal-header h1 {
+          text-align: center;
+          font-family: 'BebasNeue';
+          color: #56330e;
+          text-align: left;
+          font-size: 4rem; }
+        .page-cost-of-adoption #fsModal .modal-dialog .modal-content .modal-header a.mp-menu-close {
+          margin: 10px 0 0;
+          height: 1.625rem;
+          width: 4.625rem;
+          content: "";
+          display: block;
+          background: url(../images/close-2.png) no-repeat center center;
+          cursor: pointer;
+          top: 0;
+          right: 15px;
+          position: absolute; }
+      .page-cost-of-adoption #fsModal .modal-dialog .modal-content .modal-body {
+        position: absolute;
+        top: 305px;
+        bottom: 0px;
+        width: 100%;
+        overflow: auto;
+        background: url(../images/heart-line-3.png) no-repeat;
+        background-position: right top; }
+        @media (min-width: 768px) {
+          .page-cost-of-adoption #fsModal .modal-dialog .modal-content .modal-body {
+            top: 180px; } }
+        .page-cost-of-adoption #fsModal .modal-dialog .modal-content .modal-body h2 {
+          text-align: center;
+          font-family: 'Nickainley';
+          color: #34aba7;
+          text-align: left;
+          font-size: 2.75rem; }
+        .page-cost-of-adoption #fsModal .modal-dialog .modal-content .modal-body h3 {
+          text-align: center;
+          font-family: 'Oswald';
+          color: #97bf65;
+          text-align: left;
+          font-size: 1.375rem;
+          margin-top: 40px; }
+        .page-cost-of-adoption #fsModal .modal-dialog .modal-content .modal-body ul {
+          padding-left: 20px; }
+          .page-cost-of-adoption #fsModal .modal-dialog .modal-content .modal-body ul li {
+            margin-bottom: 15px; }
+
+.page-ultimate-adoption-guide #header-slider {
+  border-bottom: 5px solid #97bf65; }
+  @media (min-width: 768px) {
+    .page-ultimate-adoption-guide #header-slider {
+      border-bottom: none; } }
+  .page-ultimate-adoption-guide #header-slider .slick-header .slick-list {
+    overflow: visible; }
+  .page-ultimate-adoption-guide #header-slider .slick-header .item .content {
+    min-height: 380px; }
+    @media (min-width: 768px) {
+      .page-ultimate-adoption-guide #header-slider .slick-header .item .content {
+        padding-top: 30px;
+        min-height: 570px; } }
+    .page-ultimate-adoption-guide #header-slider .slick-header .item .content h2 {
+      text-align: left;
+      font-family: 'Nickainley';
+      color: #97bf65;
+      padding-left: 65px;
+      margin-bottom: 0;
+      margin-top: 10px; }
+    .page-ultimate-adoption-guide #header-slider .slick-header .item .content h3 {
       text-align: center;
       font-family: 'BebasNeue';
-      color: #56330e;
-      text-align: left;
-      font-size: 4rem; }
-    .page-cost-of-adoption #lightbox-top a.mp-menu-close {
-      margin: 10px 0 0;
-      height: 1.625rem;
-      width: 4.625rem;
-      content: "";
+      font-size: 3.8125rem;
+      line-height: 1;
+      margin-bottom: 0; }
+      @media (min-width: 768px) {
+        .page-ultimate-adoption-guide #header-slider .slick-header .item .content h3 {
+          text-align: right;
+          font-size: 4.275rem; } }
+      @media (min-width: 992px) {
+        .page-ultimate-adoption-guide #header-slider .slick-header .item .content h3 {
+          font-size: 5.6875rem; } }
+    .page-ultimate-adoption-guide #header-slider .slick-header .item .content .sub-text {
+      text-align: left; }
+      @media (min-width: 992px) {
+        .page-ultimate-adoption-guide #header-slider .slick-header .item .content .sub-text {
+          float: right;
+          max-width: 231px; } }
+      .page-ultimate-adoption-guide #header-slider .slick-header .item .content .sub-text p:first-child {
+        font-family: 'Oswald Light';
+        text-align: right;
+        display: block;
+        color: #d9f0bd;
+        margin-top: -8px; }
+        @media (min-width: 992px) {
+          .page-ultimate-adoption-guide #header-slider .slick-header .item .content .sub-text p:first-child {
+            font-size: 1.3125rem;
+            letter-spacing: 2px; } }
+
+@media (min-width: 992px) {
+  .page-ultimate-adoption-guide #top-form .wrapper {
+    color: #fff;
+    background-color: #34aba7; } }
+
+.page-ultimate-adoption-guide #top-form .wrapper img {
+  max-width: 151px;
+  position: absolute;
+  left: 0;
+  top: -210px; }
+  @media (min-width: 768px) {
+    .page-ultimate-adoption-guide #top-form .wrapper img {
+      max-width: 185px;
+      left: 60px;
+      top: -220px; } }
+  @media (min-width: 992px) {
+    .page-ultimate-adoption-guide #top-form .wrapper img {
+      max-width: 225px;
+      left: 0; } }
+
+.page-ultimate-adoption-guide #top-form .wrapper .form {
+  padding: 20px 0 55px;
+  text-align: center; }
+  @media (min-width: 768px) {
+    .page-ultimate-adoption-guide #top-form .wrapper .form {
+      border-top: 5px solid #97bf65;
+      padding: 20px 15px 55px 15px; } }
+  @media (min-width: 992px) {
+    .page-ultimate-adoption-guide #top-form .wrapper .form {
+      margin-top: -125px;
+      background: #fff; } }
+  .page-ultimate-adoption-guide #top-form .wrapper .form h3 {
+    text-align: center;
+    font-family: 'Oswald';
+    color: #97bf65;
+    font-size: 1.6125rem; }
+    @media (min-width: 992px) {
+      .page-ultimate-adoption-guide #top-form .wrapper .form h3 {
+        margin-bottom: 30px; } }
+  .page-ultimate-adoption-guide #top-form .wrapper .form p {
+    color: #56330e;
+    text-align: center; }
+  .page-ultimate-adoption-guide #top-form .wrapper .form .row {
+    margin-bottom: 20px; }
+
+.page-ultimate-adoption-guide #under-top-form {
+  padding: 40px 0 30px; }
+  .page-ultimate-adoption-guide #under-top-form h3 {
+    text-align: center;
+    font-family: 'Nickainley';
+    font-size: 2.25rem; }
+  .page-ultimate-adoption-guide #under-top-form p {
+    font-family: 'OpenSans Semibold';
+    font-size: 1.125rem;
+    text-align: center; }
+
+.page-ultimate-adoption-guide #it-is-your-choice {
+  padding: 60px 0 40px; }
+  .page-ultimate-adoption-guide #it-is-your-choice h3 {
+    text-align: left;
+    font-family: 'BebasNeue';
+    color: #97bf65;
+    font-size: 2.375rem; }
+    @media (min-width: 992px) {
+      .page-ultimate-adoption-guide #it-is-your-choice h3 {
+        font-size: 2.625rem; } }
+
+.page-ultimate-adoption-guide #content {
+  background: #f6f5f3 url(../images/bg-heart2.png) no-repeat bottom right -90px;
+  padding: 60px 0 70px; }
+  .page-ultimate-adoption-guide #content h3 {
+    text-align: left;
+    font-family: 'BebasNeue';
+    color: #97bf65;
+    font-size: 2.375rem; }
+  .page-ultimate-adoption-guide #content #img-content {
+    max-width: 240px;
+    margin: 0 auto;
+    display: block; }
+    @media (min-width: 768px) {
+      .page-ultimate-adoption-guide #content #img-content {
+        max-width: 285px;
+        float: right; } }
+    @media (min-width: 992px) {
+      .page-ultimate-adoption-guide #content #img-content {
+        margin-top: -70px; } }
+
+.page-ultimate-adoption-guide #adoption-stories {
+  padding: 50px 0 35px; }
+  .page-ultimate-adoption-guide #adoption-stories .slick-stories {
+    margin: 15px 0 25px; }
+    .page-ultimate-adoption-guide #adoption-stories .slick-stories .slick-nav {
+      position: absolute;
       display: block;
-      background: url(../images/close-2.png) no-repeat center center;
-      cursor: pointer;
-      top: 0;
-      right: 15px;
-      position: absolute; }
-  .page-cost-of-adoption #lightbox-content {
-    background: url(../images/heart-line-3.png) no-repeat;
-    background-position: right top; }
-    .page-cost-of-adoption #lightbox-content h2 {
-      text-align: center;
-      font-family: 'Nickainley';
-      color: #34aba7;
-      text-align: left;
-      font-size: 2.75rem; }
-    .page-cost-of-adoption #lightbox-content h3 {
-      text-align: center;
-      font-family: 'Oswald';
-      color: #97bf65;
-      text-align: left;
-      font-size: 1.375rem;
-      margin-top: 40px; }
-    .page-cost-of-adoption #lightbox-content ul {
-      padding-left: 20px; }
-      .page-cost-of-adoption #lightbox-content ul li {
-        margin-bottom: 15px; }
+      width: 25px;
+      height: 35px;
+      top: 130px;
+      cursor: pointer; }
+    .page-ultimate-adoption-guide #adoption-stories .slick-stories .prev {
+      left: -30px;
+      background: url(../images/arrPrev.png) no-repeat center center; }
+    .page-ultimate-adoption-guide #adoption-stories .slick-stories .next {
+      right: -30px;
+      background: url(../images/arrNext.png) no-repeat center center; }
+    .page-ultimate-adoption-guide #adoption-stories .slick-stories .item {
+      background: #f6f5f3; }
+  .page-ultimate-adoption-guide #adoption-stories .btn-green {
+    padding: 15px 45px;
+    display: inline-block; }
+
+.page-ultimate-adoption-guide #fsModal .modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden; }
+
+.page-ultimate-adoption-guide #fsModal .modal-dialog {
+  position: fixed;
+  margin: 0;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  padding: 0; }
+  .page-ultimate-adoption-guide #fsModal .modal-dialog .modal-content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 0;
+    box-shadow: none;
+    border: none; }
+    .page-ultimate-adoption-guide #fsModal .modal-dialog .modal-content .modal-header {
+      padding: 1.4rem 1rem; }
+      .page-ultimate-adoption-guide #fsModal .modal-dialog .modal-content .modal-header a.mp-menu-close {
+        margin: 10px 0 0;
+        height: 1.625rem;
+        width: 4.625rem;
+        content: "";
+        display: block;
+        background: url(../images/close-2.png) no-repeat center center;
+        cursor: pointer;
+        top: 0;
+        right: 15px;
+        position: absolute; }
+    .page-ultimate-adoption-guide #fsModal .modal-dialog .modal-content .modal-body {
+      position: absolute;
+      top: 45px;
+      bottom: 0px;
+      width: 100%;
+      overflow: auto; }
+      .page-ultimate-adoption-guide #fsModal .modal-dialog .modal-content .modal-body .modal-callbox.callbox-1 {
+        background: #f6f5f3;
+        margin-top: -16px;
+        margin-left: -16px;
+        margin-right: -16px;
+        padding: 30px 0; }
+        .page-ultimate-adoption-guide #fsModal .modal-dialog .modal-content .modal-body .modal-callbox.callbox-1 .callbox .bg {
+          background: #f0eeeb; }
+        .page-ultimate-adoption-guide #fsModal .modal-dialog .modal-content .modal-body .modal-callbox.callbox-1 .callbox .content:after {
+          content: "";
+          display: table;
+          clear: both; }
+        .page-ultimate-adoption-guide #fsModal .modal-dialog .modal-content .modal-body .modal-callbox.callbox-1 .callbox .content .left {
+          padding-top: 70px; }
+          .page-ultimate-adoption-guide #fsModal .modal-dialog .modal-content .modal-body .modal-callbox.callbox-1 .callbox .content .left h2 {
+            color: #34aba7; }
+        .page-ultimate-adoption-guide #fsModal .modal-dialog .modal-content .modal-body .modal-callbox.callbox-1 .callbox .content .right {
+          display: block;
+          float: none;
+          text-align: center;
+          padding: 40px 0; }
+          @media (min-width: 768px) {
+            .page-ultimate-adoption-guide #fsModal .modal-dialog .modal-content .modal-body .modal-callbox.callbox-1 .callbox .content .right {
+              float: right;
+              width: 50%;
+              text-align: left; } }
+          .page-ultimate-adoption-guide #fsModal .modal-dialog .modal-content .modal-body .modal-callbox.callbox-1 .callbox .content .right img {
+            width: 90%; }
+        .page-ultimate-adoption-guide #fsModal .modal-dialog .modal-content .modal-body .modal-callbox.callbox-1 .callbox .content h2 {
+          text-align: center;
+          font-family: 'BebasNeue';
+          color: #97bf65;
+          font-size: 4.0625rem; }
+          @media (min-width: 768px) {
+            .page-ultimate-adoption-guide #fsModal .modal-dialog .modal-content .modal-body .modal-callbox.callbox-1 .callbox .content h2 {
+              font-size: 5.3125rem; } }
+          @media (min-width: 992px) {
+            .page-ultimate-adoption-guide #fsModal .modal-dialog .modal-content .modal-body .modal-callbox.callbox-1 .callbox .content h2 {
+              font-size: 6.1875rem; } }
+        .page-ultimate-adoption-guide #fsModal .modal-dialog .modal-content .modal-body .modal-callbox.callbox-1 .callbox .content h3 {
+          text-align: center;
+          font-family: 'Nickainley';
+          color: #56330e;
+          font-size: 1.875rem; }
+          @media (min-width: 768px) {
+            .page-ultimate-adoption-guide #fsModal .modal-dialog .modal-content .modal-body .modal-callbox.callbox-1 .callbox .content h3 {
+              font-size: 2.5rem; } }
+          @media (min-width: 992px) {
+            .page-ultimate-adoption-guide #fsModal .modal-dialog .modal-content .modal-body .modal-callbox.callbox-1 .callbox .content h3 {
+              font-size: 3.125rem; } }
+      .page-ultimate-adoption-guide #fsModal .modal-dialog .modal-content .modal-body .modal-callbox.callbox-2 .callbox .bg {
+        background: #97bf65; }
+      .page-ultimate-adoption-guide #fsModal .modal-dialog .modal-content .modal-body .modal-callbox.callbox-2 .callbox .content {
+        color: #fff; }
+        @media (min-width: 768px) {
+          .page-ultimate-adoption-guide #fsModal .modal-dialog .modal-content .modal-body .modal-callbox.callbox-2 .callbox .content {
+            padding: 60px 110px; } }
+        .page-ultimate-adoption-guide #fsModal .modal-dialog .modal-content .modal-body .modal-callbox.callbox-2 .callbox .content .quote {
+          text-align: center;
+          font-family: 'Oswald';
+          font-size: 1.5625rem;
+          margin-bottom: 25px;
+          line-height: 1.8; }
+        .page-ultimate-adoption-guide #fsModal .modal-dialog .modal-content .modal-body .modal-callbox.callbox-2 .callbox .content .sayer {
+          text-align: center;
+          font-family: 'Nickainley';
+          font-size: 2.125rem; }
+      .page-ultimate-adoption-guide #fsModal .modal-dialog .modal-content .modal-body .modal-text h3 {
+        text-align: center;
+        font-family: 'Oswald';
+        color: #97bf65;
+        text-align: left;
+        font-size: 1.375rem;
+        margin-top: 40px; }
+      .page-ultimate-adoption-guide #fsModal .modal-dialog .modal-content .modal-body .modal-text ul {
+        padding-left: 20px; }
+        .page-ultimate-adoption-guide #fsModal .modal-dialog .modal-content .modal-body .modal-text ul li {
+          margin-bottom: 15px; }
+      .page-ultimate-adoption-guide #fsModal .modal-dialog .modal-content .modal-body .bg-brown {
+        padding: 50px 0 40px; }
+        .page-ultimate-adoption-guide #fsModal .modal-dialog .modal-content .modal-body .bg-brown h3 {
+          display: inline;
+          text-align: center;
+          font-family: 'BebasNeue';
+          color: #34aba7;
+          font-size: 2.125rem; }
+        .page-ultimate-adoption-guide #fsModal .modal-dialog .modal-content .modal-body .bg-brown span {
+          display: inline;
+          font-style: italic;
+          color: #56330e; }
+        .page-ultimate-adoption-guide #fsModal .modal-dialog .modal-content .modal-body .bg-brown .right {
+          text-align: right; }
