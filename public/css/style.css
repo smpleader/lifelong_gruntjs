@@ -6638,6 +6638,50 @@ a.text-dark:hover, a.text-dark:focus {
       color: black;
       opacity: 0.75; }
 
+.jqvmap-label {
+  position: absolute;
+  display: none;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background: #292929;
+  color: white;
+  font-family: sans-serif, Verdana;
+  font-size: smaller;
+  padding: 3px;
+  pointer-events: none; }
+
+.jqvmap-pin {
+  pointer-events: none; }
+
+.jqvmap-zoomin, .jqvmap-zoomout {
+  position: absolute;
+  left: 10px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background: #000000;
+  padding: 3px;
+  color: white;
+  width: 10px;
+  height: 10px;
+  cursor: pointer;
+  line-height: 10px;
+  text-align: center; }
+
+.jqvmap-zoomin {
+  top: 10px; }
+
+.jqvmap-zoomout {
+  top: 30px; }
+
+.jqvmap-region {
+  cursor: pointer; }
+
+.jqvmap-ajax_response {
+  width: 100%;
+  height: 500px; }
+
 /**
 .container  = .mlnavigation
 */
@@ -7471,7 +7515,8 @@ button {
   padding: 15px 0;
   position: fixed;
   bottom: 0;
-  width: 100%; }
+  width: 100%;
+  z-index: 2; }
   #foot-free-app .strong {
     font-family: "OpenSans Bold"; }
   #foot-free-app .btn-brown {
@@ -9180,29 +9225,23 @@ button {
         float: right;
         display: inline;
         margin: -65px 0 20px 20px; } }
-  .page-single-parent-adoption #content .top-content .top-desc {
-    line-height: 1.8; }
 
 .page-single-parent-adoption #content .body-content {
   padding: 50px 0 70px; }
   @media (min-width: 768px) {
     .page-single-parent-adoption #content .body-content {
       padding: 30px 0 50px; } }
-  .page-single-parent-adoption #content .body-content .desc {
-    line-height: 1.8; }
-    .page-single-parent-adoption #content .body-content .desc h3 {
-      text-align: left;
-      font-family: 'Nickainley';
-      color: #34aba7;
-      font-size: 1.75rem;
-      margin-top: 25px; }
+  .page-single-parent-adoption #content .body-content .desc h3 {
+    text-align: left;
+    font-family: 'Nickainley';
+    color: #34aba7;
+    font-size: 1.75rem;
+    margin-top: 25px; }
 
 /* page same sex adoption */
 .page-same-sex-adoption #under-breadcrumbs {
   padding: 45px 0;
   background-color: #f6f5f3; }
-  .page-same-sex-adoption #under-breadcrumbs .bold {
-    line-height: 1.8; }
 
 @media (min-width: 768px) {
   .page-same-sex-adoption #top-banner .wrapper {
@@ -9267,11 +9306,7 @@ button {
       right: 171px; } }
 
 .page-same-sex-adoption #content .desc {
-  line-height: 1.8;
   padding: 30px 0 20px; }
-
-.page-same-sex-adoption #foot-free-app {
-  z-index: 2; }
 
 /* page open vs closed adoption */
 .page-open-vs-closed-adoption #under-breadcrumbs .top-content {
@@ -9302,8 +9337,6 @@ button {
         float: right;
         display: inline;
         margin: -65px 0 50px 20px; } }
-  .page-open-vs-closed-adoption #under-breadcrumbs .top-content .top-desc {
-    line-height: 1.8; }
 
 .page-open-vs-closed-adoption #under-breadcrumbs .options {
   padding: 60px 0 84px; }
@@ -9316,8 +9349,6 @@ button {
     font-family: 'BebasNeue';
     color: #34aba7;
     margin-bottom: 12px; }
-  .page-open-vs-closed-adoption #under-breadcrumbs .options p {
-    line-height: 1.8; }
 
 .page-open-vs-closed-adoption #under-breadcrumbs #option1,
 .page-open-vs-closed-adoption #under-breadcrumbs #option3 {
@@ -9405,7 +9436,6 @@ button {
   text-align: left; }
 
 .page-open-vs-closed-adoption #content p {
-  line-height: 1.8;
   margin-bottom: 34px; }
 
 /* page-all-about-home-studies */
@@ -9423,7 +9453,6 @@ button {
     min-height: 440px; } }
 
 .page-all-about-home-studies #top-banner .wrapper .bold {
-  line-height: 1.8;
   padding-top: 30px;
   z-index: 1;
   position: relative; }
@@ -9456,7 +9485,6 @@ button {
           min-width: initial;
           min-height: initial; } }
     .page-all-about-home-studies #top-banner .wrapper .call .callbox.topleft .content {
-      line-height: 1.8;
       text-align: center;
       font-family: 'Oswald';
       font-size: 1.25rem;
@@ -9482,8 +9510,7 @@ button {
       right: 477px; } }
 
 .page-all-about-home-studies #content {
-  padding-top: 30px;
-  line-height: 1.8; }
+  padding-top: 30px; }
   @media (min-width: 768px) {
     .page-all-about-home-studies #content {
       background: #fff url(../images/heart-line-2.png) no-repeat;
@@ -9530,291 +9557,292 @@ button {
       text-align: left;
       margin-top: 35px; }
 
-.page-all-about-home-studies #foot-free-app {
-  z-index: 2; }
-
 /* page cost of adoption */
-.page-cost-of-adoption {
-  line-height: 1.8; }
-  .page-cost-of-adoption #under-breadcrumbs {
-    padding: 40px 0; }
+.page-cost-of-adoption #under-breadcrumbs {
+  padding: 40px 0; }
+  @media (min-width: 768px) {
+    .page-cost-of-adoption #under-breadcrumbs {
+      background: #f6f5f3 url(../images/heart-line-2.png) no-repeat;
+      background-position: right -65px top -20px; } }
+  @media (min-width: 768px) {
+    .page-cost-of-adoption #under-breadcrumbs .bold {
+      max-width: 90%; } }
+  @media (min-width: 992px) {
+    .page-cost-of-adoption #under-breadcrumbs .bold {
+      max-width: initial; } }
+
+.page-cost-of-adoption #fees {
+  padding: 30px 0; }
+  .page-cost-of-adoption #fees .fee-title {
+    text-align: center;
+    font-family: 'Oswald';
+    color: #34aba7;
+    text-transform: uppercase;
+    font-size: 1.3125rem; }
+
+.page-cost-of-adoption #about-lifelong-adoption {
+  margin-bottom: 40px; }
+  .page-cost-of-adoption #about-lifelong-adoption h2.topic-title {
+    text-align: center;
+    font-family: 'BebasNeue';
+    color: #56330e;
+    margin-bottom: 25px;
+    font-size: 2.3125rem; }
     @media (min-width: 768px) {
-      .page-cost-of-adoption #under-breadcrumbs {
-        background: #f6f5f3 url(../images/heart-line-2.png) no-repeat;
-        background-position: right -65px top -20px; } }
-    @media (min-width: 768px) {
-      .page-cost-of-adoption #under-breadcrumbs .bold {
-        max-width: 90%; } }
+      .page-cost-of-adoption #about-lifelong-adoption h2.topic-title {
+        font-size: 3.125rem; } }
     @media (min-width: 992px) {
-      .page-cost-of-adoption #under-breadcrumbs .bold {
-        max-width: initial; } }
-  .page-cost-of-adoption #fees {
-    padding: 30px 0; }
-    .page-cost-of-adoption #fees .fee-title {
-      text-align: center;
-      font-family: 'Oswald';
-      color: #34aba7;
-      text-transform: uppercase;
-      font-size: 1.3125rem; }
-  .page-cost-of-adoption #about-lifelong-adoption {
-    margin-bottom: 40px; }
-    .page-cost-of-adoption #about-lifelong-adoption h2.topic-title {
-      text-align: center;
-      font-family: 'BebasNeue';
-      color: #56330e;
-      margin-bottom: 25px;
-      font-size: 2.3125rem; }
-      @media (min-width: 768px) {
-        .page-cost-of-adoption #about-lifelong-adoption h2.topic-title {
-          font-size: 3.125rem; } }
-      @media (min-width: 992px) {
-        .page-cost-of-adoption #about-lifelong-adoption h2.topic-title {
-          font-size: 3.375rem; } }
-    .page-cost-of-adoption #about-lifelong-adoption .grid .row {
-      margin-bottom: 10px; }
-    .page-cost-of-adoption #about-lifelong-adoption .grid .col-md-6:first-child .col-md-6:first-child {
-      padding-right: 5px; }
+      .page-cost-of-adoption #about-lifelong-adoption h2.topic-title {
+        font-size: 3.375rem; } }
+  .page-cost-of-adoption #about-lifelong-adoption .grid .row {
+    margin-bottom: 10px; }
+  .page-cost-of-adoption #about-lifelong-adoption .grid .col-md-6:first-child .col-md-6:first-child {
+    padding-right: 5px; }
+  @media (min-width: 768px) {
+    .page-cost-of-adoption #about-lifelong-adoption .grid .col-md-6:first-child {
+      padding-right: 5px; } }
+  .page-cost-of-adoption #about-lifelong-adoption .grid .col-md-6:last-child {
+    padding-left: 5px; }
+  .page-cost-of-adoption #about-lifelong-adoption .grid .half,
+  .page-cost-of-adoption #about-lifelong-adoption .grid .full {
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: left;
+    width: 100%;
+    display: table; }
+    .page-cost-of-adoption #about-lifelong-adoption .grid .half div,
+    .page-cost-of-adoption #about-lifelong-adoption .grid .full div {
+      display: table-cell;
+      vertical-align: bottom;
+      padding: 0 0 5px 5px;
+      font-family: 'OpenSans Italic';
+      font-size: 0.8125rem; }
+  .page-cost-of-adoption #about-lifelong-adoption .grid .half {
+    height: 120px; }
     @media (min-width: 768px) {
-      .page-cost-of-adoption #about-lifelong-adoption .grid .col-md-6:first-child {
-        padding-right: 5px; } }
-    .page-cost-of-adoption #about-lifelong-adoption .grid .col-md-6:last-child {
-      padding-left: 5px; }
-    .page-cost-of-adoption #about-lifelong-adoption .grid .half,
-    .page-cost-of-adoption #about-lifelong-adoption .grid .full {
-      background-repeat: no-repeat;
-      background-size: cover;
-      color: #fff;
-      text-align: left;
-      width: 100%;
-      display: table; }
-      .page-cost-of-adoption #about-lifelong-adoption .grid .half div,
-      .page-cost-of-adoption #about-lifelong-adoption .grid .full div {
-        display: table-cell;
-        vertical-align: bottom;
-        padding: 0 0 5px 5px;
+      .page-cost-of-adoption #about-lifelong-adoption .grid .half {
+        height: 130px; } }
+    @media (min-width: 992px) {
+      .page-cost-of-adoption #about-lifelong-adoption .grid .half {
+        height: 212px; } }
+  .page-cost-of-adoption #about-lifelong-adoption .grid .full {
+    height: 270px; }
+    @media (min-width: 992px) {
+      .page-cost-of-adoption #about-lifelong-adoption .grid .full {
+        height: 434px; } }
+
+.page-cost-of-adoption #content {
+  margin-bottom: 40px; }
+  .page-cost-of-adoption #content h2.topic-title {
+    text-align: center;
+    font-family: 'BebasNeue';
+    color: #56330e;
+    text-align: left;
+    font-size: 2.3125rem; }
+    @media (min-width: 768px) {
+      .page-cost-of-adoption #content h2.topic-title {
+        font-size: 3.125rem; } }
+  .page-cost-of-adoption #content h3 {
+    text-align: center;
+    font-family: 'Oswald';
+    color: #97bf65;
+    text-align: left;
+    font-size: 1.3125rem;
+    margin-top: 45px; }
+  .page-cost-of-adoption #content ul {
+    padding-left: 20px; }
+    .page-cost-of-adoption #content ul li {
+      margin-bottom: 20px; }
+
+.page-cost-of-adoption #financial-resources {
+  padding-top: 30px; }
+  @media (min-width: 768px) {
+    .page-cost-of-adoption #financial-resources {
+      padding-top: 50px; } }
+  .page-cost-of-adoption #financial-resources .container {
+    background: url(../images/heart-line.png) top center no-repeat; }
+    .page-cost-of-adoption #financial-resources .container .wrapper {
+      position: relative; }
+      @media (min-width: 768px) {
+        .page-cost-of-adoption #financial-resources .container .wrapper {
+          padding: 0 0; } }
+      @media (min-width: 992px) {
+        .page-cost-of-adoption #financial-resources .container .wrapper {
+          padding: 50px 0 0; } }
+      .page-cost-of-adoption #financial-resources .container .wrapper div:first-child {
+        z-index: 1; }
+      .page-cost-of-adoption #financial-resources .container .wrapper .module-title {
+        text-align: center;
+        font-family: 'Nickainley';
+        color: #56330e;
+        font-size: 2.875rem; }
+        @media (min-width: 768px) {
+          .page-cost-of-adoption #financial-resources .container .wrapper .module-title {
+            font-size: 3rem;
+            text-align: left;
+            padding-left: 70px; } }
+        @media (min-width: 992px) {
+          .page-cost-of-adoption #financial-resources .container .wrapper .module-title {
+            font-size: 3.125rem; } }
+      .page-cost-of-adoption #financial-resources .container .wrapper .sub-title {
+        text-align: center;
+        font-family: 'BebasNeue';
+        color: #97bf65;
+        font-size: 4.125rem;
+        margin-bottom: 45px; }
+        @media (min-width: 768px) {
+          .page-cost-of-adoption #financial-resources .container .wrapper .sub-title {
+            font-size: 4.25rem;
+            text-align: left;
+            padding-left: 180px;
+            margin-bottom: 40px; } }
+        @media (min-width: 992px) {
+          .page-cost-of-adoption #financial-resources .container .wrapper .sub-title {
+            font-size: 4.375rem;
+            margin-bottom: 60px; } }
+      .page-cost-of-adoption #financial-resources .container .wrapper .img-background-wrapper {
+        position: relative;
+        color: #fff;
+        width: 100%;
+        text-align: center; }
+        .page-cost-of-adoption #financial-resources .container .wrapper .img-background-wrapper .img-background {
+          max-width: 340px;
+          max-height: 340px;
+          margin: 0 auto; }
+          @media (min-width: 768px) {
+            .page-cost-of-adoption #financial-resources .container .wrapper .img-background-wrapper .img-background {
+              max-width: fit-content;
+              max-height: 380px; } }
+          @media (min-width: 992px) {
+            .page-cost-of-adoption #financial-resources .container .wrapper .img-background-wrapper .img-background {
+              position: absolute;
+              right: 0;
+              bottom: 0;
+              max-height: inherit;
+              max-width: inherit; } }
+        .page-cost-of-adoption #financial-resources .container .wrapper .img-background-wrapper .desc {
+          position: absolute;
+          font-family: 'OpenSans Italic';
+          font-size: 0.8125rem;
+          max-width: 140px;
+          left: 0;
+          right: 0;
+          margin: 0 auto;
+          bottom: 10px; }
+          @media (min-width: 992px) {
+            .page-cost-of-adoption #financial-resources .container .wrapper .img-background-wrapper .desc {
+              max-width: initial;
+              left: initial;
+              right: 280px;
+              margin: inherit; } }
+      .page-cost-of-adoption #financial-resources .container .wrapper .row {
+        margin-left: -5px;
+        margin-right: -5px; }
+        @media (min-width: 992px) {
+          .page-cost-of-adoption #financial-resources .container .wrapper .row {
+            margin-bottom: 85px; } }
+        .page-cost-of-adoption #financial-resources .container .wrapper .row .col-sm-12 {
+          padding-left: 5px;
+          padding-right: 5px;
+          padding-bottom: 10px; }
+          .page-cost-of-adoption #financial-resources .container .wrapper .row .col-sm-12 h3 {
+            text-align: left;
+            font-family: 'Oswald';
+            font-size: 1.375rem; }
+          .page-cost-of-adoption #financial-resources .container .wrapper .row .col-sm-12 .bg-green, .page-cost-of-adoption #financial-resources .container .wrapper .row .col-sm-12 .bg-white {
+            padding: 25px 20px 10px; }
+          .page-cost-of-adoption #financial-resources .container .wrapper .row .col-sm-12 .bg-white {
+            background: #fff; }
+            .page-cost-of-adoption #financial-resources .container .wrapper .row .col-sm-12 .bg-white h3 {
+              color: #56330e; }
+        .page-cost-of-adoption #financial-resources .container .wrapper .row .bg-brown h3 {
+          color: #56330e; }
+      .page-cost-of-adoption #financial-resources .container .wrapper .desc {
         font-family: 'OpenSans Italic';
         font-size: 0.8125rem; }
-    .page-cost-of-adoption #about-lifelong-adoption .grid .half {
-      height: 120px; }
-      @media (min-width: 768px) {
-        .page-cost-of-adoption #about-lifelong-adoption .grid .half {
-          height: 130px; } }
-      @media (min-width: 992px) {
-        .page-cost-of-adoption #about-lifelong-adoption .grid .half {
-          height: 212px; } }
-    .page-cost-of-adoption #about-lifelong-adoption .grid .full {
-      height: 270px; }
-      @media (min-width: 992px) {
-        .page-cost-of-adoption #about-lifelong-adoption .grid .full {
-          height: 434px; } }
-  .page-cost-of-adoption #content {
-    margin-bottom: 40px; }
-    .page-cost-of-adoption #content h2.topic-title {
-      text-align: center;
-      font-family: 'BebasNeue';
-      color: #56330e;
-      text-align: left;
-      font-size: 2.3125rem; }
-      @media (min-width: 768px) {
-        .page-cost-of-adoption #content h2.topic-title {
-          font-size: 3.125rem; } }
-    .page-cost-of-adoption #content h3 {
-      text-align: center;
-      font-family: 'Oswald';
-      color: #97bf65;
-      text-align: left;
-      font-size: 1.3125rem;
-      margin-top: 45px; }
-    .page-cost-of-adoption #content ul {
-      padding-left: 20px; }
-      .page-cost-of-adoption #content ul li {
-        margin-bottom: 20px; }
-  .page-cost-of-adoption #financial-resources {
-    padding-top: 30px; }
-    @media (min-width: 768px) {
-      .page-cost-of-adoption #financial-resources {
-        padding-top: 50px; } }
-    .page-cost-of-adoption #financial-resources .container {
-      background: url(../images/heart-line.png) top center no-repeat; }
-      .page-cost-of-adoption #financial-resources .container .wrapper {
-        position: relative; }
-        @media (min-width: 768px) {
-          .page-cost-of-adoption #financial-resources .container .wrapper {
-            padding: 0 0; } }
-        @media (min-width: 992px) {
-          .page-cost-of-adoption #financial-resources .container .wrapper {
-            padding: 50px 0 0; } }
-        .page-cost-of-adoption #financial-resources .container .wrapper div:first-child {
-          z-index: 1; }
-        .page-cost-of-adoption #financial-resources .container .wrapper .module-title {
-          text-align: center;
-          font-family: 'Nickainley';
-          color: #56330e;
-          font-size: 2.875rem; }
-          @media (min-width: 768px) {
-            .page-cost-of-adoption #financial-resources .container .wrapper .module-title {
-              font-size: 3rem;
-              text-align: left;
-              padding-left: 70px; } }
-          @media (min-width: 992px) {
-            .page-cost-of-adoption #financial-resources .container .wrapper .module-title {
-              font-size: 3.125rem; } }
-        .page-cost-of-adoption #financial-resources .container .wrapper .sub-title {
-          text-align: center;
-          font-family: 'BebasNeue';
-          color: #97bf65;
-          font-size: 4.125rem;
-          margin-bottom: 45px; }
-          @media (min-width: 768px) {
-            .page-cost-of-adoption #financial-resources .container .wrapper .sub-title {
-              font-size: 4.25rem;
-              text-align: left;
-              padding-left: 180px;
-              margin-bottom: 40px; } }
-          @media (min-width: 992px) {
-            .page-cost-of-adoption #financial-resources .container .wrapper .sub-title {
-              font-size: 4.375rem;
-              margin-bottom: 60px; } }
-        .page-cost-of-adoption #financial-resources .container .wrapper .img-background-wrapper {
-          position: relative;
-          color: #fff;
-          width: 100%;
-          text-align: center; }
-          .page-cost-of-adoption #financial-resources .container .wrapper .img-background-wrapper .img-background {
-            max-width: 340px;
-            max-height: 340px;
-            margin: 0 auto; }
-            @media (min-width: 768px) {
-              .page-cost-of-adoption #financial-resources .container .wrapper .img-background-wrapper .img-background {
-                max-width: fit-content;
-                max-height: 380px; } }
-            @media (min-width: 992px) {
-              .page-cost-of-adoption #financial-resources .container .wrapper .img-background-wrapper .img-background {
-                position: absolute;
-                right: 0;
-                bottom: 0;
-                max-height: inherit;
-                max-width: inherit; } }
-          .page-cost-of-adoption #financial-resources .container .wrapper .img-background-wrapper .desc {
-            position: absolute;
-            font-family: 'OpenSans Italic';
-            font-size: 0.8125rem;
-            max-width: 140px;
-            left: 0;
-            right: 0;
-            margin: 0 auto;
-            bottom: 10px; }
-            @media (min-width: 992px) {
-              .page-cost-of-adoption #financial-resources .container .wrapper .img-background-wrapper .desc {
-                max-width: initial;
-                left: initial;
-                right: 280px;
-                margin: inherit; } }
-        .page-cost-of-adoption #financial-resources .container .wrapper .row {
-          margin-left: -5px;
-          margin-right: -5px; }
-          @media (min-width: 992px) {
-            .page-cost-of-adoption #financial-resources .container .wrapper .row {
-              margin-bottom: 85px; } }
-          .page-cost-of-adoption #financial-resources .container .wrapper .row .col-sm-12 {
-            padding-left: 5px;
-            padding-right: 5px;
-            padding-bottom: 10px; }
-            .page-cost-of-adoption #financial-resources .container .wrapper .row .col-sm-12 h3 {
-              text-align: left;
-              font-family: 'Oswald';
-              font-size: 1.375rem; }
-            .page-cost-of-adoption #financial-resources .container .wrapper .row .col-sm-12 .bg-green, .page-cost-of-adoption #financial-resources .container .wrapper .row .col-sm-12 .bg-white {
-              padding: 25px 20px 10px; }
-            .page-cost-of-adoption #financial-resources .container .wrapper .row .col-sm-12 .bg-white {
-              background: #fff; }
-              .page-cost-of-adoption #financial-resources .container .wrapper .row .col-sm-12 .bg-white h3 {
-                color: #56330e; }
-          .page-cost-of-adoption #financial-resources .container .wrapper .row .bg-brown h3 {
-            color: #56330e; }
-        .page-cost-of-adoption #financial-resources .container .wrapper .desc {
-          font-family: 'OpenSans Italic';
-          font-size: 0.8125rem; }
-    .page-cost-of-adoption #financial-resources .link-modal {
-      cursor: pointer; }
-  .page-cost-of-adoption #fsModal .modal {
-    position: fixed;
+  .page-cost-of-adoption #financial-resources .link-modal {
+    cursor: pointer; }
+
+.page-cost-of-adoption #fsModal .modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden; }
+
+.page-cost-of-adoption #fsModal .modal-dialog {
+  position: fixed;
+  margin: 0;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  padding: 0; }
+  .page-cost-of-adoption #fsModal .modal-dialog .modal-content {
+    position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    width: 100%;
-    overflow: hidden; }
-  .page-cost-of-adoption #fsModal .modal-dialog {
-    position: fixed;
-    margin: 0;
-    width: 100%;
-    max-width: 100%;
-    height: 100%;
-    padding: 0; }
-    .page-cost-of-adoption #fsModal .modal-dialog .modal-content {
-      position: absolute;
+    border-radius: 0;
+    box-shadow: none;
+    border: none; }
+    .page-cost-of-adoption #fsModal .modal-dialog .modal-content .modal-header {
+      position: fixed;
       top: 0;
-      right: 0;
-      bottom: 0;
       left: 0;
-      border-radius: 0;
-      box-shadow: none;
-      border: none; }
-      .page-cost-of-adoption #fsModal .modal-dialog .modal-content .modal-header {
-        position: fixed;
+      width: 100%;
+      padding: 40px 0 30px;
+      margin-bottom: 40px;
+      border: none;
+      background: #f6f5f3; }
+      .page-cost-of-adoption #fsModal .modal-dialog .modal-content .modal-header h1 {
+        text-align: center;
+        font-family: 'BebasNeue';
+        color: #56330e;
+        text-align: left;
+        font-size: 4rem; }
+      .page-cost-of-adoption #fsModal .modal-dialog .modal-content .modal-header a.mp-menu-close {
+        margin: 10px 0 0;
+        height: 1.625rem;
+        width: 4.625rem;
+        content: "";
+        display: block;
+        background: url(../images/close-2.png) no-repeat center center;
+        cursor: pointer;
         top: 0;
-        left: 0;
-        width: 100%;
-        padding: 40px 0 30px;
-        margin-bottom: 40px;
-        border: none;
-        background: #f6f5f3; }
-        .page-cost-of-adoption #fsModal .modal-dialog .modal-content .modal-header h1 {
-          text-align: center;
-          font-family: 'BebasNeue';
-          color: #56330e;
-          text-align: left;
-          font-size: 4rem; }
-        .page-cost-of-adoption #fsModal .modal-dialog .modal-content .modal-header a.mp-menu-close {
-          margin: 10px 0 0;
-          height: 1.625rem;
-          width: 4.625rem;
-          content: "";
-          display: block;
-          background: url(../images/close-2.png) no-repeat center center;
-          cursor: pointer;
-          top: 0;
-          right: 15px;
-          position: absolute; }
-      .page-cost-of-adoption #fsModal .modal-dialog .modal-content .modal-body {
-        position: absolute;
-        top: 305px;
-        bottom: 0px;
-        width: 100%;
-        overflow: auto;
-        background: url(../images/heart-line-3.png) no-repeat;
-        background-position: right top; }
-        @media (min-width: 768px) {
-          .page-cost-of-adoption #fsModal .modal-dialog .modal-content .modal-body {
-            top: 180px; } }
-        .page-cost-of-adoption #fsModal .modal-dialog .modal-content .modal-body h2 {
-          text-align: center;
-          font-family: 'Nickainley';
-          color: #34aba7;
-          text-align: left;
-          font-size: 2.75rem; }
-        .page-cost-of-adoption #fsModal .modal-dialog .modal-content .modal-body h3 {
-          text-align: center;
-          font-family: 'Oswald';
-          color: #97bf65;
-          text-align: left;
-          font-size: 1.375rem;
-          margin-top: 40px; }
-        .page-cost-of-adoption #fsModal .modal-dialog .modal-content .modal-body ul {
-          padding-left: 20px; }
-          .page-cost-of-adoption #fsModal .modal-dialog .modal-content .modal-body ul li {
-            margin-bottom: 15px; }
+        right: 15px;
+        position: absolute; }
+    .page-cost-of-adoption #fsModal .modal-dialog .modal-content .modal-body {
+      position: absolute;
+      top: 305px;
+      bottom: 0px;
+      width: 100%;
+      overflow: auto;
+      background: url(../images/heart-line-3.png) no-repeat;
+      background-position: right top; }
+      @media (min-width: 768px) {
+        .page-cost-of-adoption #fsModal .modal-dialog .modal-content .modal-body {
+          top: 180px; } }
+      .page-cost-of-adoption #fsModal .modal-dialog .modal-content .modal-body h2 {
+        text-align: center;
+        font-family: 'Nickainley';
+        color: #34aba7;
+        text-align: left;
+        font-size: 2.75rem; }
+      .page-cost-of-adoption #fsModal .modal-dialog .modal-content .modal-body h3 {
+        text-align: center;
+        font-family: 'Oswald';
+        color: #97bf65;
+        text-align: left;
+        font-size: 1.375rem;
+        margin-top: 40px; }
+      .page-cost-of-adoption #fsModal .modal-dialog .modal-content .modal-body ul {
+        padding-left: 20px; }
+        .page-cost-of-adoption #fsModal .modal-dialog .modal-content .modal-body ul li {
+          margin-bottom: 15px; }
 
 .page-ultimate-adoption-guide #header-slider {
   border-bottom: 5px solid #97bf65; }
@@ -9828,6 +9856,9 @@ button {
     @media (min-width: 768px) {
       .page-ultimate-adoption-guide #header-slider .slick-header .item .content {
         padding-top: 30px;
+        min-height: 440px; } }
+    @media (min-width: 992px) {
+      .page-ultimate-adoption-guide #header-slider .slick-header .item .content {
         min-height: 570px; } }
     .page-ultimate-adoption-guide #header-slider .slick-header .item .content h2 {
       text-align: left;
@@ -10081,8 +10112,7 @@ button {
           text-align: center;
           font-family: 'Oswald';
           font-size: 1.5625rem;
-          margin-bottom: 25px;
-          line-height: 1.8; }
+          margin-bottom: 25px; }
         .page-ultimate-adoption-guide #fsModal .modal-dialog .modal-content .modal-body .modal-callbox.callbox-2 .callbox .content .sayer {
           text-align: center;
           font-family: 'Nickainley';
@@ -10112,3 +10142,92 @@ button {
           color: #56330e; }
         .page-ultimate-adoption-guide #fsModal .modal-dialog .modal-content .modal-body .bg-brown .right {
           text-align: right; }
+
+.page-lgbt-adoption-faq #content .top-desc {
+  padding: 45px 0 30px; }
+
+.page-lgbt-adoption-faq #content ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+  .page-lgbt-adoption-faq #content ul li {
+    margin-bottom: 50px; }
+    .page-lgbt-adoption-faq #content ul li:nth-child(even) {
+      padding-left: 20px; }
+    .page-lgbt-adoption-faq #content ul li .content {
+      padding-bottom: 15px; }
+      .page-lgbt-adoption-faq #content ul li .content h3 {
+        text-align: left;
+        font-family: 'Oswald';
+        color: #97bf65;
+        font-size: 1.375rem; }
+
+.page-lgbt-adoption-facts #content {
+  background: #f6f5f3 url(../images/bg-heart2.png) no-repeat top 40px right -90px;
+  padding: 25px 0 40px; }
+  .page-lgbt-adoption-facts #content .top-desc {
+    min-height: 745px; }
+    .page-lgbt-adoption-facts #content .top-desc .bold {
+      margin-bottom: 20px; }
+    @media (min-width: 768px) {
+      .page-lgbt-adoption-facts #content .top-desc {
+        min-height: 395px; } }
+    @media (min-width: 992px) {
+      .page-lgbt-adoption-facts #content .top-desc {
+        min-height: 315px; } }
+  .page-lgbt-adoption-facts #content img#img-content {
+    max-width: 210px;
+    display: block;
+    margin: -35px auto 20px; }
+    @media (min-width: 768px) {
+      .page-lgbt-adoption-facts #content img#img-content {
+        max-width: 290px;
+        float: right;
+        display: inline;
+        margin: -40px 0 20px 20px; } }
+    @media (min-width: 992px) {
+      .page-lgbt-adoption-facts #content img#img-content {
+        max-width: 350px;
+        margin: -65px 0  0px 50px; } }
+
+.page-lgbt-adoption-facts #additional-facts {
+  padding: 40px 0 50px; }
+  .page-lgbt-adoption-facts #additional-facts h3 {
+    text-align: left;
+    font-family: 'Nickainley';
+    color: #34aba7;
+    font-size: 1.75rem; }
+  .page-lgbt-adoption-facts #additional-facts ul {
+    padding-left: 20px; }
+    .page-lgbt-adoption-facts #additional-facts ul li {
+      padding-top: 30px; }
+  .page-lgbt-adoption-facts #additional-facts .bold, .page-lgbt-adoption-facts #additional-facts .italic {
+    padding-top: 40px; }
+
+.page-lgbt-adoption-laws #content .top-desc.bold {
+  margin: 40px 0; }
+
+.page-lgbt-adoption-laws #content .map {
+  background: url(../images/bg-heart-tiny.png) no-repeat top left; }
+  @media (min-width: 992px) {
+    .page-lgbt-adoption-laws #content .map #vmap {
+      height: 700px !important; } }
+
+.page-lgbt-adoption-laws #content .states-list {
+  padding: 40px 0; }
+  .page-lgbt-adoption-laws #content .states-list .bold {
+    font-size: 0.875rem;
+    padding: 10px 5px;
+    border-radius: 5px;
+    margin: 0 auto;
+    display: block;
+    background: #34aba7;
+    color: #fff; }
+    @media (min-width: 768px) {
+      .page-lgbt-adoption-laws #content .states-list .bold {
+        font-size: 1.0625rem; } }
+  .page-lgbt-adoption-laws #content .states-list .list {
+    line-height: 1.8; }
+
+.page-lgbt-adoption-laws #content .desc {
+  margin: 30px 0 60px; }

@@ -1644,9 +1644,6 @@
                     margin: -65px 0 20px 20px;
                 }
             }
-            .top-desc{
-                line-height: 1.8;
-            }
         }
         .body-content{
             padding: 50px 0 70px;
@@ -1654,7 +1651,6 @@
                 padding: 30px 0 50px;
             }
             .desc{
-                line-height: 1.8;
                 h3{
                     @include nickainley-title-cyan(left);
                     font-size: 1.75rem;
@@ -1669,9 +1665,6 @@
     #under-breadcrumbs{
         padding: 45px 0;
         @include bg-gray();
-        .bold{
-            line-height: 1.8;
-        }
     }
     #top-banner{
         .wrapper{
@@ -1743,12 +1736,8 @@
     }
     #content{
         .desc{
-            line-height: 1.8;
             padding: 30px 0 20px;
         }
-    }
-    #foot-free-app{
-        z-index: 2;
     }
 }
 /* page open vs closed adoption */
@@ -1783,9 +1772,6 @@
                     margin: -65px 0 50px 20px;
                 }
             }
-            .top-desc{
-                line-height: 1.8;
-            }
         }
         .options{
             padding: 60px 0 84px;
@@ -1798,9 +1784,6 @@
                 @include bebasneue-title;
                 @include color-cyan;
                 margin-bottom: 12px;
-            }
-            p{
-                line-height: 1.8;
             }
         }
         #option1,
@@ -1905,7 +1888,6 @@
             text-align: left;
         }
         p{
-            line-height: 1.8;
             margin-bottom: 34px;
         }
     }
@@ -1926,7 +1908,6 @@
                 min-height: 440px;
             }
             .bold{
-                line-height: 1.8;
                 padding-top: 30px;    
                 z-index: 1;
                 position: relative;
@@ -1961,7 +1942,6 @@
                         }
                     }
                     .content{
-                        line-height: 1.8;
                         @include oswald-title;
                         font-size: 1.25rem;
                         padding-top: 20px;
@@ -1991,7 +1971,6 @@
     }
     #content{
         padding-top: 30px;
-        line-height: 1.8;
         @include media-breakpoint-up("md"){
             background: #fff url(../images/heart-line-2.png) no-repeat;
             background-position: right -60px top -20px;
@@ -2046,13 +2025,9 @@
             }
         }
     }
-    #foot-free-app{
-        z-index: 2;
-    }
 }
 /* page cost of adoption */
 .page-cost-of-adoption{
-    line-height: 1.8;
     #under-breadcrumbs{
         padding: 40px 0;
         @include media-breakpoint-up("md"){
@@ -2384,6 +2359,9 @@
                     min-height: 380px;
                     @include media-breakpoint-up("md"){
                         padding-top: 30px;
+                        min-height: 440px;
+                    }
+                    @include media-breakpoint-up("lg"){
                         min-height: 570px;
                     }
                     h2{
@@ -2673,7 +2651,6 @@
                                     @include oswald-title;
                                     font-size: 1.5625rem;
                                     margin-bottom: 25px;
-                                    line-height: 1.8;
                                 }
                                 .sayer{
                                     @include nickainley-title;
@@ -2716,4 +2693,114 @@
             }   
         }     
     }  
+}
+.page-lgbt-adoption-faq{
+    #content{
+        .top-desc{
+            padding: 45px 0 30px;
+        }
+        ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            li{
+                margin-bottom: 50px;
+                &:nth-child(even){
+                    padding-left: 20px;
+                }
+                .content{
+                    padding-bottom: 15px;
+                    h3{
+                        @include oswald-title-green(left);
+                        font-size: 1.375rem;
+                    }
+                }
+            }
+        }
+    }
+}
+.page-lgbt-adoption-facts{
+    #content{
+        background: $site-brown-bg url(../images/bg-heart2.png) no-repeat top 40px right -90px ;
+        padding:25px 0 40px;
+        .top-desc{
+            min-height: 745px;
+            .bold{
+                margin-bottom:20px;
+            }
+            @include  media-breakpoint-up("md"){
+                min-height: 395px;
+            }           
+            @include  media-breakpoint-up("lg"){
+                min-height: 315px;
+            }
+        }           
+        img#img-content{
+            max-width: 210px;
+            display: block;
+            margin: -35px auto 20px;
+            @include  media-breakpoint-up("md"){
+                max-width: 290px;
+                float: right;
+                display: inline;
+                margin: -40px 0 20px 20px;
+            }           
+            @include  media-breakpoint-up("lg"){
+                max-width: 350px;
+                margin:-65px 0  0px 50px;
+            }
+        }
+    } 
+    #additional-facts{
+        padding: 40px 0 50px;
+        h3{
+            @include nickainley-title-cyan(left);
+            font-size: 1.75rem;
+        }
+        ul{
+            padding-left: 20px;
+            li{
+                padding-top: 30px;
+            }
+        }
+        .bold,.italic{
+            padding-top: 40px;
+        }
+    }
+}
+.page-lgbt-adoption-laws{
+    #content{
+        .top-desc.bold{
+            margin: 40px 0;
+        }
+        .map{
+            background: url(../images/bg-heart-tiny.png) no-repeat top left;
+            #vmap{
+                @include media-breakpoint-up("lg"){
+                    height: 700px!important;
+                }
+            }
+        }
+        .states-list{
+            padding: 40px 0;
+            .bold{
+                font-size: 0.875rem;
+                padding: 10px 5px;
+                border-radius: 5px;
+                margin: 0 auto;
+                display: block;
+                background: $site-cyan;
+                color: $white;
+                @include media-breakpoint-up("md"){
+                    font-size: 1.0625rem;
+                }
+            }
+            .list{
+                line-height: 1.8;
+            }
+        }
+        .desc{
+            margin: 30px 0 60px;
+        }
+    }
 }
