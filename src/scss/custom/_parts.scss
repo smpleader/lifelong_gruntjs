@@ -2804,3 +2804,390 @@
         }
     }
 }
+.page-lgbt-adoption{
+    #header-slider{
+        .item{
+            .content{
+                h2{
+                    margin-top: -35px;
+                }
+                h3{
+                    @include media-breakpoint-up("md"){
+                        padding-top: 100px;
+                    }
+                }
+            }
+            .title{
+                position: absolute;
+                text-align: right;
+                bottom: 10px;
+                right: 20px;
+                font-family: 'OpenSans Italic';
+                font-size:0.8125rem;
+                @include media-breakpoint-up("lg"){
+                    right: 15%;
+                }
+            }
+        }
+    }
+    #first-talk{
+        h2{
+            @include oswald-title-green;
+            font-size: 1.375rem;
+        }
+        .heart-item{
+            padding:0;
+            background:none;
+            @include media-breakpoint-up("md"){
+                padding:0px 0 0px 75px;
+                background:url(../images/list-item-heart.png) no-repeat top left;
+            }
+        }
+        .desc{
+            text-align: center;
+            h3{
+                @include nickainley-title-brown;
+                font-size: 2rem;    
+            }
+            a{
+                margin: 40px 0 30px;
+                display: inline-block;
+            }
+        }
+    }
+    #about-lifelong-adoption{
+        padding: 40px 0;
+        h2.topic-title{
+            @include bebasneue-title-brown;
+            margin-bottom: 25px;
+            font-size:2.3125rem;
+            @include media-breakpoint-up("md"){
+                font-size:3.125rem;
+            }
+            @include media-breakpoint-up("lg"){
+                font-size:3.375rem;
+            }
+        }
+        .grid{
+            .row{
+                 margin-bottom: 10px;
+            }
+            .col-md-6:first-child{
+                padding-right:5px;
+            }
+            .col-md-6:last-child{
+                padding-left:5px;
+            }
+            .half,
+            .full{
+                background-repeat: no-repeat;
+                background-size: cover;
+                color:$white;
+                text-align: right;
+                width: 100%;
+                display: table;
+                div{
+                    display: table-cell;
+                    vertical-align: bottom;
+                    padding: 0 5px 5px 0;
+                    font-family: 'OpenSans Italic';
+                    font-size:0.8125rem;
+                }
+            }
+            .half{
+                height: 120px;
+                @include media-breakpoint-up("md"){
+                    height: 130px;
+                }
+                @include media-breakpoint-up("lg"){
+                    height: 212px;
+                }
+            }
+            .full{
+                height: 270px;
+                @include media-breakpoint-up("lg"){
+                    height: 434px;
+                }
+            }
+        }
+        a{
+            margin: 40px auto 30px;
+            display: block;
+            max-width: 283px;
+        }
+    }
+    #lgbt-adoption-resource{
+        padding-top:30px;
+        @include media-breakpoint-up("md"){
+            padding-top:50px;
+        }
+        .container{
+            background: url(../images/heart-line.png) top left no-repeat;
+            .wrapper{
+                position: relative;
+                @include media-breakpoint-up("md"){
+                    padding: 0 0;
+                }
+                @include media-breakpoint-up("lg"){
+                    padding:50px 0 0;
+                }
+                .module-title{
+                    @include nickainley-title-brown;
+                    font-size: 2.875rem;
+                    @include media-breakpoint-up("md"){
+                        font-size: 3rem;
+                        text-align: left;
+                        padding-left: 70px;
+                    }
+                    @include media-breakpoint-up("lg"){
+                        font-size: 3.125rem;
+                    }
+                }
+                .sub-title{
+                    @include bebasneue-title-green;
+                    font-size: 4.125rem;
+                    margin-bottom:45px;
+                    @include media-breakpoint-up("md"){
+                        font-size: 4.25rem;
+                        text-align: left;
+                        padding-left: 180px;
+                        margin-bottom:40px;
+                    }
+                    @include media-breakpoint-up("lg"){
+                        font-size: 4.375rem;
+                        margin-bottom:60px;
+                    }
+                }
+                .little-title{
+                    font-family: 'OpenSans Italic';
+                    font-size: 0.8125rem;    
+                    color: $white;
+                    text-align: right;
+                    position: absolute;
+                    bottom: 10px;
+                    right: 40px;
+                    text-shadow: 1px 1px 3px #000;
+                    @include media-breakpoint-up("lg"){
+                        right: 15%;
+                    }
+                }
+                .img-background{
+                    max-width: 340px;
+                    margin:0 auto;
+                    max-height: 313px;
+                    @include media-breakpoint-up("md"){
+                        max-width:fit-content;
+                        max-height: 380px;
+                    }
+                    @include media-breakpoint-up("lg"){
+                        position: absolute;
+                        z-index: -1;
+                        right:0;
+                        bottom:0;
+                        max-height: inherit;
+                        max-width: inherit;
+                    }
+                }
+                .row{
+                    margin-left: -5px;
+                    margin-right: -5px;
+                    @include media-breakpoint-up("lg"){
+                        margin-bottom:85px;
+                    }
+                    .col-sm-12{
+                        padding-left: 5px;
+                        padding-right: 5px;
+                        padding-bottom: 10px;
+                        h3{
+                            @include oswald-title(left);
+                            font-size: 1.375rem;
+                        }
+                        .bg-green, .bg-brown{
+                            padding: 20px 10px;
+                        }
+                    }
+                    .bg-brown{
+                        h3{
+                            color: $site-brown;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #lgbt-adoption-faqs{
+        padding: 40px 0;
+        h2.topic-title{
+            @include bebasneue-title-brown;
+            font-size: 2.3125rem;
+            margin-bottom: 30px;
+            @include media-breakpoint-up("md"){
+                font-size: 3.125rem;
+            }
+        }
+        ul{
+            list-style: none;
+            margin:0;
+            padding: 0;
+            li{
+                margin-bottom:50px;
+                &:nth-child(even){
+                    padding-left:20px;
+                }
+                .content{
+                    padding-bottom:15px;
+                    h3{
+                        @include oswald-title-green(left);
+                        font-size:1.375rem;
+                    }
+                }
+            }
+        }
+        a{
+            margin: 40px auto 30px;
+            display: block;
+            max-width: 283px;
+        }
+    }
+}
+.page-lgbt-adoption-statistics{
+    #content{
+        background: $site-brown-bg url(../images/bg-heart2.png) no-repeat top 40px right -90px ;
+        padding:25px 0 0;
+        @include media-breakpoint-up("md"){
+            max-height: 255px;
+        }
+        .top-desc{
+            min-height: 625px;
+            @include  media-breakpoint-up("md"){
+                min-height: 325px;
+            }           
+            @include  media-breakpoint-up("lg"){
+                min-height: 315px;
+            }
+            .bold{
+                margin-bottom:20px;
+            }
+        }           
+        img#img-content{
+            max-width: 210px;
+            display: block;
+            margin: -35px auto 20px;
+            @include  media-breakpoint-up("md"){
+                max-width: 290px;
+                float: right;
+                display: inline;
+                margin: -40px 0 20px 20px;
+            }           
+            @include  media-breakpoint-up("lg"){
+                max-width: 350px;
+                margin:-65px 0  0px 50px;
+            }
+        }
+    } 
+    #charts{
+        padding: 60px 0;
+        .content{
+            padding: 30px 0;
+            h2{
+                @include bebasneue-title-brown;
+                font-size: 2.1875rem;
+                @include media-breakpoint-up("md"){
+                    font-size: 2.625rem;
+                }
+                @include media-breakpoint-up("lg"){
+                    font-size: 3.0625rem;
+                }
+            }
+            .slick-header{
+                padding: 20px 0 40px;
+                .item{
+                    text-align: center;
+                    padding: 0 10px;
+                    img{
+                        max-width: 78%;
+                        margin: 0 auto;
+                        @include media-breakpoint-up("md"){
+                            max-width: 100%;
+                        }
+                    }
+                    h2{
+                        @include bebasneue-title-brown;
+                        font-size: 2.8125rem;
+                        @include media-breakpoint-up("lg"){
+                            font-size: 3.75rem;
+                        }
+                    }
+                    p{
+                        @include oswald-title-brown;
+                        font-size: 0.9375rem;
+                        margin-top: -15px;
+                        @include media-breakpoint-up("lg"){
+                            font-size: 1.0625rem;
+                        }
+                    }
+                }
+                .slick-prev{
+                    background: url(../images/arrPrev.png) no-repeat center center;
+                    background-size: cover;
+                    left: 10px;
+                    z-index: 1;
+                }
+                .slick-next{
+                    background: url(../images/arrNext.png) no-repeat center center;
+                    background-size: cover;
+                    right: 10px;
+                }
+                .slick-prev:before, .slick-next:before{
+                    color: transparent;
+                }
+            }
+            ul{
+                list-style-type: none;
+                text-align: center;
+                padding-left: 0;
+                li{
+                    font-size: 0.9375rem;
+                    line-height: 1;
+                    display: inline-block;
+                    padding-left: 25px;
+                    margin-left: 10px;
+                    @include media-breakpoint-up("lg"){
+                        font-size: 1.25rem;
+                        padding-left: 35px;
+                        margin-left: 20px;
+                    }
+                }
+                li:first-child{
+                    @include bebasneue-title-cyan(left);
+                    background: url(../images/bg-heart-cyan-2.png) no-repeat center left;
+                    background-size: contain;
+                }
+                li:nth-child(2){
+                    @include bebasneue-title(left);
+                    color: #cbe7a7;
+                    background: url(../images/bg-heart-green-2.png) no-repeat center left;
+                    background-size: contain;
+                }
+                li:last-child{
+                    @include bebasneue-title-green(left);
+                    background: url(../images/bg-heart-green-3.png) no-repeat center left;
+                    background-size: contain;
+                }
+            }
+        }
+    }
+    #statistics{
+        padding-bottom: 30px;
+        h3{
+            @include oswald-title-green(left);
+            font-size: 1.375rem;
+        }
+        ul{
+            padding-left: 20px;
+            li{
+                margin-bottom: 25px;
+            }
+        }
+    }
+}
