@@ -1616,22 +1616,13 @@
     }
     #content{
         .top-content{
-            background: url(../images/bg-heart2.png);
-            background-position-x: -380px;
-            background-position-y: 60px;
-            background-repeat: no-repeat;
-            background-color: #f6f5f3;
+            background: $site-brown-bg url(../images/bg-heart2.png) no-repeat -380px 60px;
             padding-bottom: 34px;
             @include media-breakpoint-up("md"){
                 padding-top: 35px;
-                background: #f6f5f3;
             }
             @include media-breakpoint-up("md"){
-                background: url(../images/bg-heart2.png);
-                background-position-x: right;
-                background-position-y: 115px;
-                background-repeat: no-repeat;
-                background-color: #f6f5f3;
+                background: $site-brown-bg url(../images/bg-heart2.png) no-repeat right top 60px;
             }
             #img-content{
                 max-width: 240px;
@@ -1744,22 +1735,13 @@
 .page-open-vs-closed-adoption{
     #under-breadcrumbs{
         .top-content{
-            background: url(../images/bg-heart2.png);
-            background-position-x: -380px;
-            background-position-y: 60px;
-            background-repeat: no-repeat;
-            @include bg-gray();
+            background: $site-brown-bg url(../images/bg-heart2.png) no-repeat right -380px top 60px;
             padding-bottom: 34px;
             @include media-breakpoint-up("md"){
                 padding-top: 35px;
-                background: #f6f5f3;
             }
             @include media-breakpoint-up("md"){
-                background: url(../images/bg-heart2.png);
-                background-position-x: right;
-                background-position-y: 115px;
-                background-repeat: no-repeat;
-                background-color: #f6f5f3;
+                background: $site-brown-bg url(../images/bg-heart2.png) no-repeat right top 115px;
             }
             #img-content{
                 max-width: 240px;
@@ -2246,7 +2228,7 @@
                         h3{
                             color: $site-brown;
                         }
-                    }
+                    } 
                 }
                 .desc{
                     font-family: 'OpenSans Italic';
@@ -3187,6 +3169,200 @@
             padding-left: 20px;
             li{
                 margin-bottom: 25px;
+            }
+        }
+    }
+}
+.page-lgbt-adoption-books{
+    #content{
+        padding-bottom: 50px;
+        .top-content{
+            background: $site-brown-bg url(../images/heart-line-2.png) no-repeat top right;
+            padding: 40px 0;
+        }
+        h2{
+            padding: 30px 0;
+            @include bebasneue-title-brown(left);
+            font-size: 2.3125rem;
+            @include media-breakpoint-up("md"){
+                font-size: 3.125rem;
+            }
+            @include media-breakpoint-up("md"){
+                font-size: 3.375rem;
+            }
+        }
+        .book{
+            margin-bottom: 60px;
+            @include media-breakpoint-up("md"){
+                display: flex;
+            }
+            @include media-breakpoint-up("md"){
+                margin-bottom: 40px;
+            }
+            .book-desc{
+                .book-title{
+                    display: flex;
+                    align-items: flex-end;
+                    margin-bottom: 25px;
+                    @include media-breakpoint-up("md"){
+                        margin-bottom: 15px;
+                    }
+                    h3{
+                        @include oswald-title-green(left);
+                        font-size: 1.3125rem;
+                    }
+                }
+            }
+            img{
+                border: 4px solid $site-brown-bg;                
+                margin-right: 20px;
+            }
+        }
+    }
+}
+.page-lgbt-adoption-articles{
+    #content{
+        .top-content{
+            background: $site-brown-bg url(../images/heart-line-2.png) no-repeat top right;
+            padding: 40px 0;
+            @include media-breakpoint-up("md"){
+                padding-bottom: 0;
+            }
+            #img-content{
+                max-width: 240px;
+                margin: -55px auto 25px;
+                display: block;
+                @include media-breakpoint-up("md"){
+                    max-width: 290px;
+                    float: right;
+                    display: inline;
+                    margin: -55px -20px 0 0;
+                }
+            }
+        }
+        .desc{
+            padding: 40px 0 50px;
+            ul{
+                padding-left: 20px;
+                margin-bottom: 50px;
+                li{
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+}
+.page-lgbt-adoption-laws-state{
+    #content{
+        .top-content{
+            background: $white url(../images/heart-bg.png) no-repeat top right -275px;
+            .image-top{
+                @include media-breakpoint-up("md"){
+                    display: flex;
+                    padding-top: 40px;
+                }
+                #img-content{
+                    max-width: 110px;
+                    margin: 30px auto;
+                    display: block;
+                    @include media-breakpoint-up("md"){
+                        max-width: 155px;
+                        margin: 40px 50px 0;
+                    }
+                    @include media-breakpoint-up("lg"){
+                        max-width: 180px;
+                    }
+                }   
+                .top-desc{         
+                    .heart-item{
+                        padding:0;
+                        background:none;
+                        margin-bottom: 50px;
+                        @include media-breakpoint-up("md"){
+                            padding:0px 0 0px 85px;
+                            background:url(../images/list-item-heart.png) no-repeat top left;
+                        }
+                        h3{
+                            @include oswald-title-green(left);
+                            font-size: 1.3125rem;
+                            @include media-breakpoint-up("md"){
+                                font-size: 1.375rem;        
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .bold-italic{
+            padding: 40px 0 50px;
+        }
+    }
+}
+.page-lgbt-adoption-home-studies{
+    #under-breadcrumbs{
+        padding: 45px 0;
+        @include bg-gray();
+    }
+    #top-banner{
+        .wrapper{
+            @include media-breakpoint-up("md"){
+                padding: 30px 0;               
+                background: #ede8e5 no-repeat right -192px center;
+                position: relative;
+            }
+            @include media-breakpoint-up("lg"){
+                padding: 80px 0;
+                background-position: right;
+            }
+            .call{
+                @include bg-green();
+                padding-top: 2px;
+                position: relative;
+                @include media-breakpoint-up("md"){
+                    background: inherit;
+                    padding-top: inherit;
+                }
+                .callbox.topleft{
+                    min-height: 410px;
+                    @include media-breakpoint-up("lg"){
+                        min-height: inherit;                        
+                    }
+                    .bg{
+                        left: 0;
+                    }
+                    .content{
+                        text-align: center;
+                        padding-bottom: 20px;
+                        .quote{
+                            padding-top: 15px;
+                            @include nickainley-title();
+                            font-size: 1.875rem;
+                            margin-bottom: 25px;
+                        }
+                        .sayer{
+                            margin-bottom: 45px;
+                        }
+                    }
+                }
+                img{
+                    max-width: 100%;
+                }
+            }
+            .desc{
+                position: absolute;   
+                font-family: 'OpenSans Italic';
+                font-size:0.8125rem;
+                color: #fff;
+                bottom: 9px;
+                right: 32px;
+                @include media-breakpoint-up("md"){
+                    bottom: 8px;
+                    right: 40px;
+                }
+                @include media-breakpoint-up("lg"){
+                    bottom: 15px;
+                    right: 171px;
+                }
             }
         }
     }

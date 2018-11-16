@@ -9198,23 +9198,14 @@ button {
       margin-right: 0; } }
 
 .page-single-parent-adoption #content .top-content {
-  background: url(../images/bg-heart2.png);
-  background-position-x: -380px;
-  background-position-y: 60px;
-  background-repeat: no-repeat;
-  background-color: #f6f5f3;
+  background: #f6f5f3 url(../images/bg-heart2.png) no-repeat -380px 60px;
   padding-bottom: 34px; }
   @media (min-width: 768px) {
     .page-single-parent-adoption #content .top-content {
-      padding-top: 35px;
-      background: #f6f5f3; } }
+      padding-top: 35px; } }
   @media (min-width: 768px) {
     .page-single-parent-adoption #content .top-content {
-      background: url(../images/bg-heart2.png);
-      background-position-x: right;
-      background-position-y: 115px;
-      background-repeat: no-repeat;
-      background-color: #f6f5f3; } }
+      background: #f6f5f3 url(../images/bg-heart2.png) no-repeat right top 60px; } }
   .page-single-parent-adoption #content .top-content #img-content {
     max-width: 240px;
     margin: -20px auto 25px;
@@ -9310,23 +9301,14 @@ button {
 
 /* page open vs closed adoption */
 .page-open-vs-closed-adoption #under-breadcrumbs .top-content {
-  background: url(../images/bg-heart2.png);
-  background-position-x: -380px;
-  background-position-y: 60px;
-  background-repeat: no-repeat;
-  background-color: #f6f5f3;
+  background: #f6f5f3 url(../images/bg-heart2.png) no-repeat right -380px top 60px;
   padding-bottom: 34px; }
   @media (min-width: 768px) {
     .page-open-vs-closed-adoption #under-breadcrumbs .top-content {
-      padding-top: 35px;
-      background: #f6f5f3; } }
+      padding-top: 35px; } }
   @media (min-width: 768px) {
     .page-open-vs-closed-adoption #under-breadcrumbs .top-content {
-      background: url(../images/bg-heart2.png);
-      background-position-x: right;
-      background-position-y: 115px;
-      background-repeat: no-repeat;
-      background-color: #f6f5f3; } }
+      background: #f6f5f3 url(../images/bg-heart2.png) no-repeat right top 115px; } }
   .page-open-vs-closed-adoption #under-breadcrumbs .top-content #img-content {
     max-width: 240px;
     margin: -23px auto 25px;
@@ -10580,3 +10562,167 @@ button {
     padding-left: 20px; }
     .page-lgbt-adoption-statistics #statistics ul li {
       margin-bottom: 25px; }
+
+.page-lgbt-adoption-books #content {
+  padding-bottom: 50px; }
+  .page-lgbt-adoption-books #content .top-content {
+    background: #f6f5f3 url(../images/heart-line-2.png) no-repeat top right;
+    padding: 40px 0; }
+  .page-lgbt-adoption-books #content h2 {
+    padding: 30px 0;
+    text-align: left;
+    font-family: 'BebasNeue';
+    color: #56330e;
+    font-size: 2.3125rem; }
+    @media (min-width: 768px) {
+      .page-lgbt-adoption-books #content h2 {
+        font-size: 3.125rem; } }
+    @media (min-width: 768px) {
+      .page-lgbt-adoption-books #content h2 {
+        font-size: 3.375rem; } }
+  .page-lgbt-adoption-books #content .book {
+    margin-bottom: 60px; }
+    @media (min-width: 768px) {
+      .page-lgbt-adoption-books #content .book {
+        display: flex; } }
+    @media (min-width: 768px) {
+      .page-lgbt-adoption-books #content .book {
+        margin-bottom: 40px; } }
+    .page-lgbt-adoption-books #content .book .book-desc .book-title {
+      display: flex;
+      align-items: flex-end;
+      margin-bottom: 25px; }
+      @media (min-width: 768px) {
+        .page-lgbt-adoption-books #content .book .book-desc .book-title {
+          margin-bottom: 15px; } }
+      .page-lgbt-adoption-books #content .book .book-desc .book-title h3 {
+        text-align: left;
+        font-family: 'Oswald';
+        color: #97bf65;
+        font-size: 1.3125rem; }
+    .page-lgbt-adoption-books #content .book img {
+      border: 4px solid #f6f5f3;
+      margin-right: 20px; }
+
+.page-lgbt-adoption-articles #content .top-content {
+  background: #f6f5f3 url(../images/heart-line-2.png) no-repeat top right;
+  padding: 40px 0; }
+  @media (min-width: 768px) {
+    .page-lgbt-adoption-articles #content .top-content {
+      padding-bottom: 0; } }
+  .page-lgbt-adoption-articles #content .top-content #img-content {
+    max-width: 240px;
+    margin: -55px auto 25px;
+    display: block; }
+    @media (min-width: 768px) {
+      .page-lgbt-adoption-articles #content .top-content #img-content {
+        max-width: 290px;
+        float: right;
+        display: inline;
+        margin: -55px -20px 0 0; } }
+
+.page-lgbt-adoption-articles #content .desc {
+  padding: 40px 0 50px; }
+  .page-lgbt-adoption-articles #content .desc ul {
+    padding-left: 20px;
+    margin-bottom: 50px; }
+    .page-lgbt-adoption-articles #content .desc ul li {
+      margin-bottom: 20px; }
+
+.page-lgbt-adoption-laws-state #content .top-content {
+  background: #fff url(../images/heart-bg.png) no-repeat top right -275px; }
+  @media (min-width: 768px) {
+    .page-lgbt-adoption-laws-state #content .top-content .image-top {
+      display: flex;
+      padding-top: 40px; } }
+  .page-lgbt-adoption-laws-state #content .top-content .image-top #img-content {
+    max-width: 110px;
+    margin: 30px auto;
+    display: block; }
+    @media (min-width: 768px) {
+      .page-lgbt-adoption-laws-state #content .top-content .image-top #img-content {
+        max-width: 155px;
+        margin: 40px 50px 0; } }
+    @media (min-width: 992px) {
+      .page-lgbt-adoption-laws-state #content .top-content .image-top #img-content {
+        max-width: 180px; } }
+  .page-lgbt-adoption-laws-state #content .top-content .image-top .top-desc .heart-item {
+    padding: 0;
+    background: none;
+    margin-bottom: 50px; }
+    @media (min-width: 768px) {
+      .page-lgbt-adoption-laws-state #content .top-content .image-top .top-desc .heart-item {
+        padding: 0px 0 0px 85px;
+        background: url(../images/list-item-heart.png) no-repeat top left; } }
+    .page-lgbt-adoption-laws-state #content .top-content .image-top .top-desc .heart-item h3 {
+      text-align: left;
+      font-family: 'Oswald';
+      color: #97bf65;
+      font-size: 1.3125rem; }
+      @media (min-width: 768px) {
+        .page-lgbt-adoption-laws-state #content .top-content .image-top .top-desc .heart-item h3 {
+          font-size: 1.375rem; } }
+
+.page-lgbt-adoption-laws-state #content .bold-italic {
+  padding: 40px 0 50px; }
+
+.page-lgbt-adoption-home-studies #under-breadcrumbs {
+  padding: 45px 0;
+  background-color: #f6f5f3; }
+
+@media (min-width: 768px) {
+  .page-lgbt-adoption-home-studies #top-banner .wrapper {
+    padding: 30px 0;
+    background: #ede8e5 no-repeat right -192px center;
+    position: relative; } }
+
+@media (min-width: 992px) {
+  .page-lgbt-adoption-home-studies #top-banner .wrapper {
+    padding: 80px 0;
+    background-position: right; } }
+
+.page-lgbt-adoption-home-studies #top-banner .wrapper .call {
+  color: #fff;
+  background-color: #97bf65;
+  padding-top: 2px;
+  position: relative; }
+  @media (min-width: 768px) {
+    .page-lgbt-adoption-home-studies #top-banner .wrapper .call {
+      background: inherit;
+      padding-top: inherit; } }
+  .page-lgbt-adoption-home-studies #top-banner .wrapper .call .callbox.topleft {
+    min-height: 410px; }
+    @media (min-width: 992px) {
+      .page-lgbt-adoption-home-studies #top-banner .wrapper .call .callbox.topleft {
+        min-height: inherit; } }
+    .page-lgbt-adoption-home-studies #top-banner .wrapper .call .callbox.topleft .bg {
+      left: 0; }
+    .page-lgbt-adoption-home-studies #top-banner .wrapper .call .callbox.topleft .content {
+      text-align: center;
+      padding-bottom: 20px; }
+      .page-lgbt-adoption-home-studies #top-banner .wrapper .call .callbox.topleft .content .quote {
+        padding-top: 15px;
+        text-align: center;
+        font-family: 'Nickainley';
+        font-size: 1.875rem;
+        margin-bottom: 25px; }
+      .page-lgbt-adoption-home-studies #top-banner .wrapper .call .callbox.topleft .content .sayer {
+        margin-bottom: 45px; }
+  .page-lgbt-adoption-home-studies #top-banner .wrapper .call img {
+    max-width: 100%; }
+
+.page-lgbt-adoption-home-studies #top-banner .wrapper .desc {
+  position: absolute;
+  font-family: 'OpenSans Italic';
+  font-size: 0.8125rem;
+  color: #fff;
+  bottom: 9px;
+  right: 32px; }
+  @media (min-width: 768px) {
+    .page-lgbt-adoption-home-studies #top-banner .wrapper .desc {
+      bottom: 8px;
+      right: 40px; } }
+  @media (min-width: 992px) {
+    .page-lgbt-adoption-home-studies #top-banner .wrapper .desc {
+      bottom: 15px;
+      right: 171px; } }
