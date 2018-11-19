@@ -1671,21 +1671,12 @@
                 background-position: right;
             }
             .call{
-                @include bg-green();
                 padding-top: 2px;
                 position: relative;
                 @include media-breakpoint-up("md"){
-                    background: inherit;
                     padding-top: inherit;
                 }
                 .callbox.topleft{
-                    margin: 15px 0px 17px 11px;
-                    padding: 25px 25px 30px 12px;
-                    min-height: 410px;
-                    @include media-breakpoint-up("lg"){
-                        margin: 15px -9px 17px 11px;
-                        min-height: inherit;                        
-                    }
                     .bg{
                         left: 0;
                     }
@@ -1711,7 +1702,7 @@
                 position: absolute;   
                 font-family: 'OpenSans Italic';
                 font-size:0.8125rem;
-                color: #fff;
+                color: $white;
                 bottom: 9px;
                 right: 32px;
                 @include media-breakpoint-up("md"){
@@ -3315,32 +3306,22 @@
                 background-position: right;
             }
             .call{
-                @include bg-green();
                 padding-top: 2px;
                 position: relative;
                 @include media-breakpoint-up("md"){
-                    background: inherit;
                     padding-top: inherit;
                 }
-                .callbox.topleft{
-                    min-height: 410px;
-                    @include media-breakpoint-up("lg"){
-                        min-height: inherit;                        
-                    }
+                .callbox.bottomright{
+                    margin-bottom: 8px;
                     .bg{
                         left: 0;
                     }
                     .content{
-                        text-align: center;
-                        padding-bottom: 20px;
-                        .quote{
-                            padding-top: 15px;
-                            @include nickainley-title();
-                            font-size: 1.875rem;
-                            margin-bottom: 25px;
-                        }
-                        .sayer{
-                            margin-bottom: 45px;
+                        padding: 20px 0;
+                        @include oswald-title(center);
+                        font-size: 1.25rem;
+                        @include media-breakpoint-up("md"){
+                            font-size: 1.375rem;
                         }
                     }
                 }
@@ -3348,20 +3329,174 @@
                     max-width: 100%;
                 }
             }
+            .callbox-image{
+                position: relative;                
+            }
             .desc{
-                position: absolute;   
                 font-family: 'OpenSans Italic';
                 font-size:0.8125rem;
-                color: #fff;
-                bottom: 9px;
-                right: 32px;
+                color: $white;
+                position: absolute;
+                top: 10px;
+                right: 20px;
+            }
+        }
+    }
+    #content{
+        background: url(../images/heart-line-2.png) no-repeat top right -65px;
+        padding: 40px 0 50px; 
+        .bold{
+            @include media-breakpoint-up("md"){
+                width: 90%;
+            }
+            @include media-breakpoint-up("lg"){
+                width: auto;
+            }
+        }
+        ul{
+            padding-left: 20px;
+            li{
+                margin-bottom: 25px;
+            }
+        }
+        .callbox.cyan{
+            margin-bottom: 50px;
+            .content{
+                @include oswald-title();
+                font-size: 1.25rem;
+                color: $white;
+                padding: 20px 0;
                 @include media-breakpoint-up("md"){
-                    bottom: 8px;
-                    right: 40px;
+                    padding: 40px 20px;
                 }
-                @include media-breakpoint-up("lg"){
-                    bottom: 15px;
-                    right: 171px;
+            }
+        }
+        h2{
+            margin-top: 30px;
+            @include bebasneue-title-brown(left);
+            font-size: 2.3125rem;
+            @include media-breakpoint-up("md"){
+                font-size: 3.125rem;
+            }
+        }
+        h3{
+            @include oswald-title-green(left);
+            font-size: 1.3125rem;
+        }
+    }
+}
+.page-waiting-families{
+    #breadcrumbs{
+        .top-title{
+            @include media-breakpoint-up("md"){
+                text-align: center;
+                margin-bottom: 0;
+            }
+        }
+        p{
+            text-align: center;
+            margin-bottom: 0;
+        }
+    }
+    #waiting-families{
+        padding: 0;
+        .search-form{
+            padding: 30px 0;
+            margin-bottom: 20px;
+            text-align: center;
+            .collapse{
+                .form-group.left{
+                    text-align: left;
+                }
+                label{
+                    color: $site-brown;
+                }
+            }
+            a:not(.link-green){
+                color: $site-brown;
+            }
+        }
+        .col-search{
+            padding-top: 30px;
+            padding-bottom: 30px;
+            margin-bottom: 20px;
+            @include media-breakpoint-up("lg"){
+                margin-bottom: inherit;
+            }
+            .form-group{
+                margin-bottom: 20px;
+                button{
+                    margin-bottom: 20px;
+                }
+            }
+            .form-group.center{
+                text-align: center;
+            }
+        }
+        .col-result{
+            @include media-breakpoint-up("lg"){
+                margin-top: 25px;
+            }
+            .result-row{
+                @include media-breakpoint-up("md"){
+                    display: flex;
+                }
+                .item{
+                    position: relative;
+                    overflow: hidden;
+                    margin-bottom: 15px;
+                    h3{
+                        margin-bottom: 10px;
+                    }
+                    .topright-tag{
+                        width: auto;
+                        position: absolute;
+                        top: 20px;
+                        right: 20px;
+                    }
+                    .topleft-tag{
+                        width: auto;
+                        position: absolute;
+                        top: -23px;
+                        left: -23px;
+                    }
+                    .view-btn{
+                        font-size: 1.0625rem;
+                        color: $white;
+                        padding: 9px;
+                        border: 2px solid $white;
+                        border-radius: 5px;
+                        min-width: 200px;
+                    }
+                }
+                .item.processed:before{
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: rgba(256,256,256,0.7);
+                }
+                .item:hover{
+                    background: $site-green-bg;
+                    color: $white;
+                    .view-btn{
+                        display: block!important;
+                        position: absolute;
+                        top: 25%;
+                        left: 50%;
+                        transform: translateX(-50%);
+                    }
+                }
+                .item:hover:before{
+                    content: '';
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    top: 0;
+                    left: 0;
+                    background: rgba(0,0,0,0.3)
                 }
             }
         }

@@ -9248,35 +9248,24 @@ button {
     background-position: right; } }
 
 .page-same-sex-adoption #top-banner .wrapper .call {
-  color: #fff;
-  background-color: #97bf65;
   padding-top: 2px;
   position: relative; }
   @media (min-width: 768px) {
     .page-same-sex-adoption #top-banner .wrapper .call {
-      background: inherit;
       padding-top: inherit; } }
-  .page-same-sex-adoption #top-banner .wrapper .call .callbox.topleft {
-    margin: 15px 0px 17px 11px;
-    padding: 25px 25px 30px 12px;
-    min-height: 410px; }
-    @media (min-width: 992px) {
-      .page-same-sex-adoption #top-banner .wrapper .call .callbox.topleft {
-        margin: 15px -9px 17px 11px;
-        min-height: inherit; } }
-    .page-same-sex-adoption #top-banner .wrapper .call .callbox.topleft .bg {
-      left: 0; }
-    .page-same-sex-adoption #top-banner .wrapper .call .callbox.topleft .content {
+  .page-same-sex-adoption #top-banner .wrapper .call .callbox.topleft .bg {
+    left: 0; }
+  .page-same-sex-adoption #top-banner .wrapper .call .callbox.topleft .content {
+    text-align: center;
+    padding-bottom: 20px; }
+    .page-same-sex-adoption #top-banner .wrapper .call .callbox.topleft .content .quote {
+      padding-top: 15px;
       text-align: center;
-      padding-bottom: 20px; }
-      .page-same-sex-adoption #top-banner .wrapper .call .callbox.topleft .content .quote {
-        padding-top: 15px;
-        text-align: center;
-        font-family: 'Nickainley';
-        font-size: 1.875rem;
-        margin-bottom: 25px; }
-      .page-same-sex-adoption #top-banner .wrapper .call .callbox.topleft .content .sayer {
-        margin-bottom: 45px; }
+      font-family: 'Nickainley';
+      font-size: 1.875rem;
+      margin-bottom: 25px; }
+    .page-same-sex-adoption #top-banner .wrapper .call .callbox.topleft .content .sayer {
+      margin-bottom: 45px; }
   .page-same-sex-adoption #top-banner .wrapper .call img {
     max-width: 100%; }
 
@@ -10682,47 +10671,161 @@ button {
     background-position: right; } }
 
 .page-lgbt-adoption-home-studies #top-banner .wrapper .call {
-  color: #fff;
-  background-color: #97bf65;
   padding-top: 2px;
   position: relative; }
   @media (min-width: 768px) {
     .page-lgbt-adoption-home-studies #top-banner .wrapper .call {
-      background: inherit;
       padding-top: inherit; } }
-  .page-lgbt-adoption-home-studies #top-banner .wrapper .call .callbox.topleft {
-    min-height: 410px; }
-    @media (min-width: 992px) {
-      .page-lgbt-adoption-home-studies #top-banner .wrapper .call .callbox.topleft {
-        min-height: inherit; } }
-    .page-lgbt-adoption-home-studies #top-banner .wrapper .call .callbox.topleft .bg {
+  .page-lgbt-adoption-home-studies #top-banner .wrapper .call .callbox.bottomright {
+    margin-bottom: 8px; }
+    .page-lgbt-adoption-home-studies #top-banner .wrapper .call .callbox.bottomright .bg {
       left: 0; }
-    .page-lgbt-adoption-home-studies #top-banner .wrapper .call .callbox.topleft .content {
+    .page-lgbt-adoption-home-studies #top-banner .wrapper .call .callbox.bottomright .content {
+      padding: 20px 0;
       text-align: center;
-      padding-bottom: 20px; }
-      .page-lgbt-adoption-home-studies #top-banner .wrapper .call .callbox.topleft .content .quote {
-        padding-top: 15px;
-        text-align: center;
-        font-family: 'Nickainley';
-        font-size: 1.875rem;
-        margin-bottom: 25px; }
-      .page-lgbt-adoption-home-studies #top-banner .wrapper .call .callbox.topleft .content .sayer {
-        margin-bottom: 45px; }
+      font-family: 'Oswald';
+      font-size: 1.25rem; }
+      @media (min-width: 768px) {
+        .page-lgbt-adoption-home-studies #top-banner .wrapper .call .callbox.bottomright .content {
+          font-size: 1.375rem; } }
   .page-lgbt-adoption-home-studies #top-banner .wrapper .call img {
     max-width: 100%; }
 
+.page-lgbt-adoption-home-studies #top-banner .wrapper .callbox-image {
+  position: relative; }
+
 .page-lgbt-adoption-home-studies #top-banner .wrapper .desc {
-  position: absolute;
   font-family: 'OpenSans Italic';
   font-size: 0.8125rem;
   color: #fff;
-  bottom: 9px;
-  right: 32px; }
+  position: absolute;
+  top: 10px;
+  right: 20px; }
+
+.page-lgbt-adoption-home-studies #content {
+  background: url(../images/heart-line-2.png) no-repeat top right -65px;
+  padding: 40px 0 50px; }
   @media (min-width: 768px) {
-    .page-lgbt-adoption-home-studies #top-banner .wrapper .desc {
-      bottom: 8px;
-      right: 40px; } }
+    .page-lgbt-adoption-home-studies #content .bold {
+      width: 90%; } }
   @media (min-width: 992px) {
-    .page-lgbt-adoption-home-studies #top-banner .wrapper .desc {
-      bottom: 15px;
-      right: 171px; } }
+    .page-lgbt-adoption-home-studies #content .bold {
+      width: auto; } }
+  .page-lgbt-adoption-home-studies #content ul {
+    padding-left: 20px; }
+    .page-lgbt-adoption-home-studies #content ul li {
+      margin-bottom: 25px; }
+  .page-lgbt-adoption-home-studies #content .callbox.cyan {
+    margin-bottom: 50px; }
+    .page-lgbt-adoption-home-studies #content .callbox.cyan .content {
+      text-align: center;
+      font-family: 'Oswald';
+      font-size: 1.25rem;
+      color: #fff;
+      padding: 20px 0; }
+      @media (min-width: 768px) {
+        .page-lgbt-adoption-home-studies #content .callbox.cyan .content {
+          padding: 40px 20px; } }
+  .page-lgbt-adoption-home-studies #content h2 {
+    margin-top: 30px;
+    text-align: left;
+    font-family: 'BebasNeue';
+    color: #56330e;
+    font-size: 2.3125rem; }
+    @media (min-width: 768px) {
+      .page-lgbt-adoption-home-studies #content h2 {
+        font-size: 3.125rem; } }
+  .page-lgbt-adoption-home-studies #content h3 {
+    text-align: left;
+    font-family: 'Oswald';
+    color: #97bf65;
+    font-size: 1.3125rem; }
+
+@media (min-width: 768px) {
+  .page-waiting-families #breadcrumbs .top-title {
+    text-align: center;
+    margin-bottom: 0; } }
+
+.page-waiting-families #breadcrumbs p {
+  text-align: center;
+  margin-bottom: 0; }
+
+.page-waiting-families #waiting-families {
+  padding: 0; }
+  .page-waiting-families #waiting-families .search-form {
+    padding: 30px 0;
+    margin-bottom: 20px;
+    text-align: center; }
+    .page-waiting-families #waiting-families .search-form .collapse .form-group.left {
+      text-align: left; }
+    .page-waiting-families #waiting-families .search-form .collapse label {
+      color: #56330e; }
+    .page-waiting-families #waiting-families .search-form a:not(.link-green) {
+      color: #56330e; }
+  .page-waiting-families #waiting-families .col-search {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 20px; }
+    @media (min-width: 992px) {
+      .page-waiting-families #waiting-families .col-search {
+        margin-bottom: inherit; } }
+    .page-waiting-families #waiting-families .col-search .form-group {
+      margin-bottom: 20px; }
+      .page-waiting-families #waiting-families .col-search .form-group button {
+        margin-bottom: 20px; }
+    .page-waiting-families #waiting-families .col-search .form-group.center {
+      text-align: center; }
+  @media (min-width: 992px) {
+    .page-waiting-families #waiting-families .col-result {
+      margin-top: 25px; } }
+  @media (min-width: 768px) {
+    .page-waiting-families #waiting-families .col-result .result-row {
+      display: flex; } }
+  .page-waiting-families #waiting-families .col-result .result-row .item {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 15px; }
+    .page-waiting-families #waiting-families .col-result .result-row .item h3 {
+      margin-bottom: 10px; }
+    .page-waiting-families #waiting-families .col-result .result-row .item .topright-tag {
+      width: auto;
+      position: absolute;
+      top: 20px;
+      right: 20px; }
+    .page-waiting-families #waiting-families .col-result .result-row .item .topleft-tag {
+      width: auto;
+      position: absolute;
+      top: -23px;
+      left: -23px; }
+    .page-waiting-families #waiting-families .col-result .result-row .item .view-btn {
+      font-size: 1.0625rem;
+      color: #fff;
+      padding: 9px;
+      border: 2px solid #fff;
+      border-radius: 5px;
+      min-width: 200px; }
+  .page-waiting-families #waiting-families .col-result .result-row .item.processed:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.7); }
+  .page-waiting-families #waiting-families .col-result .result-row .item:hover {
+    background: #97bf65;
+    color: #fff; }
+    .page-waiting-families #waiting-families .col-result .result-row .item:hover .view-btn {
+      display: block !important;
+      position: absolute;
+      top: 25%;
+      left: 50%;
+      transform: translateX(-50%); }
+  .page-waiting-families #waiting-families .col-result .result-row .item:hover:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3); }
