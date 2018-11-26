@@ -3502,3 +3502,648 @@
         }
     }
 }
+.page-free-application-thank-you{
+    #breadcrumbs{
+        .top-title{
+            text-align: center;
+        }
+    }
+    #content{
+        min-height: 360px;
+        padding: 40px 0;
+        text-align: center;
+        @include media-breakpoint-up("md"){
+            min-height: 440px;
+        }
+        @include media-breakpoint-up("lg"){
+            min-height: 460px;
+        }
+        h2{
+            @include nickainley-title-brown();
+            font-size: 1.9375rem;
+            @include media-breakpoint-up("md"){
+                font-size: 2.0625rem;
+            }
+        }
+    }
+}
+.page-successstories-story{
+    .brown{
+        background: $site-brown-bg;
+        padding: 40px 0 25px;
+        .callbox{
+            .content{
+                &:after{
+                    content: "";
+                    display: table;
+                    clear: both;
+                }
+                .right{
+                    display: block;
+                    float: none;
+                    text-align: center ;  
+                    @include  media-breakpoint-up("md"){
+                        float: right;
+                        width:50%;    
+                        text-align: left ;        
+                    }
+                    img{
+                        width:90%;   
+                        @include  media-breakpoint-up("md"){
+                                    
+                        }
+                    }
+                }
+                h2{
+                    @include bebasneue-title-green;
+                    font-size: 4.0625rem;
+                    @include  media-breakpoint-up("md"){
+                        font-size: 5.3125rem;                                
+                    }
+                    @include  media-breakpoint-up("lg"){
+                        font-size: 6.1875rem;                                
+                    }
+                }
+                h2.title{
+                    margin-left: 95px;
+                    margin-top: -30px;
+                }
+                h3{
+                    @include nickainley-title-brown;
+                    font-size: 1.875rem;
+                    @include  media-breakpoint-up("md"){
+                        font-size: 2.5rem;                                
+                    }
+                    @include  media-breakpoint-up("lg"){
+                        font-size: 3.125rem;                                
+                    }
+                }
+                span{
+                    font-family: 'Oswald Light';
+                    color: $site-brown;
+                    font-size: 1.5625rem;
+                }
+            }
+        }
+    }
+    .bg-green{
+        background: $site-green-bg;
+        margin-top: 45px;
+        .callbox{
+            margin-top:-15px;
+        }
+        .content{
+            padding-top:25px;
+            padding-bottom: 25px;
+        }
+        .quote{
+            @include oswald-title;
+            font-size: 1.5625rem;
+        }
+        .sayer{
+            @include nickainley-title;
+            font-size: 2.125rem;
+        }
+    }
+    .story{
+        h3{
+            @include oswald-title-green(left);
+            margin-top:45px;
+        }
+    }
+    .pagination{
+        background: $site-brown-bg;
+        padding: 40px 0;
+        a{
+            @include bebasneue-title-cyan;
+            font-size: 2.125rem;
+        }
+        a,
+        span{
+            display: block;
+            @include  media-breakpoint-up("md"){
+             display: inline;
+            }
+        }
+        .next{
+            text-align: center;
+            margin-top:40px;
+            @include  media-breakpoint-up("md"){
+                text-align: right;
+                margin-top:0px;
+                span {
+                    margin-right:20px;
+                }               
+            }
+        }
+        .previous{
+            text-align: center;
+            @include  media-breakpoint-up("md"){
+               text-align: left;                       
+            }
+            span{
+               margin-left:20px
+             }
+        }
+    }
+}
+.success-stories{
+    #content{
+        .item.call{
+            display: flex;
+            padding: 15px;
+            background: $site-brown-bg url(../images/bg-heart-brown.png) no-repeat top 5px center;
+            @include media-breakpoint-up("lg"){
+                padding: 20px;
+                background-position-y: 10px;
+            }
+            .callbox{
+                outline: 2px solid #e4dedd;
+                padding-top: 10px;
+                @include media-breakpoint-up("lg"){
+                    padding-top: 30px;
+                }
+                h3{
+                    @include nickainley-title-green;
+                    @include media-breakpoint-up("md"){
+                        font-size: 1.75rem;
+                        margin-bottom: 0px;
+                    }
+                    @include media-breakpoint-up("lg"){
+                        font-size: 2.1875rem;
+                    }
+                }
+                h2{
+                    @include oswald-title-cyan;
+                    @include media-breakpoint-up("md"){
+                        font-size: 2.4375rem;
+                    }
+                    @include media-breakpoint-up("md"){
+                        font-size: 2.875rem;
+                    }
+                }
+                .bold{
+                    margin-bottom: 35px;
+                    @include media-breakpoint-up("lg"){
+                        margin-bottom: 60px;
+                    }
+                }
+                .btn-cyan{
+                    color: $white;
+                    padding: 10px;
+                    @include media-breakpoint-up("lg"){
+                        padding: 15px 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+.page-free-application{
+    #content{
+        padding-top: 30px;
+        p:last-child{
+            color: #ed0e23;
+        }
+    }
+    #birthparent-form{
+        .box-brown-head .topic-title{
+            margin-bottom: 0;
+        }
+        .topic-title{
+            margin-top: 50px;
+            margin-bottom: 40px;
+            @include oswald-title-green;
+            font-size: 1.5rem;
+        }
+        p{
+            font-size: 0.8125rem;
+            color: $site-brown;
+        }
+        .custom-checkbox:not(:last-child){
+            margin-bottom: 20px;
+        }
+        .btn-cyan{
+            margin: 30px 0;
+        }
+    }
+}
+.page-waiting-family-profile{
+    #breadcrumbs{
+        padding: 0;
+        @include media-breakpoint-up("md"){
+            padding: 25px 0;
+        }
+        p.d-md-none{
+            @include nickainley-title;
+            font-size: 1.5rem;
+            color: #a4a4a6;
+        }
+        h3.d-md-none{
+            @include bebasneue-title;
+            font-size: 3.1875rem;
+            span{
+                @include nickainley-title;
+                font-size: 1.75rem;
+            }
+        }
+        .breadcrumbs{
+            font-size: 1.0625rem;
+        }
+    }
+    #top-banner{
+        .wrapper{
+            min-height: 340px;
+            background-image: url(../content/family-profile-mobile.jpg);
+            @include media-breakpoint-up("md"){
+                min-height: 400px;
+                background: url(../content/family-profile.jpg) no-repeat center left;
+                background-size: cover;
+            }
+            .btn-cyan{
+                position: absolute;
+                bottom: 30px;
+                left: 50%;
+                transform: translateX(-50%);
+                min-width: 230px;
+                color: $white;
+                text-align: center;
+            }
+            .row{
+                position: relative;
+            }
+            .avatar{
+                bottom: -235px;
+                color: $white;
+                img{
+                    max-width: 150px;
+                    @include media-breakpoint-up("lg"){
+                        max-width: 200px;
+                    }
+                }
+                .family-name{
+                    vertical-align: bottom;
+                    padding-left: 20px;
+                    @include media-breakpoint-up("lg"){
+                        vertical-align: top;
+                    }
+                    p{
+                        @include nickainley-title(left);
+                        font-size: 1.5rem;
+                        color: #a4a4a6;
+                        margin-bottom: 0;
+                        padding-left: 10px;
+                        @include media-breakpoint-up("lg"){
+                            font-size: 1.75rem;
+                        }
+                    }
+                    h3{
+                        @include bebasneue-title(left);
+                        font-size: 4.375rem;
+                        @include media-breakpoint-up("lg"){
+                            font-size: 5.625rem;
+                        }
+                        span{
+                            @include nickainley-title(left);
+                            font-size: 2.25rem;
+                            @include media-breakpoint-up("lg"){
+                                font-size: 2.875rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #send-to-us{
+        .d-md-flex{
+            justify-content: space-between;
+            align-items: center;
+            p{
+                margin-top: 1rem;
+                @include media-breakpoint-up("lg"){                    
+                    padding-left: 240px;
+                }
+            }
+            .btn-cyan{
+                border-radius: 0;
+                padding: 1rem 30px;
+            }
+            a.like{
+                background: url(../images/heart-transparent.png) no-repeat;
+                width: 22px;
+                height: 19px;    
+                display: inline-block;
+                vertical-align: middle;
+            }
+            a.like:hover{
+                background: url(../images/bg-heart-cyan-2.png) no-repeat;
+            }
+            a.like.clicked{
+                background: url(../images/bg-heart-cyan-2.png) no-repeat;
+            }
+        }
+        .alert{
+            background: url(../images/tooltips.png) no-repeat;
+            width: 210px;
+            height: 83px;
+            position: absolute;
+            z-index: 9;
+            top: -13px;
+            display: none; 
+            @include media-breakpoint-up("lg"){
+                left: 163px;
+            }
+            span{
+                display: block;
+            }
+        }
+        .alert.showed{
+            display: block;
+        }
+    }
+    #video{
+        padding: 30px 0;
+        img{
+            max-width: 100%;
+        }
+        .video-player{
+            margin-bottom: 20px;
+            .play-btn{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                text-align: center;
+                transform: translate(-50%,-50%);
+                img{
+                    max-width: 65px;
+                    @include media-breakpoint-up("md"){
+                        max-width: 85px;
+                    }
+                    @include media-breakpoint-up("lg"){
+                        max-width: 100%;
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+        }
+        h3{
+            @include oswald-title-brown(left);
+            font-size: 1.125rem;
+            @include media-breakpoint-up("md"){
+                font-size: 1.25rem;
+            }
+            @include media-breakpoint-up("md"){
+                font-size: 1.375rem;
+            }
+        }
+    }
+    #content{
+        padding: 40px 0;
+        background: url(../images/heart-line-4.png) no-repeat top left -100px;
+        @include media-breakpoint-up("lg"){
+            background-position-x: left;
+        }
+        h3:not(.sub-module-title){
+            @include oswald-title-green(left);
+            font-size: 1.125rem;
+            margin-top: 30px;
+            @include media-breakpoint-up("md"){
+                font-size: 1.375rem;
+            }
+        }
+        h2.module-title{
+            @include nickainley-title-brown(left);
+            font-size: 2.5rem;
+            padding-left: 20px;
+            margin-bottom: 0;
+            @include media-breakpoint-up("md"){
+                font-size: 2.75rem;
+                padding-left: 80px;
+            }
+            @include media-breakpoint-up("lg"){
+                font-size: 2.875rem;
+            }
+        }
+        h3.sub-module-title{
+            @include bebasneue-title-green(left);
+            font-size: 3.075rem;
+            @include media-breakpoint-up("md"){
+                font-size: 3.5rem;
+                padding-left: 130px;
+            }
+            @include media-breakpoint-up("lg"){
+                font-size: 3.6875rem;
+            }
+        }
+        .box{
+            margin-top: 40px;
+            background: $site-cyan-bg;
+            .callbox{
+                padding: 30px 10px;
+                @include media-breakpoint-up("md"){
+                    padding: 50px 20px;
+                }
+                .bg{
+                    background: $site-cyan-bg;
+                }
+                .quote{
+                    @include oswald-title;
+                    font-size: 1.3125rem;
+                    color:#fff;
+                    margin-bottom: 40px;
+                    @include media-breakpoint-up("md"){
+                        font-size: 1.4375rem;
+                    }
+                    @include media-breakpoint-up("lg"){
+                        font-size: 1.5625rem;
+                        padding:20px 40px 0;
+                    }
+                }
+                .sayer{
+                    @include nickainley-title;
+                    font-size: 1.3125rem;
+                    color:#fff;
+                    text-transform: capitalize;
+                    @include media-breakpoint-up("lg"){
+                        font-size: 2rem;
+                    }
+                    @include media-breakpoint-up("lg"){
+                        font-size: 2.25rem;
+                    }
+                }
+            }
+        }
+        .slick-gallery{
+            margin:15px 0 25px;
+            img{
+                margin: 0 auto;
+            }
+            .slick-prev{
+                left: -30px;
+                background: url(../images/arrPrev.png) no-repeat center center;
+                height: 25px;
+                width: 25px;
+            }
+            .slick-next{
+                right: -30px;
+                background: url(../images/arrNext.png) no-repeat center center;
+                height: 25px;
+                width: 25px;
+            }
+            .slick-prev:before, .slick-next:before{
+                color: transparent;
+            }
+            .item{
+                background: $site-brown-bg;
+            }
+        }
+    }
+    #profile{
+        .callbox{
+            .content{
+                img{
+                    max-width: 140px;
+                    margin: 0 auto;
+                    display: block;
+                    @include media-breakpoint-up("md"){
+                        margin: inherit;
+                        display: inline;
+                    }
+                    @include media-breakpoint-up("lg"){
+                        max-width: 200px;
+                        margin: 0 auto;
+                        display: block;
+                    }
+                }
+                p{
+                    margin-top: 10px;
+                }
+                .name{
+                    @include media-breakpoint-up("md"){
+                        display: inline-block;
+                        vertical-align: middle;
+                    }
+                    h3{
+                        @include nickainley-title-brown;
+                        font-size: 1.6875rem;
+                        margin-bottom: 0;
+                        @include media-breakpoint-up("md"){
+                            text-align: left;
+                            font-size: 1.875rem;
+                            padding-left: 10px;
+                        }
+                        @include media-breakpoint-up("lg"){
+                            display: inline;
+                            padding-left: 50px;
+                        }
+                    }
+                    h2{
+                        @include bebasneue-title-brown;
+                        font-size: 3.375rem;
+                        @include media-breakpoint-up("md"){
+                            text-align: left;
+                            font-size: 3.375rem;
+                            padding-left: 60px;
+                        }
+                        @include media-breakpoint-up("lg"){
+                            display: inline;
+                            padding-left: 25px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #contact{
+        @include block-cyan-title-button{
+            background: #34aba7 url("../images/bg-contact.png") repeat-x bottom center;
+            h2.module-title{
+                margin-bottom: 10px;
+                background-color: $site-cyan-bg;
+            }
+            .btn-brown{
+                padding: 15px 30px;
+            }
+        }
+    }
+    #fsModal{        
+        .modal {
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            overflow: hidden;
+        }
+        .modal-dialog {
+            position: fixed;
+            margin: 0;
+            width: 100%;
+            max-width: 100%;
+            height: 100%;
+            padding: 0;           
+            .modal-content{
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                border-radius: 0;
+                box-shadow: none;
+                border: none;
+                .modal-header{
+                    position: fixed;
+                    top:0;
+                    left:0;
+                    width: 100%;
+                    padding: 40px 0 30px;
+                    margin-bottom: 40px;
+                    border: none;
+                    background: $site-cyan;
+                    h1{
+                        @include bebasneue-title;
+                        color: $white;
+                        font-size: 2rem;
+                        @include media-breakpoint-up("lg"){
+                            font-size: 4rem;
+                        }
+                    }
+                    a.mp-menu-close{
+                        margin: 10px 0 0;
+                        height: 1.625rem;
+                        width: 4.625rem;
+                        content: "";
+                        display: block;
+                        background: url(../images/close-3.png) no-repeat center center;
+                        cursor: pointer;
+                        top: 0;
+                        right: 15px;
+                        position: absolute;
+                    }
+                }
+                .modal-body{
+                    position: absolute;
+                    top: 115px;
+                    bottom: 0px;
+                    width: 100%;
+                    overflow: auto;
+                    background: $site-cyan-bg url(../images/bg-contact.png) repeat-x bottom;
+                    @include media-breakpoint-up("lg"){                        
+                        top: 154px;
+                    }
+                    form{
+                        padding: 50px 0;
+                        @include media-breakpoint-up("md"){
+                            padding: 50px 50px 100px;
+                        }
+                        @include media-breakpoint-up("lg"){
+                            padding: 50px 280px 150px;
+                        }
+                    }
+                }
+            }   
+        }     
+    }    
+}

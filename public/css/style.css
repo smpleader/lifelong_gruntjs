@@ -10829,3 +10829,605 @@ button {
     top: 0;
     left: 0;
     background: rgba(0, 0, 0, 0.3); }
+
+.page-free-application-thank-you #breadcrumbs .top-title {
+  text-align: center; }
+
+.page-free-application-thank-you #content {
+  min-height: 360px;
+  padding: 40px 0;
+  text-align: center; }
+  @media (min-width: 768px) {
+    .page-free-application-thank-you #content {
+      min-height: 440px; } }
+  @media (min-width: 992px) {
+    .page-free-application-thank-you #content {
+      min-height: 460px; } }
+  .page-free-application-thank-you #content h2 {
+    text-align: center;
+    font-family: 'Nickainley';
+    color: #56330e;
+    font-size: 1.9375rem; }
+    @media (min-width: 768px) {
+      .page-free-application-thank-you #content h2 {
+        font-size: 2.0625rem; } }
+
+.page-successstories-story .brown {
+  background: #f6f5f3;
+  padding: 40px 0 25px; }
+  .page-successstories-story .brown .callbox .content:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .page-successstories-story .brown .callbox .content .right {
+    display: block;
+    float: none;
+    text-align: center; }
+    @media (min-width: 768px) {
+      .page-successstories-story .brown .callbox .content .right {
+        float: right;
+        width: 50%;
+        text-align: left; } }
+    .page-successstories-story .brown .callbox .content .right img {
+      width: 90%; }
+  .page-successstories-story .brown .callbox .content h2 {
+    text-align: center;
+    font-family: 'BebasNeue';
+    color: #97bf65;
+    font-size: 4.0625rem; }
+    @media (min-width: 768px) {
+      .page-successstories-story .brown .callbox .content h2 {
+        font-size: 5.3125rem; } }
+    @media (min-width: 992px) {
+      .page-successstories-story .brown .callbox .content h2 {
+        font-size: 6.1875rem; } }
+  .page-successstories-story .brown .callbox .content h2.title {
+    margin-left: 95px;
+    margin-top: -30px; }
+  .page-successstories-story .brown .callbox .content h3 {
+    text-align: center;
+    font-family: 'Nickainley';
+    color: #56330e;
+    font-size: 1.875rem; }
+    @media (min-width: 768px) {
+      .page-successstories-story .brown .callbox .content h3 {
+        font-size: 2.5rem; } }
+    @media (min-width: 992px) {
+      .page-successstories-story .brown .callbox .content h3 {
+        font-size: 3.125rem; } }
+  .page-successstories-story .brown .callbox .content span {
+    font-family: 'Oswald Light';
+    color: #56330e;
+    font-size: 1.5625rem; }
+
+.page-successstories-story .bg-green {
+  background: #97bf65;
+  margin-top: 45px; }
+  .page-successstories-story .bg-green .callbox {
+    margin-top: -15px; }
+  .page-successstories-story .bg-green .content {
+    padding-top: 25px;
+    padding-bottom: 25px; }
+  .page-successstories-story .bg-green .quote {
+    text-align: center;
+    font-family: 'Oswald';
+    font-size: 1.5625rem; }
+  .page-successstories-story .bg-green .sayer {
+    text-align: center;
+    font-family: 'Nickainley';
+    font-size: 2.125rem; }
+
+.page-successstories-story .story h3 {
+  text-align: left;
+  font-family: 'Oswald';
+  color: #97bf65;
+  margin-top: 45px; }
+
+.page-successstories-story .pagination {
+  background: #f6f5f3;
+  padding: 40px 0; }
+  .page-successstories-story .pagination a {
+    text-align: center;
+    font-family: 'BebasNeue';
+    color: #34aba7;
+    font-size: 2.125rem; }
+  .page-successstories-story .pagination a,
+  .page-successstories-story .pagination span {
+    display: block; }
+    @media (min-width: 768px) {
+      .page-successstories-story .pagination a,
+      .page-successstories-story .pagination span {
+        display: inline; } }
+  .page-successstories-story .pagination .next {
+    text-align: center;
+    margin-top: 40px; }
+    @media (min-width: 768px) {
+      .page-successstories-story .pagination .next {
+        text-align: right;
+        margin-top: 0px; }
+        .page-successstories-story .pagination .next span {
+          margin-right: 20px; } }
+  .page-successstories-story .pagination .previous {
+    text-align: center; }
+    @media (min-width: 768px) {
+      .page-successstories-story .pagination .previous {
+        text-align: left; } }
+    .page-successstories-story .pagination .previous span {
+      margin-left: 20px; }
+
+.success-stories #content .item.call {
+  display: flex;
+  padding: 15px;
+  background: #f6f5f3 url(../images/bg-heart-brown.png) no-repeat top 5px center; }
+  @media (min-width: 992px) {
+    .success-stories #content .item.call {
+      padding: 20px;
+      background-position-y: 10px; } }
+  .success-stories #content .item.call .callbox {
+    outline: 2px solid #e4dedd;
+    padding-top: 10px; }
+    @media (min-width: 992px) {
+      .success-stories #content .item.call .callbox {
+        padding-top: 30px; } }
+    .success-stories #content .item.call .callbox h3 {
+      text-align: center;
+      font-family: 'Nickainley';
+      color: #97bf65; }
+      @media (min-width: 768px) {
+        .success-stories #content .item.call .callbox h3 {
+          font-size: 1.75rem;
+          margin-bottom: 0px; } }
+      @media (min-width: 992px) {
+        .success-stories #content .item.call .callbox h3 {
+          font-size: 2.1875rem; } }
+    .success-stories #content .item.call .callbox h2 {
+      text-align: center;
+      font-family: 'Oswald';
+      color: #34aba7; }
+      @media (min-width: 768px) {
+        .success-stories #content .item.call .callbox h2 {
+          font-size: 2.4375rem; } }
+      @media (min-width: 768px) {
+        .success-stories #content .item.call .callbox h2 {
+          font-size: 2.875rem; } }
+    .success-stories #content .item.call .callbox .bold {
+      margin-bottom: 35px; }
+      @media (min-width: 992px) {
+        .success-stories #content .item.call .callbox .bold {
+          margin-bottom: 60px; } }
+    .success-stories #content .item.call .callbox .btn-cyan {
+      color: #fff;
+      padding: 10px; }
+      @media (min-width: 992px) {
+        .success-stories #content .item.call .callbox .btn-cyan {
+          padding: 15px 30px; } }
+
+.page-free-application #content {
+  padding-top: 30px; }
+  .page-free-application #content p:last-child {
+    color: #ed0e23; }
+
+.page-free-application #birthparent-form .box-brown-head .topic-title {
+  margin-bottom: 0; }
+
+.page-free-application #birthparent-form .topic-title {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-family: 'Oswald';
+  color: #97bf65;
+  font-size: 1.5rem; }
+
+.page-free-application #birthparent-form p {
+  font-size: 0.8125rem;
+  color: #56330e; }
+
+.page-free-application #birthparent-form .custom-checkbox:not(:last-child) {
+  margin-bottom: 20px; }
+
+.page-free-application #birthparent-form .btn-cyan {
+  margin: 30px 0; }
+
+.page-waiting-family-profile #breadcrumbs {
+  padding: 0; }
+  @media (min-width: 768px) {
+    .page-waiting-family-profile #breadcrumbs {
+      padding: 25px 0; } }
+  .page-waiting-family-profile #breadcrumbs p.d-md-none {
+    text-align: center;
+    font-family: 'Nickainley';
+    font-size: 1.5rem;
+    color: #a4a4a6; }
+  .page-waiting-family-profile #breadcrumbs h3.d-md-none {
+    text-align: center;
+    font-family: 'BebasNeue';
+    font-size: 3.1875rem; }
+    .page-waiting-family-profile #breadcrumbs h3.d-md-none span {
+      text-align: center;
+      font-family: 'Nickainley';
+      font-size: 1.75rem; }
+  .page-waiting-family-profile #breadcrumbs .breadcrumbs {
+    font-size: 1.0625rem; }
+
+.page-waiting-family-profile #top-banner .wrapper {
+  min-height: 340px;
+  background-image: url(../content/family-profile-mobile.jpg); }
+  @media (min-width: 768px) {
+    .page-waiting-family-profile #top-banner .wrapper {
+      min-height: 400px;
+      background: url(../content/family-profile.jpg) no-repeat center left;
+      background-size: cover; } }
+  .page-waiting-family-profile #top-banner .wrapper .btn-cyan {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    min-width: 230px;
+    color: #fff;
+    text-align: center; }
+  .page-waiting-family-profile #top-banner .wrapper .row {
+    position: relative; }
+  .page-waiting-family-profile #top-banner .wrapper .avatar {
+    bottom: -235px;
+    color: #fff; }
+    .page-waiting-family-profile #top-banner .wrapper .avatar img {
+      max-width: 150px; }
+      @media (min-width: 992px) {
+        .page-waiting-family-profile #top-banner .wrapper .avatar img {
+          max-width: 200px; } }
+    .page-waiting-family-profile #top-banner .wrapper .avatar .family-name {
+      vertical-align: bottom;
+      padding-left: 20px; }
+      @media (min-width: 992px) {
+        .page-waiting-family-profile #top-banner .wrapper .avatar .family-name {
+          vertical-align: top; } }
+      .page-waiting-family-profile #top-banner .wrapper .avatar .family-name p {
+        text-align: left;
+        font-family: 'Nickainley';
+        font-size: 1.5rem;
+        color: #a4a4a6;
+        margin-bottom: 0;
+        padding-left: 10px; }
+        @media (min-width: 992px) {
+          .page-waiting-family-profile #top-banner .wrapper .avatar .family-name p {
+            font-size: 1.75rem; } }
+      .page-waiting-family-profile #top-banner .wrapper .avatar .family-name h3 {
+        text-align: left;
+        font-family: 'BebasNeue';
+        font-size: 4.375rem; }
+        @media (min-width: 992px) {
+          .page-waiting-family-profile #top-banner .wrapper .avatar .family-name h3 {
+            font-size: 5.625rem; } }
+        .page-waiting-family-profile #top-banner .wrapper .avatar .family-name h3 span {
+          text-align: left;
+          font-family: 'Nickainley';
+          font-size: 2.25rem; }
+          @media (min-width: 992px) {
+            .page-waiting-family-profile #top-banner .wrapper .avatar .family-name h3 span {
+              font-size: 2.875rem; } }
+
+.page-waiting-family-profile #send-to-us .d-md-flex {
+  justify-content: space-between;
+  align-items: center; }
+  .page-waiting-family-profile #send-to-us .d-md-flex p {
+    margin-top: 1rem; }
+    @media (min-width: 992px) {
+      .page-waiting-family-profile #send-to-us .d-md-flex p {
+        padding-left: 240px; } }
+  .page-waiting-family-profile #send-to-us .d-md-flex .btn-cyan {
+    border-radius: 0;
+    padding: 1rem 30px; }
+  .page-waiting-family-profile #send-to-us .d-md-flex a.like {
+    background: url(../images/heart-transparent.png) no-repeat;
+    width: 22px;
+    height: 19px;
+    display: inline-block;
+    vertical-align: middle; }
+  .page-waiting-family-profile #send-to-us .d-md-flex a.like:hover {
+    background: url(../images/bg-heart-cyan-2.png) no-repeat; }
+  .page-waiting-family-profile #send-to-us .d-md-flex a.like.clicked {
+    background: url(../images/bg-heart-cyan-2.png) no-repeat; }
+
+.page-waiting-family-profile #send-to-us .alert {
+  background: url(../images/tooltips.png) no-repeat;
+  width: 210px;
+  height: 83px;
+  position: absolute;
+  z-index: 9;
+  top: -13px;
+  display: none; }
+  @media (min-width: 992px) {
+    .page-waiting-family-profile #send-to-us .alert {
+      left: 163px; } }
+  .page-waiting-family-profile #send-to-us .alert span {
+    display: block; }
+
+.page-waiting-family-profile #send-to-us .alert.showed {
+  display: block; }
+
+.page-waiting-family-profile #video {
+  padding: 30px 0; }
+  .page-waiting-family-profile #video img {
+    max-width: 100%; }
+  .page-waiting-family-profile #video .video-player {
+    margin-bottom: 20px; }
+    .page-waiting-family-profile #video .video-player .play-btn {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      text-align: center;
+      transform: translate(-50%, -50%); }
+      .page-waiting-family-profile #video .video-player .play-btn img {
+        max-width: 65px; }
+        @media (min-width: 768px) {
+          .page-waiting-family-profile #video .video-player .play-btn img {
+            max-width: 85px; } }
+        @media (min-width: 992px) {
+          .page-waiting-family-profile #video .video-player .play-btn img {
+            max-width: 100%;
+            margin-bottom: 20px; } }
+  .page-waiting-family-profile #video h3 {
+    text-align: left;
+    font-family: 'Oswald';
+    color: #56330e;
+    font-size: 1.125rem; }
+    @media (min-width: 768px) {
+      .page-waiting-family-profile #video h3 {
+        font-size: 1.25rem; } }
+    @media (min-width: 768px) {
+      .page-waiting-family-profile #video h3 {
+        font-size: 1.375rem; } }
+
+.page-waiting-family-profile #content {
+  padding: 40px 0;
+  background: url(../images/heart-line-4.png) no-repeat top left -100px; }
+  @media (min-width: 992px) {
+    .page-waiting-family-profile #content {
+      background-position-x: left; } }
+  .page-waiting-family-profile #content h3:not(.sub-module-title) {
+    text-align: left;
+    font-family: 'Oswald';
+    color: #97bf65;
+    font-size: 1.125rem;
+    margin-top: 30px; }
+    @media (min-width: 768px) {
+      .page-waiting-family-profile #content h3:not(.sub-module-title) {
+        font-size: 1.375rem; } }
+  .page-waiting-family-profile #content h2.module-title {
+    text-align: left;
+    font-family: 'Nickainley';
+    color: #56330e;
+    font-size: 2.5rem;
+    padding-left: 20px;
+    margin-bottom: 0; }
+    @media (min-width: 768px) {
+      .page-waiting-family-profile #content h2.module-title {
+        font-size: 2.75rem;
+        padding-left: 80px; } }
+    @media (min-width: 992px) {
+      .page-waiting-family-profile #content h2.module-title {
+        font-size: 2.875rem; } }
+  .page-waiting-family-profile #content h3.sub-module-title {
+    text-align: left;
+    font-family: 'BebasNeue';
+    color: #97bf65;
+    font-size: 3.075rem; }
+    @media (min-width: 768px) {
+      .page-waiting-family-profile #content h3.sub-module-title {
+        font-size: 3.5rem;
+        padding-left: 130px; } }
+    @media (min-width: 992px) {
+      .page-waiting-family-profile #content h3.sub-module-title {
+        font-size: 3.6875rem; } }
+  .page-waiting-family-profile #content .box {
+    margin-top: 40px;
+    background: #9bd5d3; }
+    .page-waiting-family-profile #content .box .callbox {
+      padding: 30px 10px; }
+      @media (min-width: 768px) {
+        .page-waiting-family-profile #content .box .callbox {
+          padding: 50px 20px; } }
+      .page-waiting-family-profile #content .box .callbox .bg {
+        background: #9bd5d3; }
+      .page-waiting-family-profile #content .box .callbox .quote {
+        text-align: center;
+        font-family: 'Oswald';
+        font-size: 1.3125rem;
+        color: #fff;
+        margin-bottom: 40px; }
+        @media (min-width: 768px) {
+          .page-waiting-family-profile #content .box .callbox .quote {
+            font-size: 1.4375rem; } }
+        @media (min-width: 992px) {
+          .page-waiting-family-profile #content .box .callbox .quote {
+            font-size: 1.5625rem;
+            padding: 20px 40px 0; } }
+      .page-waiting-family-profile #content .box .callbox .sayer {
+        text-align: center;
+        font-family: 'Nickainley';
+        font-size: 1.3125rem;
+        color: #fff;
+        text-transform: capitalize; }
+        @media (min-width: 992px) {
+          .page-waiting-family-profile #content .box .callbox .sayer {
+            font-size: 2rem; } }
+        @media (min-width: 992px) {
+          .page-waiting-family-profile #content .box .callbox .sayer {
+            font-size: 2.25rem; } }
+  .page-waiting-family-profile #content .slick-gallery {
+    margin: 15px 0 25px; }
+    .page-waiting-family-profile #content .slick-gallery img {
+      margin: 0 auto; }
+    .page-waiting-family-profile #content .slick-gallery .slick-prev {
+      left: -30px;
+      background: url(../images/arrPrev.png) no-repeat center center;
+      height: 25px;
+      width: 25px; }
+    .page-waiting-family-profile #content .slick-gallery .slick-next {
+      right: -30px;
+      background: url(../images/arrNext.png) no-repeat center center;
+      height: 25px;
+      width: 25px; }
+    .page-waiting-family-profile #content .slick-gallery .slick-prev:before, .page-waiting-family-profile #content .slick-gallery .slick-next:before {
+      color: transparent; }
+    .page-waiting-family-profile #content .slick-gallery .item {
+      background: #f6f5f3; }
+
+.page-waiting-family-profile #profile .callbox .content img {
+  max-width: 140px;
+  margin: 0 auto;
+  display: block; }
+  @media (min-width: 768px) {
+    .page-waiting-family-profile #profile .callbox .content img {
+      margin: inherit;
+      display: inline; } }
+  @media (min-width: 992px) {
+    .page-waiting-family-profile #profile .callbox .content img {
+      max-width: 200px;
+      margin: 0 auto;
+      display: block; } }
+
+.page-waiting-family-profile #profile .callbox .content p {
+  margin-top: 10px; }
+
+@media (min-width: 768px) {
+  .page-waiting-family-profile #profile .callbox .content .name {
+    display: inline-block;
+    vertical-align: middle; } }
+
+.page-waiting-family-profile #profile .callbox .content .name h3 {
+  text-align: center;
+  font-family: 'Nickainley';
+  color: #56330e;
+  font-size: 1.6875rem;
+  margin-bottom: 0; }
+  @media (min-width: 768px) {
+    .page-waiting-family-profile #profile .callbox .content .name h3 {
+      text-align: left;
+      font-size: 1.875rem;
+      padding-left: 10px; } }
+  @media (min-width: 992px) {
+    .page-waiting-family-profile #profile .callbox .content .name h3 {
+      display: inline;
+      padding-left: 50px; } }
+
+.page-waiting-family-profile #profile .callbox .content .name h2 {
+  text-align: center;
+  font-family: 'BebasNeue';
+  color: #56330e;
+  font-size: 3.375rem; }
+  @media (min-width: 768px) {
+    .page-waiting-family-profile #profile .callbox .content .name h2 {
+      text-align: left;
+      font-size: 3.375rem;
+      padding-left: 60px; } }
+  @media (min-width: 992px) {
+    .page-waiting-family-profile #profile .callbox .content .name h2 {
+      display: inline;
+      padding-left: 25px; } }
+
+.page-waiting-family-profile #contact {
+  background: #34aba7 url("../images/bg-free-app.png") repeat-x bottom center;
+  color: #fff;
+  padding: 70px 0 70px;
+  text-align: center;
+  background: #34aba7 url("../images/bg-contact.png") repeat-x bottom center; }
+  @media (max-width: 991.98px) {
+    .page-waiting-family-profile #contact {
+      padding: 60px 0 60px; } }
+  @media (max-width: 1365.98px) {
+    .page-waiting-family-profile #contact {
+      padding: 65px 0 80px; } }
+  .page-waiting-family-profile #contact h2.module-title {
+    text-align: center;
+    font-family: 'BebasNeue';
+    color: #fff;
+    background-color: #34aba7;
+    font-size: 2.88rem; }
+    @media (min-width: 768px) {
+      .page-waiting-family-profile #contact h2.module-title {
+        font-size: 3.25rem; } }
+    @media (min-width: 992px) {
+      .page-waiting-family-profile #contact h2.module-title {
+        font-size: 3.75rem; } }
+  .page-waiting-family-profile #contact .desc {
+    margin-bottom: 30px; }
+  .page-waiting-family-profile #contact .btn-brown {
+    padding: 15px 30px; }
+  .page-waiting-family-profile #contact h2.module-title {
+    margin-bottom: 10px;
+    background-color: #9bd5d3; }
+  .page-waiting-family-profile #contact .btn-brown {
+    padding: 15px 30px; }
+
+.page-waiting-family-profile #fsModal .modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden; }
+
+.page-waiting-family-profile #fsModal .modal-dialog {
+  position: fixed;
+  margin: 0;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  padding: 0; }
+  .page-waiting-family-profile #fsModal .modal-dialog .modal-content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 0;
+    box-shadow: none;
+    border: none; }
+    .page-waiting-family-profile #fsModal .modal-dialog .modal-content .modal-header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding: 40px 0 30px;
+      margin-bottom: 40px;
+      border: none;
+      background: #34aba7; }
+      .page-waiting-family-profile #fsModal .modal-dialog .modal-content .modal-header h1 {
+        text-align: center;
+        font-family: 'BebasNeue';
+        color: #fff;
+        font-size: 2rem; }
+        @media (min-width: 992px) {
+          .page-waiting-family-profile #fsModal .modal-dialog .modal-content .modal-header h1 {
+            font-size: 4rem; } }
+      .page-waiting-family-profile #fsModal .modal-dialog .modal-content .modal-header a.mp-menu-close {
+        margin: 10px 0 0;
+        height: 1.625rem;
+        width: 4.625rem;
+        content: "";
+        display: block;
+        background: url(../images/close-3.png) no-repeat center center;
+        cursor: pointer;
+        top: 0;
+        right: 15px;
+        position: absolute; }
+    .page-waiting-family-profile #fsModal .modal-dialog .modal-content .modal-body {
+      position: absolute;
+      top: 115px;
+      bottom: 0px;
+      width: 100%;
+      overflow: auto;
+      background: #9bd5d3 url(../images/bg-contact.png) repeat-x bottom; }
+      @media (min-width: 992px) {
+        .page-waiting-family-profile #fsModal .modal-dialog .modal-content .modal-body {
+          top: 154px; } }
+      .page-waiting-family-profile #fsModal .modal-dialog .modal-content .modal-body form {
+        padding: 50px 0; }
+        @media (min-width: 768px) {
+          .page-waiting-family-profile #fsModal .modal-dialog .modal-content .modal-body form {
+            padding: 50px 50px 100px; } }
+        @media (min-width: 992px) {
+          .page-waiting-family-profile #fsModal .modal-dialog .modal-content .modal-body form {
+            padding: 50px 280px 150px; } }
