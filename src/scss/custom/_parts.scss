@@ -3754,7 +3754,8 @@
     #top-banner{
         .wrapper{
             min-height: 340px;
-            background-image: url(../content/family-profile-mobile.jpg);
+            position: relative;
+            background: url(../content/family-profile-mobile.jpg) no-repeat center center;
             @include media-breakpoint-up("md"){
                 min-height: 400px;
                 background: url(../content/family-profile.jpg) no-repeat center left;
@@ -3768,9 +3769,6 @@
                 min-width: 230px;
                 color: $white;
                 text-align: center;
-            }
-            .row{
-                position: relative;
             }
             .avatar{
                 bottom: -235px;
@@ -3841,27 +3839,19 @@
             }
             a.like.clicked{
                 background: url(../images/bg-heart-cyan-2.png) no-repeat;
-            }
-        }
-        .alert{
-            background: url(../images/tooltips.png) no-repeat;
-            width: 210px;
-            height: 83px;
-            position: absolute;
-            z-index: 9;
-            top: -13px;
-            display: none; 
-            @include media-breakpoint-up("lg"){
-                left: 163px;
-            }
-            span{
-                display: block;
-            }
-        }
-        .alert.showed{
-            display: block;
+            }  
         }
     }
+    .tooltip > .arrow:before{
+        border-bottom-color: $site-cyan-bg;
+    }
+    .tooltip > .tooltip-inner{
+        background-color: $site-cyan-bg;
+        padding: 10px 20px;
+    }     
+    .tooltip > .tooltip-inner p{
+        margin-bottom: 0;
+    } 
     #video{
         padding: 30px 0;
         img{

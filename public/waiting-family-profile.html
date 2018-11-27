@@ -180,17 +180,11 @@
             <div class="row">  
                 <div class="col-sm-12 offset-xl-1 col-xl-10 d-md-flex">                        
                     <p class="bold-italic text-center">
-                        <a class="like" href="#"></a>
+                        <a class="like" href="#" data-toggle="tooltip" data-placement="bottom" data-html="true" data-original-title="<p class='bold'>added to</p> <a href='#' class='link-white'>my favorite families</a>"></a>
                         Home study approved LGBT family from Texas
                     </p>
                     <a class="btn-cyan pad-30 d-none d-md-block link-modal" data-toggle="modal" data-target="#fsModal">Send Us A Message</a>
-                </div>                                         
-                <div class="col-sm-12 offset-xl-1 col-xl-10">                                  
-                    <div class="alert text-center">
-                        <span class="bold mb-0">add to</span>
-                        <a href="#" class="link-white">my favorite families</a>
-                    </div>
-                </div>        
+                </div>      
             </div>
         </div>
     </section><!--/Set to us-->
@@ -547,54 +541,69 @@ aria-hidden="true">
 <!--/Modal-->
 <script src="js/scripts.js"></script>  
 <script>
-    $('.slick-gallery').slick({
-        arrows: true,
-        infinite: false,
-        autoplay: true,
-        speed: 600,
-        responsive: [
-        {
-            breakpoint: 1365,
-            settings: {
-            slidesToShow: 4,
-            slidesToScroll: 1
-            }
-        },
-        {
-            breakpoint: 767,
-            settings: {
-            slidesToShow: 3,
-            slidesToScroll: 1
-            }
-        },
-        {
-            breakpoint: 360,
-            settings: {
+    $(document).ready(function(){
+        $('.slick-gallery').slick({
+            arrows: true,
+            infinite: true,
+            autoplay: true,
+            speed: 600,
             slidesToShow: 1,
-            slidesToScroll: 1
+            slidesToScroll: 1,
+            mobileFirst: true,
+            responsive: [
+            {
+                breakpoint: 1365,
+                settings: {
+                slidesToShow: 4,
+                slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 767,
+                settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 360,
+                settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+                }
             }
-        }
-        // You can unslick at a given breakpoint now by adding:
-        // settings: "unslick"
-        // instead of a settings object
-        ],
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        mobileFirst: true,
+            // You can unslick at a given breakpoint now by adding:
+            // settings: "unslick"
+            // instead of a settings object
+            ]
+        });
     });
     var i=0;
     $('.like').click(function(){
         if(i==1){
             $('.like').removeClass('clicked');
-            $('.alert').removeClass('showed');
             i--;
             return;
         }else if(i==0){
             $('.like').addClass('clicked');
-            $('.alert').addClass('showed');
             i++;
             return;
         }
+    });
+    $("a.like").tooltip({ trigger: "manual" , html: true, animation:false})
+        .on("mouseenter", function () {
+            var _this = this;
+            $(this).tooltip("show");
+            $(".tooltip").on("mouseleave", function () {
+                $(_this).tooltip('hide');
+            });
+        }).on("mouseleave", function () {
+            var _this = this;
+            setTimeout(function () {
+                if (!$(".tooltip:hover").length) {
+                    $(_this).tooltip("hide");
+                }
+            }, 300);
     });
 </script>
 </body>

@@ -11051,7 +11051,8 @@ button {
 
 .page-waiting-family-profile #top-banner .wrapper {
   min-height: 340px;
-  background-image: url(../content/family-profile-mobile.jpg); }
+  position: relative;
+  background: url(../content/family-profile-mobile.jpg) no-repeat center center; }
   @media (min-width: 768px) {
     .page-waiting-family-profile #top-banner .wrapper {
       min-height: 400px;
@@ -11065,8 +11066,6 @@ button {
     min-width: 230px;
     color: #fff;
     text-align: center; }
-  .page-waiting-family-profile #top-banner .wrapper .row {
-    position: relative; }
   .page-waiting-family-profile #top-banner .wrapper .avatar {
     bottom: -235px;
     color: #fff; }
@@ -11128,22 +11127,15 @@ button {
   .page-waiting-family-profile #send-to-us .d-md-flex a.like.clicked {
     background: url(../images/bg-heart-cyan-2.png) no-repeat; }
 
-.page-waiting-family-profile #send-to-us .alert {
-  background: url(../images/tooltips.png) no-repeat;
-  width: 210px;
-  height: 83px;
-  position: absolute;
-  z-index: 9;
-  top: -13px;
-  display: none; }
-  @media (min-width: 992px) {
-    .page-waiting-family-profile #send-to-us .alert {
-      left: 163px; } }
-  .page-waiting-family-profile #send-to-us .alert span {
-    display: block; }
+.page-waiting-family-profile .tooltip > .arrow:before {
+  border-bottom-color: #9bd5d3; }
 
-.page-waiting-family-profile #send-to-us .alert.showed {
-  display: block; }
+.page-waiting-family-profile .tooltip > .tooltip-inner {
+  background-color: #9bd5d3;
+  padding: 10px 20px; }
+
+.page-waiting-family-profile .tooltip > .tooltip-inner p {
+  margin-bottom: 0; }
 
 .page-waiting-family-profile #video {
   padding: 30px 0; }
