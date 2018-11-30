@@ -11423,3 +11423,60 @@ button {
         @media (min-width: 992px) {
           .page-waiting-family-profile #fsModal .modal-dialog .modal-content .modal-body form {
             padding: 50px 280px 150px; } }
+
+.page-about-contact-us #top-banner {
+  background: #f6f5f3 url(../images/heart-line-5.png) no-repeat bottom right -20px; }
+  .page-about-contact-us #top-banner .wrapper {
+    text-align: center; }
+    @media (min-width: 768px) {
+      .page-about-contact-us #top-banner .wrapper {
+        background: url(../content/lifelong-baby-colt.jpg) no-repeat bottom right;
+        text-align: left;
+        min-height: 420px; } }
+    @media (min-width: 1366px) {
+      .page-about-contact-us #top-banner .wrapper {
+        min-height: 390px;
+        background: none; } }
+    @media (min-width: 768px) {
+      .page-about-contact-us #top-banner .wrapper .container {
+        min-height: 420px; } }
+    @media (min-width: 1366px) {
+      .page-about-contact-us #top-banner .wrapper .container {
+        background: url(../content/lifelong-baby-colt.jpg) no-repeat bottom right 90px; } }
+    .page-about-contact-us #top-banner .wrapper h2 {
+      text-align: center;
+      font-family: 'Nickainley';
+      color: #56330e;
+      font-size: 1.75rem;
+      margin: 20px 0; }
+      @media (min-width: 768px) {
+        .page-about-contact-us #top-banner .wrapper h2 {
+          text-align: left;
+          font-size: 2rem; } }
+    .page-about-contact-us #top-banner .wrapper img {
+      max-width: 100%; }
+    .page-about-contact-us #top-banner .wrapper .desc {
+      position: absolute;
+      bottom: 10px;
+      left: 20px;
+      font-family: 'OpenSans Italic';
+      font-size: 0.8125rem;
+      color: #56330e; }
+      @media (min-width: 768px) {
+        .page-about-contact-us #top-banner .wrapper .desc {
+          bottom: -40px;
+          left: -40px; } }
+      @media (min-width: 768px) {
+        .page-about-contact-us #top-banner .wrapper .desc {
+          bottom: -130px;
+          right: 360px;
+          left: inherit; } }
+
+.page-about-contact-us #birthparent-form .topic-title {
+  margin: 0; }
+
+.page-about-contact-us #birthparent-form .box-brown-head-right .box-brown-head {
+  padding-top: 60px; }
+
+.page-about-contact-us #birthparent-form .box-brown-foot-right .wrapper .btn-green {
+  margin-bottom: 60px; }
