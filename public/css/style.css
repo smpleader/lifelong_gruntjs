@@ -11480,3 +11480,506 @@ button {
 
 .page-about-contact-us #birthparent-form .box-brown-foot-right .wrapper .btn-green {
   margin-bottom: 60px; }
+
+.about-why-choose-lifelong #content {
+  background: url(../images/bg-gray.png) repeat-x center 0px; }
+  @media (min-width: 768px) {
+    .about-why-choose-lifelong #content {
+      background: url(../images/bg-gray.png) repeat-x center -290px; } }
+  @media (min-width: 992px) {
+    .about-why-choose-lifelong #content {
+      background: url(../images/bg-gray.png) repeat-x center -280px; } }
+  .about-why-choose-lifelong #content .top-desc .bold {
+    margin-bottom: 20px; }
+  @media (min-width: 768px) {
+    .about-why-choose-lifelong #content .top-desc {
+      min-height: 300px;
+      padding-top: 20px; } }
+  @media (min-width: 992px) {
+    .about-why-choose-lifelong #content .top-desc {
+      min-height: 315px; } }
+  .about-why-choose-lifelong #content img#img-content {
+    max-width: 230px;
+    display: block;
+    margin: -55px auto 20px; }
+    @media (min-width: 768px) {
+      .about-why-choose-lifelong #content img#img-content {
+        max-width: 290px;
+        float: right;
+        display: inline;
+        margin: -40px 0 20px 20px; } }
+    @media (min-width: 992px) {
+      .about-why-choose-lifelong #content img#img-content {
+        max-width: 350px;
+        margin: -65px 0  0px 50px; } }
+
+.about-why-choose-lifelong #why-choose-lifelong-adoption {
+  padding-bottom: 40px; }
+  .about-why-choose-lifelong #why-choose-lifelong-adoption h2 {
+    text-align: left;
+    font-family: 'Nickainley';
+    color: #56330e;
+    font-size: 1.75rem;
+    padding: 20px 0; }
+    @media (min-width: 992px) {
+      .about-why-choose-lifelong #why-choose-lifelong-adoption h2 {
+        font-size: 2.1875rem; } }
+  .about-why-choose-lifelong #why-choose-lifelong-adoption img {
+    max-width: 90px;
+    margin-bottom: 10px; }
+    @media (min-width: 992px) {
+      .about-why-choose-lifelong #why-choose-lifelong-adoption img {
+        max-width: inherit; } }
+  .about-why-choose-lifelong #why-choose-lifelong-adoption .gray {
+    transition: visibility 0s, opacity 0.5s linear;
+    text-align: center;
+    background-color: #f6f5f3;
+    min-height: 140px;
+    padding: 25px;
+    margin-bottom: 20px; }
+    @media (min-width: 768px) {
+      .about-why-choose-lifelong #why-choose-lifelong-adoption .gray {
+        min-height: 225px; } }
+    @media (min-width: 992px) {
+      .about-why-choose-lifelong #why-choose-lifelong-adoption .gray {
+        min-height: 320px;
+        display: none; } }
+    .about-why-choose-lifelong #why-choose-lifelong-adoption .gray .desc {
+      line-height: 1.4em;
+      margin-bottom: 15px; }
+      @media (min-width: 992px) {
+        .about-why-choose-lifelong #why-choose-lifelong-adoption .gray .desc {
+          padding: 0 20px;
+          margin-bottom: 0;
+          display: flex;
+          align-items: center;
+          min-height: 270px; } }
+  .about-why-choose-lifelong #why-choose-lifelong-adoption .green {
+    background-color: #9bd5d3;
+    text-align: center;
+    min-height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    @media (min-width: 992px) {
+      .about-why-choose-lifelong #why-choose-lifelong-adoption .green {
+        min-height: 320px;
+        margin-bottom: 20px; } }
+    .about-why-choose-lifelong #why-choose-lifelong-adoption .green h3 {
+      margin-bottom: 0;
+      font-size: 1.75rem;
+      color: #fff;
+      text-align: center;
+      font-family: 'BebasNeue'; }
+      @media (min-width: 992px) {
+        .about-why-choose-lifelong #why-choose-lifelong-adoption .green h3 {
+          font-size: 2.1875rem; } }
+
+.lgbtadoption-advantages #top-banner .wrapper {
+  background: #f6f5f3 url(../content/lgbt-adoption-advantages.jpg) no-repeat top left -190px;
+  position: relative;
+  padding: 10px 0 0px; }
+  @media (min-width: 768px) {
+    .lgbtadoption-advantages #top-banner .wrapper {
+      background-position: top left -140px;
+      padding: 0px 0 40px; } }
+  @media (min-width: 992px) {
+    .lgbtadoption-advantages #top-banner .wrapper {
+      background-position: bottom left;
+      min-height: 570px; } }
+  .lgbtadoption-advantages #top-banner .wrapper img {
+    max-width: 100%; }
+  .lgbtadoption-advantages #top-banner .wrapper .top-desc {
+    min-height: 570px; }
+    @media (min-width: 768px) {
+      .lgbtadoption-advantages #top-banner .wrapper .top-desc {
+        padding: 30px 0;
+        min-height: inherit; } }
+    @media (min-width: 992px) {
+      .lgbtadoption-advantages #top-banner .wrapper .top-desc {
+        padding: 45px 0 30px; } }
+  .lgbtadoption-advantages #top-banner .wrapper .desc {
+    font-family: 'OpenSans Italic';
+    font-size: 0.8125rem;
+    color: #56330e;
+    position: absolute;
+    bottom: 375px;
+    left: 20px; }
+    @media (min-width: 768px) {
+      .lgbtadoption-advantages #top-banner .wrapper .desc {
+        left: 30px;
+        bottom: 30px; } }
+    @media (min-width: 768px) {
+      .lgbtadoption-advantages #top-banner .wrapper .desc {
+        left: 160px;
+        bottom: 40px; } }
+  .lgbtadoption-advantages #top-banner .wrapper .callbox {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px; }
+    @media (min-width: 992px) {
+      .lgbtadoption-advantages #top-banner .wrapper .callbox {
+        margin-top: 40px; } }
+    .lgbtadoption-advantages #top-banner .wrapper .callbox .quote {
+      text-align: center;
+      font-family: 'Oswald';
+      color: #fff;
+      font-size: 1.25rem;
+      margin-bottom: 15px; }
+      @media (min-width: 768px) {
+        .lgbtadoption-advantages #top-banner .wrapper .callbox .quote {
+          font-size: 1.375rem; } }
+      @media (min-width: 992px) {
+        .lgbtadoption-advantages #top-banner .wrapper .callbox .quote {
+          font-size: 1.5625rem; } }
+
+.lgbtadoption-advantages #content {
+  padding: 60px 0; }
+  .lgbtadoption-advantages #content h2 {
+    text-align: left;
+    font-family: 'BebasNeue';
+    color: #56330e;
+    font-size: 2.3125rem; }
+    @media (min-width: 992px) {
+      .lgbtadoption-advantages #content h2 {
+        font-size: 3.375rem; } }
+  .lgbtadoption-advantages #content .heart-item {
+    padding: 0;
+    background: none; }
+    @media (min-width: 768px) {
+      .lgbtadoption-advantages #content .heart-item {
+        padding: 0 0 0 75px;
+        background: url(../images/list-item-heart.png) no-repeat top left; } }
+
+.page-about-meet-the-staff #content {
+  padding: 20px 0; }
+  .page-about-meet-the-staff #content .mobile .staff .staff-link {
+    display: flex;
+    align-items: center;
+    margin: 20px 0; }
+    .page-about-meet-the-staff #content .mobile .staff .staff-link .staff-image {
+      max-width: 120px;
+      display: inline-block; }
+      .page-about-meet-the-staff #content .mobile .staff .staff-link .staff-image img {
+        max-width: 100%; }
+    .page-about-meet-the-staff #content .mobile .staff .staff-link .staff-infor {
+      max-width: calc(100% - 135px);
+      display: inline-block;
+      margin-left: 10px; }
+      .page-about-meet-the-staff #content .mobile .staff .staff-link .staff-infor h3 {
+        text-align: left;
+        font-family: 'Oswald';
+        color: #97bf65;
+        font-size: 1.375rem; }
+      .page-about-meet-the-staff #content .mobile .staff .staff-link .staff-infor p {
+        margin-bottom: 0;
+        font-family: 'OpenSans Semibold';
+        color: #56330e; }
+  .page-about-meet-the-staff #content .up-tablet .staff-link {
+    text-align: center;
+    position: relative;
+    display: block;
+    padding: 30px 0;
+    height: 100%; }
+    .page-about-meet-the-staff #content .up-tablet .staff-link .staff-image img {
+      max-width: 190px;
+      filter: grayscale(100%); }
+      @media (min-width: 992px) {
+        .page-about-meet-the-staff #content .up-tablet .staff-link .staff-image img {
+          min-width: 205px; } }
+    .page-about-meet-the-staff #content .up-tablet .staff-link .staff-infor h3 {
+      text-align: center;
+      font-family: 'Oswald';
+      color: #97bf65;
+      font-size: 1.5rem;
+      margin-top: 15px; }
+      @media (min-width: 992px) {
+        .page-about-meet-the-staff #content .up-tablet .staff-link .staff-infor h3 {
+          font-size: 1.625rem; } }
+    .page-about-meet-the-staff #content .up-tablet .staff-link .staff-infor p {
+      font-family: 'OpenSans Semibold';
+      color: #56330e; }
+  .page-about-meet-the-staff #content .up-tablet a[aria-expanded="true"] .staff-image img {
+    filter: grayscale(0); }
+  .page-about-meet-the-staff #content .up-tablet a[aria-expanded="true"]:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid #97bf65; }
+  .page-about-meet-the-staff #content .staff-content .callbox {
+    margin: 20px 8px;
+    padding: 20px; }
+    .page-about-meet-the-staff #content .staff-content .callbox .content .quote {
+      font-family: 'OpenSans Semibold'; }
+  .page-about-meet-the-staff #content .staff-content div {
+    min-height: 0; }
+
+.page-about-meet-the-staff .modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden; }
+  .page-about-meet-the-staff .modal .modal-dialog {
+    position: fixed;
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    padding: 0; }
+    .page-about-meet-the-staff .modal .modal-dialog .modal-content {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      border-radius: 0;
+      box-shadow: none;
+      border: none; }
+      .page-about-meet-the-staff .modal .modal-dialog .modal-content .modal-header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 40px 0 30px;
+        margin-bottom: 40px;
+        border: none;
+        background: #f6f5f3; }
+        .page-about-meet-the-staff .modal .modal-dialog .modal-content .modal-header .text-center {
+          margin: 0 auto; }
+          .page-about-meet-the-staff .modal .modal-dialog .modal-content .modal-header .text-center img {
+            max-width: 170px; }
+          .page-about-meet-the-staff .modal .modal-dialog .modal-content .modal-header .text-center h3 {
+            text-align: center;
+            font-family: 'Oswald';
+            color: #97bf65;
+            font-size: 1.375rem; }
+          .page-about-meet-the-staff .modal .modal-dialog .modal-content .modal-header .text-center p {
+            color: #56330e; }
+        .page-about-meet-the-staff .modal .modal-dialog .modal-content .modal-header a.mp-menu-close {
+          margin: 10px 0 0;
+          height: 1.625rem;
+          width: 4.625rem;
+          content: "";
+          display: block;
+          background: url(../images/close-2.png) no-repeat center center;
+          cursor: pointer;
+          top: 0;
+          right: 15px;
+          position: absolute; }
+      .page-about-meet-the-staff .modal .modal-dialog .modal-content .modal-header:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 0;
+        border-left: 30px solid transparent;
+        border-right: 30px solid transparent;
+        border-bottom: 30px solid #97bf65; }
+      .page-about-meet-the-staff .modal .modal-dialog .modal-content .modal-body {
+        position: absolute;
+        top: 305px;
+        bottom: 0px;
+        width: 100%;
+        overflow: auto; }
+        @media (min-width: 768px) {
+          .page-about-meet-the-staff .modal .modal-dialog .modal-content .modal-body {
+            top: 180px; } }
+        .page-about-meet-the-staff .modal .modal-dialog .modal-content .modal-body .callbox {
+          padding: 30px 15px 40px 15px; }
+
+.page-about-us #header-slider h3 {
+  text-align: center;
+  font-family: 'Nickainley';
+  font-size: 2.6875rem;
+  padding-top: 30px;
+  margin-bottom: 0; }
+  @media (min-width: 768px) {
+    .page-about-us #header-slider h3 {
+      font-size: 3.75rem; } }
+
+.page-about-us #header-slider h2 {
+  text-align: center;
+  font-family: 'BebasNeue';
+  color: #97bf65;
+  font-size: 2.8125rem;
+  margin-bottom: 0; }
+  @media (min-width: 768px) {
+    .page-about-us #header-slider h2 {
+      font-size: 5rem; } }
+
+.page-about-us #header-slider span {
+  font-family: 'OpenSans Italic';
+  font-size: 0.8125rem;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%; }
+  @media (min-width: 768px) {
+    .page-about-us #header-slider span {
+      bottom: 50px;
+      left: 0;
+      transform: inherit; } }
+
+.page-about-us #under-slider {
+  padding: 20px 0 50px; }
+  .page-about-us #under-slider p {
+    margin-bottom: 40px; }
+
+.page-about-us #why-choose-lifelong {
+  padding: 30px 0 50px; }
+  .page-about-us #why-choose-lifelong .us-map {
+    min-height: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    color: #fff;
+    padding-top: 20px; }
+    @media (min-width: 768px) {
+      .page-about-us #why-choose-lifelong .us-map {
+        padding-top: 10px; } }
+    .page-about-us #why-choose-lifelong .us-map span {
+      text-align: center;
+      font-family: 'Nickainley';
+      font-size: 1.4375rem;
+      padding-left: 45px; }
+      @media (min-width: 768px) {
+        .page-about-us #why-choose-lifelong .us-map span {
+          font-size: 1.5625rem; } }
+    .page-about-us #why-choose-lifelong .us-map h3 {
+      text-align: left;
+      font-family: 'Oswald';
+      font-size: 1.0625rem;
+      margin-bottom: 0;
+      padding-left: 20px; }
+      @media (min-width: 768px) {
+        .page-about-us #why-choose-lifelong .us-map h3 {
+          font-size: 1.25rem; } }
+    .page-about-us #why-choose-lifelong .us-map h2 {
+      text-align: left;
+      font-family: 'Oswald';
+      font-size: 2.875rem;
+      padding-left: 40px; }
+      @media (min-width: 768px) {
+        .page-about-us #why-choose-lifelong .us-map h2 {
+          font-size: 3.1875rem; } }
+      .page-about-us #why-choose-lifelong .us-map h2 span {
+        text-align: center;
+        font-family: 'Nickainley';
+        font-size: 2rem;
+        padding-left: 0px; }
+        @media (min-width: 768px) {
+          .page-about-us #why-choose-lifelong .us-map h2 span {
+            font-size: 2.1875rem; } }
+  .page-about-us #why-choose-lifelong .desc h3 {
+    text-align: left;
+    font-family: 'Oswald';
+    color: #56330e;
+    font-size: 1.6875rem; }
+    @media (min-width: 768px) {
+      .page-about-us #why-choose-lifelong .desc h3 {
+        font-size: 1.875rem; } }
+
+.page-about-us #meet-the-staff {
+  padding: 40px 0 140px;
+  background-image: url(../content/about-meet-the-staff.png);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: contain; }
+  @media (min-width: 768px) {
+    .page-about-us #meet-the-staff {
+      padding: 60px 0 140px;
+      min-height: 750px; } }
+  .page-about-us #meet-the-staff h2 {
+    text-align: center;
+    font-family: 'BebasNeue';
+    color: #34aba7;
+    font-size: 2.5rem; }
+    @media (min-width: 768px) {
+      .page-about-us #meet-the-staff h2 {
+        font-size: 3.125rem;
+        margin-bottom: 30px; } }
+  .page-about-us #meet-the-staff ul {
+    padding-left: 20px;
+    margin-bottom: 50px; }
+    .page-about-us #meet-the-staff ul li {
+      margin-bottom: 20px; }
+  .page-about-us #meet-the-staff .btn-green {
+    color: #fff; }
+
+.page-about-us .call .callbox .content {
+  padding-bottom: 40px; }
+  @media (min-width: 768px) {
+    .page-about-us .call .callbox .content {
+      padding-top: 20px; } }
+  .page-about-us .call .callbox .content .quote {
+    text-align: center;
+    font-family: 'Oswald';
+    font-size: 1.25rem;
+    margin-bottom: 30px; }
+    @media (min-width: 768px) {
+      .page-about-us .call .callbox .content .quote {
+        font-size: 1.375rem; } }
+  .page-about-us .call .callbox .content .sayer {
+    text-align: center;
+    font-family: 'Nickainley';
+    font-size: 1.625rem; }
+    @media (min-width: 768px) {
+      .page-about-us .call .callbox .content .sayer {
+        font-size: 1.75rem;
+        margin-bottom: 15px; } }
+    .page-about-us .call .callbox .content .sayer span {
+      font-size: 1.0625rem; }
+
+.page-about-us #blog {
+  padding: 40px 0; }
+  .page-about-us #blog h2 {
+    text-align: left;
+    font-family: 'Oswald';
+    color: #56330e;
+    font-size: 1.875rem; }
+  .page-about-us #blog p {
+    font-family: 'OpenSans Semibold';
+    color: #56330e; }
+  .page-about-us #blog h3 {
+    text-align: left;
+    font-family: 'Oswald';
+    color: #34aba7;
+    font-size: 1.0625rem; }
+  .page-about-us #blog h4 {
+    text-align: left;
+    font-family: 'Oswald';
+    font-size: 1.25rem;
+    color: #fff; }
+    @media (min-width: 768px) {
+      .page-about-us #blog h4 {
+        font-size: 1.125rem; } }
+  .page-about-us #blog .story {
+    min-height: 215px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: 20px; }
+    @media (min-width: 768px) {
+      .page-about-us #blog .story {
+        min-height: 155px; } }
+    .page-about-us #blog .story div {
+      padding: 25px;
+      min-height: 215px;
+      background: rgba(0, 0, 0, 0.4); }
+      @media (min-width: 768px) {
+        .page-about-us #blog .story div {
+          min-height: 155px;
+          padding: 10px; } }

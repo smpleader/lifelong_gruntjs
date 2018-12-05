@@ -4202,3 +4202,576 @@
         }
     }
 }
+.about-why-choose-lifelong{
+    #content{
+        background:url(../images/bg-gray.png) repeat-x center 0px ;
+        @include  media-breakpoint-up("md"){
+            background:url(../images/bg-gray.png) repeat-x center -290px ;
+        }           
+        @include  media-breakpoint-up("lg"){
+            background:url(../images/bg-gray.png) repeat-x center -280px  ;
+        }
+        .top-desc{
+            .bold{
+                margin-bottom:20px;
+            }
+            @include  media-breakpoint-up("md"){
+                min-height: 300px;
+                padding-top: 20px;
+            }           
+            @include  media-breakpoint-up("lg"){
+                min-height: 315px;
+            }
+        }
+           
+        img#img-content{
+            max-width: 230px;
+            display: block;
+            margin: -55px auto 20px;
+            @include  media-breakpoint-up("md"){
+                max-width: 290px;
+                float: right;
+                display: inline;
+                margin: -40px 0 20px 20px;
+            }           
+            @include  media-breakpoint-up("lg"){
+                max-width: 350px;
+                margin:-65px 0  0px 50px;
+            }
+        }
+    } 
+    #why-choose-lifelong-adoption{
+        padding-bottom: 40px;
+        h2{
+            @include nickainley-title-brown(left);
+            font-size: 1.75rem;
+            padding: 20px 0;
+            @include media-breakpoint-up("lg"){
+                font-size: 2.1875rem;
+            }
+        }
+        img{
+            max-width: 90px;
+            margin-bottom: 10px;
+            @include media-breakpoint-up("lg"){
+                max-width: inherit;
+            }
+        }
+        .gray{
+            transition: visibility 0s, opacity 0.5s linear;
+            text-align: center;
+            @include bg-gray;
+            min-height: 140px;
+            padding: 25px;
+            margin-bottom: 20px;
+            @include media-breakpoint-up("md"){
+                min-height: 225px;
+            }
+            @include media-breakpoint-up("lg"){
+                min-height: 320px;
+                display: none;
+            }
+            .desc{
+                line-height: 1.4em;
+                margin-bottom:15px;
+                @include media-breakpoint-up("lg"){
+                    padding: 0 20px;
+                    margin-bottom:0;
+                    display: flex;
+                    align-items: center;
+                    min-height: 270px;
+                }
+            }
+        }
+        .green{
+            background-color: $site-cyan-bg;
+            text-align: center;
+            min-height: 170px;    
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            @include media-breakpoint-up("lg"){
+                min-height: 320px;
+                margin-bottom: 20px;
+            }
+            h3{
+                margin-bottom: 0;
+                font-size: 1.75rem;
+                color:$white;
+                @include bebasneue-title(); 
+                @include media-breakpoint-up("lg"){
+                    font-size: 2.1875rem;
+                }
+            }
+        }
+    }
+}
+.lgbtadoption-advantages{
+    #top-banner{
+        .wrapper{     
+            background: $site-brown-bg url(../content/lgbt-adoption-advantages.jpg) no-repeat top left -190px;
+            position: relative;
+            padding:10px 0 0px;
+            @include media-breakpoint-up("md"){
+                background-position: top left -140px;
+                padding:0px 0 40px;      
+            }
+            @include media-breakpoint-up("lg"){
+                background-position: bottom left;
+                min-height: 570px;
+            }
+            img{
+                max-width: 100%;
+            }
+            .top-desc{
+                min-height: 570px;
+                @include media-breakpoint-up("md"){
+                    padding: 30px 0;
+                    min-height: inherit;
+                }
+                @include media-breakpoint-up("lg"){
+                    padding:45px 0 30px;
+                }
+            }
+            .desc{
+                font-family: 'OpenSans Italic';
+                font-size: 0.8125rem;
+                color: $site-brown;
+                position: absolute;
+                bottom: 375px;
+                left: 20px;
+                @include media-breakpoint-up("md"){
+                    left: 30px;
+                    bottom: 30px;
+                }
+                @include media-breakpoint-up("md"){
+                    left: 160px;
+                    bottom: 40px;
+                }
+            }
+            .callbox{
+                text-align: center;
+                margin-top: 0px;
+                margin-bottom: 0px;
+                @include media-breakpoint-up("lg"){
+                    margin-top: 40px;
+                }
+                .quote{
+                    @include oswald-title;
+                    color: $white;
+                    font-size: 1.25rem;
+                    margin-bottom:15px;
+                    @include media-breakpoint-up("md"){
+                        font-size: 1.375rem;
+                    }
+                    @include media-breakpoint-up("lg"){
+                        font-size: 1.5625rem;
+                    }
+                }
+            }
+        }
+    }
+    #content{
+        padding: 60px 0;
+        h2{
+            @include bebasneue-title-brown(left);
+            font-size: 2.3125rem;
+            @include media-breakpoint-up("lg"){
+                font-size: 3.375rem;
+            }
+        }
+        .heart-item{
+            padding: 0;
+            background: none;
+            @include media-breakpoint-up("md"){
+                padding: 0 0 0 75px;
+                background: url(../images/list-item-heart.png) no-repeat top left;
+            }
+        }
+    }
+}
+.page-about-meet-the-staff{
+    #content{
+        padding: 20px 0;
+        .mobile{
+            .staff{
+                .staff-link{    
+                    display: flex;
+                    align-items: center;    
+                    margin: 20px 0;        
+                    .staff-image{
+                        max-width: 120px;
+                        display: inline-block;
+                        img{
+                            max-width: 100%;
+                        }
+                    }
+                    .staff-infor{
+                        max-width: calc(100% - 135px); 
+                        display: inline-block;
+                        margin-left: 10px;
+                        h3{
+                            @include oswald-title-green(left);
+                            font-size: 1.375rem;
+                        }
+                        p{
+                            margin-bottom: 0;
+                            font-family: 'OpenSans Semibold'; 
+                            color: $site-brown;
+                        }
+                    }
+                }
+            }
+        }
+        .up-tablet{
+            .staff-link{         
+                text-align: center; 
+                position: relative;
+                display: block;
+                padding: 30px 0;
+                height: 100%;
+                .staff-image{
+                    img{
+                        max-width: 190px;
+                        filter: grayscale(100%);
+                        @include media-breakpoint-up("lg"){
+                            min-width: 205px;
+                        }
+                    }
+                }
+                .staff-infor{
+                    h3{
+                        @include oswald-title-green;
+                        font-size: 1.5rem;
+                        margin-top: 15px;
+                        @include media-breakpoint-up("lg"){
+                            font-size: 1.625rem;
+                        }
+                    }
+                    p{
+                        font-family: 'OpenSans Semibold'; 
+                        color: $site-brown;
+                    }
+                }
+            }
+            a[aria-expanded="true"]{
+                .staff-image{
+                    img{
+                        filter: grayscale(0);
+                    }
+                }
+            }
+            a[aria-expanded="true"]:after{
+                content: '';
+                position: absolute;
+                bottom: 0;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 0; 
+                height: 0; 
+                border-left: 20px solid transparent;
+                border-right: 20px solid transparent;                    
+                border-bottom: 20px solid $site-green;
+            }
+        }
+        .staff-content{
+            .callbox{
+                margin: 20px 8px;
+                padding: 20px;
+                .content{
+                    .quote{
+                        font-family: 'OpenSans Semibold';
+                    }
+                }
+            }
+            div{
+                min-height: 0;
+            }
+        }
+    }
+    .modal {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;        
+        .modal-dialog {
+            position: fixed;
+            margin: 0;
+            width: 100%;
+            max-width: 100%;
+            height: 100%;
+            padding: 0;           
+            .modal-content{
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                border-radius: 0;
+                box-shadow: none;
+                border: none;
+                .modal-header{
+                    position: fixed;
+                    top:0;
+                    left:0;
+                    width: 100%;
+                    padding: 40px 0 30px;
+                    margin-bottom: 40px;
+                    border: none;
+                    background: $site-gray;
+                    .text-center{
+                        margin: 0 auto;
+                        img{
+                            max-width: 170px;
+                        }
+                        h3{
+                            @include oswald-title-green;
+                            font-size: 1.375rem;
+                        }
+                        p{
+                            color: $site-brown;
+                        }
+                    }
+                    a.mp-menu-close{
+                        margin: 10px 0 0;
+                        height: 1.625rem;
+                        width: 4.625rem;
+                        content: "";
+                        display: block;
+                        background: url(../images/close-2.png) no-repeat center center;
+                        cursor: pointer;
+                        top: 0;
+                        right: 15px;
+                        position: absolute;
+                    }
+                }
+                .modal-header:after{
+                    content: '';
+                    position: absolute;
+                    bottom: 0;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 0; 
+                    height: 0; 
+                    border-left: 30px solid transparent;
+                    border-right: 30px solid transparent;                    
+                    border-bottom: 30px solid $site-green;
+                }
+                .modal-body{
+                    position: absolute;
+                    top: 305px;
+                    bottom: 0px;
+                    width: 100%;
+                    overflow: auto;
+                    @include media-breakpoint-up("md"){                        
+                        top: 180px;
+                    }
+                    .callbox{
+                        padding:30px 15px 40px 15px;
+                    }
+                }
+            }   
+        } 
+    }    
+}
+.page-about-us{
+    #header-slider{
+        h3{
+            @include nickainley-title;
+            font-size: 2.6875rem;
+            padding-top: 30px;
+            margin-bottom: 0;
+            @include media-breakpoint-up("md"){
+                font-size: 3.75rem;
+            }
+        }
+        h2{
+            @include bebasneue-title-green;
+            font-size: 2.8125rem;
+            margin-bottom: 0;
+            @include media-breakpoint-up("md"){
+                font-size: 5rem;
+            }
+        }
+        span{
+            font-family: 'OpenSans Italic';
+            font-size: 0.8125rem;    
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100%;
+            @include media-breakpoint-up("md"){
+                bottom: 50px;
+                left: 0;
+                transform: inherit;
+            }
+        }
+    }
+    #under-slider{
+        padding: 20px 0 50px;
+        p{
+            margin-bottom: 40px;
+        }
+    }
+    #why-choose-lifelong{
+        padding: 30px 0 50px;
+        .us-map{
+            min-height: 200px;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center center;
+            color: $white;
+            padding-top: 20px;
+            @include media-breakpoint-up("md"){
+                padding-top: 10px;
+            }
+            span{
+                @include nickainley-title;
+                font-size: 1.4375rem;
+                padding-left: 45px;
+                @include media-breakpoint-up("md"){
+                    font-size: 1.5625rem;
+                }
+            }
+            h3{
+                @include oswald-title(left);
+                font-size: 1.0625rem;
+                margin-bottom: 0;
+                padding-left: 20px;
+                @include media-breakpoint-up("md"){
+                    font-size: 1.25rem;
+                }
+            }
+            h2{
+                @include oswald-title(left);
+                font-size: 2.875rem;
+                padding-left: 40px;
+                @include media-breakpoint-up("md"){
+                    font-size: 3.1875rem;
+                }
+                span{
+                    @include nickainley-title;
+                    font-size: 2rem;
+                    padding-left: 0px;
+                    @include media-breakpoint-up("md"){
+                        font-size: 2.1875rem;
+                    }
+                }
+            }
+        }
+        .desc{
+            h3{
+                @include oswald-title-brown(left);
+                font-size: 1.6875rem;
+                @include media-breakpoint-up("md"){
+                    font-size: 1.875rem;
+                }
+            }
+        }
+    }
+    #meet-the-staff{
+        padding: 40px 0 140px;
+        background-image: url(../content/about-meet-the-staff.png);
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: contain;
+        @include media-breakpoint-up("md"){
+            padding: 60px 0 140px;
+            min-height: 750px;
+        }
+        h2{
+            @include bebasneue-title-cyan;
+            font-size: 2.5rem;
+            @include media-breakpoint-up("md"){
+                font-size: 3.125rem;
+                margin-bottom: 30px;
+            }
+        }
+        ul{
+            padding-left: 20px;
+            margin-bottom: 50px;
+            li{
+                margin-bottom: 20px;
+            }
+        }
+        .btn-green{
+            color: $white;
+        }
+    }
+    .call{
+        .callbox{
+            .content{
+                padding-bottom: 40px;                
+                @include media-breakpoint-up("md"){
+                    padding-top: 20px;
+                }
+                .quote{
+                    @include oswald-title;
+                    font-size: 1.25rem;
+                    margin-bottom: 30px;
+                    @include media-breakpoint-up("md"){
+                        font-size: 1.375rem;
+                    }
+                }
+                .sayer{
+                    @include nickainley-title;
+                    font-size: 1.625rem;
+                    @include media-breakpoint-up("md"){
+                        font-size: 1.75rem;
+                        margin-bottom: 15px;
+                    }
+                    span{
+                        font-size: 1.0625rem;
+                    }
+                }
+            }
+        }
+    }
+    #blog{
+        padding: 40px 0;
+        h2{
+            @include oswald-title-brown(left);
+            font-size: 1.875rem;
+        }
+        p{
+            font-family: 'OpenSans Semibold';
+            color: $site-brown;
+        }
+        h3{
+            @include oswald-title-cyan(left);
+            font-size: 1.0625rem;
+        }
+        h4{
+            @include oswald-title(left);
+            font-size: 1.25rem;
+            color: $white;
+            @include media-breakpoint-up("md"){
+                font-size: 1.125rem;
+            }
+        }
+        .story{
+            min-height: 215px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            margin-bottom: 20px;
+            @include media-breakpoint-up("md"){
+                min-height: 155px;
+            }
+            div{
+                padding: 25px;
+                min-height: 215px;
+                background: rgba(0,0,0,0.4);
+                @include media-breakpoint-up("md"){
+                    min-height: 155px;
+                    padding: 10px;
+                }
+            }
+        }
+    }
+}

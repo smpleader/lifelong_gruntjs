@@ -2066,4 +2066,17 @@ $(document).ready(function(){
         $(this).parent().find(".green").show();
     });
 });
+$(document).ready(function(){
+    var width = $(window).width();
+    if(width>=992){      
+        $(document).on("mouseenter tap click","#why-choose-lifelong-adoption .green",function(){
+          $(this).hide();
+          $(this).parent().find(".gray").show();
+        });
+        $(document).on("mouseleave blur","#why-choose-lifelong-adoption .gray",function(){
+          $(this).hide();
+          $(this).parent().find(".green").show();
+        });
+    }
+});
 
