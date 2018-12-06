@@ -11808,8 +11808,13 @@ button {
   @media (min-width: 768px) {
     .page-about-us #header-slider h3 {
       font-size: 3.75rem; } }
+  @media (min-width: 992px) {
+    .page-about-us #header-slider h3 {
+      padding-top: 90px;
+      font-size: 5rem; } }
 
 .page-about-us #header-slider h2 {
+  line-height: 1;
   text-align: center;
   font-family: 'BebasNeue';
   color: #97bf65;
@@ -11818,6 +11823,9 @@ button {
   @media (min-width: 768px) {
     .page-about-us #header-slider h2 {
       font-size: 5rem; } }
+  @media (min-width: 992px) {
+    .page-about-us #header-slider h2 {
+      font-size: 6.25rem; } }
 
 .page-about-us #header-slider span {
   font-family: 'OpenSans Italic';
@@ -11837,6 +11845,9 @@ button {
   padding: 20px 0 50px; }
   .page-about-us #under-slider p {
     margin-bottom: 40px; }
+    @media (min-width: 992px) {
+      .page-about-us #under-slider p {
+        padding: 0 100px; } }
 
 .page-about-us #why-choose-lifelong {
   padding: 30px 0 50px; }
@@ -11850,6 +11861,10 @@ button {
     @media (min-width: 768px) {
       .page-about-us #why-choose-lifelong .us-map {
         padding-top: 10px; } }
+    @media (min-width: 992px) {
+      .page-about-us #why-choose-lifelong .us-map {
+        padding-top: 30px;
+        min-height: 310px; } }
     .page-about-us #why-choose-lifelong .us-map span {
       text-align: center;
       font-family: 'Nickainley';
@@ -11858,6 +11873,10 @@ button {
       @media (min-width: 768px) {
         .page-about-us #why-choose-lifelong .us-map span {
           font-size: 1.5625rem; } }
+      @media (min-width: 992px) {
+        .page-about-us #why-choose-lifelong .us-map span {
+          padding-left: 80px;
+          font-size: 2.1875rem; } }
     .page-about-us #why-choose-lifelong .us-map h3 {
       text-align: left;
       font-family: 'Oswald';
@@ -11867,22 +11886,35 @@ button {
       @media (min-width: 768px) {
         .page-about-us #why-choose-lifelong .us-map h3 {
           font-size: 1.25rem; } }
+      @media (min-width: 992px) {
+        .page-about-us #why-choose-lifelong .us-map h3 {
+          padding-left: 45px;
+          font-size: 1.6875rem; } }
     .page-about-us #why-choose-lifelong .us-map h2 {
       text-align: left;
       font-family: 'Oswald';
       font-size: 2.875rem;
-      padding-left: 40px; }
+      padding-left: 40px;
+      font-weight: bold; }
       @media (min-width: 768px) {
         .page-about-us #why-choose-lifelong .us-map h2 {
           font-size: 3.1875rem; } }
+      @media (min-width: 992px) {
+        .page-about-us #why-choose-lifelong .us-map h2 {
+          padding-left: 100px;
+          font-size: 4.375rem; } }
       .page-about-us #why-choose-lifelong .us-map h2 span {
         text-align: center;
         font-family: 'Nickainley';
         font-size: 2rem;
-        padding-left: 0px; }
+        padding-left: 0px;
+        font-weight: normal; }
         @media (min-width: 768px) {
           .page-about-us #why-choose-lifelong .us-map h2 span {
             font-size: 2.1875rem; } }
+        @media (min-width: 992px) {
+          .page-about-us #why-choose-lifelong .us-map h2 span {
+            font-size: 3rem; } }
   .page-about-us #why-choose-lifelong .desc h3 {
     text-align: left;
     font-family: 'Oswald';
@@ -11891,32 +11923,49 @@ button {
     @media (min-width: 768px) {
       .page-about-us #why-choose-lifelong .desc h3 {
         font-size: 1.875rem; } }
+    @media (min-width: 992px) {
+      .page-about-us #why-choose-lifelong .desc h3 {
+        font-size: 2.1875rem; } }
 
-.page-about-us #meet-the-staff {
+.page-about-us #meet-the-staff .staff-bg {
   padding: 40px 0 140px;
   background-image: url(../content/about-meet-the-staff.png);
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: contain; }
   @media (min-width: 768px) {
-    .page-about-us #meet-the-staff {
+    .page-about-us #meet-the-staff .staff-bg {
       padding: 60px 0 140px;
       min-height: 750px; } }
-  .page-about-us #meet-the-staff h2 {
+  @media (min-width: 992px) {
+    .page-about-us #meet-the-staff .staff-bg {
+      min-height: 775px; } }
+  @media (min-width: 992px) {
+    .page-about-us #meet-the-staff .staff-bg {
+      padding: 70px 0 140px;
+      background-position: center bottom -50px; } }
+  .page-about-us #meet-the-staff .staff-bg h2 {
     text-align: center;
     font-family: 'BebasNeue';
     color: #34aba7;
     font-size: 2.5rem; }
     @media (min-width: 768px) {
-      .page-about-us #meet-the-staff h2 {
+      .page-about-us #meet-the-staff .staff-bg h2 {
         font-size: 3.125rem;
         margin-bottom: 30px; } }
-  .page-about-us #meet-the-staff ul {
+    @media (min-width: 992px) {
+      .page-about-us #meet-the-staff .staff-bg h2 {
+        font-size: 3.75rem;
+        margin-bottom: 50px; } }
+  .page-about-us #meet-the-staff .staff-bg ul {
     padding-left: 20px;
     margin-bottom: 50px; }
-    .page-about-us #meet-the-staff ul li {
+    .page-about-us #meet-the-staff .staff-bg ul li {
       margin-bottom: 20px; }
-  .page-about-us #meet-the-staff .btn-green {
+      @media (min-width: 992px) {
+        .page-about-us #meet-the-staff .staff-bg ul li {
+          margin-bottom: 30px; } }
+  .page-about-us #meet-the-staff .staff-bg .btn-green {
     color: #fff; }
 
 .page-about-us .call .callbox .content {
@@ -11932,6 +11981,9 @@ button {
     @media (min-width: 768px) {
       .page-about-us .call .callbox .content .quote {
         font-size: 1.375rem; } }
+    @media (min-width: 992px) {
+      .page-about-us .call .callbox .content .quote {
+        font-size: 1.5625rem; } }
   .page-about-us .call .callbox .content .sayer {
     text-align: center;
     font-family: 'Nickainley';
@@ -11940,6 +11992,9 @@ button {
       .page-about-us .call .callbox .content .sayer {
         font-size: 1.75rem;
         margin-bottom: 15px; } }
+    @media (min-width: 992px) {
+      .page-about-us .call .callbox .content .sayer {
+        font-size: 2.125rem; } }
     .page-about-us .call .callbox .content .sayer span {
       font-size: 1.0625rem; }
 
@@ -11950,6 +12005,9 @@ button {
     font-family: 'Oswald';
     color: #56330e;
     font-size: 1.875rem; }
+    @media (min-width: 992px) {
+      .page-about-us #blog h2 {
+        font-size: 2.1875rem; } }
   .page-about-us #blog p {
     font-family: 'OpenSans Semibold';
     color: #56330e; }
@@ -11966,6 +12024,9 @@ button {
     @media (min-width: 768px) {
       .page-about-us #blog h4 {
         font-size: 1.125rem; } }
+    @media (min-width: 992px) {
+      .page-about-us #blog h4 {
+        font-size: 1.25rem; } }
   .page-about-us #blog .story {
     min-height: 215px;
     background-repeat: no-repeat;
@@ -11975,11 +12036,18 @@ button {
     @media (min-width: 768px) {
       .page-about-us #blog .story {
         min-height: 155px; } }
+    @media (min-width: 992px) {
+      .page-about-us #blog .story {
+        min-height: 235px; } }
     .page-about-us #blog .story div {
       padding: 25px;
       min-height: 215px;
-      background: rgba(0, 0, 0, 0.4); }
+      background: rgba(0, 0, 0, 0.6); }
       @media (min-width: 768px) {
         .page-about-us #blog .story div {
           min-height: 155px;
           padding: 10px; } }
+      @media (min-width: 992px) {
+        .page-about-us #blog .story div {
+          min-height: 235px;
+          padding: 50px 35px; } }
