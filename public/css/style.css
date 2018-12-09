@@ -12051,3 +12051,80 @@ button {
         .page-about-us #blog .story div {
           min-height: 235px;
           padding: 50px 35px; } }
+
+.page-terms #content {
+  padding-bottom: 60px; }
+  .page-terms #content h3 {
+    text-align: left;
+    font-family: 'Oswald';
+    color: #97bf65;
+    font-size: 1.25rem;
+    margin-top: 60px;
+    margin-bottom: 1rem; }
+    @media (min-width: 768px) {
+      .page-terms #content h3 {
+        font-size: 1.375rem; } }
+  .page-terms #content .bold {
+    margin-top: 60px; }
+  @media (min-width: 768px) {
+    .page-terms #content ol {
+      padding-inline-start: 60px; }
+      .page-terms #content ol ol {
+        padding-inline-start: 80px; } }
+
+.page-privacy #content {
+  padding-top: 40px;
+  padding-bottom: 60px; }
+  .page-privacy #content h3 {
+    text-align: left;
+    font-family: 'Oswald';
+    color: #97bf65;
+    font-size: 1.25rem;
+    margin-top: 60px;
+    margin-bottom: 1rem; }
+    @media (min-width: 992px) {
+      .page-privacy #content h3 {
+        font-size: 1.375rem; } }
+  @media (min-width: 768px) {
+    .page-privacy #content ol {
+      padding-inline-start: 60px; } }
+  @media (min-width: 768px) {
+    .page-privacy #content ul {
+      padding-inline-start: 60px; } }
+
+.page-404 #content {
+  background: #f6f5f3 url(../images/bg-heart-cyan-green.png) no-repeat;
+  background-position: bottom -100px right -50px;
+  padding: 70px 0 120px;
+  text-align: center; }
+  @media (min-width: 768px) {
+    .page-404 #content {
+      padding: 90px 0 170px; } }
+  @media (min-width: 768px) {
+    .page-404 #content {
+      padding: 130px 0 150px;
+      background-position: top left; } }
+  .page-404 #content h2 {
+    text-align: center;
+    font-family: 'BebasNeue';
+    color: #bbb0a6;
+    font-size: 5rem;
+    line-height: 1; }
+    @media (min-width: 768px) {
+      .page-404 #content h2 {
+        font-size: 7.6875rem; } }
+    @media (min-width: 992px) {
+      .page-404 #content h2 {
+        font-size: 9.125rem; } }
+  .page-404 #content h3 {
+    text-align: center;
+    font-family: 'Nickainley';
+    color: #56330e;
+    font-size: 2rem;
+    margin-bottom: 30px; }
+    @media (min-width: 768px) {
+      .page-404 #content h3 {
+        font-size: 2.1875rem; } }
+    @media (min-width: 992px) {
+      .page-404 #content h3 {
+        font-size: 2.625rem; } }

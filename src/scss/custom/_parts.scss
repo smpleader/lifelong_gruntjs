@@ -4845,3 +4845,91 @@
         }
     }
 }
+.page-terms{
+    #content{
+        padding-bottom: 60px;
+        h3{
+            @include oswald-title-green(left);
+            font-size: 1.25rem;
+            margin-top: 60px;
+            margin-bottom: 1rem;
+            @include media-breakpoint-up("md"){
+                font-size: 1.375rem;
+            }
+        }
+        .bold{
+            margin-top: 60px;
+        }
+        ol{
+            @include media-breakpoint-up("md"){
+                padding-inline-start: 60px;
+                ol{
+                    padding-inline-start: 80px;
+                }
+            }
+        }
+    }
+}
+.page-privacy{
+    #content{
+        padding-top: 40px;
+        padding-bottom: 60px;
+        h3{
+            @include oswald-title-green(left);
+            font-size: 1.25rem;
+            margin-top: 60px;
+            margin-bottom: 1rem;
+            @include media-breakpoint-up("lg"){
+                font-size: 1.375rem;
+            }
+        }
+        ol{
+            @include media-breakpoint-up("md"){
+                padding-inline-start: 60px;
+            }
+        }
+        ul{
+            @include media-breakpoint-up("md"){
+                padding-inline-start: 60px;
+            }
+        }
+    }
+}
+.page-404{
+    #content{
+        background: $site-brown-bg url(../images/bg-heart-cyan-green.png) no-repeat;
+        background-position:  bottom -100px right -50px;
+        padding: 70px 0 120px;
+        text-align: center;
+        @include media-breakpoint-up("md"){
+            padding: 90px 0 170px;
+        }
+        @include media-breakpoint-up("md"){
+            padding: 130px 0 150px;
+            background-position: top left;
+        }
+        h2{
+            @include bebasneue-title;
+            color: #bbb0a6;
+            font-size: 5rem;
+            line-height: 1;
+            @include media-breakpoint-up("md"){
+                font-size: 7.6875rem;
+            }
+            @include media-breakpoint-up("lg"){
+                font-size: 9.125rem;
+            }
+        }
+        h3{
+            @include nickainley-title-brown;
+            font-size: 2rem;
+            margin-bottom: 30px;
+            @include media-breakpoint-up("md"){
+                font-size: 2.1875rem;
+            }
+            @include media-breakpoint-up("lg"){
+                font-size: 2.625rem;
+            }
+        }
+    }
+}
