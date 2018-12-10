@@ -4933,3 +4933,218 @@
         }
     }
 }
+.page-about-values-mission-statement{
+    #top-banner{
+        .wrapper{
+            background-repeat: no-repeat;
+            @include media-breakpoint-up("md"){
+                background-position: center;
+                padding: 20px 0 40px;
+                min-height: 450px;
+                background-size: cover;
+            }
+            @include media-breakpoint-up("lg"){
+                min-height: 500px;
+            }
+            img{
+                max-width: 100%;
+            }
+            .top-desc{
+                padding:0px 0 80px;
+                @include media-breakpoint-up("md"){
+                    padding:45px 0 30px;
+                }
+                @include media-breakpoint-up("lg"){
+                    padding:45px 0 30px;
+                }
+            }
+            .italic{
+                font-size: 0.8125rem;
+                color: $white;
+                position: absolute;
+                top: 50px;
+                left: 10px;
+                @include media-breakpoint-up("md"){
+                    left: inherit;
+                    top: 130px;
+                    right: -200px;
+                }
+            }
+            .callbox{
+                text-align: center;
+                margin-top: 8px;
+                margin-bottom: 0px;
+                padding: 30px 15px 30px 30px;
+                @include media-breakpoint-up("md"){
+                    margin-top: 25px;
+                }
+                @include media-breakpoint-up("lg"){
+                    margin-top: 60px;
+                }
+                .quote{
+                    @include nickainley-title;
+                    font-size: 2.1875rem;
+                    color:#fff;
+                    margin-bottom:15px;
+                    @include media-breakpoint-up("md"){
+                        font-size: 2.5rem;
+                    }
+                    @include media-breakpoint-up("lg"){
+                        font-size: 3.125rem;
+                    }
+                }
+                .sayer{
+                    @include oswald-title;
+                    font-size: 1.25rem;
+                    margin-bottom:40px;
+                    @include media-breakpoint-up("md"){
+                        font-size: 1.375rem;
+                    }
+                    @include media-breakpoint-up("lg"){
+                        font-size: 1.5625rem;
+                    }
+                }
+            }
+        }
+    }
+    #values{
+        margin-top: 30px;
+        background: url(../images/bg-heart-cyan-green-2.png) no-repeat;
+        .value-item{
+            padding: 30px 20px;
+            margin-bottom: 20px;
+            @include media-breakpoint-up("md"){
+                padding: 50px 30px;
+                min-height: 390px;
+            }
+            @include media-breakpoint-up("lg"){
+                min-height: 300px;
+            }
+            h3{
+                @include nickainley-title-brown;
+                font-size: 2.1875rem;
+                @include media-breakpoint-up("md"){
+                    font-size: 2.5rem;
+                }
+                @include media-breakpoint-up("md"){
+                    font-size: 3.125rem;
+                    margin-bottom: 1rem;
+                }
+            }
+            p.bold{
+                color: $site-brown;
+                text-align: center;
+                margin-bottom: .5rem;
+                @include media-breakpoint-up("md"){
+                    font-size: 1.375rem;
+                }
+                @include media-breakpoint-up("lg"){
+                    font-size: 1.5625rem;
+                    margin-bottom: 1rem;
+                }
+            }
+            h2{
+                @include bebasneue-title-cyan;
+                font-size: 3.375rem;
+                @include media-breakpoint-up("md"){
+                    font-size: 4rem;
+                }
+                @include media-breakpoint-up("lg"){
+                    font-size: 4.5rem;
+                }
+            }
+            h4{
+                @include bebasneue-title-green(left);
+                font-size: 1.875rem;
+                @include media-breakpoint-up("md"){
+                    font-size: 2.0625rem;
+                }
+                @include media-breakpoint-up("lg"){
+                    font-size: 2.1875rem;
+                }
+            }
+        }
+        .section-title{
+            padding: 20px 0 30px;
+            @include media-breakpoint-up("md"){
+                padding-top: 120px;
+            }
+            @include media-breakpoint-up("lg"){
+                padding-top: 40px;
+            }
+        }
+    }
+}
+.page-we-support{
+    #top-banner{
+        .wrapper{
+            background-repeat: no-repeat;
+            background-position: 0px 350px;
+            @include media-breakpoint-up("md"){
+                background-position: top center;
+                padding:0px 0 105px;
+                background-repeat: no-repeat;
+            }
+            .top-desc{
+            }
+            .callbox{
+                text-align: center;
+                margin-top: 0px;
+                margin-bottom: 0px;
+                @include media-breakpoint-up("md"){
+                    margin-top: 25px;
+                }
+                @include media-breakpoint-up("lg"){
+                    margin-top: 60px;
+                }
+                .quote{
+                    @include nickainley-title;
+                    font-size: 1.875rem;
+                    color:#fff;
+                    margin-bottom:15px;
+                    @include media-breakpoint-up("lg"){
+                        font-size: 2rem;
+                        padding:20px 40px 0;
+                    }
+                }
+                .sayer{
+                    font-size:.9375rem;
+                    color:#fff;
+                    text-transform: uppercase;
+                    margin-bottom:40px;
+                }
+                .btn-brown{
+                    padding: 15px 30px;
+                    color:#fff;
+                    display: inline-block;
+                    margin-bottom:30px;
+                }
+            }
+        }
+    }
+    #content{
+        .mobile{
+            .staff{
+                .staff-link{   
+
+                }
+            }
+        }
+        .up-tablet{
+            a[aria-expanded="true"]:after{
+                border-bottom: 20px solid $site-cyan-bg;
+            }
+        }
+        .staff-content{
+            background-color: $site-cyan-bg;
+            .callbox{
+                .bg{
+                    background-color: $site-cyan-bg;
+                }
+                .content{
+                    color: $white;
+                }
+            }
+        }
+    }
+}
