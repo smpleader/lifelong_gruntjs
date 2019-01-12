@@ -13877,3 +13877,519 @@ button {
   .page-start-at-your-own-pace-v3-no-top #sitetop-2 {
     position: absolute;
     z-index: 1; } }
+
+.page-about-us-v2 #header-slider h3 {
+  text-align: center;
+  font-family: 'Nickainley';
+  font-size: 2.6875rem;
+  padding-top: 30px;
+  margin-bottom: 0; }
+  @media (min-width: 768px) {
+    .page-about-us-v2 #header-slider h3 {
+      font-size: 3.75rem; } }
+  @media (min-width: 992px) {
+    .page-about-us-v2 #header-slider h3 {
+      padding-top: 90px;
+      font-size: 5rem; } }
+
+.page-about-us-v2 #header-slider h2 {
+  line-height: 1;
+  text-align: center;
+  font-family: 'BebasNeue';
+  color: #97bf65;
+  font-size: 2.8125rem;
+  margin-bottom: 0; }
+  @media (min-width: 768px) {
+    .page-about-us-v2 #header-slider h2 {
+      font-size: 5rem; } }
+  @media (min-width: 992px) {
+    .page-about-us-v2 #header-slider h2 {
+      font-size: 6.25rem; } }
+
+.page-about-us-v2 #header-slider span {
+  font-family: 'OpenSans Italic';
+  font-size: 0.8125rem;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%; }
+  @media (min-width: 768px) {
+    .page-about-us-v2 #header-slider span {
+      bottom: 50px;
+      left: 0;
+      transform: inherit; } }
+
+.page-about-us-v2 #under-slider {
+  padding: 20px 0 50px; }
+  .page-about-us-v2 #under-slider p {
+    margin-bottom: 40px; }
+    @media (min-width: 992px) {
+      .page-about-us-v2 #under-slider p {
+        padding: 0 100px; } }
+
+.page-about-us-v2 #why-choose-lifelong {
+  padding: 30px 0 50px; }
+  .page-about-us-v2 #why-choose-lifelong .us-map {
+    min-height: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    color: #fff;
+    padding-top: 20px; }
+    @media (min-width: 768px) {
+      .page-about-us-v2 #why-choose-lifelong .us-map {
+        padding-top: 10px; } }
+    @media (min-width: 992px) {
+      .page-about-us-v2 #why-choose-lifelong .us-map {
+        padding-top: 30px;
+        min-height: 310px; } }
+    .page-about-us-v2 #why-choose-lifelong .us-map span {
+      text-align: center;
+      font-family: 'Nickainley';
+      font-size: 1.4375rem;
+      padding-left: 45px; }
+      @media (min-width: 768px) {
+        .page-about-us-v2 #why-choose-lifelong .us-map span {
+          font-size: 1.5625rem; } }
+      @media (min-width: 992px) {
+        .page-about-us-v2 #why-choose-lifelong .us-map span {
+          padding-left: 80px;
+          font-size: 2.1875rem; } }
+    .page-about-us-v2 #why-choose-lifelong .us-map h3 {
+      text-align: left;
+      font-family: 'Oswald';
+      font-size: 1.0625rem;
+      margin-bottom: 0;
+      padding-left: 20px; }
+      @media (min-width: 768px) {
+        .page-about-us-v2 #why-choose-lifelong .us-map h3 {
+          font-size: 1.25rem; } }
+      @media (min-width: 992px) {
+        .page-about-us-v2 #why-choose-lifelong .us-map h3 {
+          padding-left: 45px;
+          font-size: 1.6875rem; } }
+    .page-about-us-v2 #why-choose-lifelong .us-map h2 {
+      text-align: left;
+      font-family: 'Oswald';
+      font-size: 2.875rem;
+      padding-left: 40px;
+      font-weight: bold; }
+      @media (min-width: 768px) {
+        .page-about-us-v2 #why-choose-lifelong .us-map h2 {
+          font-size: 3.1875rem; } }
+      @media (min-width: 992px) {
+        .page-about-us-v2 #why-choose-lifelong .us-map h2 {
+          padding-left: 100px;
+          font-size: 4.375rem; } }
+      .page-about-us-v2 #why-choose-lifelong .us-map h2 span {
+        text-align: center;
+        font-family: 'Nickainley';
+        font-size: 2rem;
+        padding-left: 0px;
+        font-weight: normal; }
+        @media (min-width: 768px) {
+          .page-about-us-v2 #why-choose-lifelong .us-map h2 span {
+            font-size: 2.1875rem; } }
+        @media (min-width: 992px) {
+          .page-about-us-v2 #why-choose-lifelong .us-map h2 span {
+            font-size: 3rem; } }
+  .page-about-us-v2 #why-choose-lifelong .desc h3 {
+    text-align: left;
+    font-family: 'Oswald';
+    color: #56330e;
+    font-size: 1.6875rem; }
+    @media (min-width: 768px) {
+      .page-about-us-v2 #why-choose-lifelong .desc h3 {
+        font-size: 1.875rem; } }
+    @media (min-width: 992px) {
+      .page-about-us-v2 #why-choose-lifelong .desc h3 {
+        font-size: 2.1875rem; } }
+
+.page-about-us-v2 #meet-the-staff .staff-bg {
+  padding: 40px 0 140px;
+  background-image: url(../content/about-meet-the-staff.png);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: contain; }
+  @media (min-width: 768px) {
+    .page-about-us-v2 #meet-the-staff .staff-bg {
+      padding: 60px 0 140px;
+      min-height: 750px; } }
+  @media (min-width: 992px) {
+    .page-about-us-v2 #meet-the-staff .staff-bg {
+      min-height: 775px; } }
+  @media (min-width: 992px) {
+    .page-about-us-v2 #meet-the-staff .staff-bg {
+      padding: 70px 0 140px;
+      background-position: center bottom -50px; } }
+  .page-about-us-v2 #meet-the-staff .staff-bg h2 {
+    text-align: center;
+    font-family: 'BebasNeue';
+    color: #34aba7;
+    font-size: 2.5rem; }
+    @media (min-width: 768px) {
+      .page-about-us-v2 #meet-the-staff .staff-bg h2 {
+        font-size: 3.125rem;
+        margin-bottom: 30px; } }
+    @media (min-width: 992px) {
+      .page-about-us-v2 #meet-the-staff .staff-bg h2 {
+        font-size: 3.75rem;
+        margin-bottom: 50px; } }
+  .page-about-us-v2 #meet-the-staff .staff-bg ul {
+    padding-left: 20px;
+    margin-bottom: 50px; }
+    .page-about-us-v2 #meet-the-staff .staff-bg ul li {
+      margin-bottom: 20px; }
+      @media (min-width: 992px) {
+        .page-about-us-v2 #meet-the-staff .staff-bg ul li {
+          margin-bottom: 30px; } }
+  .page-about-us-v2 #meet-the-staff .staff-bg .btn-green {
+    color: #fff; }
+
+.page-about-us-v2 .call .callbox .content {
+  padding-bottom: 40px; }
+  @media (min-width: 768px) {
+    .page-about-us-v2 .call .callbox .content {
+      padding-top: 20px; } }
+  .page-about-us-v2 .call .callbox .content .quote {
+    text-align: center;
+    font-family: 'Oswald';
+    font-size: 1.25rem;
+    margin-bottom: 30px; }
+    @media (min-width: 768px) {
+      .page-about-us-v2 .call .callbox .content .quote {
+        font-size: 1.375rem; } }
+    @media (min-width: 992px) {
+      .page-about-us-v2 .call .callbox .content .quote {
+        font-size: 1.5625rem; } }
+  .page-about-us-v2 .call .callbox .content .sayer {
+    text-align: center;
+    font-family: 'Nickainley';
+    font-size: 1.625rem; }
+    @media (min-width: 768px) {
+      .page-about-us-v2 .call .callbox .content .sayer {
+        font-size: 1.75rem;
+        margin-bottom: 15px; } }
+    @media (min-width: 992px) {
+      .page-about-us-v2 .call .callbox .content .sayer {
+        font-size: 2.125rem; } }
+    .page-about-us-v2 .call .callbox .content .sayer span {
+      font-size: 1.0625rem; }
+
+.page-about-us-v2 #blog {
+  padding: 40px 0; }
+  .page-about-us-v2 #blog h2 {
+    text-align: left;
+    font-family: 'Oswald';
+    color: #56330e;
+    font-size: 1.875rem; }
+    @media (min-width: 992px) {
+      .page-about-us-v2 #blog h2 {
+        font-size: 2.1875rem; } }
+  .page-about-us-v2 #blog p {
+    font-family: 'OpenSans Semibold';
+    color: #56330e; }
+  .page-about-us-v2 #blog h3 {
+    text-align: center;
+    font-family: 'Oswald';
+    color: #34aba7;
+    font-size: 1.0625rem; }
+  .page-about-us-v2 #blog h4 {
+    text-align: left;
+    font-family: 'Oswald';
+    font-size: 1.25rem;
+    color: #fff; }
+    @media (min-width: 768px) {
+      .page-about-us-v2 #blog h4 {
+        font-size: 1.125rem; } }
+    @media (min-width: 992px) {
+      .page-about-us-v2 #blog h4 {
+        font-size: 1.25rem; } }
+  .page-about-us-v2 #blog .stories::after {
+    clear: both;
+    display: table;
+    content: ""; }
+  .page-about-us-v2 #blog .stories .item {
+    background-color: #f6f5f3;
+    padding: 5px 5px 20px 5px;
+    margin: 0 auto;
+    min-height: 360px;
+    text-align: center;
+    color: #56330e;
+    width: 100%;
+    float: left; }
+    @media (min-width: 768px) {
+      .page-about-us-v2 #blog .stories .item {
+        width: 32.66%;
+        margin: 1% 1% 1% 0; }
+        .page-about-us-v2 #blog .stories .item:nth-child(3n) {
+          margin-right: 0; } }
+    .page-about-us-v2 #blog .stories .item img {
+      margin: 0 auto 20px;
+      width: 100%; }
+    .page-about-us-v2 #blog .stories .item h3 {
+      text-align: center;
+      font-family: 'BebasNeue';
+      color: #34aba7;
+      font-size: 1.25rem; }
+    .page-about-us-v2 #blog .stories .item .desc {
+      text-align: center;
+      font-family: 'Oswald';
+      color: #56330e;
+      font-size: 1.375rem; }
+
+@media (min-width: 1366px) {
+  .page-about-us-v2 #you-arenot-alone .desc {
+    padding: 0 230px; } }
+
+.page-reviews #content h2 {
+  text-align: left;
+  font-family: 'Oswald';
+  color: #97bf65;
+  font-size: 1.375rem;
+  margin: 30px 0; }
+
+.page-reviews #content h3 {
+  text-align: center;
+  font-family: 'Oswald';
+  color: #56330e;
+  font-size: 1.0625rem; }
+  @media (min-width: 768px) {
+    .page-reviews #content h3 {
+      text-align: left; } }
+  @media (min-width: 992px) {
+    .page-reviews #content h3 {
+      font-size: 1.375rem; } }
+  .page-reviews #content h3 span.parents {
+    text-align: center;
+    font-family: 'Nickainley';
+    color: #34aba7;
+    font-size: 1.9375rem;
+    display: block;
+    margin-bottom: 5px; }
+    @media (min-width: 768px) {
+      .page-reviews #content h3 span.parents {
+        display: inline;
+        margin-right: 5px; } }
+    @media (min-width: 992px) {
+      .page-reviews #content h3 span.parents {
+        font-size: 2.1875rem; } }
+
+.page-reviews #content .review {
+  padding: 40px 0; }
+  .page-reviews #content .review #img-content {
+    max-width: 240px;
+    margin: 0 auto 25px;
+    display: block; }
+    @media (min-width: 768px) {
+      .page-reviews #content .review #img-content {
+        max-width: 290px;
+        float: right;
+        display: inline;
+        margin: 0 0 0 20px; } }
+    @media (min-width: 992px) {
+      .page-reviews #content .review #img-content {
+        max-width: 340px;
+        margin: 0 0 0 50px; } }
+  .page-reviews #content .review a {
+    font-family: "OpenSans Bold";
+    color: #97bf65;
+    text-decoration: underline; }
+
+.page-reviews #content .review:nth-child(even) {
+  background-color: #f6f5f3; }
+
+@media (min-width: 768px) {
+  .page-blog #breadcrumbs {
+    padding: 30px 0; } }
+
+@media (min-width: 768px) {
+  .page-blog #breadcrumbs h2 {
+    font-size: 3.625rem; } }
+
+@media (min-width: 992px) {
+  .page-blog #breadcrumbs h2 {
+    font-size: 4.5rem; } }
+
+.page-blog #under-breadcrumbs {
+  background: #9bd5d3; }
+  .page-blog #under-breadcrumbs select.form-control {
+    border: none;
+    background: #9bd5d3;
+    text-align-last: center;
+    color: #fff; }
+  .page-blog #under-breadcrumbs ul.list-inline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0; }
+    @media (min-width: 992px) {
+      .page-blog #under-breadcrumbs ul.list-inline {
+        margin: 18px 0; } }
+    .page-blog #under-breadcrumbs ul.list-inline li {
+      color: #fff; }
+    .page-blog #under-breadcrumbs ul.list-inline li.active {
+      font-weight: 600;
+      position: relative; }
+    .page-blog #under-breadcrumbs ul.list-inline li.active:after {
+      content: '';
+      position: absolute;
+      bottom: -18px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 0;
+      height: 0;
+      border-left: 12px solid transparent;
+      border-right: 12px solid transparent;
+      border-bottom: 12px solid #f6f5f3; }
+    .page-blog #under-breadcrumbs ul.list-inline li.dropdown a.btn {
+      padding-right: 0; }
+
+.page-blog #content {
+  padding: 20px 0; }
+  .page-blog #content .posts::after {
+    clear: both;
+    display: table;
+    content: ""; }
+  .page-blog #content .posts .item {
+    padding: 5px 5px 20px 5px;
+    margin: 0 auto 10px;
+    min-height: 360px;
+    text-align: center;
+    width: 100%;
+    float: left; }
+    @media (min-width: 768px) {
+      .page-blog #content .posts .item {
+        width: 32.66%;
+        margin: 1% 1% 1% 0; }
+        .page-blog #content .posts .item:nth-child(3n) {
+          margin-right: 0; } }
+    .page-blog #content .posts .item img {
+      margin: 0 auto 20px;
+      width: 100%; }
+    .page-blog #content .posts .item h3 {
+      text-align: center;
+      font-family: 'BebasNeue';
+      color: #34aba7;
+      font-size: 1.25rem;
+      margin-bottom: 0px; }
+    .page-blog #content .posts .item h2 {
+      text-align: center;
+      font-family: 'Oswald';
+      color: #56330e;
+      font-size: 1.25rem;
+      font-size: 1.375rem;
+      margin-bottom: 15px;
+      padding: 0 20px; }
+      @media (min-width: 992px) {
+        .page-blog #content .posts .item h2 {
+          font-size: 1.375rem; } }
+    .page-blog #content .posts .item .desc {
+      padding: 0 20px;
+      line-height: 26.4px; }
+
+.page-blog #pagination {
+  text-align: center;
+  padding: 20px 0 30px; }
+  .page-blog #pagination li.prev a, .page-blog #pagination li.next a {
+    color: #56330e; }
+  .page-blog #pagination li.page-order {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid #34aba7;
+    vertical-align: middle;
+    background: #34aba7;
+    padding-top: 5px; }
+    .page-blog #pagination li.page-order a {
+      color: #fff; }
+  .page-blog #pagination li.active {
+    opacity: 0.5; }
+
+@media (min-width: 768px) {
+  .page-recent #breadcrumbs {
+    padding: 30px 0; } }
+
+@media (min-width: 768px) {
+  .page-recent #breadcrumbs h2 {
+    font-size: 3.625rem; } }
+
+@media (min-width: 992px) {
+  .page-recent #breadcrumbs h2 {
+    font-size: 4.5rem; } }
+
+.page-recent #content h2 {
+  text-align: left;
+  font-family: 'Oswald';
+  color: #97bf65;
+  font-size: 1.375rem;
+  margin: 30px 0; }
+
+.page-recent #content h3 {
+  text-align: center;
+  font-family: 'Oswald';
+  color: #56330e;
+  font-size: 1.0625rem; }
+  @media (min-width: 768px) {
+    .page-recent #content h3 {
+      text-align: left; } }
+  @media (min-width: 992px) {
+    .page-recent #content h3 {
+      font-size: 1.375rem; } }
+  .page-recent #content h3 span.parents {
+    text-align: center;
+    font-family: 'Nickainley';
+    color: #34aba7;
+    font-size: 1.9375rem;
+    display: block;
+    margin-bottom: 5px; }
+    @media (min-width: 768px) {
+      .page-recent #content h3 span.parents {
+        display: inline;
+        margin-right: 5px; } }
+    @media (min-width: 992px) {
+      .page-recent #content h3 span.parents {
+        font-size: 2.1875rem; } }
+
+.page-recent #content .recent {
+  padding: 40px 0; }
+  @media (min-width: 992px) {
+    .page-recent #content .recent .top-desc {
+      display: flex; } }
+  .page-recent #content .recent img {
+    max-width: 235px;
+    margin: 0 auto 25px;
+    display: block; }
+    @media (min-width: 768px) {
+      .page-recent #content .recent img {
+        max-width: 290px;
+        margin: 0 20px 0 0; } }
+    @media (min-width: 992px) {
+      .page-recent #content .recent img {
+        max-width: 340px; } }
+  .page-recent #content .recent a {
+    font-family: "OpenSans Bold";
+    color: #97bf65;
+    text-decoration: underline; }
+
+.page-recent #content .recent:nth-child(odd) {
+  background-color: #f6f5f3; }
+
+.page-recent #pagination {
+  text-align: center;
+  padding: 20px 0 30px; }
+  .page-recent #pagination li.prev a, .page-recent #pagination li.next a {
+    color: #56330e; }
+  .page-recent #pagination li.page-order {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid #34aba7;
+    vertical-align: middle;
+    background: #34aba7;
+    padding-top: 5px; }
+    .page-recent #pagination li.page-order a {
+      color: #fff; }
+  .page-recent #pagination li.active {
+    opacity: 0.5; }
